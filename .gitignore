@@ -1,0 +1,23 @@
+# Chart boundaries — never commit live credentials
+.env
+**/.env
+
+# Environments — intrinsic structure, not portable
+environment/
+
+# Intel AI-PC-Samples — separate repo, not ours
+pipeline/
+
+# Compiled ELF binaries and object files (reproducible from source)
+experiments/**/*_asm
+experiments/**/*_cpp
+experiments/**/*.o
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
