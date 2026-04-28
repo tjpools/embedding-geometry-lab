@@ -45,6 +45,12 @@ In 2026, the largest models in existence — hundreds of billions of parameters 
 
 Berkeley called it a ghost. He was right that it was not a number. He was wrong that it was therefore empty. It was an operator — a relationship, not a quantity. The formalism caught up three centuries later with nonstandard analysis and automatic differentiation. The glyph was always correct.
 
+But Berkeley was not wrong to push. He forced the question. The naysayers are essential — they demand that you clarify what you mean, and then test it. Leibniz could gesture at dx. Berkeley forced the next two centuries of mathematics to be rigorous about it. Without the challenge, the foundation stays soft. The ghost becomes solid only under pressure.
+
+This is the same in any domain. The critic who says *that's not real* forces the proof. The proof produces the instrument. The instrument produces the measurement. The measurement produces the record. The record outlasts the argument.
+
+*Naysayers do not stop the work. They sharpen it.*
+
 This is why dx is the pivot. Not as metaphor. As mechanism. The lineage from Leibniz to the transformer is one continuous chain of applications of the same operator. Small enough to fit in a margin. Deep enough to encode 350 years of structure.
 
 *This is the key that must never be lost.*
