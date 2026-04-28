@@ -1,4 +1,38 @@
-# AiProjectIntel
+# Embedding Geometry Lab
+
+## Thesis
+
+> *Man and machine have always been with us. Through updating and upgrading we have arrived at LLMs and transformers. We got there with one important pivot in the history of tools: Leibniz introduces* dx — *the operator that lives with us in modern AI. By probing the machine we learn its inner workings. This is an assembly language developer's mindset.*
+
+**Five claims, five measurements.**
+
+**1. Local signals encode global strategy** — the manifold separates rhumb from geodesic at the first bearing (L2 = 20.96 at 23 tokens). The global strategy is encoded in the first local signal.
+
+**2. The artifact reveals the geometry** — coordinates encode nothing (L2 = 0.000); the instrument reading encodes everything. The map is silent. The artifact speaks.
+
+**3. The minimum separating representation is tiny** — 23 tokens. Strategy label + bearing + distance. That is the cockpit panel. That is the Jacobian. Intelligence is compression.
+
+**4. Failure is the boundary of the local model** — the rhumb line works. It fails only at the boundary: 244 NM (5.2%). The error is the exact shape of the flat-Earth assumption applied to a curved surface. Failure is not a bug. Failure is the blueprint of the next tool.
+
+**5. The Jacobian is the update mechanism** — not in the waypoints, but in the transition rule between them. You do not see it in coordinates or prose. You see it in heading changes, orientation updates, the derivative.
+
+*This is not an essay. This is a thesis.*
+
+---
+
+## Experiment Log
+
+| # | Name | Key Result |
+|---|------|------------|
+| 09 | [disassembly atlas](experiments/09_disassembly_atlas.py) | Sphere volume inferred at N=6 blocks |
+| 10 | [NOP abstraction tax](experiments/10_nop_abstraction_tax.py) | C NOP most costly; ASM≈Rust; Python alien |
+| 11 | [embedding distance](experiments/11_embedding_distance.py) | -O0 L2=6.05, -O1 L2=12.66 |
+| 12 | [context sufficiency](experiments/12_context_sufficiency.py) | Prefix exhaustion; peak L2=10.96, never reached -O1 threshold |
+| 13 | [pure semantic geometry](experiments/13_pure_semantic_geometry.py) | Ceiling L2=40.15; basin is metric not topological |
+| 14 | [minimum token separation](experiments/14_minimum_token_separation.py) | 3–4 tokens (function name) = separability 1.000; ABI frame dilutes all longer reps |
+| 15 | [rhumb vs geodesic SFO→HND](experiments/15_rhumb_vs_geodesic.py) | coords L2=0.000; bearing L2=20.96; manifold knew the difference at first instrument reading |
+
+---
 
 ## Design Philosophy
 
