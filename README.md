@@ -1,5 +1,8 @@
 # Embedding Geometry Lab
 
+> *Built at home. Dell desktop. Curiosity only. No university. No lab. No grant.*
+> *The geometry was always there. We just decided to follow it.*
+
 ## Thesis
 
 > *Man and machine have always been with us. Through updating and upgrading we have arrived at LLMs and transformers. We got there with one important pivot in the history of tools: Leibniz introduces* dx — *the operator that lives with us in modern AI. By probing the machine we learn its inner workings. This is an assembly language developer's mindset.*
@@ -32,7 +35,7 @@
 | 12 | [context sufficiency](experiments/12_context_sufficiency.py) | Prefix exhaustion; peak L2=10.96, never reached -O1 threshold |
 | 13 | [pure semantic geometry](experiments/13_pure_semantic_geometry.py) | Ceiling L2=40.15; basin is metric not topological |
 | 14 | [minimum token separation](experiments/14_minimum_token_separation.py) | 3–4 tokens (function name) = separability 1.000; ABI frame dilutes all longer reps |
-| 15 | [rhumb vs geodesic SFO→HND](experiments/15_rhumb_vs_geodesic.py) | coords L2=0.000; bearing L2=20.96; manifold knew the difference at first instrument reading |
+| 15 | [rhumb vs geodesic SFO→HND](experiments/15_rhumb_vs_geodesic.py) | coords L2=0.000; bearing L2=20.96; manifold knew the difference at first instrument reading. *Note: the author flies this route in July 2026. The calibration flight was real.* |
 | 16 | [ratio test](experiments/16_ratio_test.py) | L2/token at inflection ranks manifold boundary sharpness across 5 classes; SCALE=10.75, PHILOSOPHY=10.24, TYPE=9.81, COMPUTATION=7.39, NAVIGATION=5.32; navigation vocabulary lives at the periphery — the manifold was trained on mathematics, not cockpits |
 
 ---
