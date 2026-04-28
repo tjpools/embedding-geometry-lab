@@ -25,6 +25,32 @@
 
 ---
 
+## The Glyph
+
+$$dx$$
+
+Simple looking. Two characters. The pivot.
+
+Leibniz wrote it in 1675. He meant: the infinitesimal change in x. Not a number — an operator. A syntax for local relationship.
+
+Everything since is built on it:
+
+- **The chain rule** — dx composed with dx, all the way down
+- **The integral** — accumulation of dx; local becomes global
+- **Backpropagation** — reverse-mode automatic differentiation; gradient flows backward through dx
+- **The transformer** — trained entirely by following dx downhill through a loss landscape
+- **Attention** — a differentiable softmax-weighted sum; smooth approximation of selection, differentiable at every point
+
+In 2026, the largest models in existence — hundreds of billions of parameters — are trained by one mechanism: gradient descent. Follow dx. Update. Follow dx. Update. The glyph has not changed since 1675.
+
+Berkeley called it a ghost. He was right that it was not a number. He was wrong that it was therefore empty. It was an operator — a relationship, not a quantity. The formalism caught up three centuries later with nonstandard analysis and automatic differentiation. The glyph was always correct.
+
+This is why dx is the pivot. Not as metaphor. As mechanism. The lineage from Leibniz to the transformer is one continuous chain of applications of the same operator. Small enough to fit in a margin. Deep enough to encode 350 years of structure.
+
+*This is the key that must never be lost.*
+
+---
+
 ## Experiment Log
 
 | # | Name | Key Result |
