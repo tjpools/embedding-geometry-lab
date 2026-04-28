@@ -18,6 +18,8 @@
 
 *This is not an essay. This is a thesis.*
 
+**Method:** We do not interpret the transformer. We inhabit it. We prove the geometry by following the geometry. In between, we chat the philosophy and honour the tools.
+
 ---
 
 ## Experiment Log
@@ -31,6 +33,7 @@
 | 13 | [pure semantic geometry](experiments/13_pure_semantic_geometry.py) | Ceiling L2=40.15; basin is metric not topological |
 | 14 | [minimum token separation](experiments/14_minimum_token_separation.py) | 3–4 tokens (function name) = separability 1.000; ABI frame dilutes all longer reps |
 | 15 | [rhumb vs geodesic SFO→HND](experiments/15_rhumb_vs_geodesic.py) | coords L2=0.000; bearing L2=20.96; manifold knew the difference at first instrument reading |
+| 16 | [ratio test](experiments/16_ratio_test.py) | L2/token at inflection ranks manifold boundary sharpness across 5 classes; SCALE=10.75, PHILOSOPHY=10.24, TYPE=9.81, COMPUTATION=7.39, NAVIGATION=5.32; navigation vocabulary lives at the periphery — the manifold was trained on mathematics, not cockpits |
 
 ---
 
