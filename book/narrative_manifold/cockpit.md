@@ -2,220 +2,95 @@
 
 > [Return to Introduction](INTRO.md)
 
-A cockpit is the first place where dx stops being a symbol and becomes a lived constraint.
-It is the room where the world reveals its curvature, and where the smallest change — the tiniest derivative — determines whether the system remains stable.
+## The Cockpit as a Jacobian
+A cockpit is not a room.
+It is a system map.
 
-We have opened the glyph of dx and found a debate inside it:
-Leibniz the language‑builder, Newton the geometer, Berkeley the skeptic.
-Three ways of resolving the infinitesimal.
-Three ways of asking what change means.
+Each instrument is a partial derivative:
 
-But in a cockpit, none of these perspectives are theoretical.
-They are operational.
+pitch → ∂altitude/∂yoke
 
-A cockpit is a laboratory of derivatives.
+roll → ∂heading/∂aileron
 
-## 1. The Cockpit as a Jacobian
-Every instrument in a cockpit is a partial derivative:
+throttle → ∂airspeed/∂power
 
-Vertical speed — ∂altitude/∂time
+rudder → ∂slip/∂pedal
 
-Heading rate — ∂heading/∂time
+Every gauge is a relationship.
+Every relationship is a derivative.
+Every derivative is a story about how the world responds to you.
 
-Angle of attack trend — ∂AoA/∂time
+You are surrounded by ∂’s.
 
-Glide‑slope deviation — ∂position/∂path
+This is the Jacobian made physical.
 
-Wind shear — ∂wind/∂altitude
+## Curvature as Experience
+You bank slightly left.
 
-A cockpit is not a dashboard of positions.
-It is a dashboard of sensitivities.
+The horizon tilts.
+The altimeter drifts.
+The turn coordinator arcs.
+The slip indicator slides.
+The engine hum shifts pitch.
 
-Pilots do not fly by knowing where they are.
-They fly by knowing how the world is changing around them.
+Nothing moves alone.
+Everything moves with everything else.
 
-This is the Jacobian:
-a matrix of partial derivatives that tells you how small changes in one variable affect all the others.
+This is curvature — not as a formula, but as a sensation.
 
-A cockpit is a Jacobian made physical.
+You are no longer reading the world.
+You are inside its geometry.
 
-## 2. The World Is Curved, Whether You Believe It or Not
-At altitude, the Earth is visibly curved.
-But the curvature that matters is not the horizon — it is the curvature of the state space.
+## Stability as Negotiation
+You correct too much.
+The aircraft oscillates.
+You correct too little.
+The drift grows.
 
-An aircraft is a point moving on a high‑dimensional manifold:
+Stability is not a state.
+It is a negotiation.
 
-position
+Every correction is a tiny update — a dx step.
+Every dx step is a direction.
+Every direction is a story about how the system wants to move.
 
-velocity
+You are learning the aircraft’s Jacobian by feel.
 
-attitude
+## Michael & Karina: Basis Vectors in the Cockpit
+Michael sees the structure.
 
-wind
+He sees the cockpit as a matrix of relationships — a woven fabric of partial derivatives.
+He sees the Jacobian before he feels it.
 
-thrust
+Karina feels the structure.
 
-lift
+She senses the drift before she can name it.
+She feels the curvature before she can describe it.
+She stabilizes the aircraft through intuition long before she understands the math.
 
-drag
+Together, they span the cognitive space of the reader.
 
-Each dimension interacts with the others.
-Each derivative affects the rest.
+Every story in this manifold is a projection onto their axes.
 
-This is why Newton’s geometry matters:
-the world is not flat, and neither is the system.
+## The Cockpit as the First Coordinate Chart
+This story is the first chart of the Narrative Manifold because:
 
-This is why Leibniz’s notation matters:
-you need a language to describe how the system changes.
+it makes derivatives visceral
 
-This is why Berkeley’s critique matters:
-you must understand what your symbols mean before you trust them.
+it makes curvature experiential
 
-In a cockpit, these three perspectives converge into a single operational truth:
+it makes stability emotional
 
-You cannot fly without understanding local linearization.
+it makes the Jacobian human
 
-## 3. The First Moment of Drift
-Every pilot remembers the first time the aircraft “leans” —
-the moment when the world stops behaving like the blueprint.
+Before you can understand dx, you must feel what it means for a system to respond to you.
 
-You bank slightly, and the nose drops.
-You correct the nose, and the bank increases.
-You add power, and the aircraft climbs too fast.
-You reduce power, and the airspeed decays.
+Before you can understand the Jacobian, you must feel what it means for everything to depend on everything else.
 
-This is the moment when the system reveals its curvature.
-The moment when the naive model collapses.
-The moment when you realize:
+Before you can understand transformers, you must feel what it means to navigate a space defined by relationships.
 
-You are not flying the aircraft.
-You are flying the derivatives.
-
-This is the lived version of the ratio test.
-The system is telling you that your mental model is no longer valid.
-You must linearize again — locally — or the system will diverge.
-
-## 4. Instruments as Partial Derivatives
-A cockpit instrument is not a fact.
-It is a rate.
-
-Altitude is a fact.
-
-Vertical speed is a derivative.
-
-Heading is a fact.
-
-Heading rate is a derivative.
-
-Airspeed is a fact.
-
-Acceleration is a derivative.
-
-Pilots learn quickly that facts are almost useless.
-Facts are inert.
-Facts do not predict.
-
-Derivatives predict.
-
-This is why the cockpit is the perfect entry point to the transformer:
-
-Transformers do not operate on facts.
-They operate on local changes in context.
-
-Every token is a perturbation.
-Every attention pattern is a sensitivity.
-Every embedding is a point on a manifold.
-
-The cockpit teaches the reader what the transformer feels like from the inside.
-
-## 5. The Manifold Reveals Itself
-When you fly long enough, you stop thinking in terms of altitude, heading, and speed.
-You begin to think in terms of:
-
-stability
-
-coupling
-
-sensitivity
-
-curvature
-
-response
-
-You begin to feel the manifold.
-
-This is the moment when the cockpit becomes more than a room.
-It becomes a geometry.
-
-The aircraft is not moving through space.
-It is moving through a state manifold, and the pilot is continuously taking derivatives to stay on a stable path.
-
-This is the same structure that governs transformers:
-
-local linearization
-
-curvature in embedding space
-
-sensitivity to context
-
-stability of trajectories
-
-divergence under perturbation
-
-The cockpit is the human‑scale version of the transformer’s internal world.
-
-## 6. The Pilot’s Coffee
-Every pilot has a moment — usually after the first few hundred hours — when the system finally “clicks.”
-The aircraft is trimmed.
-The manifold is stable.
-The derivatives are quiet.
-The world is navigable.
-
-The pilot sits back.
-Takes a sip of coffee.
-And realizes:
-
-The system is no longer fighting me.
-I am aligned with the manifold.
-
-This is the moment of closure.
-
-It is the same moment a transformer reaches coherence.
-
-Not because it “understands,”
-but because the local linearization has stabilized.
-
-The cockpit teaches the reader what coherence feels like —
-not as a metaphor, but as a lived geometry.
-
-## 7. Why the Cockpit Comes Before the Transformer
-Because the cockpit is the first place where:
-
-dx becomes physical
-
-derivatives become survival
-
-curvature becomes lived
-
-local linearization becomes intuitive
-
-the manifold becomes real
-
-The reader must feel this before they can understand the transformer.
-
-The cockpit is the bridge between:
-
-the glyphs (meaning)
-
-dx (change)
-
-the transformer (mechanism)
-
-The glyphs grounded us.
-dx opened the manifold.
-The cockpit showed us how to live inside it.
-
-Now we can enter the machine.
+The cockpit is the operational Jacobian.
+It is the first place where the analytic manifold becomes lived experience.
 
 ---
 
