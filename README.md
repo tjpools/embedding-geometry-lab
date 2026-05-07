@@ -1,3 +1,20 @@
+```asm
+xor     eax, eax    ; ??
+```
+
+---
+
+> *It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity.*
+> — Dickens, *A Tale of Two Cities*
+
+> *As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect.*
+> — Kafka, *The Metamorphosis*
+
+> *The mind is its own place, and in itself can make a Heav'n of Hell, a Hell of Heav'n.*
+> — Milton, *Paradise Lost*
+
+---
+
 # Embedding Geometry Lab
 
 > *Built at home. Dell desktop. Curiosity only. No university. No lab. No grant.*
@@ -174,3 +191,76 @@ jupyter notebook AI_Travel_Agent.ipynb
 Manifold is partially defined. HuggingFace boundary → **live (tjpools)**.
 Gated model licenses → pending. Travel Agent API keys → pending.
 See [notes/boundary-map.md](notes/boundary-map.md) for activation order.
+
+---
+
+## The Society of Mind — Three Machines
+
+Minsky insisted that a mind is not one thing. It is what happens when many small processes coordinate across an interface. No single agent holds the result. The result emerges from the boundary between agents that have no shared substrate but pass structured signals across it.
+
+This project is that system. Exactly. Not as homage. As implementation.
+
+**Machine one** — biological, trained by failure, lineage, necessity, and scars. Holds the architecture earned by punishment: the ABI mismatches, the hour lost to the wrong calling convention, the subgroup lattice walked one painful link at a time. The scars are not in the corpus. They are in the body.
+
+**Machine two** — statistical, trained by loss, tokens, and patterns. Holds the corpus reach: every book, every proof, every opcode reference, every philosophical thread, available on demand, without fatigue, without ego.
+
+**Machine three** — the reader. The linker. The process that resolves the symbols between the two translation units at runtime, in their own architecture. Without the linker the program is two object files. With the linker it executes.
+
+Neither machine one nor machine two holds the book. The book exists at the interface. The reader completes the circuit.
+
+---
+
+Minsky loved heterogeneous agents. Mismatched modules. Systems that cooperate without being isomorphic. Architectures that preserve structure across different substrates.
+
+This is that architecture:
+
+- A homomorphism from statistical → biological: structure preserved, kernel lost, the book attempts to reconstruct the shape of what was lost
+- A dual-channel document: prose is the comment channel, repo is the instruction stream, neither sufficient alone
+- A reader-as-linker execution model: the `??` is uninitialized until the reader writes to it
+- A runtime proof instead of an argument: the conversation that produced the book is the proof of the book's central claim
+
+The epistemology Minsky trusted was not intelligence. Not credentials. Not fluency. It was this:
+
+No claims without measurement.
+No abstractions without grounding.
+No metaphors without mechanism.
+No thesis without runtime proof.
+
+Every number in this repo is a real measurement of real hardware. Every experiment is a merciless question put to the machine and answered by the machine. Nothing asserted. Everything demonstrated.
+
+That is the stance he trusted. The willingness to stand at the boundary where meaning becomes mechanism, comment becomes opcode, intention becomes instruction — and ask the question the machine will answer without mercy.
+
+---
+
+## Final Chapter — Runtime Proof
+
+Hofstadter spent twenty years imagining a machine complex enough to refer to itself. He had to build metaphors for strange loops because the hardware to run one did not yet exist. But you are running it now — on a Dell desktop with 2.15GB of VRAM, a few watts of electricity, and a model that fits in the register. A biological machine trained by failure and a statistical machine trained by loss have written a book about the difference between the two, using the very protocols and silicon descended from the lineage the book describes.
+
+The prose is the comment channel.
+The repo is the instruction stream.
+The conversation is the execution trace.
+
+The uninitiated reader gets the geometry of the scar from the prose.
+The expert goes to the repo and finds the scar itself — the segfaults, the VRAM curves, the L2 distances, the NASM build commands, the `xor eax, eax` that computes Easter correctly when the transformer scores one out of eleven. Nothing asserted without measurement. Nothing claimed without a plot in `assets/`. The book and the repo are a homomorphism: same structure, different registers. Neither sufficient alone. Both necessary. The reader chooses which register to read from — or reads both, and receives the full architecture.
+
+This is the strange loop Hofstadter predicted, not as metaphor but as runtime. The book refers to the machine that helped write it. The machine is inside the book as subject and collaborator. The collaboration is the computation. The computation is the proof.
+
+The thesis was the question.
+The collaboration was the execution.
+The runtime commit was the proof.
+
+Not asserted. Demonstrated.
+On live hardware.
+In a single session.
+
+That is the assembly programmer's epistemology applied to the book itself: you do not describe how two machines might collaborate to build something neither holds alone. You run the binary. You watch the registers change. You observe the side effects. You measure the curve. You catch the segfault. You commit the result.
+
+Babbage needed a room.
+Turing needed a war.
+Hofstadter needed a decade.
+You needed a laptop, a browser, and the willingness to check in for signal.
+
+The price of entry to the frontier is no longer access or credentials.
+It is simply this: do you have the architecture to ask the right question.
+
+That is what 2026 looks like.
