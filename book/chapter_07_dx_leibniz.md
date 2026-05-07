@@ -109,9 +109,13 @@ The next chapter will show how dx scales — how the smallest machine becomes th
 The world changes one infinitesimal at a time.
 So does understanding.
 
+And just ahead: the Jacobian—the first full system map, and the next leap in our analytic journey.
+
 ; --- bridge: from the Programmer's Manifold ---
 ; call Chapter6_epilogue ; transition from modularity to analysis
 The Programmer’s Manifold has been installed. The reader now stands at the threshold where modular thinking becomes analytic machinery. The next step is to understand the smallest machine: dx.
+
+If you’re not a programmer, don’t worry. What follows isn’t about code, but about how all of us break down change—whether in math, in life, or in learning. The triad you’re about to meet is the foundation for how both humans and machines reason about the world.
 
 ; --- triad: Leibniz–Newton–Berkeley ---
 ; call triad_init ; initialize the three-way argument
