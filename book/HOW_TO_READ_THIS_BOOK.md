@@ -29,6 +29,7 @@ Use them to:
 - track your own understanding
 - watch the system observe itself
 
+
 **Let Meaning Emerge From Traversal**  
 This book does not define AI.  
 It maps the space in which AI lives.
@@ -38,6 +39,17 @@ Meaning emerges as you:
 - walk the manifold
 - connect the charts
 - revisit earlier regions
+
+---
+
+
+**Structural Appendix**
+
+This book includes a structural appendix ([appendix_heatmap_manifold.md](appendix_heatmap_manifold.md)) that maps the curvature and load‑bearing regions of the manuscript. It is optional, but invaluable for readers who want to understand the system beneath the narrative.
+
+
+Some chapters in this book exist as structure rather than prose.
+Their explanation is in Appendix: The Ghost Chapters.
 - integrate the lineage
 
 **Return and Revise**  

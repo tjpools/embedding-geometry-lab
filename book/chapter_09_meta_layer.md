@@ -1,3 +1,4 @@
+Not all chapters appear in prose. Tools and Lineage are embodied in the repository itself. See Appendix: Ghost Chapters.
 THE META LAYER
 How to See the System Behind the Story
 
