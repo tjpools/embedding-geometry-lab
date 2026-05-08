@@ -86,6 +86,7 @@ By this point the pattern is visible: every major tool in history begins as an a
 
 
 ## 8. The Modern Integrated Tool
+
 The transformer is not a rupture—it is the latest node in a long lineage of tools that became operators, operators that became systems. It is an operator stack, an integrated tool that embodies centuries of accumulated invention. What makes the transformer powerful is not novelty, but inheritance: it integrates the ruler’s measurement, the slide rule’s compression, the matrix’s transformation, and the Jacobian’s optimization into a single, learnable system. The transformer is not just an artifact of AI; it is the inheritor of every tool that came before.
 
 To see this inheritance, look at the transformer’s mechanics:
@@ -103,10 +104,11 @@ The transformer is not a rupture—it is the latest node in a long lineage of to
 
 
 ## 9. The Arc of Tools
-Tools are not passive objects. They reorganize thought. Notation becomes operator; operator becomes system; system changes what mind can do. The history of tools is the history of cognition externalized — mind leaving the skull, taking form in wood, symbol, notation, machine, and model.
 
 Tools are not passive objects. They reorganize thought. Notation becomes operator; operator becomes system; system changes what mind can do. The history of tools is the history of cognition externalized — mind leaving the skull, taking form in wood, symbol, notation, machine, and model.
-
-
 
 *For extended timelines, diagrams, and experimental notes, see the live companion in the repository.*
+
+
+
+*For extended timelines, diagrams, and experimental notes, see the live companion in the repository.
