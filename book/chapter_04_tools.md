@@ -50,6 +50,8 @@ This was a turning point. Tools were no longer only helping thought represent th
 
 Matrices and coordinate systems marked another leap. They made transformation systematic. Instead of dealing with one figure or one relation at a time, mathematics could now express entire families of transformations in compact, repeatable form.
 
+Ancient equation-solving traditions anticipated matrix thinking. Linear algebra formalized it. The Jacobian made it dynamic.
+
 A matrix is not just a table of numbers. It is a machine for changing space. It can rotate, stretch, compress, project, and combine transformations. A coordinate system is not merely a grid. It is a way of making position, relation, and movement legible within an otherwise continuous world.
 
 Here abstraction began to behave like machinery. Geometry could be translated into algebra, and algebra back into geometry. Symbols became operators; operators became systems.
