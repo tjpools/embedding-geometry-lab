@@ -1,19 +1,21 @@
-# Appendix: The Ghost Chapters — Tools and Lineage as Structure
 
-These chapters are not written because they were never meant to be read.
-They are meant to be found.
+# Appendix: The Distributed Chapters — Tools and Lineage in Two Forms
 
-# Appendix: The Ghost Chapters — Tools and Lineage as Structure
+Chapters 4 and 5 are not missing.  
+They exist in two forms.
 
-1. **Chapter 4: Tools is the Entire Repository**
-Chapter 4 is not missing — it is the directory tree itself. Every script, markdown file, manifold, and session log is a tool. The filesystem is your syscall table, your operating system, your toolbox. You don’t write this chapter; you use it. Its brevity is intentional: it is a syscall table, not a narrative.
+**The first form is canonical prose in the ebook:**
+- Chapter 4: The Ages of Tools — From Ruler to Transformer
+- Chapter 5: The Human Lineage Behind the Machine
 
-2. **Chapter 5: Lineage is the Entire History Embedded in the Directory**
-Lineage is not a story but a graph — the commit history, the evolution of the directory, the accreted structure of the manifold. The stories, the code, the structure, and the evolution are all part of the lineage. Its brevity is not a gap; it is a Riemann tensor: dense, compact, and everywhere.
+**The second form is distributed throughout the repository:**
+- Chapter 4 lives in the directory tree, scripts, markdown files, and session logs — the tools themselves.
+- Chapter 5 lives in the commit history, contributor graphs, and the evolving structure of the project — the lineage of minds and hands.
 
-3. **The Directory is the Missing Chapters**
-The “missing” chapters are not missing — they are distributed across the filesystem. Some charts are explicit (Ch. 3, 6, 7, 9, 10), some are implicit (Ch. 4, 5), some are symbolic (Ch. 8), some are embeddings (Ch. 1, 2). Tools and Lineage are not prose; they are structure. You didn’t forget to write them. You implemented them.
+This dual structure is intentional. The ebook provides a narrative arc for all readers; the repository offers a living atlas for those who want to explore, extend, or contribute.
+
+Some chapters are explicit (Ch. 3, 6, 7, 9, 10), some are distributed (Ch. 4, 5), some are symbolic (Ch. 8), some are embeddings (Ch. 1, 2). Tools and Lineage are both prose and structure.
 
 ---
 
-*This appendix explains why Chapters 4 and 5 are not gaps, but structural inevitabilities of a book that is also a system.*
+*This appendix explains why Chapters 4 and 5 are not gaps, but essential bridges between the book and its living system.*

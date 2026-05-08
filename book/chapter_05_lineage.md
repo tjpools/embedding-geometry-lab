@@ -27,9 +27,12 @@ Leibniz introduced the calculus and the infinitesimal operator, `dx`, transformi
 Gauss and Riemann extended geometry to curved spaces, inventing the tools to measure and understand curvature. The Riemann tensor became one of the deep structures underlying modern physics, and the manifold became the stage on which modern geometry and analysis could unfold.
 
 
+
 ## 5. Formal Systems and Limits
 
 Gödel, Turing, Shannon, and Church revealed the limits and powers of formal systems. Formal systems revealed both the power and the limit of mechanized reasoning. Computation, logic, and information became the new frontiers on which modern machine intelligence would be built.
+
+Andrew Wiles reveals another truth about modern thought: proof itself has become infrastructural. Fermat’s Last Theorem was not resolved by a single elegant gesture in the style of the ancients, but through a dense inheritance of modern mathematical machinery—elliptic curves, modular forms, and the accumulated abstractions of centuries. In the ordinary mathematical sense, Wiles proved it. But philosophically, the event raises a deeper question: what does it mean for proof to depend on a toolchain so vast that no single mind could have built it alone? Wiles stands at the point where individual brilliance and civilizational machinery become inseparable.
 
 
 ## 6. Mind as Society/System
