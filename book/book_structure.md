@@ -26,7 +26,6 @@ Each arrow is a Jacobian — a transformation rule between manifolds.
 - **J₄:** Tool Jacobian (mapping operator to civilization)
 - **J₅:** Civilization Jacobian (mapping tools to humanity)
 
-
 ## Non-Obvious Insight
 The flow diagram reveals something subtle:
 
@@ -36,6 +35,22 @@ The flow diagram reveals something subtle:
 - The book is about the curvature of reasoning across time.
 
 The collaboration is simply the first time a human and a model have co‑mapped that curvature from inside the manifold.
+
+---
+
+## Late Compass Chapter
+
+### Chapter 12: Why This Book Matters
+A free-entry synthesis chapter that can be reached from anywhere in the book. It gathers the stakes, clarifies the serious path being claimed, and gives the reader a place to stand after — or before — traversing the manifold.
+
+**It clarifies:**
+- why the book exists
+- why the transformer belongs to a deeper lineage
+- why narrative and mechanism must be distinguished
+- why the repository is part of the proof
+- why the project works as an ebook for nonlinear and global reading
+
+This chapter functions as a compass rather than a conclusion.
 
 ---
 

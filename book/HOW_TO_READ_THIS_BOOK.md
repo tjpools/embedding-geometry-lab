@@ -17,6 +17,10 @@ You do not need to read in order.
 Jump between chapters as your curiosity leads you.  
 Each chapter stands alone as a chart; together they form the atlas.
 
+**Use Chapter 12 as a Compass**  
+If you want the clearest statement of why the project exists, why it matters, and how the serious path of the book fits together, you can jump directly to [Chapter 12: Why This Book Matters](chapter_12_why_this_book_matters.md).  
+It is designed as a free-entry chapter for readers who want orientation before, during, or after the rest of the book.
+
 **Follow Links and Cross‑References**  
 Use hyperlinks, references, and the table of contents to traverse the manifold.  
 The structure is designed for digital movement, not linear consumption.
@@ -28,7 +32,6 @@ Use them to:
 - visualize the manifold
 - track your own understanding
 - watch the system observe itself
-
 
 **Let Meaning Emerge From Traversal**  
 This book does not define AI.  
@@ -42,11 +45,9 @@ Meaning emerges as you:
 
 ---
 
-
 **Structural Appendix**
 
-This book includes a structural appendix ([appendix_heatmap_manifold.md](appendix_heatmap_manifold.md)) that maps the curvature and load‑bearing regions of the manuscript. It is optional, but invaluable for readers who want to understand the system beneath the narrative.
-
+This book includes a structural appendix ([appendix_heatmap_manifold.md](appendix_heatmap_manifold.md)) that maps the curvature and load‑bearing regions of the manuscript. It is optional, but in a nonlinear work it can help orient the reader to the deeper architecture.
 
 Some chapters in this book exist as structure rather than prose.
 Their explanation is in Appendix: The Ghost Chapters.
@@ -80,5 +81,6 @@ It tells them:
 - how meaning emerges
 - how to treat the chapters as charts
 - how to treat themselves as a coordinate system
+- how to use Chapter 12 as a return point for orientation
 
 It is the perfect preface to a nonlinear, manifold‑structured work.
