@@ -1,49 +1,92 @@
 # Chapter 7: Leibniz, Differentials, and the Local Shape of Meaning
 
-We have already treated embeddings as points in a high-dimensional space and similarity as a geometric relation. That view gave us neighborhoods, directions, clustering, and projection. But geometry becomes much more interesting when we stop asking only *where a point is* and begin asking *how things change near it*.
+Before embeddings became a story about local perturbations, calculus itself had to become a story about lawful change. That shift did not happen all at once. It emerged from a tension within equation space itself.
 
-That is the beginning of calculus.
+Algebra gives us a way to treat quantities as fixed objects related by equality, proportion, substitution, and symbolic form. In that setting, a central question is often: can this expression be solved exactly? Can it be rearranged, factorized, or reduced to a known symbolic pattern?
+
+Sometimes the answer is yes. Sometimes it is not.
+
+Consider the equation
+
+\[
+5^x + x = 49.
+\]
+
+This is not a hard equation to state, but it resists the kinds of neat symbolic manipulations that characterize elementary algebra. One can estimate the solution, graph the expression, or use iteration to approximate where the balance occurs. But the important point is that the equation already teaches a lesson: not every problem in equation space yields gracefully to exact symbolic closure.
+
+That tension deepens if we broaden the historical lens. For centuries, algebra pursued solvability: which equations admit explicit solutions, and by what operations? The eventual story of the quintic sharpened the point dramatically. There are deep structural reasons why general fifth-degree equations do not submit to solution by radicals. The quintic therefore marks a kind of boundary within classical solvability space. Algebra could classify, transform, and illuminate structure, but not always deliver a closed symbolic answer.
+
+That is one of the reasons differential thinking mattered so much. When exact symbolic solvability is unavailable, mathematics does not stop. Instead, it can ask a different kind of question:
+
+- How does an expression behave nearby?
+- If a variable changes slightly, what happens to the result?
+- If we cannot solve globally in one stroke, can we reason locally and move step by step?
+
+That is the opening through which calculus enters.
 
 This chapter introduces the idea of the **differential**—Leibniz’s famous \(dx\)—and shows why it matters for modern representation spaces. The point is not that embedding models secretly contain classical infinitesimals in a literal historical sense. The point is that Leibniz developed a language for reasoning about **local change**, and that language maps surprisingly well onto the way we analyze movement in vector spaces.
 
-When we move a point in an embedding space by a tiny amount, what changes? Which features remain stable? Which directions matter, and which are mostly noise? What does it mean for a transformation to be smooth, singular, linear to first order, or curved only at larger scale?
+But to understand why Leibniz matters here, we need to understand not only the utility of differentials, but also the controversy around them.
 
-These are questions of local geometry. Leibniz gave us one of the earliest systematic ways to think about them.
+## 7.1 From algebraic space to differential space
 
-## 7.1 From static points to local behavior
+The transition from algebra to calculus is not merely the addition of new notation. It is a conceptual shift.
 
-Suppose a word, sentence, image, or user profile is represented by a vector \(x\in\mathbb{R}^n\). In earlier chapters we cared about distances such as
+In an **algebraic space**, we study fixed expressions and relations among them. We ask whether forms are equivalent, whether variables can be isolated, whether roots can be expressed, and whether a structure can be symbolically resolved.
 
-\[
-\|x-y\|,
-\]
+In a **differential space**, by contrast, we ask how quantities vary. We care about tendencies, slopes, local dependencies, and infinitesimal displacements. The object of understanding is no longer only the static equation, but the behavior of a quantity under change.
 
-angles such as cosine similarity,
+This is a major transition in mathematical thought:
 
-\[
-\cos(\theta)=\frac{x\cdot y}{\|x\|\,\|y\|},
-\]
+- from solved form to local behavior,
+- from exact symbolic closure to controlled approximation,
+- from static relation to lawful variation.
 
-and transformations such as projection into lower-dimensional subspaces.
+That shift is essential for embeddings too. Earlier chapters treated embeddings as points in a high-dimensional space and similarity as a geometric relation. That gave us neighborhoods, directions, clustering, and projection. But geometry becomes much more interesting when we stop asking only *where a point is* and begin asking *how things change near it*.
 
-All of that is static geometry. It compares finished positions.
+That is the beginning of calculus.
 
-But many real questions are dynamic, even when no time variable appears explicitly. We may ask:
+## 7.2 Newton, Leibniz, and two imaginations of calculus
 
-- What happens if we perturb a vector slightly?
-- How sensitive is a classifier to a small change in input representation?
-- Which semantic directions produce the largest downstream effect?
-- When does a local linear approximation describe the system well?
+Newton and Leibniz both developed calculus, but they did not imagine its foundations in the same way.
 
-To ask these questions is to move from geometry to **differential geometry in miniature**: not the full machinery of manifolds and tensors, but the basic insight that a space is often best understood by studying how quantities vary under very small displacements.
+Newton’s picture was still deeply geometric and kinematic. His quantities flowed. Magnitudes changed over time. His fluxions arose from motion, variation, and geometric generation. Even when symbolic, the underlying imagination was dynamic and geometric.
 
-Leibniz wrote such small displacements as \(dx\), \(dy\), and so on. Today we interpret them in several compatible ways: as differentials, as infinitesimal changes, as linear approximations, or as formal symbols inside derivative notation. What unifies these interpretations is the same idea:
+Leibniz’s picture was more algebraic, symbolic, and relational. He wrote \(dx\), \(dy\), and \(dy/dx\) in a way that made change look manipulable. His notation did not merely record motion; it made local dependence visible inside symbolic form. It suggested that changes themselves could participate in calculation.
 
-> A differential captures how a quantity changes locally when its input changes by a small amount.
+This matters for our purposes. Embedding spaces are usually handled as algebraic objects inside vector spaces: vectors, maps, gradients, Jacobians, projections, norms. In that sense, Leibniz’s formalism fits naturally. His notation helps us reason about how one quantity varies with another inside a symbolic and structural setting.
 
-That idea is everywhere in machine learning.
+So while Newton and Leibniz are both founders of calculus, Leibniz belongs especially well in the story of embeddings because his language of differentials is better suited to a world of symbolic relations among coordinates, features, and transformations.
 
-## 7.2 What is a differential?
+## 7.3 Berkeley’s challenge: what is \(dx\), really?
+
+The power of Leibniz’s notation came with a philosophical problem.
+
+What exactly is \(dx\)?
+
+Is it a genuine quantity? An infinitesimal magnitude? A convenient fiction? A limit in disguise? A formal symbol that works operationally even if its ontology is unclear?
+
+George Berkeley famously challenged the early calculus on precisely this point. His objection was not that calculus failed in practice. It worked remarkably well. His objection was that its foundational language seemed unstable. Infinitesimals appeared to be treated first as if they were nonzero quantities—so that one could divide by them—and then as if they were zero or negligible quantities—so that one could discard them.
+
+That, for Berkeley, was not conceptual rigor. It was a kind of sanctioned ambiguity. His famous phrase for infinitesimals was that they were the **ghosts of departed quantities**.
+
+Berkeley was right to press the issue. The early success of calculus outran the clarity of its foundations. Mathematicians trusted the method before they fully settled what kind of thing a differential was.
+
+That trust was not blind faith, but it was still a form of methodological confidence prior to ontological resolution. The methods worked. They produced coherent results, strong predictions, and extraordinary explanatory reach. But the exact status of \(dx\) remained contested.
+
+This matters for our chapter because it reveals something important: differential reasoning became powerful before its foundations became fully clean.
+
+Modern machine learning often works the same way.
+
+We speak of semantic directions, latent axes, feature gradients, and manifold structure. These concepts are often useful before their ontology is fully settled. Berkeley’s challenge therefore has a contemporary echo:
+
+- What exactly is a semantic direction?
+- What exactly counts as a local move in representation space?
+- When we write \(dx\), are we naming a real object, a limit process, a computational approximation, or a formal shorthand?
+
+Those questions do not invalidate the method. But they remind us to distinguish practical success from foundational clarity.
+
+## 7.4 What is a differential?
 
 If \(y=f(x)\), then a small change in \(x\) produces a corresponding change in \(y\). Leibniz wrote this relation suggestively as
 
@@ -79,9 +122,9 @@ The square function is not globally linear, but it is locally linear to first or
 
 That phrase—**locally linear to first order**—is the real content of differentials.
 
-## 7.3 Why Leibniz notation still matters
+## 7.5 Why Leibniz notation still matters
 
-Newton and Leibniz both invented calculus, but Leibniz’s notation proved especially durable because it makes structural relationships visible. The expression
+Leibniz’s notation proved especially durable because it makes structural relationships visible. The expression
 
 \[
 \frac{dy}{dx}
@@ -113,7 +156,7 @@ This is exactly the language we need for embedding geometry.
 
 A point in embedding space is already multivariate. A local move is naturally a vector. A score, probability, loss, or semantic feature can be treated as a function on that space. The differential tells us how that quantity changes under a tiny movement.
 
-## 7.4 Differential thinking in embedding space
+## 7.6 Differential thinking in embedding space
 
 Let \(x\in\mathbb{R}^n\) be an embedding, and let
 
@@ -151,7 +194,7 @@ Third, differential analysis gives us a principled way to separate **signal** fr
 
 This is not just abstract mathematics. It is how one analyzes robustness, adversarial perturbations, feature attribution, and local interpretability.
 
-## 7.5 Tangent intuition without full manifold formalism
+## 7.7 Tangent intuition without full manifold formalism
 
 In advanced geometry, the differential at a point acts on tangent vectors. We do not need the full formal machinery yet, but the intuition is valuable.
 
@@ -163,7 +206,7 @@ So when we talk about a small displacement \(dx\), we are often implicitly talki
 
 Leibniz did not speak in the language of manifolds as we do now, but his notation prepared mathematics to think locally, relationally, and structurally. That legacy matters here.
 
-## 7.6 The chain rule as compositional geometry
+## 7.8 The chain rule as compositional geometry
 
 One of the most important consequences of differential notation is the chain rule. If
 
@@ -187,7 +230,7 @@ If a small perturbation \(dx\) at one stage creates a change \(du\), and that ch
 
 In representation learning, this means that local geometric changes at one layer can be amplified, damped, rotated, or compressed by later transformations. The differential of the composed map captures that behavior.
 
-## 7.7 Jacobians: the multivariable form of local change
+## 7.9 Jacobians: the multivariable form of local change
 
 So far we have let a vector input produce a scalar output. But often we have a vector-valued transformation
 
@@ -229,7 +272,7 @@ Questions such as the following are Jacobian questions in disguise:
 
 Whenever we care about local expressivity or fragility, we are already in the world of differentials.
 
-## 7.8 Singular directions and semantic fragility
+## 7.10 Singular directions and semantic fragility
 
 If the Jacobian has directions with very small singular values, then movement in those input directions barely affects the output to first order. Those are locally compressed directions.
 
@@ -243,7 +286,7 @@ This is why differential thinking connects naturally to adversarial examples. An
 
 Leibniz’s \(dx\) was meant to represent an arbitrarily small change. In modern ML, the meaningful question is often: *what kinds of tiny changes matter, and why?*
 
-## 7.9 Differential versus finite difference
+## 7.11 Differential versus finite difference
 
 It is important to distinguish the differential from an ordinary finite change.
 
@@ -265,7 +308,7 @@ This distinction matters in embedding spaces because some transformations are lo
 
 So the differential is not a magic substitute for actual movement through the space. It is a disciplined local approximation.
 
-## 7.10 Local linearity and the practical meaning of “smoothness”
+## 7.12 Local linearity and the practical meaning of “smoothness”
 
 When we say a map is smooth, we mean roughly that small changes in input produce controlled changes in output, and that these changes vary in a regular way from point to point. Smoothness is what allows local linear approximations to be useful.
 
@@ -282,7 +325,7 @@ Of course, actual neural systems are not smooth in every possible sense, and hig
 
 This is another reason Leibniz belongs in the story: he provided the conceptual grammar for describing systems whose local behavior is more tractable than their global form.
 
-## 7.11 A semantic reading of \(dx\)
+## 7.13 A semantic reading of \(dx\)
 
 We can now give \(dx\) a more interpretive reading.
 
@@ -302,7 +345,7 @@ For example, if \(f\) scores “positivity,” then \(df\) tells us how positivi
 
 This perspective makes the differential a bridge between pure geometry and interpretability. It is not merely algebraic notation; it is a language for talking about **which local moves mean what**.
 
-## 7.12 From differentials to tangent features
+## 7.14 From differentials to tangent features
 
 Suppose that at a point \(x\), several interpretable scalar functions are defined:
 
@@ -318,7 +361,7 @@ Some gradients may align, indicating correlated features. Others may be nearly o
 
 This is a deeply Leibnizian way of understanding representation: not by assigning a fixed essence to each point, but by studying the network of local relations among varying quantities.
 
-## 7.13 Why this matters philosophically
+## 7.15 Why this matters philosophically
 
 Leibniz did not just contribute notation. He also promoted a relational style of thought. Quantities were understood through how they varied together. Structure emerged through dependencies, transformations, and lawful coordination.
 
@@ -336,7 +379,7 @@ So the transition from static embedding geometry to differential embedding geome
 
 That is one reason Leibniz belongs naturally in this narrative.
 
-## 7.14 Summary
+## 7.16 Summary
 
 Leibniz’s differential notation gives us a powerful way to describe local change.
 
@@ -364,6 +407,8 @@ In embedding spaces, this means:
 - Jacobians reveal local transformation structure,
 - and robustness or fragility can often be framed in differential terms.
 
-Leibniz’s \(dx\) is therefore not a historical curiosity. It is a compact symbol for one of the most useful ideas in modern geometric thinking: that the local behavior of a system can often be captured by how it transforms very small changes.
+But the deeper lesson is historical as well as mathematical. Differential reasoning emerged when algebraic solvability reached its limits and mathematics needed a new way to make sense of difficult problems. Leibniz provided that language in symbolic form. Newton grounded a related vision in geometry and motion. Berkeley exposed the conceptual instability in the early foundations. Out of that tension emerged one of the most powerful ideas in mathematics: that local behavior can be studied lawfully even when global closed-form mastery is unavailable.
+
+That is why \(dx\) matters here. It is not just a technical mark on the page. It is the sign of a new mode of thought: one that trades absolute symbolic closure for local intelligibility, and one that still shapes how we reason about modern representation spaces.
 
 In the next chapter, we will extend this local viewpoint further by examining curvature: what happens when first-order approximations are not enough, and the geometry of bending begins to matter.
