@@ -40,20 +40,20 @@ The collaboration is simply the first time a human and a model have co‑mapped 
 
 ## Working Chapter Spine
 
-1. Chapter 1 — Me
-2. Chapter 2 — Machine
-3. Chapter 3 — Us
-4. Chapter 4 — Tools
-5. Chapter 5 — Lineage
-6. Chapter 6 — Assembly Language Perch
-7. Chapter 7 — Programmer’s Manifold
-8. Chapter 8 — dx / Leibniz
-9. Chapter 9 — Stories: Glyphs of the Human Manifold
-10. Chapter 10 — Meta Layer
-11. Chapter 11 — Cockpit
-12. Chapter 12 — Ebook as Manifold
-13. Chapter 13 — Why This Book Matters
-14. Chapter 14 — Marvin Minsky and the Architecture of Distributed Intelligence
+1. Chapter 1: Me — chapter_01_me.md
+2. Chapter 2: Machine — chapter_02_machine.md
+3. Chapter 3: Us — chapter_03_us.md
+4. Chapter 4: Tools — chapter_04_tools.md
+5. Chapter 5: The Human Lineage Behind the Machine — chapter_05_lineage.md
+6. Chapter 6: The Assembly Programmer’s Manifold — chapter_06_assembly_programmers_manifold.md
+7. Chapter 7: Leibniz, Differentials, and the Local Shape of Meaning — chapter_07_dx_leibniz.md
+8. Chapter 8: Stories — chapter_08_stories.md
+9. Chapter 9: The Meta Layer — chapter_09_meta_layer.md
+10. Chapter 10: The Cockpit — chapter_10_cockpit.md
+11. Chapter 11: The Ebook as Manifold — chapter_11_ebook_as_manifold.md
+12. Chapter 12: Why This Book Matters — chapter_12_why_this_book_matters.md
+13. Chapter 13: Marvin Minsky: Architect of the Distributed Mind — chapter_13_minsky.md
+14. Chapter 14: The Proper Analysis — chapter_14_proper_analysis.md
 
 This sequence resolves duplicate numbering, removes the Michael/Karina interlude from the main spine, and places Minsky as a late structural hinge before the next representational turn.
 
