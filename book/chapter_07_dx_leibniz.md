@@ -56,6 +56,8 @@ Leibniz’s picture was more algebraic, symbolic, and relational. He wrote \(dx\
 
 This matters for our purposes. Embedding spaces are usually handled as algebraic objects inside vector spaces: vectors, maps, gradients, Jacobians, projections, norms. In that sense, Leibniz’s formalism fits naturally. His notation helps us reason about how one quantity varies with another inside a symbolic and structural setting.
 
+Leibniz was also a master of language structure. His genius was not only mathematical but linguistic. The symbol \(dx\) did not succeed merely because it named a tiny quantity. It succeeded because it gave mathematics a compact formal interface for local complexity. It made variation writable, combinable, and manipulable before every foundational question had been resolved.
+
 So while Newton and Leibniz are both founders of calculus, Leibniz belongs especially well in the story of embeddings because his language of differentials is better suited to a world of symbolic relations among coordinates, features, and transformations.
 
 ## 7.3 Berkeley’s challenge: what is \(dx\), really?
@@ -75,6 +77,12 @@ Berkeley was right to press the issue. The early success of calculus outran the 
 That trust was not blind faith, but it was still a form of methodological confidence prior to ontological resolution. The methods worked. They produced coherent results, strong predictions, and extraordinary explanatory reach. But the exact status of \(dx\) remained contested.
 
 This matters for our chapter because it reveals something important: differential reasoning became powerful before its foundations became fully clean.
+
+One way to understand this is to think about approximation as a general strategy of intelligence. Most human thought is top-down before it is foundational. The brain is not built to derive every conclusion from first principles; it is a sparse, survival-oriented machine for bringing overwhelming complexity under practical control. It relies on compression, heuristic structure, and local updating across a deeply distributed network.
+
+Modern computation does something similar. Floating-point arithmetic on an x86-64 processor does not deliver perfect mathematical exactness in every operation. Instead, the machine uses a highly structured approximation regime that makes enormous computational systems tractable, stable, and composable. The user works through the abstraction; the machinery underneath manages the complexity.
+
+Leibniz’s \(dx\) can be understood in a similar spirit. It was a way of bringing complexity under symbolic control. Its power came not from immediate ontological transparency, but from the fact that it let mathematics operate coherently on local change. In that sense, \(dx\) is less a mysterious tiny object than a language abstraction for handling variation below the scale of ordinary finite reasoning.
 
 Modern machine learning often works the same way.
 
