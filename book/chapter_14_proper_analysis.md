@@ -52,3 +52,5 @@ It begins with the recognition that intelligence, as encountered here, is not be
 This book has offered scaffolding for that analysis. It has not concluded the discussion. It has prepared the space in which the discussion can proceed with greater clarity.
 
 The analysis now belongs to you.
+
+It is important to clarify that the phrase “AI is a coordinate transform” is intended as an analytic lens—a way to frame and investigate the phenomenon of artificial intelligence—rather than as an exhaustive or metaphysical definition. This perspective is meant to guide inquiry, highlight structure, and encourage new questions, not to reduce AI to a single formula. Readers are invited to use this lens as a tool for analysis, while remaining open to the complexity and evolving nature of the field.
