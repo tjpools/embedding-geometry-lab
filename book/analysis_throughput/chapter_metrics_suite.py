@@ -5,7 +5,7 @@ import numpy as np
 from datetime import datetime
 
 # Directory containing chapters
-CHAPTERS_DIR = os.path.join(os.path.dirname(__file__), '..')
+CHAPTERS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 # Find all chapter files
 chapter_files = [f for f in os.listdir(CHAPTERS_DIR) if re.match(r'^chapter_.*\\.md$', f)]
@@ -32,7 +32,15 @@ def count_paragraphs(text):
     return len([p for p in text.split('\n') if p.strip()])
 
 def get_unit_files():
-    return [f for f in os.listdir(UNITS_DIR) if f.startswith(UNIT_PREFIX) and f.endswith(UNIT_SUFFIX)]
+    # Only include chapters 01-12 in the correct directory
+    chapter_nums = [f"{i:02d}" for i in range(1, 13)]
+    files = []
+    for num in chapter_nums:
+        pattern = f"chapter_{num}"
+        for f in os.listdir(CHAPTERS_DIR):
+            if f.startswith(pattern) and f.endswith(UNIT_SUFFIX):
+                files.append(f)
+    return files
 
 def get_last_modified(path):
     return datetime.fromtimestamp(os.path.getmtime(path))
@@ -57,7 +65,7 @@ def main():
     unit_files = get_unit_files()
     units = []
     for fname in sorted(unit_files):
-        path = os.path.join(UNITS_DIR, fname)
+        path = os.path.join(CHAPTERS_DIR, fname)
         metrics = analyze_unit(path)
         metrics['name'] = fname
         units.append(metrics)
