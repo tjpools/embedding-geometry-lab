@@ -36,15 +36,23 @@ So the answer to *What is AI?* is not contained in a single sentence. It is cont
 
 In this respect, the problem resembles an older one. Berkeley criticized the infinitesimal because its ontological standing was obscure; yet calculus advanced by rendering the infinitesimal operationally coherent before it was rendered philosophically secure. What mattered first was not metaphysical clarity, but analytic usefulness. Only later did formalization catch up. Something similar is true here. We do not yet possess a final philosophy of AI. But we can already begin a proper analysis by treating its operations, structures, and transformations as objects of disciplined inquiry.
 
-What this book has attempted, then, is not merely to define AI, but to operationalize the question of AI. And from that operational analysis, a clearer thesis emerges.
+What this book has attempted, then, is not merely to define AI, but to operationalize the question of AI. From that operational analysis, a clearer thesis emerges.
 
-My study of the symmetric group \(S_4\) in Galois Theory made something unexpectedly clear: a system is often understood only by constructing its internal relations. Working through the Cayley table, the subgroup lattice, and the conjugacy classes did not merely describe \(S_4\); they enacted it. The structure became visible only when I rebuilt it piece by piece. To understand the system was, in a real sense, to build the system.
+My study of the symmetric group \(S_4\) in Galois Theory made something unexpectedly clear: a system is often grasped only by constructing its internal relations. Working through the Cayley table, the subgroup lattice, and the conjugacy classes did not merely describe \(S_4\); they enacted it. The structure became visible only when I rebuilt it piece by piece. To understand the system was, in a real sense, to build it.
 
-This felt uncannily like assembly language. Assembly does not explain a machine; it reveals it. One understands an architecture by constructing its operations, tracing the flow of control, and inhabiting the mechanism. The understanding is not merely observational. It is operational.
+This felt uncannily like assembly language. Assembly does not explain a machine; it reveals it. One comes to understand an architecture by constructing its operations, tracing the flow of control, and inhabiting the mechanism. The understanding is not merely observational. It is operational.
 
-Transformers belong to this same lineage. They are not understood by slogans or surface descriptions. They are understood by reconstructing the web of transformations, invariants, and biases through which they operate. Like \(S_4\), they are systems within systems. Like assembly, they disclose their nature most clearly when one builds and traverses them.
+Transformers belong to this same lineage. They are not illuminated by slogans or surface descriptions, but by reconstructing the web of transformations, invariants, and biases through which they operate. Like \(S_4\), they are systems within systems. Like assembly, they disclose their nature most clearly when one builds and traverses them.
 
 The lesson is the same across all three domains: to understand a system of transformations, one must rebuild its grammar. \(S_4\) taught me this. Assembly taught me this. Transformers confirm it.
+
+Galois Theory, assembly language, and transformers each furnish a natural metric of complexity. Not because they measure the same thing, but because each reveals the internal architecture of a system.
+
+In Galois Theory, complexity appears in the structure of symmetries and solvability. In assembly, it appears in the burden of explicit mechanism: state, control, and dependency. In transformers, it appears in the geometry of representation and the coordination of transformations across latent space.
+
+What unites them is that complexity is not merely imposed from outside as difficulty. It arises from the structure that must be traversed, preserved, or rebuilt.
+
+In that sense, this book has been constructing its own operating system of understanding. It has not simply presented ideas about AI; it has established a set of conceptual primitives, relations, and transformations through which AI can be approached with greater clarity. It has tried to make a mode of thought executable.
 
 AI is the first tool that operates simultaneously in the domain of practical action and the domain of abstract reasoning. It is the first tool that can be used to produce artifacts while also helping analyze the conditions of its own production. In that sense, it is not simply another device in the historical succession of tools. It is a new category of tool: one that occupies the boundary between use and analysis, between production and reflection.
 
