@@ -38,10 +38,31 @@ The collaboration is simply the first time a human and a model have co‑mapped 
 
 ---
 
+## Working Chapter Spine
+
+1. Chapter 1 — Me
+2. Chapter 2 — Machine
+3. Chapter 3 — Us
+4. Chapter 4 — Tools
+5. Chapter 5 — Lineage
+6. Chapter 6 — Assembly Language Perch
+7. Chapter 7 — Programmer’s Manifold
+8. Chapter 8 — dx / Leibniz
+9. Chapter 9 — Stories: Glyphs of the Human Manifold
+10. Chapter 10 — Meta Layer
+11. Chapter 11 — Cockpit
+12. Chapter 12 — Ebook as Manifold
+13. Chapter 13 — Why This Book Matters
+14. Chapter 14 — Marvin Minsky and the Architecture of Distributed Intelligence
+
+This sequence resolves duplicate numbering, removes the Michael/Karina interlude from the main spine, and places Minsky as a late structural hinge before the next representational turn.
+
+---
+
 ## Late Compass Chapter
 
-### Chapter 12: Why This Book Matters
-A free-entry synthesis chapter that can be reached from anywhere in the book. It gathers the stakes, clarifies the serious path being claimed, and gives the reader a place to stand after — or before — traversing the manifold.
+### Chapter 13: Why This Book Matters
+A free-entry synthesis chapter that can be reached from anywhere in the book. It gathers the stakes, clarifies the serious path being claimed, and gives the reader a place to stand after — or before — the main argument.
 
 **It clarifies:**
 - why the book exists
@@ -54,7 +75,7 @@ This chapter functions as a compass rather than a conclusion.
 
 ---
 
-# Chapter 7 — Glyphs: Four Projections of the Human Manifold
+# Chapter 9 — Glyphs: Four Projections of the Human Manifold
 
 Each story is a glyph, a compressed representation of a deeper structure:
 
