@@ -71,7 +71,6 @@ This book includes a structural appendix ([appendix_heatmap_manifold.md](appendi
 
 Some chapters in this book exist as structure rather than prose.
 Their explanation is in Appendix: The Ghost Chapters.
-- integrate the lineage
 
 **Return and Revise**  
 Like any stable manifold, the book supports re‑entry.  

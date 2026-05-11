@@ -61,7 +61,7 @@ This sequence resolves duplicate numbering, removes the Michael/Karina interlude
 
 ## Late Compass Chapter
 
-### Chapter 13: Why This Book Matters
+### Chapter 12: Why This Book Matters
 A free-entry synthesis chapter that can be reached from anywhere in the book. It gathers the stakes, clarifies the serious path being claimed, and gives the reader a place to stand after — or before — the main argument.
 
 **It clarifies:**

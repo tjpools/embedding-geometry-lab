@@ -1,4 +1,4 @@
-# Chapter 13 — Marvin Minsky: Architect of the Distributed Mind
+# Chapter 13: Marvin Minsky: Architect of the Distributed Mind
 
 Marvin Minsky enters the book at exactly the right moment.  
 The reader has now traveled through:

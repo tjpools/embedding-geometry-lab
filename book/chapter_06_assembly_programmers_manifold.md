@@ -1,4 +1,4 @@
-# Chapter 6 — The Assembly Programmer’s Manifold
+# Chapter 6: The Assembly Programmer’s Manifold
 
 The assembly-language programmer occupies a distinctive position in the history of computation.  
 Not because assembly is primitive, nor because proximity to the machine confers mystique, but because assembly exposes the lawful boundary where symbolic software must submit to hardware reality.
