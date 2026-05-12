@@ -1,4 +1,5 @@
 # Chapter 7: Leibniz, Differentials, and the Local Shape of Meaning
+## Crossing Over: From Machine to Mathematics
 
 Before embeddings became a story about local perturbations, calculus itself had to become a story about lawful change. That shift did not happen all at once. It emerged from a tension within equation space itself.
 
