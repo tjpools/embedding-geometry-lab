@@ -19,6 +19,9 @@
 - Chapter 12: Why This Book Matters — chapter_12_why_this_book_matters.md
 - Chapter 13: Marvin Minsky: Architect of the Distributed Mind — chapter_13_minsky.md
 - Chapter 14: The Proper Analysis — chapter_14_proper_analysis.md
+- Chapter 15: EasterDate — A Machine Within a Machine — chapter_15_easterdate.md
+- Chapter 16: Structure Becomes Object — chapter_16_structure_becomes_object.md
+- Chapter 17: A Walkable Path Through a Larger Landscape — chapter_17_a_walkable_path_through_a_larger_landscape.md
 
 ## Back Matter
 - Appendix A: Heatmap Manifold — appendix_heatmap_manifold.md
