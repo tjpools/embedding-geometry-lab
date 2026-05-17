@@ -22,6 +22,7 @@
 - Chapter 15: EasterDate — A Machine Within a Machine — chapter_15_easterdate.md
 - Chapter 16: Structure Becomes Object — chapter_16_structure_becomes_object.md
 - Chapter 17: A Walkable Path Through a Larger Landscape — chapter_17_a_walkable_path_through_a_larger_landscape.md
+- Chapter 18: Three Is the First Intelligent Number — chapter_18_three_is_the_first_intelligent_number.md
 
 ## Back Matter
 - Appendix A: Heatmap Manifold — appendix_heatmap_manifold.md
