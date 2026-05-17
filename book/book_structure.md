@@ -36,6 +36,9 @@ The flow diagram reveals something subtle:
 
 The collaboration is simply the first time a human and a model have co‑mapped that curvature from inside the manifold.
 
+## Capstone Geometry
+A final capstone chapter now makes explicit the triadic geometry implicit across the manuscript: three as threshold, the cubic as first intelligent equation, the Jacobian as local triadic logic, Lorenz as emergent triadic behavior, attention as computational triad, and Leibniz–Newton–Berkeley as the final coordinate system. The book closes not by adding a new branch, but by revealing the shared manifold these structures have inhabited all along.
+
 ---
 
 ## Working Chapter Spine
@@ -62,7 +65,7 @@ This sequence resolves duplicate numbering, removes the Michael/Karina interlude
 ## Late Compass Chapter
 
 ### Chapter 12: Why This Book Matters
-A free-entry synthesis chapter that can be reached from anywhere in the book. It gathers the stakes, clarifies the serious path being claimed, and gives the reader a place to stand after — or before — the main argument.
+A free-entry synthesis chapter that can be reached from anywhere in the book. It gathers the stakes, clarifies the serious path being claimed, and gives the reader a place to stand after — or before — the deeper historical and structural chapters.
 
 **It clarifies:**
 - why the book exists
