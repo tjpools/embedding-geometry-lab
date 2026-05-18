@@ -1,4 +1,8 @@
+\newpage
+\vspace*{3cm}
+\begin{center}
 # Chapter 11: The Ebook as Manifold
+\end{center}
 
 An ebook is often treated as a final container: a file exported from a finished manuscript and delivered to a reader. But for a project like this one, that view is too small. The ebook is not merely the afterlife of a print book. It is a system, a runtime—a living computational object.
 

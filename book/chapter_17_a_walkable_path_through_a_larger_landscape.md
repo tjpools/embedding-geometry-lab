@@ -1,4 +1,8 @@
+\newpage
+\vspace*{3cm}
+\begin{center}
 # Chapter 17: A Walkable Path Through a Larger Landscape
+\end{center}
 
 ## 17.1 This Work Did Not Begin as a Book
 

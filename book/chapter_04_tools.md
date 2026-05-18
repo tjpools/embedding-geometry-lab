@@ -1,4 +1,9 @@
+
+\newpage
+\vspace*{3cm}
+\begin{center}
 # Chapter 4: The Ages of Tools — From Ruler to Transformer
+\end{center}
 
 *Prefatory Note:*  
 These next two chapters were written late. They are not where the thesis of this book first emerged, but where it became legible in history: once as a lineage of tools, and once as a lineage of minds. They are retrospective chapters—the point at which the book recognizes its own ancestry and restates its argument in civilizational terms.
@@ -29,7 +34,6 @@ Geometry, in this sense, is reason made visible.
 Algebra is often presented as if it were transparent: symbols, rules, manipulations. But its real history is a history of pressure. Again and again, algebra had to grow because reality exceeded the symbolic frame already in place.
 
 The discovery of irrational magnitudes showed that number could not be reduced to counting or ratio alone. $\sqrt{2}$ named a truth that existed before the system had a comfortable way to contain it. The rational numbers, $\mathbb{Q}$, were not enough. To solve $x^2 = 2$, one had to enlarge the field by adjoining $\sqrt{2}$, creating $\mathbb{Q}(\sqrt{2})$. Later, imaginary quantities such as $i$ forced another enlargement. To solve $x^2 + 1 = 0$, one had to move beyond the old frame again, to $\mathbb{Q}(i)$, and, when both kinds of objects were needed together, to fields such as $\mathbb{Q}(\sqrt{2}, i)$.
-
 What once appeared impossible inside one representational system became lawful inside a larger one.
 
 That pattern reaches far beyond algebra. It teaches one of the central lessons of this book: truth is not the same as representation. When representation fails, the task is not denial. The task is extension.

@@ -3,7 +3,9 @@
 ![Book Cover](cover.png)
 
 
-# How to Read This Book (Especially as an Ebook)
+\newpage
+\vspace*{2cm}
+\noindent\textbf{\Large How to Read This Book (Especially as an Ebook)}
 
 This book is not a linear argument. It is a coordinate atlas — a manifold of ideas, tools, and lineages. Each chapter is a chart covering a region of the conceptual space of AI, cognition, and collaboration.
 

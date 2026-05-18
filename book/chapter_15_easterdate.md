@@ -1,4 +1,8 @@
+\newpage
+\vspace*{3cm}
+\begin{center}
 # Chapter 15: EasterDate — A Machine Within a Machine
+\end{center}
 
 EasterDate was never merely a program. It was a small computational world: a machine within a machine, and eventually a world within a directory. What began as the question *What is the date of Easter for a given year?* belonged to a much older lineage of reasoning known as *computus*: the centuries-long effort to determine the date of Easter through a structured interplay of calendar, lunar cycle, and ecclesiastical rule. Expressed in assembly language, that inherited problem became something larger still — a way of seeing how meaning can be encoded as structure, how an answer can arise from an algorithm rather than be retrieved from a table, and how a human being can come to inhabit a computational form deeply enough that its geometry becomes thinkable from within.
 

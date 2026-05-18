@@ -1,4 +1,6 @@
-# Appendix: The Manifold Revealed by the Heat Map
+\newpage
+\vspace*{2cm}
+\noindent\textbf{\large Appendix: The Manifold Revealed by the Heat Map}
 
 1. **The Heat Map Reveals a Three‑Peak Manifold**
 The densest chapters—3, 6, 7, 9, and 10—are not just long; they are the load‑bearing coordinate charts of the book:

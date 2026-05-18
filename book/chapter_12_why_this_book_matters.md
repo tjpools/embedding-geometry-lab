@@ -1,4 +1,8 @@
+\newpage
+\vspace*{3cm}
+\begin{center}
 # Chapter 12: Why This Book Matters
+\end{center}
 
 This chapter can be entered from anywhere.
 

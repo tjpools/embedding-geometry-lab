@@ -1,4 +1,8 @@
+\newpage
+\vspace*{3cm}
+\begin{center}
 # Chapter 13: Marvin Minsky: Architect of the Distributed Mind
+\end{center}
 
 Marvin Minsky enters the book at exactly the right moment.  
 The reader has now traveled through:

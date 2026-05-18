@@ -1,4 +1,8 @@
+\newpage
+\vspace*{3cm}
+\begin{center}
 # Chapter 14: The Proper Analysis
+\end{center}
 
 The question *What is AI?* has followed us through every chapter, but only indirectly. We have not answered it by definition, nor by analogy, nor by appeal to popular narratives. Instead, we have been constructing the space in which the question can be asked well.
 

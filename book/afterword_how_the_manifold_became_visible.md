@@ -1,4 +1,9 @@
-# Afterword — How the Manifold Became Visible
+
+\newpage
+\vspace*{3cm}
+\begin{center}
+{\large\textbf{Afterword — How the Manifold Became Visible}}
+\end{center}
 
 This book began as an inquiry into models, mathematics, and tools. It did not begin with a theory. It began with questions about how systems behave, how ideas connect, and how meaning emerges from structure. The early chapters approached these questions from the outside: through notation, lineage, computation, and the machinery of modern intelligence.
 
