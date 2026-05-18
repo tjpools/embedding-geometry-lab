@@ -1,0 +1,39 @@
+name: Build book
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'book/**'
+      - '.github/workflows/build-book.yml'
+
+jobs:
+  build-book:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex
+
+      - name: Build EPUB and PDF
+        run: |
+          bash book/build_book.sh
+
+      - name: Upload EPUB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: embedding-geometry-epub
+          path: embedding-geometry.epub
+          if-no-files-found: error
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: embedding-geometry-pdf
+          path: embedding-geometry.pdf
+          if-no-files-found: error
