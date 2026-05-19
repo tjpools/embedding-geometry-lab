@@ -10,9 +10,9 @@ This image is not just a cover—it is the compressed manifold of the entire boo
 - The gold is the meaning revealed through traversal
 
 The cover is:
-- a geodesic (ignorance → insight)
+- a geodesic (ignorance $\to$ insight)
 - a glyph (simple, culture-neutral)
-- a symbol (effort → revelation)
+- a symbol (effort $\to$ revelation)
 - a semantic operator (lifting transforms the manifold)
 - a universal chart (every human understands “discovering something hidden”)
 

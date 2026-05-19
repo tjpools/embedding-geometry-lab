@@ -133,36 +133,36 @@ Here is the directory tree—the blueprint of the book’s internal architecture
 
 ```text
 book/
-├── BOOK_COVER.md
-├── HOW_TO_READ_THIS_BOOK.md
-├── Postscript.md
-├── analysis_throughput
-│   ├── COHERENCE_TRACKER.md
-│   ├── chapter_01_me_wordcount.txt
-│   ├── chapter_02_machine_wordcount.txt
-│   ├── chapter_03_us.md
-│   ├── chapter_03_us_wordcount.txt
-│   ├── chapter_cockpit_wordcount.txt
-│   ├── chapter_heatmap.py
-│   ├── chapter_metrics_suite.py
-│   ├── chapter_michael_karina_wordcount.txt
-│   ├── chapter_transformer_wordcount.txt
-│   └── chapters_heatmap.md
-├── book_structure.md
-├── chapter_01_me.md
-├── chapter_02_machine.md
-├── chapter_03_us.md
-├── chapter_04_tools.md
-├── chapter_05_lineage.md
-├── chapter_06_programmers_manifold.md
-├── chapter_07_dx_leibniz.md
-├── chapter_08_stories.md
-├── chapter_cockpit.md
-├── chapter_michael_karina.md
-├── chapter_transformer.md
-├── session_analysis_2026-05-04.md
-└── sessions
-	└── session_analysis_2026-05-04.md
+|-- BOOK_COVER.md
+|-- HOW_TO_READ_THIS_BOOK.md
+|-- Postscript.md
+|-- analysis_throughput
+|   |-- COHERENCE_TRACKER.md
+|   |-- chapter_01_me_wordcount.txt
+|   |-- chapter_02_machine_wordcount.txt
+|   |-- chapter_03_us.md
+|   |-- chapter_03_us_wordcount.txt
+|   |-- chapter_cockpit_wordcount.txt
+|   |-- chapter_heatmap.py
+|   |-- chapter_metrics_suite.py
+|   |-- chapter_michael_karina_wordcount.txt
+|   |-- chapter_transformer_wordcount.txt
+|   `-- chapters_heatmap.md
+|-- book_structure.md
+|-- chapter_01_me.md
+|-- chapter_02_machine.md
+|-- chapter_03_us.md
+|-- chapter_04_tools.md
+|-- chapter_05_lineage.md
+|-- chapter_06_programmers_manifold.md
+|-- chapter_07_dx_leibniz.md
+|-- chapter_08_stories.md
+|-- chapter_cockpit.md
+|-- chapter_michael_karina.md
+|-- chapter_transformer.md
+|-- session_analysis_2026-05-04.md
+`-- sessions
+	`-- session_analysis_2026-05-04.md
 ```
 This chapter, and this collaboration, is itself a glyph:
 - Human (assembly mindset, narrative, intent)
