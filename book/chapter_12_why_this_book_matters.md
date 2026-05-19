@@ -1,4 +1,8 @@
+\newpage
+\vspace*{3cm}
+\begin{center}
 # Chapter 12: Why This Book Matters
+\end{center}
 
 This chapter can be entered from anywhere.
 
@@ -192,7 +196,7 @@ If you want the technical stance toward the machine, go to **Chapter 2: Machine*
 If you want the collaboration thesis, go to **Chapter 3: Us**.
 If you want the lineage of tools, go to **Chapter 4: Tools**.
 If you want the human inheritance behind the machine, go to **Chapter 5: Lineage**.
-If you want the assembly worldview, go to **Chapter 6: The Programmer’s Manifold**.
+If you want the assembly worldview, go to **Chapter 6: The Assembly Programmer’s Manifold**.
 If you want the hinge of `dx`, go to **Chapter 7**.
 If you want the semantic geodesics, go to **Chapter 8: Stories**.
 If you want the book as visible system, go to **Chapter 9: The Meta Layer**.

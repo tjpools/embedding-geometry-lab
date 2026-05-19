@@ -3,7 +3,11 @@
 Only in America can a man nearing seventy, stocking shelves at a grocery store, write a book that traces the lineage of human reasoning from calculus to transformers. This is not a contradiction; it is the point. In the United States, the boundaries between work and intellect, age and ambition, the ordinary and the extraordinary, are porous. Here, a grocery aisle can become a laboratory for intelligence—human and artificial. The checkout line is not just a place of transaction, but a forum for debating the nature of reasoning, the future of machines, and the meaning of possibility itself. This book is written from that vantage: the intersection of the mundane and the profound, where the story of intelligence unfolds in real time.
 
 
+\newpage
+\vspace*{3cm}
+\begin{center}
 # Chapter 1: Me
+\end{center}
 
 
 I used to think my biography was irrelevant to the story I wanted to tell. But I’ve come to understand that it is the story. A 69‑year‑old assembly programmer working at Whole Foods is not an oddity—it’s a lineage point. My life sits at the intersection of tools and people, where the evolution of reasoning becomes visible. Assembly taught me the machine’s grammar. GitHub taught me that every commit is a fossil. Transformers taught me that collaboration can be computational. And Whole Foods taught me that intelligence—human or artificial—only makes sense when grounded in the ordinary. This book is not about me, but my life is the doorway through which the global reader enters the lineage.

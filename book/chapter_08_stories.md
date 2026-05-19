@@ -1,4 +1,8 @@
+\newpage
+\vspace*{3cm}
+\begin{center}
 # Chapter 8: Stories — Orange House, Stop Sign, Grandmother, SF-hnd Jacobian
+\end{center}
 
 Up to this point, the book has traced the architecture of understanding from several directions: the human coordinate system, the machine, the joint manifold, the lineage of tools, the assembly-language perch, and the deep operator history of `dx`. But no account of meaning is complete until it becomes felt, navigated, and remembered at human scale.
 

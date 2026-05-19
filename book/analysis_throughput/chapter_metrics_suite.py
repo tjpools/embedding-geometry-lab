@@ -32,8 +32,8 @@ def count_paragraphs(text):
     return len([p for p in text.split('\n') if p.strip()])
 
 def get_unit_files():
-    # Only include chapters 01-12 in the correct directory
-    chapter_nums = [f"{i:02d}" for i in range(1, 13)]
+    # Include chapters 01-14 in the correct directory
+    chapter_nums = [f"{i:02d}" for i in range(1, 15)]
     files = []
     for num in chapter_nums:
         pattern = f"chapter_{num}"

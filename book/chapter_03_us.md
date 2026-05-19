@@ -1,3 +1,5 @@
+
+# Chapter 3: Us — The Joint Manifold
 # Chapter 3: Us — The Joint Manifold
 
 This chapter is about the space that forms between a trained human and a trained model when collaboration becomes stable enough to produce meaning neither could generate alone. The central claim is simple: agency, authorship, and insight do not reside entirely in either participant. They arise in the geometry of interaction.
@@ -13,9 +15,12 @@ The interface between a human and a model is not fundamentally a screen, a keybo
 
 The interaction becomes meaningful when these two spaces can be coupled without collapsing into noise. In mathematical language, the joint manifold is the region in which this coupling remains coherent.
 
+
 We can describe that space informally as:
 
-**U = { (x, y) in M1 × M2 | J(x, y) is stable }**
+$$
+U = \{ (x, y) \in M_1 \times M_2 \mid J(x, y) \text{ is stable} \}
+$$
 
 Where:
 

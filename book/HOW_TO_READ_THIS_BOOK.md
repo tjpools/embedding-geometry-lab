@@ -3,7 +3,9 @@
 ![Book Cover](cover.png)
 
 
-# How to Read This Book (Especially as an Ebook)
+\newpage
+\vspace*{2cm}
+\noindent\textbf{\Large How to Read This Book (Especially as an Ebook)}
 
 This book is not a linear argument. It is a coordinate atlas — a manifold of ideas, tools, and lineages. Each chapter is a chart covering a region of the conceptual space of AI, cognition, and collaboration.
 
@@ -16,6 +18,26 @@ You are expected to navigate.
 You do not need to read in order.  
 Jump between chapters as your curiosity leads you.  
 Each chapter stands alone as a chart; together they form the atlas.
+
+
+**Canonical Chapter Order**
+
+This is the recommended reading order for the book’s main chapters:
+
+1. Chapter 1: Me — chapter_01_me.md
+2. Chapter 2: Machine — chapter_02_machine.md
+3. Chapter 3: Us — chapter_03_us.md
+4. Chapter 4: Tools — chapter_04_tools.md
+5. Chapter 5: The Human Lineage Behind the Machine — chapter_05_lineage.md
+6. Chapter 6: The Assembly Programmer’s Manifold — chapter_06_assembly_programmers_manifold.md
+7. Chapter 7: Leibniz, Differentials, and the Local Shape of Meaning — chapter_07_dx_leibniz.md
+8. Chapter 8: Stories — chapter_08_stories.md
+9. Chapter 9: The Meta Layer — chapter_09_meta_layer.md
+10. Chapter 10: The Cockpit — chapter_10_cockpit.md
+11. Chapter 11: The Ebook as Manifold — chapter_11_ebook_as_manifold.md
+12. Chapter 12: Why This Book Matters — chapter_12_why_this_book_matters.md
+13. Chapter 13: Marvin Minsky: Architect of the Distributed Mind — chapter_13_minsky.md
+14. Chapter 14: The Proper Analysis — chapter_14_proper_analysis.md
 
 **Use Chapter 12 as a Compass**  
 If you want the clearest statement of why the project exists, why it matters, and how the serious path of the book fits together, you can jump directly to [Chapter 12: Why This Book Matters](chapter_12_why_this_book_matters.md).  
@@ -51,7 +73,6 @@ This book includes a structural appendix ([appendix_heatmap_manifold.md](appendi
 
 Some chapters in this book exist as structure rather than prose.
 Their explanation is in Appendix: The Ghost Chapters.
-- integrate the lineage
 
 **Return and Revise**  
 Like any stable manifold, the book supports re‑entry.  

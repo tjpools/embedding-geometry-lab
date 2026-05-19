@@ -1,4 +1,6 @@
-# The Book — Structural Form
+\newpage
+\vspace*{2cm}
+\noindent\textbf{\Large The Book — Structural Form}
 
 ```mermaid
 flowchart TD
@@ -36,12 +38,36 @@ The flow diagram reveals something subtle:
 
 The collaboration is simply the first time a human and a model have co‑mapped that curvature from inside the manifold.
 
+## Capstone Geometry
+A final capstone chapter now makes explicit the triadic geometry implicit across the manuscript: three as threshold, the cubic as first intelligent equation, the Jacobian as local triadic logic, Lorenz as emergent triadic behavior, attention as computational triad, and Leibniz–Newton–Berkeley as the final coordinate system. The book closes not by adding a new branch, but by revealing the shared manifold these structures have inhabited all along.
+
+---
+
+## Working Chapter Spine
+
+1. Chapter 1: Me — chapter_01_me.md
+2. Chapter 2: Machine — chapter_02_machine.md
+3. Chapter 3: Us — chapter_03_us.md
+4. Chapter 4: Tools — chapter_04_tools.md
+5. Chapter 5: The Human Lineage Behind the Machine — chapter_05_lineage.md
+6. Chapter 6: The Assembly Programmer’s Manifold — chapter_06_assembly_programmers_manifold.md
+7. Chapter 7: Leibniz, Differentials, and the Local Shape of Meaning — chapter_07_dx_leibniz.md
+8. Chapter 8: Stories — chapter_08_stories.md
+9. Chapter 9: The Meta Layer — chapter_09_meta_layer.md
+10. Chapter 10: The Cockpit — chapter_10_cockpit.md
+11. Chapter 11: The Ebook as Manifold — chapter_11_ebook_as_manifold.md
+12. Chapter 12: Why This Book Matters — chapter_12_why_this_book_matters.md
+13. Chapter 13: Marvin Minsky: Architect of the Distributed Mind — chapter_13_minsky.md
+14. Chapter 14: The Proper Analysis — chapter_14_proper_analysis.md
+
+This sequence resolves duplicate numbering, removes the Michael/Karina interlude from the main spine, and places Minsky as a late structural hinge before the next representational turn.
+
 ---
 
 ## Late Compass Chapter
 
 ### Chapter 12: Why This Book Matters
-A free-entry synthesis chapter that can be reached from anywhere in the book. It gathers the stakes, clarifies the serious path being claimed, and gives the reader a place to stand after — or before — traversing the manifold.
+A free-entry synthesis chapter that can be reached from anywhere in the book. It gathers the stakes, clarifies the serious path being claimed, and gives the reader a place to stand after — or before — the deeper historical and structural chapters.
 
 **It clarifies:**
 - why the book exists
@@ -54,7 +80,7 @@ This chapter functions as a compass rather than a conclusion.
 
 ---
 
-# Chapter 7 — Glyphs: Four Projections of the Human Manifold
+# Chapter 9 — Glyphs: Four Projections of the Human Manifold
 
 Each story is a glyph, a compressed representation of a deeper structure:
 
