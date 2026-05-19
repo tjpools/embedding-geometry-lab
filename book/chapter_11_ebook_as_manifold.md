@@ -1,8 +1,6 @@
 \newpage
 \vspace*{3cm}
-\begin{center}
 # Chapter 11: The Ebook as Manifold
-\end{center}
 
 An ebook is often treated as a final container: a file exported from a finished manuscript and delivered to a reader. But for a project like this one, that view is too small. The ebook is not merely the afterlife of a print book. It is a system, a runtime—a living computational object.
 
@@ -68,7 +66,7 @@ The work is modular. It can be read in sequence, but it can also be entered thro
 
 Translation, in particular, reveals the manifold nature of the ebook. A translated edition is not simply the same text in another language. It is a transition map between conceptual coordinate systems.
 
-For example, a mathematical metaphor that works in English (“the spine of the argument”) may not translate directly to Chinese or German, where the concept of a ‘spine’ may evoke different anatomical or literary connotations. In translation, the metaphor might be adapted to a “thread” (线), “backbone” (Wirbelsäule), or even a structural image that fits cultural expectations, subtly shifting the navigational logic and the reader’s mental model.
+For example, a mathematical metaphor that works in English (“the spine of the argument”) may not translate directly to Chinese or German, where the concept of a ‘spine’ may evoke different anatomical or literary connotations. In translation, the metaphor might be adapted to a “thread” (the Chinese word "xian"), “backbone” (Wirbelsäule), or even a structural image that fits cultural expectations, subtly shifting the navigational logic and the reader’s mental model.
 
 That is why international circulation is never just a matter of file conversion. It is a matter of chart transition.
 

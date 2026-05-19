@@ -20,6 +20,7 @@ Jump between chapters as your curiosity leads you.
 Each chapter stands alone as a chart; together they form the atlas.
 
 
+
 **Canonical Chapter Order**
 
 This is the recommended reading order for the book’s main chapters:
@@ -38,6 +39,10 @@ This is the recommended reading order for the book’s main chapters:
 12. Chapter 12: Why This Book Matters — chapter_12_why_this_book_matters.md
 13. Chapter 13: Marvin Minsky: Architect of the Distributed Mind — chapter_13_minsky.md
 14. Chapter 14: The Proper Analysis — chapter_14_proper_analysis.md
+15. Chapter 15: EasterDate — A Machine Within a Machine — chapter_15_easterdate.md
+16. Chapter 16: Structure Becomes Object — chapter_16_structure_becomes_object.md
+17. Chapter 17: A Walkable Path Through a Larger Landscape — chapter_17_a_walkable_path_through_a_larger_landscape.md
+18. Chapter 18: Three Is the First Intelligent Number — chapter_18_three_is_the_first_intelligent_number.md
 
 **Use Chapter 12 as a Compass**  
 If you want the clearest statement of why the project exists, why it matters, and how the serious path of the book fits together, you can jump directly to [Chapter 12: Why This Book Matters](chapter_12_why_this_book_matters.md).  

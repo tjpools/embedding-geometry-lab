@@ -1,8 +1,6 @@
 \newpage
 \vspace*{3cm}
-\begin{center}
 # Chapter 9: The Meta Layer
-\end{center}
 
 Not all chapters appear in prose. Tools and Lineage are embodied in the repository itself. See Appendix: Ghost Chapters.
 
@@ -46,8 +44,8 @@ The Meta Layer is the atlas.
 ### The Geometry of Ideas
 
 Imagine the book as a smooth manifold M.
-Each chapter is a chart Uᵢ.
-Each transition between chapters is a map φᵢⱼ: Uᵢ → Uⱼ.
+Each chapter is a chart $U_i$.
+Each transition between chapters is a map $\varphi_{ij}: U_i \to U_j$.
 
 This is not poetic language.
 It is a literal description of how the book is built.
@@ -61,38 +59,37 @@ It is a literal description of how the book is built.
 - `chapter_07_dx_leibniz` → the differential structure
 - `chapter_08_stories` → the symbolic chart
 
-📐 Diagram 1 — The Book as a Differentiable Manifold
+Diagram 1 — The Book as a Differentiable Manifold
 Code
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                     THE BOOK AS A DIFFERENTIABLE MANIFOLD                  │
-│                         (Atlas, Charts, Transitions)                       │
-└──────────────────────────────────────────────────────────────────────────────┘
+
+/----------------------------------------------------------------------------\
+|                     THE BOOK AS A DIFFERENTIABLE MANIFOLD                  |
+|                         (Atlas, Charts, Transitions)                       |
+\----------------------------------------------------------------------------/
 
                           Global Manifold M
                       (The entire cognitive system)
                                   │
-                                  ▼
-                ┌──────────────────────────────────────┐
-                │            ATLAS {Uᵢ}                │
-                │   (Each chapter is a coordinate chart)│
-                └──────────────────────────────────────┘
+                                  v
+                /---------------- ATLAS {$U_i$} ----------------\
+                |   (Each chapter is a coordinate chart)     |
+                \--------------------------------------------/
 
-   U₁: Me (human coords)                 U₅: Lineage (curvature)
-   U₂: Machine (model coords)            U₆: Assembly Perch (architecture/runtime)
-   U₃: Us (overlap region)               U₇: dx (differential structure)
-   U₄: Tools (tangent space)             U₈: Stories (symbolic chart)
+  $U_1$: Me (human coords)                 $U_5$: Lineage (curvature)
+  $U_2$: Machine (model coords)            $U_6$: Assembly Perch (architecture/runtime)
+  $U_3$: Us (overlap region)               $U_7$: dx (differential structure)
+  $U_4$: Tools (tangent space)             $U_8$: Stories (symbolic chart)
 
                                   │
-                                  ▼
-                ┌──────────────────────────────────────┐
-                │        TRANSITION MAPS φᵢⱼ            │
-                │ (How the reader moves between charts) │
-                └──────────────────────────────────────┘
+                                  v
+                /------------- TRANSITION MAPS $\varphi_{ij}$ -------------\
+                | (How the reader moves between charts)        |
+                \----------------------------------------------/
 
-   φ₁₂: Human → Machine            φ₄₅: Tools → Lineage
-   φ₂₃: Machine → Us               φ₅₆: Lineage → Assembly Perch
-   φ₃₄: Us → Tools                 φ₆₇: Assembly Perch → dx
-                                   φ₇₈: dx → Stories
+  $\varphi_{12}$: Human $\to$ Machine            $\varphi_{45}$: Tools $\to$ Lineage
+  $\varphi_{23}$: Machine $\to$ Us               $\varphi_{56}$: Lineage $\to$ Assembly Perch
+  $\varphi_{34}$: Us $\to$ Tools                 $\varphi_{67}$: Assembly Perch $\to$ dx
+                        $\varphi_{78}$: dx $\to$ Stories
 
 Caption:  
 The book as a smooth manifold: chapters as charts, transitions as maps, coherence as curvature.
@@ -128,40 +125,42 @@ The Meta Layer shows you which ideas run with full access and which run sandboxe
 It teaches you how to call the system safely.
 
 🖥️ Diagram 2 — The Cognitive Kernel
-Code
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                           THE COGNITIVE KERNEL                             │
-│                     (Privilege Rings of the Book-System)                   │
-└──────────────────────────────────────────────────────────────────────────────┘
 
-                         ┌──────────────────────────┐
-                         │      RING 0 — KERNEL     │
-                         │ (Invariants: Me/Machine/Us)│
-                         └──────────────────────────┘
+Code
+/----------------------------------------------------------------------------\
+|                           THE COGNITIVE KERNEL                             |
+|                     (Privilege Rings of the Book-System)                   |
+\----------------------------------------------------------------------------/
+
+                         /--------------------------\
+                         |      RING 0 — KERNEL     |
+                         | (Invariants: Me/Machine/Us)|
+                         \--------------------------/
                                /          |          \
                               /           |           \
                              ▼            ▼            ▼
                         Me (human)   Machine (model)   Us (ABI)
 
-                         ┌──────────────────────────┐
-                         │       RING 1 — ISA       │
-                         │ (Tools, Lineage, dx)     │
-                         └──────────────────────────┘
+                         /--------------------------\
+                         |       RING 1 — ISA       |
+                         | (Tools, Lineage, dx)     |
+                         \--------------------------/
                                │          │          │
                                ▼          ▼          ▼
                             Tools      Lineage       dx
 
-                         ┌──────────────────────────┐
-                         │     RING 2 — USERLAND    │
-                         │ (Stories, narrative layer)│
-                         └──────────────────────────┘
+                         /--------------------------\
+                         |     RING 2 — USERLAND    |
+                         | (Stories, narrative layer)|
+                         \--------------------------/
                                       │
                                       ▼
                                    Stories
 
-                         ┌──────────────────────────┐n                         │      RING 3 — SHELL      │
-                         │ (HOW_TO_READ, sessions)  │
-                         └──────────────────────────┘
+                         /--------------------------\
+                         |      RING 3 — SHELL      |
+                         | (HOW_TO_READ, sessions)  |
+                         \--------------------------/
 
 Caption:  
 The privilege architecture of the book: invariants in Ring 0, tools in Ring 1, stories in Ring 2, interface in Ring 3.
@@ -187,51 +186,44 @@ Attention is selective relevance.
 The Meta Layer shows the reader the computational skeleton beneath the narrative.
 
 🧠 Diagram 3 — The Transformer as a Mirror of Human Reasoning
+
 Code
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                THE TRANSFORMER AS A MIRROR OF HUMAN REASONING              │
-│                   (Chapters as Layers in a Reasoning Stack)                │
-└──────────────────────────────────────────────────────────────────────────────┘
+/----------------------------------------------------------------------------\
+|                THE TRANSFORMER AS A MIRROR OF HUMAN REASONING              |
+|                   (Chapters as Layers in a Reasoning Stack)                |
+\----------------------------------------------------------------------------/
 
-                    ┌────────────────────────────────────┐
-                    │   LAYER 0 — EMBEDDING             │
-                    │   chapter_01_me                   │
-                    └────────────────────────────────────┘
+                    /---------------- LAYER 0 — EMBEDDING ---------------\
+                    |   chapter_01_me                                   |
+                    \----------------------------------------------------/
 
-                    ┌────────────────────────────────────┐
-                    │   LAYER 1 — MACHINE               │
-                    │   chapter_02_machine              │
-                    └────────────────────────────────────┘
+                    /---------------- LAYER 1 — MACHINE ----------------\
+                    |   chapter_02_machine                             |
+                    \--------------------------------------------------/
 
-                    ┌────────────────────────────────────┐
-                    │   LAYER 2 — ALIGNMENT             │
-                    │   chapter_03_us                   │
-                    └────────────────────────────────────┘
+                    /---------------- LAYER 2 — ALIGNMENT --------------\
+                    |   chapter_03_us                                  |
+                    \--------------------------------------------------/
 
-                    ┌────────────────────────────────────┐
-                    │   LAYER 3 — TOOLS                 │
-                    │   chapter_04_tools                │
-                    └────────────────────────────────────┘
+                    /---------------- LAYER 3 — TOOLS -----------------\
+                    |   chapter_04_tools                               |
+                    \--------------------------------------------------/
 
-                    ┌────────────────────────────────────┐
-                    │   LAYER 4 — STRUCTURE             │
-                    │   chapter_05_lineage              │
-                    └────────────────────────────────────┘
+                    /---------------- LAYER 4 — STRUCTURE --------------\
+                    |   chapter_05_lineage                              |
+                    \--------------------------------------------------/
 
-                    ┌────────────────────────────────────┐
-                    │   LAYER 5 — ASSEMBLY PERCH        │
-                    │   chapter_06_assembly_language_perch│
-                    └────────────────────────────────────┘
+                    /------------- LAYER 5 — ASSEMBLY PERCH -------------\
+                    |   chapter_06_assembly_language_perch               |
+                    \----------------------------------------------------/
 
-                    ┌────────────────────────────────────┐
-                    │   LAYER 6 — ANALYSIS              │
-                    │   chapter_07_dx_leibniz           │
-                    └────────────────────────────────────┘
+                    /---------------- LAYER 6 — ANALYSIS ----------------\
+                    |   chapter_07_dx_leibniz                            |
+                    \----------------------------------------------------/
 
-                    ┌────────────────────────────────────┐
-                    │   LAYER 7 — SYMBOLS               │
-                    │   chapter_08_stories              │
-                    └────────────────────────────────────┘
+                    /---------------- LAYER 7 — SYMBOLS -----------------\
+                    |   chapter_08_stories                               |
+                    \----------------------------------------------------/
 
 Caption:  
 The book as a transformer: embeddings, alignment, structure, analysis, and symbol grounding.
@@ -257,33 +249,38 @@ The filesystem view is the most concrete of the four coordinate systems.
 It is the one you can literally `cd` into.
 
 [Folder] Diagram 4 — The Filesystem as a Cognitive Map
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 Code
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                     THE FILESYSTEM AS A COGNITIVE MAP                      │
-│                 (Directory Structure as Externalized Thought)              │
-└──────────────────────────────────────────────────────────────────────────────┘
+/----------------------------------------------------------------------------\
+|                     THE FILESYSTEM AS A COGNITIVE MAP                      |
+|                 (Directory Structure as Externalized Thought)              |
+\----------------------------------------------------------------------------/
+
 
 book/
-│
-├── chapter_XX.md              → Conceptual modules (kernel functions)
-│
-├── narrative_manifold/        → Symbolic memory (experiential registers)
-│     ├── orange_house.md
-│     ├── grandmother.md
-│     └── cockpit.md
-│
-├── analysis_throughput/       → Introspection (profilers, telemetry)
-│     ├── chapter_heatmap.py
-│     ├── chapter_metrics_suite.py
-│     └── COHERENCE_TRACKER.md
-│
-├── sessions/                  → Runtime logs (REPL traces)
-│     └── session_analysis_*.md
-│
-├── HOW_TO_READ_THIS_BOOK.md   → ABI contract for humans
-├── book_structure.md          → Linker map / memory layout
-├── Postscript.md              → Shutdown sequence
-└── TinyLlama (external)       → The probe inside the system
+|
+|-- chapter_XX.md              -> Conceptual modules (kernel functions)
+|
+|-- narrative_manifold/        -> Symbolic memory (experiential registers)
+|   |-- orange_house.md
+|   |-- grandmother.md
+|   `-- cockpit.md
+|
+|-- analysis_throughput/       -> Introspection (profilers, telemetry)
+|   |-- chapter_heatmap.py
+|   |-- chapter_metrics_suite.py
+|   `-- COHERENCE_TRACKER.md
+|
+|-- sessions/                  -> Runtime logs (REPL traces)
+|   `-- session_analysis_*.md
+|
+|-- HOW_TO_READ_THIS_BOOK.md   -> ABI contract for humans
+|-- book_structure.md          -> Linker map / memory layout
+|-- Postscript.md              -> Shutdown sequence
+`-- TinyLlama (external)       -> The probe inside the system
 
 Caption:  
 The book’s directory tree as an externalized cognitive architecture.

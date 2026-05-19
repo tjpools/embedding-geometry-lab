@@ -1,9 +1,7 @@
 
 \newpage
 \vspace*{3cm}
-\begin{center}
 # Chapter 4: The Ages of Tools — From Ruler to Transformer
-\end{center}
 
 *Prefatory Note:*  
 These next two chapters were written late. They are not where the thesis of this book first emerged, but where it became legible in history: once as a lineage of tools, and once as a lineage of minds. They are retrospective chapters—the point at which the book recognizes its own ancestry and restates its argument in civilizational terms.

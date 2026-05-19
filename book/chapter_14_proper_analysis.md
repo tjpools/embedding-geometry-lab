@@ -1,12 +1,10 @@
 \newpage
 \vspace*{3cm}
-\begin{center}
 # Chapter 14: The Proper Analysis
-\end{center}
 
 The question *What is AI?* has followed us through every chapter, but only indirectly. We have not answered it by definition, nor by analogy, nor by appeal to popular narratives. Instead, we have been constructing the space in which the question can be asked well.
 
-Across these pages, we traced a lineage of tools: from physical implements to analytic notation, from algebraic structure to geometric invariants, from the infinitesimal 𝑑𝑥 to the Jacobian, from discrete symbolic operations to high-dimensional embeddings.
+Across these pages, we traced a lineage of tools: from physical implements to analytic notation, from algebraic structure to geometric invariants, from the infinitesimal $dx$ to the Jacobian, from discrete symbolic operations to high-dimensional embeddings.
 
 The First Age gave us tools that extended the hand. The Second Age gave us tools that extended the mind. The Third Age gives us tools that extend the space in which reasoning occurs.
 
@@ -52,13 +50,13 @@ From this perspective, humans are adaptive, biased, chart-switching interpreters
 
 That flexibility is not ornamental. It is survival infrastructure. Minds compress experience into sparse but actionable forms because no organism can survive by carrying the whole manifold at once.
 
-My study of the symmetric group 𝑆 4 in Galois Theory made something unexpectedly clear: a system is often grasped only by constructing its internal relations. Working through the Cayley table, I came to see that understanding a group is not a matter of memorizing facts about it. It is a matter of building the structure in which its operations become legible.
+My study of the symmetric group $S_4$ in Galois Theory made something unexpectedly clear: a system is often grasped only by constructing its internal relations. Working through the Cayley table, I came to see that understanding a group is not a matter of memorizing facts about it. It is a matter of building the structure in which its operations become legible.
 
 This felt uncannily like assembly language. Assembly does not explain a machine; it reveals it. One comes to understand an architecture by constructing its operations, tracing the flow of control, and feeling the invariants that hold the whole thing together.
 
 Transformers belong to this same lineage. They are not illuminated by slogans or surface descriptions, but by reconstructing the web of transformations, invariants, and biases through which they operate.
 
-The lesson is the same across all three domains: to understand a system of transformations, one must rebuild its grammar. 𝑆 4 taught me this. Assembly taught me this. Transformers confirm it.
+The lesson is the same across all three domains: to understand a system of transformations, one must rebuild its grammar. $S_4$ taught me this. Assembly taught me this. Transformers confirm it.
 
 Galois Theory, assembly language, and transformers each furnish a natural metric of complexity. Not because they measure the same thing, but because each reveals the internal architecture of a system through the relations one must traverse in order to understand it.
 
@@ -74,7 +72,7 @@ A simple computational example makes this vivid. When two floating-point numbers
 
 Recorde’s equal sign was engineered to express a finished relation. Two expressions collapse into one identity. In that sense, it is a closure glyph. Recorde’s own justification makes this explicit: no two things can be more equal than parallel lines.
 
-Leibniz’s 𝑑𝑥 belongs to a different grammar. It does not close an identity; it marks variation within a coordinate process. In an expression such as 𝑑𝑦 = 𝑓′(𝑥) 𝑑𝑥, the sign does not simply equate finished wholes. It mediates a relation of local change.
+Leibniz’s $dx$ belongs to a different grammar. It does not close an identity; it marks variation within a coordinate process. In an expression such as $dy = f'(x) dx$, the sign does not simply equate finished wholes. It mediates a relation of local change.
 
 This marks a genuine structural divide. Recorde’s “=” presupposes a world sufficiently stabilized for identities to be asserted within it. Leibniz’s differential notation helps construct the very local chart in which such stabilized relations can later appear.
 

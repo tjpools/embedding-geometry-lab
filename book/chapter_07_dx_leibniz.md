@@ -1,8 +1,6 @@
 \newpage
 \vspace*{3cm}
-\begin{center}
 # Chapter 7: Leibniz, Differentials, and the Local Shape of Meaning
-\end{center}
 ## Crossing Over: From Machine to Mathematics
 
 Before embeddings became a story about local perturbations, calculus itself had to become a story about lawful change. That shift did not happen all at once. It emerged from a tension within equation space itself.
@@ -17,6 +15,9 @@ Consider the equation
 This is not a hard equation to state, but it resists the kinds of neat symbolic manipulations that characterize elementary algebra. One can estimate the solution, graph the expression, or use iteration to approximate where the balance occurs. But the important point is that the equation already teaches a lesson: not every problem in equation space yields gracefully to exact symbolic closure.
  
 $\nabla f(x)=\left(\frac{\partial f}{\partial x_1},\dots,\frac{\partial f}{\partial x_n}\right)$ 
+$$
+\nabla f(x)=\left(\frac{\partial f}{\partial x_1},\dots,\frac{\partial f}{\partial x_n}\right)
+$$
  
 That tension deepens if we broaden the historical lens. For centuries, algebra pursued solvability: which equations admit explicit solutions, and by what operations? The eventual story of the quintic sharpened the point dramatically. There are deep structural reasons why general fifth-degree equations do not submit to solution by radicals. The quintic therefore marks a kind of boundary within classical solvability space. Algebra could classify, transform, and illuminate structure, but not always deliver a closed symbolic answer.
 
@@ -127,7 +128,9 @@ Near a point \(x\), doubling the current value of \(x\) tells us the local sensi
 If \(x=3\), then a tiny increase \(dx\) produces an approximate output increase
 
  
+$$
 dy \approx 6\,dx.
+$$
  
 
 The square function is not globally linear, but it is locally linear to first order.
@@ -138,22 +141,26 @@ That phrase—**locally linear to first order**—is the real content of differe
 
 Leibniz’s notation proved especially durable because it makes structural relationships visible. The expression
 
- 
+$$
 \frac{dy}{dx}
+$$
  
 
 looks like a ratio, and while one must treat that carefully, the notation encourages us to think in terms of dependence and transformation. It says: *how much does y change relative to x?*
 
 This way of writing derivatives becomes even more powerful in multivariable settings. If a function depends on many coordinates, we can ask how the output responds to each coordinate separately, producing partial derivatives:
 
- 
+$$
 \frac{\partial f}{\partial x_1},\quad \frac{\partial f}{\partial x_2},\quad \dots,\quad \frac{\partial f}{\partial x_n}.
- 
+$$ 
 
 These assemble into the gradient
 
  
 $\nabla f(x)=\left(\frac{\partial f}{\partial x_1},\dots,\frac{\partial f}{\partial x_n}\right)$ .
+$$
+\nabla f(x)=\left(\frac{\partial f}{\partial x_1},\dots,\frac{\partial f}{\partial x_n}\right)
+$$
  
 
 Then the differential becomes
@@ -170,12 +177,7 @@ A point in embedding space is already multivariate. A local move is naturally a 
 
 ## 7.6 Differential thinking in embedding space
 
-Let \(x\in\mathbb{R}^n\) be an embedding, and let
-
- 
-f:\mathbb{R}^n\to\mathbb{R}
- 
-
+Let $x \in \mathbb{R}^n$ be an embedding, and let $f:\mathbb{R}^n\to\mathbb{R}$
 measure something we care about. For example, \(f(x)\) might represent:
 
 - the score assigned to a label,
@@ -186,15 +188,15 @@ measure something we care about. For example, \(f(x)\) might represent:
 
 If we perturb the embedding by a small vector \(h\), then
 
- 
+$$
 f(x+h) \approx f(x) + \nabla f(x)\cdot h.
- 
+$$ 
 
 In Leibniz-style notation, if \(dx=h\), then
 
- 
+$$ 
 df = \nabla f(x)\cdot dx.
- 
+$$ 
 
 This tells us several things immediately.
 
@@ -222,15 +224,15 @@ Leibniz did not speak in the language of manifolds as we do now, but his notatio
 
 One of the most important consequences of differential notation is the chain rule. If
 
- 
+$$
 y=f(u), \qquad u=g(x),
- 
+$$ 
 
 then
 
- 
+$$ 
 \frac{dy}{dx}=\frac{dy}{du}\frac{du}{dx}.
- 
+$$ 
 
 This looks almost mechanical in Leibniz notation, and that is part of its power. It expresses the fact that local change propagates through composition.
 
@@ -246,28 +248,26 @@ In representation learning, this means that local geometric changes at one layer
 
 So far we have let a vector input produce a scalar output. But often we have a vector-valued transformation
 
- 
+$$ 
 F:\mathbb{R}^n \to \mathbb{R}^m.
- 
+$$ 
 
 This is the natural setting for neural layers and learned feature maps.
 
 The derivative of such a map is the **Jacobian matrix**:
 
- 
+$$ 
 J_F(x)=
 \begin{bmatrix}
 \frac{\partial F_1}{\partial x_1} & \cdots & \frac{\partial F_1}{\partial x_n}\\
 \vdots & \ddots & \vdots\\
 \frac{\partial F_m}{\partial x_1} & \cdots & \frac{\partial F_m}{\partial x_n}
 \end{bmatrix}
- 
+$$
 
 Then the local change in output is approximated by
 
- 
 dF = J_F(x)\,dx.
- 
 
 This is the multivariable generalization of \(dy=f'(x)dx\).
 
@@ -304,15 +304,15 @@ It is important to distinguish the differential from an ordinary finite change.
 
 If we move from \(x\) to \(x+h\), the exact change is
 
- 
+$$ 
 \Delta f = f(x+h)-f(x).
- 
+$$ 
 
 The differential, by contrast, is the linear approximation
 
- 
+$$
 df = \nabla f(x)\cdot h.
- 
+$$ 
 
 These agree closely when \(h\) is small and the function is smooth. But they are not identical in general. The difference between them reflects curvature and higher-order effects.
 
@@ -361,9 +361,9 @@ This perspective makes the differential a bridge between pure geometry and inter
 
 Suppose that at a point \(x\), several interpretable scalar functions are defined:
 
- 
+$$ 
 f_1(x), f_2(x), \dots, f_k(x).
- 
+$$
 
 Each has a gradient, and each gradient identifies a local direction of maximal increase for that feature. Together these gradients define a local system of semantic sensitivities.
 
@@ -397,13 +397,13 @@ Leibniz’s differential notation gives us a powerful way to describe local chan
 
 For a scalar function,
 
- 
+$$ 
 df = \nabla f(x)\cdot dx,
- 
+$$ 
 
 and for a vector-valued map,
 
- 
+
 dF = J_F(x)\,dx.
  
 

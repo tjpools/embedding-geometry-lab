@@ -1,8 +1,6 @@
 \newpage
 \vspace*{3cm}
-\begin{center}
 # Chapter 16: Structure Becomes Object
-\end{center}
 
 ## 16.1 The Shift
 

@@ -1,8 +1,6 @@
 \newpage
 \vspace*{3cm}
-\begin{center}
 # Chapter 10: The Cockpit — Where Local Linearization Becomes Survival
-\end{center}
 
 After the Meta Layer, we can see the architecture of the system more clearly. But seeing structure is not the same as navigating it. A system may be intelligible in outline and still unforgiving in operation.
 
