@@ -1,3 +1,6 @@
+## 3.x Narrative vs Structure (A Forward Reference)
+
+Narrative obscures machinery because narrative must flatten curvature. Collaboration reveals machinery because it forces structure to remain visible. Later, in the EasterDate chapter, we will see this directly: a human and a machine jointly reconstructing a centuries-old algorithm into a walkable state machine. But for now, it is enough to understand that meaning emerges not from the stories we tell about machines, but from the structures we build with them.
 
 # Chapter 3: Us — The Joint Manifold
 # Chapter 3: Us — The Joint Manifold
