@@ -249,10 +249,6 @@ The filesystem view is the most concrete of the four coordinate systems.
 It is the one you can literally `cd` into.
 
 [Folder] Diagram 4 — The Filesystem as a Cognitive Map
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 Code
 /----------------------------------------------------------------------------\
 |                     THE FILESYSTEM AS A COGNITIVE MAP                      |
