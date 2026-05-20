@@ -1,4 +1,4 @@
-# Chapter 6: The Assembly Programmer’s Manifold
+
 
 **The assembly language programmer is the man-and-machine reality. The microprocessor holds the language of constructibility. No reasoning involved.**
 
@@ -6,9 +6,7 @@
 This chapter opens with a contrast: C++ is 'close' to the machine, with pointers and explicit memory management, but it still mediates through abstractions. Python, by contrast, obscures the machine almost entirely, wrapping computation in its own interpretive machinery. The assembly language practitioner is different—not because of nostalgia or technical bravado, but because they are directly engaged with the machinery itself. Here, constructibility is not a metaphor. It is the only reality that matters. For a concrete example of assembly in a modern Linux environment, see [github.com/tjpools/hello_fedora/](https://github.com/tjpools/hello_fedora/).
 
 
-\newpage
-\vspace*{3cm}
-# Chapter 6: The Assembly Programmer’s Manifold
+
 
 The assembly-language programmer occupies a distinctive position in the history of computation.  
 Not because assembly is primitive, nor because proximity to the machine confers mystique, but because assembly exposes the lawful boundary where symbolic software must submit to hardware reality.

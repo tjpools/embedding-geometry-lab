@@ -1,3 +1,4 @@
+We understood early that true understanding comes from building the infrastructure itself. Ben Eater showed this with circuitry; EasterDate showed it with assembly; this book shows it through collaboration.
 EasterDate made one lesson unusually clear: a mechanism can become intelligible only when its operations become visible as structure. The program did not merely produce an answer; it exposed a grammar of transitions, frames, registers, and transformations that could be walked, reconstructed, and understood. 
 
 This is the moment Chapter 3 anticipated: the machinery made visible, the narrative stripped away, the structure revealed in full.

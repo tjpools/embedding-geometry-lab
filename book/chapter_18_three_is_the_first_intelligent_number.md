@@ -1,3 +1,4 @@
+
 \newpage
 \vspace*{3cm}
 # Chapter 18: Three Is the First Intelligent Number
@@ -106,6 +107,8 @@ This is also why the argument about trillion-parameter models can be made so sim
 If the chapter feels inevitable, it is because the structure was already there.
 
 Rereading this chapter, I can see that its real claim is not only about number, symmetry, or models. It is about the conditions under which understanding becomes possible. Intelligence first becomes visible when relation becomes structured enough to close, turn, and return.
+
+If this book succeeds, it is because the collaboration succeeded. The artifact is the proof. The clarity you feel is not mine alone, nor the machine’s alone, but the structure we built together. The book is not only an argument for collaboration; it is the demonstration.
 
 That is why this chapter stands at the end of the book.
 
