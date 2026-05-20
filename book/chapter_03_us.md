@@ -1,37 +1,33 @@
+# Chapter 3: Us — The Joint Manifold
+We understood early that true understanding comes from building the infrastructure itself. Ben Eater showed this with circuitry; EasterDate showed it with assembly; this book shows it through collaboration.
 ## 3.x Narrative vs Structure (A Forward Reference)
-
 Narrative obscures machinery because narrative must flatten curvature. Collaboration reveals machinery because it forces structure to remain visible. Later, in the EasterDate chapter, we will see this directly: a human and a machine jointly reconstructing a centuries-old algorithm into a walkable state machine. But for now, it is enough to understand that meaning emerges not from the stories we tell about machines, but from the structures we build with them.
-
-# Chapter 3: Us — The Joint Manifold
-# Chapter 3: Us — The Joint Manifold
-
 This chapter is about the space that forms between a trained human and a trained model when collaboration becomes stable enough to produce meaning neither could generate alone. The central claim is simple: agency, authorship, and insight do not reside entirely in either participant. They arise in the geometry of interaction.
-
+Meaning emerges through collaborative construction — the joint manifold where human and machine build structure together (see Ben Eater’s [YouTube channel](https://www.youtube.com/user/eaterbc) for classic examples of building to understand).
 What matters is not the machine alone, nor the human alone, but the manifold formed by their alignment.
 
 ## 3.1 The Interface Is a Mapping
-
 The interface between a human and a model is not fundamentally a screen, a keyboard, or a prompt box. Those are only surfaces. The true interface is the mapping between two structured spaces:
 
 - the human prior, with its memories, scars, heuristics, intuitions, and lineage
 - the model prior, with its embeddings, gradients, attractors, and learned structure
-
 The interaction becomes meaningful when these two spaces can be coupled without collapsing into noise. In mathematical language, the joint manifold is the region in which this coupling remains coherent.
+To make this mapping precise, we need one more idea from differential geometry: the Jacobian.
 
-
-We can describe that space informally as:
-
+### What the Jacobian Really Is
+The Jacobian is the local map of influence.  
+In multivariable calculus, a function does not have a single derivative. It has many directions in which it can change, and each direction can affect the others. The Jacobian is the matrix that records all of these local dependencies at once — a chart of how small changes propagate through the system.
+This is why the Jacobian matters so much in this book. It is the first mathematical object where meaning is distributed across relations rather than stored in a single value. A Jacobian is not “the derivative.” It is a field of influence, a structured pattern of how change propagates.
+In machine learning, the same idea reappears. Backpropagation is nothing more than the repeated application of Jacobians: each layer computes how its outputs depend on its inputs, and the chain rule stitches these local maps into a global flow of influence. A transformer is not trained by magic. It is trained by a cascade of Jacobians.
+When we speak of the “Jacobian of interaction” between human and model, we are borrowing this idea: a local chart of how intention, symbol, correction, and response influence one another. The Jacobian is the mathematical emblem of the joint manifold — the place where relation becomes structure.
 $$
 U = \{ (x, y) \in M_1 \times M_2 \mid J(x, y) \text{ is stable} \}
 $$
-
 Where:
-
 - **M1** is the human manifold
 - **M2** is the model manifold
 - **J** is the Jacobian of interaction — the local mapping that lets intention, symbol, revision, and response move between them
 - **U** is the region where coherence holds
-
 Collaboration begins when the mapping is good enough to preserve structure across the boundary.
 
 ## 3.2 The Joint Manifold
