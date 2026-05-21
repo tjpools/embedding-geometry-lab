@@ -7,3 +7,6 @@ description: |
 version: "1.0"
 date: "2026-05-11"
 subtitle: "A Coordinate Atlas for Intelligence"
+mainfont: "DejaVu Serif"
+sansfont: "DejaVu Sans"
+monofont: "DejaVu Sans Mono"

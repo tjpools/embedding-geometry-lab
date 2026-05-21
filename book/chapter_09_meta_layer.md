@@ -124,7 +124,7 @@ It is the actual privilege structure of the book.
 The Meta Layer shows you which ideas run with full access and which run sandboxed.
 It teaches you how to call the system safely.
 
-🖥️ Diagram 2 — The Cognitive Kernel
+Diagram 2 — The Cognitive Kernel
 
 Code
 /----------------------------------------------------------------------------\
@@ -185,7 +185,7 @@ Attention is selective relevance.
 
 The Meta Layer shows the reader the computational skeleton beneath the narrative.
 
-🧠 Diagram 3 — The Transformer as a Mirror of Human Reasoning
+Diagram 3 — The Transformer as a Mirror of Human Reasoning
 
 Code
 /----------------------------------------------------------------------------\
