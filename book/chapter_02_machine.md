@@ -35,6 +35,8 @@ These representations are not meanings in the human sense; they are high-dimensi
 
 It is the first widely successful architecture whose structure aligns closely with the relational geometry of language.
 
+Mechanically, the pattern is simple enough to name. Tokens are embedded into vectors. Attention compares each token with the others to decide what matters in context. Feedforward layers reshape those contextualized vectors. Residual connections preserve continuity from one layer to the next. Repeating that cycle at scale produces a system that can continually re-express a sequence in richer relational coordinates.
+
 
 When the transformer architecture is trained at scale, something new emerges: a manifold—a learned geometry of human language. This is the large language model.
 

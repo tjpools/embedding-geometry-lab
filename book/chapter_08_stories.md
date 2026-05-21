@@ -13,6 +13,8 @@ They are local coordinate systems in the semantic space humans inhabit.
 Each story reveals a different mode of human meaning‑making — and, by contrast, exposes how machines process symbols differently.
 Together, they form the semantic atlas of the human mind.
 
+They also do a structural job for the book. Chapters 1 through 7 established the language of operators, tools, lineages, and differentials. This chapter lets the reader feel those abstractions at human scale. These stories are not pauses in the argument. They are local charts through which the larger manifold becomes memorable.
+
 1. **Orange House — Meaning as Architecture‑Dependent Glyph**
    
 	You write two words on a whiteboard:
@@ -118,6 +120,8 @@ Together, they form the semantic atlas of the human mind.
    
 	This is the fourth chart:
 	meaning as derivative — the geometry of change.
+
+Taken together, these stories show that the manifold is not only a technical object described from above. It is also the lived medium in which humans recognize, stabilize, and revise meaning. That is why they belong here. They turn the book's structural vocabulary into something a reader can inhabit before the analysis becomes more formal again.
 
 B — Meta‑Analysis: The Four Modes of Human Meaning
 ---

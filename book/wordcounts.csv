@@ -1,0 +1,19 @@
+chapter,title,path,word_count,status
+1,Me,book/chapter_01_me.md,819,ok
+2,Machine,book/chapter_02_machine.md,809,ok
+3,Us,book/chapter_03_us.md,2058,ok
+4,Tools,book/chapter_04_tools.md,1400,ok
+5,Lineage,book/chapter_05_lineage.md,1428,ok
+6,Assembly Programmer’s Manifold,book/chapter_06_assembly_programmers_manifold.md,1956,ok
+7,Leibniz/dx,book/chapter_07_dx_leibniz.md,4380,ok
+8,Stories,book/chapter_08_stories.md,1022,ok
+9,Meta Layer,book/chapter_09_meta_layer.md,1460,ok
+10,Cockpit,book/chapter_10_cockpit.md,1510,ok
+11,Ebook as Manifold,book/chapter_11_ebook_as_manifold.md,1910,ok
+12,Why This Book Matters,book/chapter_12_why_this_book_matters.md,1187,ok
+13,Minsky,book/chapter_13_minsky.md,1034,ok
+14,Proper Analysis,book/chapter_14_proper_analysis.md,998,ok
+15,EasterDate,book/chapter_15_easterdate.md,1086,ok
+16,Structure Becomes Object,book/chapter_16_structure_becomes_object.md,1878,ok
+17,Walkable Path,book/chapter_17_a_walkable_path_through_a_larger_landscape.md,1334,ok
+18,Three Is the First Intelligent Number,book/chapter_18_three_is_the_first_intelligent_number.md,1763,ok
