@@ -1,6 +1,5 @@
 
 # Chapter 2: Machine
-# Chapter 2: Machine
 
 
 Before we can talk about the machine we use today, we need to take the correct stance toward it. Not the narrative stance—the one found in headlines, product announcements, and marketing copy. That stance treats AI as a feature, a purchase, a novelty. It collapses a long lineage into a gadget.

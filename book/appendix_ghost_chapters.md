@@ -2,7 +2,7 @@
 
 \newpage
 \vspace*{2cm}
-\noindent\textbf{\large Appendix: The Distributed Chapters — Tools and Lineage in Two Forms}
+# Appendix B: The Distributed Chapters — Tools and Lineage in Two Forms
 
 Chapters 4 and 5 are not missing. They exist in two forms: as canonical prose in the ebook, and as living structure in the repository.
 

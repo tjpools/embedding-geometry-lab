@@ -1,4 +1,7 @@
 
+\newpage
+\vspace*{3cm}
+# Chapter 6: The Assembly Programmer’s Manifold
 
 **The assembly language programmer is the man-and-machine reality. The microprocessor holds the language of constructibility. No reasoning involved.**
 

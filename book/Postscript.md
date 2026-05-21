@@ -1,9 +1,7 @@
 
 \newpage
 \vspace*{4cm}
-\begin{center}
-{\large\textbf{Postscript — What This Book Really Is}}
-\end{center}
+# Postscript: What This Book Really Is
 
 This book began as a private question.
 
