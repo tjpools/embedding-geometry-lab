@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Build EPUB from canonical TOC and metadata
 set -e
 cd "$(dirname "$0")"
