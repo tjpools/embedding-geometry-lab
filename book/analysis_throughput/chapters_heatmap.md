@@ -1,21 +1,22 @@
-| Chapter | Word Count | % of Total | Heatmap |
-|------------------------|------------|------------|---------|
-| chapter_01_me          |        808 |        3.0% | █       |
-| chapter_02_machine     |        731 |        2.7% | █       |
-| chapter_03_us          |       1739 |        6.5% | ███     |
-| chapter_04_tools       |       1400 |        5.3% | ██      |
-| chapter_05_lineage     |       1439 |        5.4% | ██      |
-| chapter_06_assembly_programmers_manifold |       1899 |        7.1% | ███     |
-| chapter_07_dx_leibniz  |       3754 |       14.1% | ██████  |
-| chapter_08_stories     |        663 |        2.5% | █       |
-| chapter_09_meta_layer  |       1699 |        6.4% | ███     |
-| chapter_10_cockpit     |       1513 |        5.7% | ██      |
-| chapter_11_ebook_as_manifold |       1833 |        6.9% | ███     |
-| chapter_12_why_this_book_matters |       1862 |        7.0% | ███     |
-| chapter_13_minsky      |        778 |        2.9% | █       |
-| chapter_14_proper_analysis |       1996 |        7.5% | ███     |
-| chapter_15_easterdate  |       1289 |        4.8% | ██      |
-| chapter_16_structure_becomes_object |       1880 |        7.1% | ███     |
-| chapter_17_a_walkable_path_through_a_larger_landscape |       1332 |        5.0% | ██      |
+| Chapter | Title | Word Count | % of Total | Heatmap |
+|---------|-------|-----------:|-----------:|---------|
+| Ch 1 | Me | 819 | 2.9% | █      |
+| Ch 2 | Machine | 806 | 2.9% | █      |
+| Ch 3 | Us | 2058 | 7.3% | ███    |
+| Ch 4 | Tools | 1400 | 5.0% | ██     |
+| Ch 5 | Lineage | 1428 | 5.1% | ██     |
+| Ch 6 | Assembly Programmer’s Manifold | 1965 | 7.0% | ███    |
+| Ch 7 | Leibniz/dx | 4380 | 15.6% | ██████ |
+| Ch 8 | Stories | 1022 | 3.6% | █      |
+| Ch 9 | Meta Layer | 1460 | 5.2% | ██     |
+| Ch 10 | Cockpit | 1510 | 5.4% | ██     |
+| Ch 11 | Ebook as Manifold | 1910 | 6.8% | ███    |
+| Ch 12 | Why This Book Matters | 1187 | 4.2% | ██     |
+| Ch 13 | Minsky | 1034 | 3.7% | █      |
+| Ch 14 | Proper Analysis | 998 | 3.6% | █      |
+| Ch 15 | EasterDate | 1086 | 3.9% | █      |
+| Ch 16 | Structure Becomes Object | 1878 | 6.7% | ███    |
+| Ch 17 | Walkable Path | 1334 | 4.8% | ██     |
+| Ch 18 | Three Is the First Intelligent Number | 1763 | 6.3% | ██     |
 
-Total words: 26615
+Total words: 28,038

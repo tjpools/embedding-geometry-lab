@@ -1,58 +1,65 @@
 
-import os
-import sys
+import csv
+from pathlib import Path
+
 import matplotlib.pyplot as plt
 import numpy as np
 
-def count_words(filename):
-    with open(filename, 'r', encoding='utf-8') as f:
-        text = f.read()
-    # Count words by splitting on whitespace
-    return len(text.split())
 
-if __name__ == "__main__":
-    # Accept chapter files as command-line arguments
-    chapter_files = sys.argv[1:]
-    chapters = []
-    for f in chapter_files:
-        label = os.path.splitext(os.path.basename(f))[0]
-        wc = count_words(f)
-        chapters.append((label, wc))
+ROOT_DIR = Path(__file__).resolve().parents[2]
+WORDCOUNTS_CSV = ROOT_DIR / "book" / "wordcounts.csv"
+OUTPUT_MD = ROOT_DIR / "book" / "analysis_throughput" / "chapters_heatmap.md"
+OUTPUT_IMG = ROOT_DIR / "book" / "analysis_throughput" / "chapter_heatmap.png"
 
-    labels = [c[0] for c in chapters]
-    counts = np.array([c[1] for c in chapters])
+
+def load_wordcounts():
+    with WORDCOUNTS_CSV.open(newline="", encoding="utf-8") as handle:
+        rows = list(csv.DictReader(handle))
+    return [row for row in rows if row.get("status") == "ok"]
+
+
+def make_bar(value: float, max_value: float, width: int = 6) -> str:
+    if max_value <= 0:
+        return ""
+    filled = max(1, round((value / max_value) * width))
+    return "█" * filled
+
+
+def main():
+    rows = load_wordcounts()
+    labels = [f"Ch {row['chapter']}" for row in rows]
+    counts = np.array([int(row["word_count"]) for row in rows])
+    titles = [row["title"] for row in rows]
     total = counts.sum()
     percentages = counts / total * 100 if total > 0 else np.zeros_like(counts)
 
-    # Generate heatmap
-    fig, ax = plt.subplots(figsize=(max(8, len(labels)), 4))
+    fig, ax = plt.subplots(figsize=(max(10, len(labels) * 0.7), 4))
     heat = ax.imshow([percentages], cmap="YlOrRd", aspect="auto")
-
     ax.set_yticks([])
     ax.set_xticks(np.arange(len(labels)))
     ax.set_xticklabels(labels, rotation=45, ha="right")
 
-    for i, pct in enumerate(percentages):
-        ax.text(i, 0, f"{int(counts[i])}\n{pct:.1f}%", va="center", ha="center", color="black", fontsize=10)
+    for index, pct in enumerate(percentages):
+        ax.text(index, 0, f"{counts[index]}\n{pct:.1f}%", va="center", ha="center", color="black", fontsize=9)
 
-    plt.title("Chapter Synthesis & Coherence Heatmap")
+    plt.title("Chapter Word Count Heatmap")
     plt.colorbar(heat, orientation="vertical", label="Relative Density (%)")
     plt.tight_layout()
-    plt.savefig("chapter_heatmap.png")
-    plt.show()
+    plt.savefig(OUTPUT_IMG)
+    plt.close()
 
-    # Write markdown table
+    max_pct = float(percentages.max()) if len(percentages) > 0 else 1.0
     md_lines = [
-        "| Chapter | Word Count | % of Total | Heatmap |",
-        "|------------------------|------------|------------|---------|"
+        "| Chapter | Title | Word Count | % of Total | Heatmap |",
+        "|---------|-------|-----------:|-----------:|---------|",
     ]
-    # Compute heatmap bar
-    max_pct = percentages.max() if len(percentages) > 0 else 1
-    for label, count, pct in zip(labels, counts, percentages):
-        bar = "█" * int(round(6 * pct / max_pct)) if max_pct > 0 else ""
-        md_lines.append(f"| {label:<22} | {count:10} | {pct:10.1f}% | {bar:<7} |")
+    for label, title, count, pct in zip(labels, titles, counts, percentages):
+        md_lines.append(f"| {label} | {title} | {count} | {pct:.1f}% | {make_bar(float(pct), max_pct):<6} |")
     md_lines.append("")
-    md_lines.append(f"Total words: {total}")
+    md_lines.append(f"Total words: {int(total):,}")
 
-    with open("book/analysis_throughput/chapters_heatmap.md", "w", encoding="utf-8") as f:
-        f.write("\n".join(md_lines))
+    OUTPUT_MD.write_text("\n".join(md_lines) + "\n", encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()
