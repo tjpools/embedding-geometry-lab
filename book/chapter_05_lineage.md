@@ -85,6 +85,10 @@ It inherits the work of minds who formalized proof, compressed calculation, exte
 
 That is why the machine should not be narrated as magic. It is inheritance made operational.
 
+Seen in a longer frame, this inheritance includes far more than what the present calls AI. The telescope extended the visual manifold. The slide rule extended multiplicative reasoning. The ruler externalized linear measure. The assembler extended symbolic expression into executable form. The linker extended modular composition into a unified program. These are not unrelated conveniences. They are intelligence overlays: tools that let the human mind operate in regions it could not stably inhabit unaided.
+
+This is why tool understanding matters so much. One's expressive power is bounded, in part, by the machinery one can see. A programmer who understands the assembler and linker sees more of what software really is. An engineer who understands numerical representation sees more of what a model is really doing. The transformer belongs in this same continuity. It is not a break with the old lineage of tools, but one of the newest folds in it: a mechanism that extends human work into the semantic domain while still resting on arithmetic, hardware, notation, and accumulated craft.
+
 ## 10. The Arc of Lineage
 
 Systems do not arrive from nowhere. They descend from accumulated symbolic, geometric, logical, computational, and social invention. Thought passes from person to person, discipline to discipline, tool to tool, until what once seemed impossible becomes ordinary.

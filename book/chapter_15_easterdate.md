@@ -21,7 +21,25 @@ The question appears simple. But historically, it was never just a matter of ret
 
 EasterDate was the first time I walked through that doorway—and found a world on the other side.
 
-## 15.2 Lookup Table or Algorithm
+## 15.2 EasterDate as a Computational Object
+
+To stabilize the argument, EasterDate needs a precise definition. It is not a timestamp waiting to be looked up. It is a rule-generated object. For a given year $Y$, under calendar system $S$ and computus procedure $C$, EasterDate$(Y, S, C)$ is the date produced by applying that lawful structure to that year. The surface is simple; the object is not.
+
+It carries several domains at once:
+
+- mathematics, because the result depends on modular arithmetic, periodicity, and partition
+- astronomy, because the rule tracks an ecclesiastical approximation to solar and lunar cycles
+- history, because calendar reform and church authority constrain the acceptable result
+- practical human life, because the output coordinates ritual, planning, and civil time
+- machine execution, because the procedure only became fully legible in this project when written as explicit operations over registers, memory, and calling conventions
+
+That layering is exactly why EasterDate belongs in this book. It is an aggregate object: one thing whose meaning is distributed across several coordinate systems at once.
+
+Representation matters as much as definition. EasterDate can be represented as a month-day pair, an ordinal date, a symbolic record, or a sequence of intermediate values flowing through a program. In our work, the last form mattered most. The date was not merely the answer at the end. It was the terminus of a walk through structured intermediates. Each scratch value, each register choice, and each implementation note became part of the representation layer that made the object intelligible.
+
+This is also why the repository structure mattered. The directory tree was not a neutral container for files. It was scaffolding for thought. It separated algorithm from implementation, implementation from inspection, and inspection from historical reflection. It let EasterDate become something larger than a solved exercise: a walkable object whose lineage, machinery, and meaning could remain visible at the same time.
+
+## 15.3 Lookup Table or Algorithm
 
 A lookup table gives answers. An algorithm gives structure. Gauss’s Easter algorithm is not a list of dates. It is a compressed geometry of lunar cycle, solar calendar, and ecclesiastical rule. It does not store the answer in advance. It produces the answer by lawful transformation.
 
@@ -29,7 +47,7 @@ To implement such a procedure is to discover that the algorithm is not merely a 
 
 The distinction matters. A table preserves outcomes; an algorithm preserves relations. EasterDate is not trivia. It is the prototype of modern algorithmic reasoning.
 
-## 15.3 The Algorithm (Explicit and Walkable)
+## 15.4 The Algorithm (Explicit and Walkable)
 
 The heart of EasterDate is Gauss’s algorithm. Here is the walkable sequence of operations:
 
@@ -52,7 +70,7 @@ Given a year $Y$:
 
 Each line is a projection from one coordinate system to another: mod → circular coordinate, div → partition, +/− → drift, month/day → semantic glyph. This is the manifold. These are the coordinate transforms. This is the walk.
 
-## 15.4 The Coding Strategy: Assembly and C++
+## 15.5 The Coding Strategy: Assembly and C++
 
 ### Assembly (Register Choreography)
 
@@ -97,7 +115,7 @@ Easter easter(int Y) {
 
 This is the semantic mirror of the assembly manifold.
 
-## 15.5 Walking the Machine: Sample Runs
+## 15.6 Walking the Machine: Sample Runs
 
 Let’s walk the machine with actual values:
 
@@ -113,7 +131,7 @@ Or, in summary:
 
 Each intermediate value is a coordinate. Each operation is a projection. The output is a semantic glyph. This is a manifold you can walk.
 
-## 15.6 Why EasterDate Matters: History, Encoding, Collaboration
+## 15.7 Why EasterDate Matters: History, Encoding, Collaboration
 
 EasterDate is the first time a human and a machine jointly reconstruct a 1,700-year lineage into a living, executable structure.
 
@@ -121,11 +139,11 @@ Historically, EasterDate is the first global algorithm—a symbolic rule that de
 
 EasterDate is the first time I experienced authorship as a coupled manifold: the machine shaping my reasoning as much as I shaped its execution. It is the moment where history becomes structure, structure becomes code, and code becomes a space two minds can inhabit at once.
 
-## 15.7 The Directory as Proof: Structure Over Narrative
+## 15.8 The Directory as Proof: Structure Over Narrative
 
 The EasterDate repository is not merely source code. It is the structural record of a collaboration between human and machine. The directory tree, the calling convention notes, the stack diagrams, and the assembly modules are the modern equivalent of the medieval computus tables: a shared external artifact where lineage becomes explicit. This is the difference between narrative AI and structural AI. Narrative AI produces stories; structural AI helps build the structure in which understanding lives. EasterDate is powerful because it is the first time the machine and I jointly reconstructed a historical algorithm into a walkable state machine. The repo is the proof.
 
-## 15.8 From Glyph to World: The Book’s Origin
+## 15.9 From Glyph to World: The Book’s Origin
 
 EasterDate was just a glyph until we developed it into a program we could walk. More importantly, the structure we built is what led us to write this book. It was our insight into the walkable geometry of computation that made us realize narrative AI is too simple. Meaning is not in the answer; meaning is in the structure, in the walk, in the collaboration.
 
