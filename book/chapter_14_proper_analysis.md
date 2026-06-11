@@ -43,7 +43,27 @@ When we narrate performance as personality, we replace structure with myth.
 
 Narrative is not useless. It is often how humans first stabilize a confusing object. But as analysis, it is too coarse. It flattens the very geometry we need to inspect.
 
-## 14.3 What Proper Analysis Requires
+## 14.3 Components, Not Characters
+
+The decisive mistake in narrative AI is not merely that it uses loose language. The mistake is ontological.
+
+Narrative replaces components with characters.
+
+But the transformer is not a character. It is a layered composition of mechanisms.
+
+At the concrete level, it is built from components such as projections, attention heads, layer normalization, residual pathways, feedforward blocks, and positional structure. These are not personalities. They are local operators with constraints, invariants, and failure modes.
+
+At the action level, those components compose into more robust behaviors. Multi-head attention becomes a routing fabric. The residual stream becomes a continuity channel through which earlier state remains available to later transforms. Stacked blocks become iterative refinement. Here we begin to see not just what the model is made of, but what kinds of work the composition makes possible.
+
+At the abstract level, the architecture depends on older mathematical components: vector spaces, linear projections, composition of maps, gradient-based adjustment, stability, symmetry, and invariance. These are the load-bearing theorems beneath the visible machine. They explain why the concrete components can be assembled into a viable architecture at all.
+
+This three-level view matters because it keeps analysis honest. Capabilities appear not as mysterious gifts but as consequences of composition. Failures appear not as moods but as breakdowns in routing, scaling, supervision, or geometry. Generalization appears not as magic but as structure learned under constraint.
+
+The architecture is the nameplate. Runtime behavior is the operating point. Confusing one for the other produces the same analytic error an engineer makes when reading a motor only by its stamped rating and never by its behavior under load.
+
+That is why narrative is a lossy compression of mechanism. It may be useful at the interface, but it is too destructive for serious analysis.
+
+## 14.4 What Proper Analysis Requires
 
 If the model is a transform, then proper analysis must also be structural.
 
@@ -57,7 +77,7 @@ This is why the language of charts, curvature, layers, and transforms has been n
 
 Proper analysis does not ask the system to confess its essence. It asks what structure makes its behavior possible.
 
-## 14.4 Demonstration: A Simple Transform
+## 14.5 Demonstration: A Simple Transform
 
 Take a word such as "bank."
 
@@ -81,7 +101,7 @@ This is what the analytic stance reveals. The model's success is not best descri
 
 The same principle appears in other forms. A Jacobian slice may show high sensitivity along a negation direction and relative flatness along a formality direction. That is not a mood. It is geometry.
 
-## 14.5 Why This Matters for Interpretation
+## 14.6 Why This Matters for Interpretation
 
 Once this stance is adopted, interpretation changes.
 
@@ -98,7 +118,7 @@ This reframing matters because it restores proportion. It neither inflates the s
 
 That is a much better object of study.
 
-## 14.6 The Hand-Off to EasterDate
+## 14.7 The Hand-Off to EasterDate
 
 If intelligence is distributed and behavior emerges from structured transformations, then proper analysis must also be geometric, operational, and walkable.
 
