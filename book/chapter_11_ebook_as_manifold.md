@@ -4,9 +4,15 @@
 
 An ebook is often treated as a final container: a file exported from a finished manuscript and delivered to a reader. But for a project like this one, that view is too small. The ebook is not merely the afterlife of a print book. It is an operating environment: a structured object that must be entered, navigated, interpreted, and reconstituted by a reader.
 
-This chapter turns from models, charts, and stories to the book itself as an object. Not a neutral object, and not a static one, but a navigable artifact whose structure helps produce its meaning. The ebook is not outside the argument of this book. It is one of the clearest places where the argument becomes visible.
+It is also the public-facing front end of the collaboration that produced the book. The conversations, repositories, notes, scripts, and revisions belong to the wider craft domain. The ebook is the surface through which that larger domain becomes legible to other people.
+
+This chapter turns from models, charts, and stories to the book itself as an object. Not a neutral object, and not a static one, but a navigable artifact whose structure helps produce its meaning. The ebook is not outside the argument of this book. It is the reader's public interface to the larger collaboration.
 
 Chapter 10 argued that a cockpit teaches curvature by forcing the pilot to inhabit it. Chapter 11 makes a parallel claim about reading. A nonlinear digital book teaches structure by forcing the reader to navigate it.
+
+The domains are different, but the lesson is similar: both cockpit and book become intelligible when navigation is treated as part of understanding rather than as a mere afterthought.
+
+For readers less interested in publishing formats than in the larger thesis, the key point is simple: this chapter is not trying to prove again that the book is manifold-shaped. It is trying to show how that structure reaches the reader in public form.
 
 The ebook is not the afterlife of the book. It is one of the book's realizations.
 
@@ -23,6 +29,8 @@ In that sense, a book is computational not because it resembles a machine in som
 ## 11.2 Formats as Geometries
 
 If a book is a structured object, then format is not an afterthought. Format changes the geometry of access.
+
+In plain language: the same book feels different depending on how it is delivered, and those differences affect how easily a reader can follow the argument.
 
 A reflowable digital text and a fixed-layout text do not offer the same reading conditions. One privileges elastic movement, search, resizing, and rapid relocation. The other privileges visual fixity, persistent spatial memory, and stable page identity. These are not merely technical differences. They are interpretive conditions.
 
@@ -78,7 +86,7 @@ This is why the language of manifold is not decorative. It names a real property
 
 In that sense, interpretation resembles navigation more than consumption.
 
-The reader is not a passive receiver of finished content. The reader is an active coordinate system, continuously selecting scale, relation, and relevance while moving through the work.
+The reader is not passive here. The reader helps assemble the larger argument by moving among its parts.
 
 ## 11.6 Structure as Argument
 
@@ -87,6 +95,8 @@ What makes the ebook especially revealing is that its structure is not merely co
 A digital book has explicit organization. It has sections, hierarchy, links, metadata, ordering rules, display behavior, and navigational affordances. In other words, it has grammar beyond prose.
 
 This matters philosophically because the book becomes legible at two levels at once. There is the argument stated in words, and there is the argument enacted by structure. The first tells the reader what the book claims. The second tells the reader how the book expects to be moved through.
+
+This is also why the ebook should be understood as a front end rather than as a mere export. Behind it sits a larger craft system: repositories, source files, diagrams, metrics, notes, examples, and revisions. The ebook does not reproduce that entire backstage. It presents a disciplined public interface to it.
 
 That duality belongs to the larger thesis of this manuscript. Again and again, the book has argued that meaning is not exhausted by surface statement. Structure carries force. Arrangement carries force. The conditions of traversal carry force.
 
@@ -108,7 +118,7 @@ The ebook permits a form that better matches the thesis. It allows the work to b
 
 That does not mean everything becomes fluid. A structured space is not chaos. It still has curvature, constraints, regions, and paths that are better or worse. Structure still matters. Sequence still matters. But sequence is no longer the whole story.
 
-This is why the analogy to AI is not merely metaphorical. Books and embedding spaces are both structured fields of traversal. Reading is a traversal. Inference is a traversal. In both cases, meaning emerges not from isolated points but from motion across relations.
+This is why the analogy to AI is useful but should stay disciplined. Books and embedding spaces are both structured fields of traversal. Reading is a traversal. Inference is a traversal. In both cases, meaning emerges not from isolated points but from motion across relations. But the purpose of the comparison here is modest: not to collapse book and model into one object, only to clarify why form and path matter.
 
 That does not mean a book and a model are the same kind of object. They are not. But they can be understood through a common structural language: charts, transitions, orientation, curvature, local intelligibility, and path-dependent meaning.
 
@@ -118,9 +128,7 @@ Once the reader has seen curvature in lived operation, the next question is how 
 
 That recognition matters because the subject of this manuscript is not AI in isolation. It is the geometry through which AI becomes intelligible to a human reader. The book is therefore part of the proof. Its form cannot be wholly separate from its claim.
 
-By the time we reach Chapter 14, the question will no longer be only what AI is, but what kind of analysis can do justice to it. This chapter prepares that turn by showing that even a book must be understood not only by what it says, but by the structured space through which it is read.
-
-Once the book becomes visible as a structured space, the next question is why this particular structure matters, which is the subject of the next chapter.
+The next chapter will not continue this structural reflection for its own sake. It will ask what all of this clarifies about the present moment and why the manuscript is worth the reader's time. This chapter prepares that turn by showing that even a book has to be understood not only by what it says, but by how a reader moves through it.
 
 The ebook is not outside the book.
 

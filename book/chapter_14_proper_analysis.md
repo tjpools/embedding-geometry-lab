@@ -18,6 +18,8 @@ AI is not a mind. It is a coordinate transform.
 
 That does not mean it is nothing more than a matrix multiplication in some reductive sense. It means that the most powerful analytic stance is to treat the system as something that moves representations through a structured space.
 
+But the word transform must not float too far above the machine. These representational movements are realized through hardware operations: floating-point multiplication, accumulation, normalization, memory access, and data movement across a layered stack. A transformer is an abstract operator system, but it becomes real only by being executed as vast numbers of numerical operations, many of them organized around matrix multiplication and its surrounding support machinery.
+
 Inputs are not simply answered. They are transformed.
 Ambiguities are not merely noticed. They are resolved by movement in representation.
 Context does not merely decorate a sentence. It changes the coordinates in which the sentence is interpreted.
@@ -43,6 +45,8 @@ When we narrate performance as personality, we replace structure with myth.
 
 Narrative is not useless. It is often how humans first stabilize a confusing object. But as analysis, it is too coarse. It flattens the very geometry we need to inspect.
 
+This distinction matters because the book itself uses narrative, but for a different job. Narrative can serve as a chart for the reader. It can orient, stabilize, and make a structure walkable at human scale. What it cannot do, without distortion, is serve as the ontology of the machine. Stories may encode the structure. They must not replace it.
+
 ## 14.3 Components, Not Characters
 
 The decisive mistake in narrative AI is not merely that it uses loose language. The mistake is ontological.
@@ -53,9 +57,17 @@ But the transformer is not a character. It is a layered composition of mechanism
 
 At the concrete level, it is built from components such as projections, attention heads, layer normalization, residual pathways, feedforward blocks, and positional structure. These are not personalities. They are local operators with constraints, invariants, and failure modes.
 
+For example, an attention head is not a tiny reader with an opinion. It is a mechanism that weights which parts of the input should matter more to the current token.
+
 At the action level, those components compose into more robust behaviors. Multi-head attention becomes a routing fabric. The residual stream becomes a continuity channel through which earlier state remains available to later transforms. Stacked blocks become iterative refinement. Here we begin to see not just what the model is made of, but what kinds of work the composition makes possible.
 
+In more ordinary terms, one part helps route relevance, another preserves continuity, and another reshapes the result so the next layer has a better starting point.
+
 At the abstract level, the architecture depends on older mathematical components: vector spaces, linear projections, composition of maps, gradient-based adjustment, stability, symmetry, and invariance. These are the load-bearing theorems beneath the visible machine. They explain why the concrete components can be assembled into a viable architecture at all.
+
+At the hardware level, these abstractions are paid for in numerical work. Queries, keys, values, projections, and feedforward passes are not philosophical gestures. They are arrays being multiplied, accumulated, scaled, and normalized in floating-point arithmetic. Even when the model is quantized or otherwise compressed, the central fact remains: the transformer lives by layered numerical transformation implemented on real silicon with real limits in bandwidth, precision, latency, and heat.
+
+One public companion to this chapter is MiniTransformerQuine, an educational repository built to make that layered numerical logic inspectable rather than mystical. There the transformer is approached not as a sealed service, but as executable structure: explicit loops, matrix multiplies, normalization steps, residual paths, token flows, and analysis artifacts that can be built, read, and reviewed. In that setting, proper analysis becomes a practice rather than a slogan.
 
 This three-level view matters because it keeps analysis honest. Capabilities appear not as mysterious gifts but as consequences of composition. Failures appear not as moods but as breakdowns in routing, scaling, supervision, or geometry. Generalization appears not as magic but as structure learned under constraint.
 
@@ -66,6 +78,10 @@ That is why narrative is a lossy compression of mechanism. It may be useful at t
 ## 14.4 What Proper Analysis Requires
 
 If the model is a transform, then proper analysis must also be structural.
+
+In practice, this means asking questions an engineer would recognize. Which component is carrying the signal? Which change in input caused the biggest shift in output? Which part preserved continuity, and which part introduced the new distinction?
+
+It must also be hardware-aware: what looks elegant in algebra must still survive finite precision, memory hierarchy, throughput limits, and the cost of moving tensors through actual devices. The abstraction is real, but so is the substrate.
 
 It must be operator-aware: which parts of the system are doing which kinds of work?
 It must be geometric: what directions in representation matter, and which do not?
@@ -126,6 +142,8 @@ The next step is not to repeat the claim once more. The next step is to execute 
 
 That is what EasterDate makes possible.
 
-EasterDate is small enough to be entered, concrete enough to be traced, and structured enough to be inhabited. It lets the reader watch a machine not as a black box, but as a walkable manifold of operations. It is the place where analytic stance becomes executable practice.
+EasterDate is not itself a transformer, and it should not be mistaken for one. Its role here is more disciplined. It is an apprenticeship object: small enough that the reader can actually inspect the mechanism, trace the transforms, and watch structure survive across representation. Before one can analyze a trillion-parameter model honestly, one must learn to recognize what a lawful walk through machinery feels like at human scale.
 
-Chapter 15 shows what proper analysis looks like when the structure can actually be walked.
+EasterDate is small enough to be entered, concrete enough to be traced, and structured enough to be inhabited. It lets the reader watch a machine not as a black box, but as a walkable manifold of operations. More importantly, it lets the reader watch one lawful structure survive translation across several manifolds at once: mathematical notation, source code, register state, calling convention, executable output, and historical meaning. It is the place where analytic stance becomes executable practice.
+
+Chapter 15 therefore does not change subjects. It keeps the same demand for explicit transform and simply lowers the reader into a smaller, fully traversable machine.

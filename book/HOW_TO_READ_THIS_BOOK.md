@@ -1,6 +1,12 @@
 
 \noindent\textbf{\Large How to Read This Book (Especially as an Ebook)}
 
+This book is an introduction to the complexity of modern AI systems, written for readers who want more than headlines but do not need a PhD treatment. Our aim is not exhaustive technical coverage. Our aim is cultivated appreciation: enough structure, lineage, and machinery for the reader to see why these systems are difficult, powerful, and historically grounded.
+
+AI is not only for technical specialists. It is for anyone willing to ask a solid question and walk a complete answer. This book is built on that claim, and it tries to demonstrate it rather than merely announce it. If the structure holds, the reader does not need to begin as a programmer, mathematician, or engineer. The reader needs curiosity, patience, and a willingness to follow the path.
+
+The voice of the book is collaborative because the book itself emerged through collaboration. A human craftsman and a machine reasoning partner worked through tools, mathematics, stories, lineages, and operating environments in order to build understanding. That collaborative stance is established early because it carries through every subsequent chapter.
+
 This book is not a linear argument. It is a coordinate atlas — a manifold of ideas, tools, and lineages. Each chapter is a chart covering a region of the conceptual space of AI, cognition, and collaboration.
 
 You are not expected to follow a straight line.  
@@ -11,7 +17,7 @@ You are expected to navigate.
 **Explore Nonlinearly**  
 You do not need to read in order.  
 Jump between chapters as your curiosity leads you.  
-Each chapter stands alone as a chart; together they form the atlas.
+Each chapter stands alone as a chart; together they form the atlas. The book is designed for human throughput: readers speed up, slow down, get curious, get tired, loop back, and re-enter. The structure is there to help you keep the path even when your pace changes.
 
 
 
@@ -45,6 +51,9 @@ It is designed as a free-entry chapter for readers who want orientation before, 
 **Follow Links and Cross‑References**  
 Use hyperlinks, references, and the table of contents to traverse the manifold.  
 The structure is designed for digital movement, not linear consumption.
+
+**Follow Repository Paths When Offered**  
+Some chapters point beyond the manuscript to repositories or public artifacts. These are not side material or promotion. They are inspection paths for readers who want to move from prose into executable structure.
 
 **Engage With Interactive Elements**  
 Some chapters include diagrams, metrics, or analytic tools.  

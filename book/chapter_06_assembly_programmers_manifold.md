@@ -5,6 +5,8 @@
 
 **The assembly language programmer is the man-and-machine reality. The microprocessor holds the language of constructibility. No reasoning involved.**
 
+Chapter 5 followed the long human lineage that helped build the modern machine. This chapter shifts from who built it to how to read it. Assembly is the practitioner's vantage point for seeing what computation is actually doing under the abstractions.
+
 
 This chapter opens with a contrast: C++ is 'close' to the machine, with pointers and explicit memory management, but it still mediates through abstractions. Python, by contrast, obscures the machine almost entirely, wrapping computation in its own interpretive machinery. The assembly language practitioner is different—not because of nostalgia or technical bravado, but because they are directly engaged with the machinery itself. Here, constructibility is not a metaphor. It is the only reality that matters. For a concrete example of assembly in a modern Linux environment, see [github.com/tjpools/hello_fedora/](https://github.com/tjpools/hello_fedora/).
 
@@ -17,6 +19,8 @@ Not because assembly is primitive, nor because proximity to the machine confers 
 A high-level language is written for a compiler, runtime, or virtual machine. Assembly is written to an architecture. The programmer is still working symbolically — with mnemonics, labels, directives, conventions, and comments — but those symbols are bound much more tightly to execution. Registers matter. Addressing modes matter. Stack discipline matters. Calling conventions matter. Timing sometimes matters. At this level, abstraction is not abolished, but it is thinned until its costs become visible.
 
 That position matters for this book. If the transformer is to be understood not as spectacle but as machinery, then one useful guide is the person trained to follow state, preserve invariants, inspect interfaces, and ask what structure actually carries behavior. The assembly programmer is such a guide.
+
+I do not speak from a high position here. I speak as a craftsman. And like all craftspeople, the assembly-language practitioner is judged less by posture than by care: care for tools, care for interfaces, care for materials, care for maintenance, and care for the conditions under which work remains reliable. That ethic matters because a person who tends tools seriously learns to respect structure instead of talking past it.
 
 This chapter argues that assembly does more than teach a syntax. It cultivates a geometry of thought: a way of seeing computation as constrained motion through structured state spaces. That geometry becomes one of the keys to understanding transformers, because it trains attention toward propagation, local competence, interface contracts, and the difference between architecture, stored state, and execution.
 

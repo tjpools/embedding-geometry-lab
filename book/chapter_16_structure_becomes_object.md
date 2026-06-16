@@ -4,6 +4,8 @@
 
 ## 16.1 The Shift
 
+EasterDate gave us an executable example of structure made walkable. This chapter does not leave that object behind. It widens the frame around it. The question now is how such an object became historically possible at all. To answer that, we need the older story of how operations, transformations, and relations became objects of thought in their own right.
+
 For much of the history of mathematics, operations were treated as means rather than as objects. They were actions to be performed, procedures to be followed, transformations to be executed on something more primary: numbers, magnitudes, figures, ratios. One added, subtracted, extracted roots, balanced equations, and manipulated forms, but the operations themselves did not yet stand fully in view as mathematical beings in their own right.
 
 A profound shift occurs when this changes. The history of modern mathematics can be read, in part, as the history of operations becoming visible. Procedures ceased to be merely what one does and became something one can name, analyze, classify, compose, invert, constrain, and represent. This is one of the deepest conceptual turns in the entire book: the moment when structure itself begins to become object.
@@ -68,11 +70,15 @@ In this sense, recurrence is the bridge between operation and geometry. What rep
 
 Seen from the vantage of the present, this history returns with surprising force. Modern AI systems are built not simply from data or parameters, but from layers of composable transformation. Embeddings map discrete tokens into structured spaces. Attention mechanisms dynamically reweight relations. Residual pathways preserve identity across depth. Normalization procedures stabilize behavior across repeated operations. The architecture is saturated with operators.
 
+The historical payoffs can be named quite concretely. Zero returns as reference and centering: a system needs an origin, a baseline, or a neutral frame from which change becomes legible. Identity returns in residual connections: each layer can preserve an input path even while adding a new transformation on top of it. Composition returns everywhere: attention, feedforward layers, normalization, and residual addition only become powerful because they can be stacked into a lawful sequence of operations.
+
 This is why the lineage traced in this chapter matters. The transformer is not an alien break from the history of mathematics. It is one more environment in which operations have become objects and relations among transformations have become central.
 
 The continuity should not be overstated; the technologies are new, and the scale is unprecedented. But the conceptual turn is recognizably the same. We are still living within the consequences of the moment when mathematics learned to externalize lawful transformation and make it available for direct manipulation.
 
 In that sense, the modern return is not merely technical. It is philosophical. AI confronts us again with a world in which operations are not background machinery but central objects of thought. In this respect, the most advanced systems of the present remain continuous with a much older history of abstraction.
+
+Our own work provides a small contemporary instance of this return. MiniTransformerQuine was built as an educational object so that transformer logic could become visible as source, build process, executable, and analysis surface all at once. The point was not merely to use a model, but to arrange its operations so they could stand before the reader as inspectable structure. In that limited but concrete sense, the project belongs directly to the history this chapter describes: structure becoming object in public form.
 
 ## 16.7 What This Means for the Book
 

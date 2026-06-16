@@ -4,7 +4,7 @@
 # Chapter 4: The Ages of Tools — From Ruler to Transformer
 
 *Prefatory Note:*  
-These next two chapters were written late. They are not where the thesis of this book first emerged, but where it became legible in history: once as a lineage of tools, and once as a lineage of minds. They are retrospective chapters—the point at which the book recognizes its own ancestry and restates its argument in civilizational terms.
+Chapter 3 showed the joint manifold in operation. These next two chapters step back to show the deeper inheritance that made that collaboration possible: first as a lineage of tools, and then as a lineage of minds. They are retrospective chapters, but not detours. They restate the argument in civilizational terms.
 
 **Live Companion:** Extended timelines, diagrams, and notes for this chapter are available in the repository’s book atlas:  
 https://github.com/tjpools/embedding-geometry-lab/tree/main/book

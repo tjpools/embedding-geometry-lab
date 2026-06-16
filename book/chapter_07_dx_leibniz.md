@@ -3,6 +3,8 @@
 # Chapter 7: Leibniz, Differentials, and the Local Shape of Meaning
 ## Crossing Over: From Machine to Mathematics
 
+Chapter 6 kept us close to the discrete machine: instructions, registers, stack discipline, and execution. This chapter crosses into a different but necessary language: the language for talking about change itself. If assembly showed how computation runs, calculus begins to show how structured variation can be described.
+
 There are moments in the history of mathematics when the existing tools simply stop working. Not because the problems become harder in a familiar way, but because the world reveals a kind of structure the old grammar cannot express.
 
 Consider the equation
@@ -20,6 +22,14 @@ To understand Lambert's later triumphs, the modern idea of a function as a geome
 The cast of this chapter comes from the seventeenth and eighteenth centuries, but you do not need their biographies. You only need their roles: Newton is the geometric and physical imagination behind calculus; Leibniz is the symbolic architect of its language; Berkeley is the philosopher who asks what infinitesimals really are; Lambert is the mathematician who shows what the new grammar can actually do.
 
 Think of this era not as background history, but as the moment mathematics changed its operating system.
+
+For readers coming from AI more than calculus, the key idea can be stated very simply before the history gets denser: some systems cannot be understood all at once, but they can be understood locally, by watching how small changes behave nearby. Leibniz's $dx$ is one of the great tools for making that local behavior thinkable.
+
+You do not need to master every historical detail in this chapter to keep the main thread. What matters most is this:
+
+- algebra looks for exact symbolic closure
+- calculus asks how change behaves locally
+- that shift from exact answer to local behavior is one of the bridges from classical mathematics to modern AI
 
 Before embeddings became a story about local perturbations, calculus first had to become a story about lawful change. That shift did not happen all at once. It emerged from a tension within equation space itself.
 
@@ -62,6 +72,8 @@ The transition from algebra to calculus is not merely the addition of new notati
 In an **algebraic space**, we study fixed expressions and relations among them. We ask whether forms are equivalent, whether variables can be isolated, whether roots can be expressed, and whether a structure can be symbolically resolved.
 
 In a **differential space**, by contrast, we ask how quantities vary. We care about tendencies, slopes, local dependencies, and infinitesimal displacements. The object of understanding is no longer only the static equation, but the behavior of a quantity under change.
+
+This is one reason differential language matters so much. Its power does not come from sharing the same symbolic code as ordinary algebra. Its power comes from encoding a new invariant: the best local account of change available to the tool.
 
 This is a major transition in mathematical thought:
 

@@ -4,7 +4,7 @@
 
 After the Meta Layer, we can see the architecture of the system more clearly. But seeing structure is not the same as navigating it. A system may be intelligible in outline and still unforgiving in operation.
 
-A cockpit is not merely a room full of instruments. It is a control surface for a curved world. It is the place where `dx` stops being a symbol and becomes a lived constraint, where local derivatives become operational necessity.
+Chapter 9 treated the cockpit as an instrument panel for orientation. This chapter begins where that one leaves off: once the pilot is inside the IFR system, the panel is no longer explanatory. It is operational. `dx` stops being a symbol and becomes a lived constraint, where local derivatives become necessity.
 
 That is why the cockpit belongs here. It takes the differential language of Chapter 7 and the system-awareness of Chapter 9 and forces them into practice. In a cockpit, Leibniz, Newton, and Berkeley are no longer abstract figures in the history of ideas. They become companions in survival.
 
@@ -12,7 +12,7 @@ That is why the cockpit belongs here. It takes the differential language of Chap
 
 A cockpit is a Jacobian made physical.
 
-That sounds abstract until one sees what the instruments are actually doing. A cockpit is not a dashboard of static facts. It is a dashboard of sensitivities. Its deepest purpose is not merely to tell the pilot what is true now, but to reveal what is changing, what is coupled, and what will matter next.
+That sounds abstract until one sees what the instruments are actually doing in flight. A cockpit is not a dashboard of static facts. It is a dashboard of sensitivities. Its deepest purpose is not merely to tell the pilot what is true now, but to reveal what is changing, what is coupled, and what will matter next.
 
 Vertical speed is not altitude.  
 It is the rate of change of altitude.
@@ -29,7 +29,9 @@ It is position relative to a changing path.
 Wind shear is not just weather.  
 It is change in the surrounding medium across space.
 
-This is Jacobian thinking. A Jacobian is a matrix of partial derivatives that tells us how local change in one component influences the rest of the system. In flight, the pilot does not need a philosopher’s vocabulary for this. But the pilot does need the habit of mind the Jacobian describes: to read a changing world in terms of coupled local sensitivities.
+This is Jacobian thinking. A Jacobian is a matrix of partial derivatives that tells us how local change in one component influences the rest of the system. In flight, the pilot does not need a philosopher's vocabulary for this. But the pilot does need the habit of mind the Jacobian describes: to read a changing world in terms of coupled local sensitivities.
+
+A ruler and a Jacobian do not share material, notation, or implementation. What they share is an invariant. Each is a tool for extracting the best linear approximation available at hand. The ruler does it in a simple Euclidean setting. The Jacobian does it in a curved, multivariable one. That is why the analogy is structurally real rather than merely metaphorical.
 
 That is what the cockpit trains.
 
@@ -143,7 +145,7 @@ That is why the cockpit belongs in a book like this. It makes abstract structure
 
 ## 10.6 Why the Cockpit Belongs Here
 
-The cockpit is not included simply because it is vivid or autobiographical. It belongs here because it reveals, in lived form, the same pattern this book has been tracing in other registers.
+The cockpit is not included simply because it is vivid or autobiographical. It belongs here because it takes the structural relations named in the previous chapters and makes them costly, timed, and unavoidable.
 
 Chapter 6 described the assembly-language perch: the point where software meets hardware and runtime becomes visible.
 Chapter 7 described the deep inheritance of `dx`: the symbolic operationalization of change.
@@ -152,7 +154,7 @@ Chapter 9 stepped back to reveal the architecture that holds these movements tog
 
 Chapter 10 returns from architecture to operation.
 
-It asks what it means to navigate a system whose curvature is real, whose local state must be inferred continuously, and whose stability depends on timely correction. The cockpit answers with discipline, instrument literacy, and local linearization.
+It asks what it means to navigate a system whose curvature is real, whose local state must be inferred continuously, and whose stability depends on timely correction. The cockpit answers with discipline, instrument scan, and local linearization.
 
 This is not only a pilot’s discipline.
 It is also a programmer’s discipline, an engineer’s discipline, and increasingly a human–machine discipline.
@@ -171,7 +173,5 @@ That is its philosophical force.
 The cockpit is where derivative literacy becomes survival.
 It is where curvature becomes felt.
 It is where the tangent space stops being mathematics and becomes practice.
-
-And that is why it belongs after the Meta Layer.
 
 Once you can see the architecture, you must still learn how to fly.
