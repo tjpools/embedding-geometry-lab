@@ -20,6 +20,18 @@ xor     eax, eax    ; ??
 > *Built at home. Dell desktop. Curiosity only. No university. No lab. No grant.*
 > *The geometry was always there. We just decided to follow it.*
 
+## Enter the Project
+
+This repository is not only a container for a book. It is a public cognitive instrument built in layers.
+
+- **The book** in `book/` is the story layer: the human path through the argument.
+- **The epilogue** is the instance layer: a small runtime proof that a simple question can open a deep corridor.
+- **The repository documents** are the communication layer: the public interface for readers who want to inspect structure, builds, metrics, and supporting artifacts.
+
+If you want to enter the project from the book side, start with `book/HOW_TO_READ_THIS_BOOK.md`.
+If you want to understand how the repository itself participates in the argument, read `book/architecture_of_the_repository.md`.
+If you want the shortest version of the invitation, it is this: the work is meant to be entered, not merely consumed.
+
 ## Thesis
 
 > *Man and machine have always been with us. Through updating and upgrading we have arrived at LLMs and transformers. We got there with one important pivot in the history of tools: Leibniz introduces* dx — *the operator that lives with us in modern AI. By probing the machine we learn its inner workings. This is an assembly language developer's mindset.*

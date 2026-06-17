@@ -27,6 +27,8 @@ Geometry therefore belongs in this lineage not only because it studied space, bu
 
 John Napier belongs in this chapter because he changed the cost of thought. Logarithms compressed difficult calculation into simpler operations. What had once required laborious multiplication and division could be approached through addition and subtraction. The slide rule extended this compression into physical practice, giving engineers and navigators a tool that made abstract mathematical relations usable by hand.
 
+But Napier should not stand alone in that story. Jost Burgi arrived at closely related logarithmic structure from a different craft lineage: instrumentation, clocks, and precision tables rather than landed scholarship. History largely preserved Napier's tables as the canonical artifact, but the brilliance itself was less linear than the tool lineage that followed. One public tool survived; the underlying structure had ripened in more than one mind.
+
 This was not merely convenience. It altered the scale at which reasoning could operate. A civilization that can calculate faster can build more, compare more, predict more, and coordinate more. Compression is not only a property of machines. It is one of the oldest accelerants of intelligence.
 
 ## 4. Algebra, Structure, and Extension

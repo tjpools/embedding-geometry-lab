@@ -212,7 +212,7 @@ Each intermediate value is a coordinate. Each operation is a projection. The out
 
 EasterDate is the first time a human and a machine jointly reconstruct a 1,700-year lineage into a living, executable structure.
 
-Historically, EasterDate is the first global algorithm—a symbolic rule that determines a global social event. Gauss compressed astronomy, modular arithmetic, and tradition into a walkable sequence of transforms. Encoding it in assembly is not implementation—it is reenactment. Each register holds a coordinate from Gauss; each instruction is a projection from Nicaea; each intermediate value is a point on a centuries-old mathematical surface.
+Historically, EasterDate is not itself the original algorithm, but our assembly-language instantiation of a much older calendrical problem: finding lawful closure for Easter within the Church's timekeeping framework. In its modern form, the program borrows Gauss's algorithm in service of calendar manipulation. Gauss compressed astronomy, modular arithmetic, and tradition into a walkable sequence of transforms; our assembly version re-enacts that compression in executable form. Each register holds a coordinate from Gauss; each instruction is a projection from a long ecclesiastical and mathematical lineage; each intermediate value is a point on a centuries-old calendrical surface.
 
 EasterDate is the first time I experienced authorship as a coupled manifold: the machine shaping my reasoning as much as I shaped its execution. It is the moment where history becomes structure, structure becomes code, and code becomes a space two minds can inhabit at once.
 

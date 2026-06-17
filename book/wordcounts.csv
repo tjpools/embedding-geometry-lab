@@ -2,10 +2,10 @@ chapter,title,path,word_count,status
 1,Me,book/chapter_01_me.md,990,ok
 2,Machine,book/chapter_02_machine.md,1464,ok
 3,Us,book/chapter_03_us.md,3418,ok
-4,Tools,book/chapter_04_tools.md,1516,ok
-5,Lineage,book/chapter_05_lineage.md,1599,ok
+4,Tools,book/chapter_04_tools.md,1567,ok
+5,Lineage,book/chapter_05_lineage.md,1666,ok
 6,Assembly Programmer’s Manifold,book/chapter_06_assembly_programmers_manifold.md,2081,ok
-7,Leibniz/dx,book/chapter_07_dx_leibniz.md,4443,ok
+7,Leibniz/dx,book/chapter_07_dx_leibniz.md,4477,ok
 8,Stories,book/chapter_08_stories.md,1327,ok
 9,Meta Layer,book/chapter_09_meta_layer.md,1982,ok
 10,Cockpit,book/chapter_10_cockpit.md,1575,ok
@@ -13,7 +13,7 @@ chapter,title,path,word_count,status
 12,Why This Book Matters,book/chapter_12_why_this_book_matters.md,1519,ok
 13,Minsky,book/chapter_13_minsky.md,1624,ok
 14,Proper Analysis,book/chapter_14_proper_analysis.md,1796,ok
-15,EasterDate,book/chapter_15_easterdate.md,2500,ok
+15,EasterDate,book/chapter_15_easterdate.md,2530,ok
 16,Structure Becomes Object,book/chapter_16_structure_becomes_object.md,2063,ok
 17,Walkable Path,book/chapter_17_a_walkable_path_through_a_larger_landscape.md,2122,ok
 18,Three Is the First Intelligent Number,book/chapter_18_three_is_the_first_intelligent_number.md,2810,ok

@@ -15,6 +15,8 @@ $$
 
 It looks innocent, almost playful, but it marks a boundary. Algebra can manipulate it, rearrange its pieces, and approximate its solution numerically, but it cannot solve it by the ordinary symbolic methods that earlier equations seemed to reward. The equation is a door, and on the other side is a different ontology.
 
+This is not the kind of problem rescued by adjoining one more symbol to an otherwise intact algebraic world. It is the kind of problem that reveals the need for a different representational grammar.
+
 This chapter is not about solving that equation. It is about the invention of a new kind of object: Leibniz's $dx$. Leibniz, the inventor of the symbolic grammar of calculus, did not merely introduce a symbol. He introduced a new species of mathematical being: something smaller than any ordinary quantity, yet not simply zero; something that behaves like a number in calculation, yet becomes difficult to pin down when examined too closely. The infinitesimal is the hinge between two eras: the algebraic world, where equations are rearranged until they yield, and the analytic world, where equations are approached through local behavior rather than mastered in a single symbolic stroke.
 
 To understand Lambert's later triumphs, the modern idea of a function as a geometric object, or the full power of calculus itself, we first have to understand what $dx$ is supposed to be and why Berkeley thought it involved metaphysical sleight of hand. The mathematics becomes more powerful here because the ontology changes. The world becomes continuous, and continuity demands a new grammar.

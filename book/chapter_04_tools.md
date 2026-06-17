@@ -46,6 +46,8 @@ Out of that pressure came one of the most powerful enlargements of all: `dx`. It
 
 With Napier’s logarithms and the invention of the slide rule, calculation entered a new age. Complex operations could be compressed into simpler ones. Multiplication and division could be performed through the addition and subtraction of distances. What would otherwise require laborious computation could be transformed into a manageable physical act.
 
+The deeper point was not merely that logarithms were "exponents" in a formal sense. It was that a multiplicative burden had found an additive coordinate system. Once positional number systems had made scale, place value, and powers legible, logarithmic compression became less like a trick and more like a structural reparameterization.
+
 The slide rule is one of the most elegant tools in intellectual history because it turns an abstract relation into a bodily gesture. It maps linear distance onto logarithmic scale and lets the hand perform what the mind would otherwise compute more slowly.
 
 This was a turning point. Tools were no longer only helping thought represent the world. They were beginning to reorganize thought itself by changing the cost and speed of reasoning.

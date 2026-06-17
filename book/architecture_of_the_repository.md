@@ -4,9 +4,22 @@
 
 This repository is not organized merely as a storage location for text and code. It is organized as a conceptual system.
 
+It is also meant to be entered in public, not merely downloaded. The repository is part of the project’s interface to the world. The book tells the story. The epilogue gives one live instance of the thesis. The repository documents explain how the larger object is assembled and how a reader can move from narrative into structure.
+
 The project treats writing, analysis, and computation as different views of the same underlying manifold. The repository therefore has an architecture in which the manuscript, its measurement layer, and its supporting tools remain close to one another. The book provides the primary coordinate system. The analysis layer measures that system from within the same textual field. The build and support materials make the whole object traversable, exportable, and inspectable.
 
 What follows is not only a description of folders. It is a map of functions as they currently appear in the repository.
+
+## 0. Four Public Layers
+
+The project is easiest to understand if it is read in four layers:
+
+- **story layer** — the book itself
+- **instance layer** — the epilogue and other small runtime demonstrations
+- **communication layer** — the repository documents, notes, and public entry points
+- **protein layer** — the aggregate object formed by book, artifacts, measurements, scripts, and reader engagement taken together
+
+This document mainly describes the communication layer so that readers can enter the larger structure without confusing it with the book’s narrative role.
 
 ## 1. Repository as Manifold
 
@@ -127,6 +140,8 @@ This layout expresses an important principle: the manuscript is primary, but it 
 ## 9. Why This Architecture Matters
 
 This architecture matters because the repository is part of the project’s argument.
+
+It also matters because this project should not be mistaken for a single file offered in isolation. A purchased ebook is one representation of the work. The repository is the broader public instrument: the place where readers can inspect the assembly, follow the measurements, read the support materials, and engage the project as something living rather than merely consumable.
 
 The work does not merely discuss structure, intelligence, geometry, and visibility. It is itself arranged according to those principles. The repository makes visible:
 

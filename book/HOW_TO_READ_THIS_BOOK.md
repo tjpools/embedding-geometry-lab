@@ -12,6 +12,18 @@ This book is not a linear argument. It is a coordinate atlas — a manifold of i
 You are not expected to follow a straight line.  
 You are expected to navigate.
 
+## Three Ways to Enter
+
+This project has three public layers, and each one does a different job.
+
+- **The book** is the story layer: the human path through the manifold.
+- **The epilogue** is the instance layer: one small, live example of the thesis in action.
+- **The repository** is the communication layer: the public structure around the book where readers can inspect tools, notes, builds, and measurements.
+
+If you only want the argument, stay in the book.
+If you want to see the thesis demonstrated, read the epilogue.
+If you want to inspect how the object is assembled, follow the repository paths and supporting documents.
+
 ## If You’re Reading the Ebook
 
 **Explore Nonlinearly**  
@@ -55,6 +67,12 @@ The structure is designed for digital movement, not linear consumption.
 **Follow Repository Paths When Offered**  
 Some chapters point beyond the manuscript to repositories or public artifacts. These are not side material or promotion. They are inspection paths for readers who want to move from prose into executable structure.
 
+The main repository-facing orientation documents are:
+
+- `README.md` — the public invitation and project entry point
+- `book/HOW_TO_READ_THIS_BOOK.md` — this navigation guide
+- `book/architecture_of_the_repository.md` — the structural map of the larger object
+
 **Engage With Interactive Elements**  
 Some chapters include diagrams, metrics, or analytic tools.  
 Use them to:
@@ -92,6 +110,8 @@ The structure is recursive — and so is learning.
 AI is not a definition — it is a space.
 
 This book is the atlas that makes the space visible.
+
+The repository around the book exists because this project is not only a text. It is also a public cognitive instrument: a structure that can be read, built, inspected, and entered from several directions.
 
 You are the explorer.
 
