@@ -16,7 +16,7 @@
 | chapter_14_proper_analysis.md | 1796 | 4.9% | 155 | 59 | 2.63 | 2026-06-16 10:32 |
 | chapter_15_easterdate.md | 2500 | 6.8% | 156 | 57 | 2.74 | 2026-06-16 10:34 |
 | chapter_16_structure_becomes_object.md | 2063 | 5.6% | 152 | 37 | 4.11 | 2026-06-17 09:56 |
-| chapter_17_a_walkable_path_through_a_larger_landscape.md | 2116 | 5.7% | 171 | 43 | 3.98 | 2026-06-17 10:31 |
-| chapter_18_three_is_the_first_intelligent_number.md | 2815 | 7.6% | 236 | 74 | 3.19 | 2026-06-17 10:31 |
+| chapter_17_a_walkable_path_through_a_larger_landscape.md | 2122 | 5.7% | 171 | 43 | 3.98 | 2026-06-17 10:35 |
+| chapter_18_three_is_the_first_intelligent_number.md | 2810 | 7.6% | 236 | 74 | 3.19 | 2026-06-17 10:35 |
 
-Total words: 36926
+Total words: 36927

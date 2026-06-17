@@ -22,7 +22,7 @@ The larger project includes artifacts that exceed the form of the book: reposito
 
 For that reason, the book should not be mistaken for the whole terrain. It is one artifact of the work, not the work in its entirety. The manuscript offers a path through the landscape, but the landscape extends beyond the path. Other routes persist in code, notes, repositories, and structures explored but not fully enclosed.
 
-This does not diminish the book. It clarifies its form. A route is not only a reduction; it is also a making-traversable. The book exists because the inquiry demanded a shape that could be walked.
+This does not diminish the book. It clarifies its form. A route is not only a reduction; it is also a way of making a larger terrain traversable. The book exists because the inquiry demanded a shape that could be walked.
 
 In that sense, I learned how to write this book partly by first learning how to write a program in a particular language. Both acts require structure, sequencing, constraint, naming, and a disciplined awareness of what the receiving system can actually take in and preserve. A program is not a pile of instructions. It is a walkable path that preserves invariants through execution. A book is not a pile of content either. It is a walkable path that preserves meaning through a reader's changing attention.
 
