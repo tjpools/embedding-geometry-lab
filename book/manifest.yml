@@ -1,6 +1,36 @@
 version: 1
 chapters:
-  # Canonical reader-facing source files (Markdown only)
-  # Paths are repository-root relative.
-  # Example:
-  # - book/01-introduction.md
+  # Front matter
+  - book/BOOK_COVER.md
+  - book/dedication.md
+  - book/epigraph.md
+  - book/preface.md
+  - book/HOW_TO_READ_THIS_BOOK.md
+
+  # Main chapters
+  - book/chapter_01_me.md
+  - book/chapter_02_machine.md
+  - book/chapter_03_us.md
+  - book/chapter_04_tools.md
+  - book/chapter_05_lineage.md
+  - book/chapter_06_assembly_programmers_manifold.md
+  - book/chapter_07_dx_leibniz.md
+  - book/chapter_08_stories.md
+  - book/chapter_09_meta_layer.md
+  - book/chapter_10_cockpit.md
+  - book/chapter_11_ebook_as_manifold.md
+  - book/chapter_12_why_this_book_matters.md
+  - book/chapter_13_minsky.md
+  - book/chapter_14_proper_analysis.md
+  - book/chapter_15_easterdate.md
+  - book/chapter_16_structure_becomes_object.md
+  - book/chapter_17_a_walkable_path_through_a_larger_landscape.md
+  - book/chapter_18_three_is_the_first_intelligent_number.md
+
+  # Back matter
+  - book/epilogue_one_question_one_table.md
+  - book/appendix_ghost_chapters.md
+  - book/appendix_heatmap_manifold.md
+  - book/afterword_how_the_manifold_became_visible.md
+  - book/Postscript.md
+  - book/copyright.md
