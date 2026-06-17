@@ -13,6 +13,8 @@ https://github.com/tjpools/embedding-geometry-lab/tree/main/book
 
 Before there was formal mathematics, there were tools for measuring. The ruler is one of the earliest cases of human thought being deposited into an object. A piece of wood marked with units made length visible, repeatable, and transferable. Measurement no longer depended only on memory or estimation. It could be shared, checked, and carried from one person to another.
 
+That matters for this book because the ruler and the transformer belong to the same human bag of tricks. One measures linear division. The other measures semantic cohesion and relation across a much more abstract space. Their materials differ, their curvature differs, and their domains differ, but their function is continuous: each captures part of the world in an object so that thought can return to it, share it, and work on it.
+
 The straightedge and compass extended this power. They did not merely help people draw. They made disciplined construction possible. With them, lines, circles, angles, and proportions could be produced in stable form. These were not passive artifacts. They were early operators: devices through which thought could act on the world and return the same result again.
 
 The world became more navigable because it became more measurable.
@@ -90,6 +92,8 @@ It gathers several older achievements into one learnable architecture:
 - optimization, in the gradients and backpropagation that train the system
 
 Seen this way, the transformer is not merely an artifact of contemporary AI. It is an integrated tool: a structure that inherits centuries of work on representation, transformation, and adjustment.
+
+This is one place where narrative habit fails. Narrative likes to separate simple tools from complex ones, old tools from new ones, as if they belonged to different ages of intelligence. But the deeper truth is structural. The ruler, the slide rule, the Jacobian, and the transformer coexist in one manifold of externalized reasoning. Some regions are low-curvature and directly graspable. Others are high-curvature and harder to map. The continuity remains.
 
 That is why it matters. It is not simply another machine. It is a new concentration of many older tools into one operator stack—a system standing on the shoulders of the tools that came before it, and extending their logic into a new architecture of thought.
 

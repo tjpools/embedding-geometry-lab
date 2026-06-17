@@ -2,7 +2,7 @@ chapter,title,path,word_count,status
 1,Me,book/chapter_01_me.md,990,ok
 2,Machine,book/chapter_02_machine.md,1464,ok
 3,Us,book/chapter_03_us.md,3408,ok
-4,Tools,book/chapter_04_tools.md,1392,ok
+4,Tools,book/chapter_04_tools.md,1536,ok
 5,Lineage,book/chapter_05_lineage.md,1599,ok
 6,Assembly Programmer’s Manifold,book/chapter_06_assembly_programmers_manifold.md,2076,ok
 7,Leibniz/dx,book/chapter_07_dx_leibniz.md,4577,ok
@@ -15,5 +15,5 @@ chapter,title,path,word_count,status
 14,Proper Analysis,book/chapter_14_proper_analysis.md,1796,ok
 15,EasterDate,book/chapter_15_easterdate.md,2500,ok
 16,Structure Becomes Object,book/chapter_16_structure_becomes_object.md,2095,ok
-17,Walkable Path,book/chapter_17_a_walkable_path_through_a_larger_landscape.md,1888,ok
-18,Three Is the First Intelligent Number,book/chapter_18_three_is_the_first_intelligent_number.md,2731,ok
+17,Walkable Path,book/chapter_17_a_walkable_path_through_a_larger_landscape.md,2038,ok
+18,Three Is the First Intelligent Number,book/chapter_18_three_is_the_first_intelligent_number.md,2815,ok
