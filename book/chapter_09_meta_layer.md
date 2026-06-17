@@ -261,6 +261,8 @@ It is cognition.
 This is the part of the Meta Layer that makes the system inspectable.
 It is the equivalent of opening the case and showing the motherboard.
 
+It is also where the manuscript begins to evaluate its own behavior. The word counts, density tables, and heatmaps are not final judges of meaning. They are sensitivity instruments: a local Jacobian picture of where the book thickens, where curvature concentrates, and where a small revision may have large downstream effects. In that sense, the system of tools does not merely describe the manuscript. It helps direct the next build.
+
 The filesystem view is the most concrete of the four coordinate systems.
 It is the one you can literally `cd` into.
 
@@ -315,6 +317,8 @@ Each view reveals something the others cannot:
 - Kernel → privilege and invariants
 - Transformer → computation and alignment
 - Filesystem → spatial organization and introspection
+
+This is the GEB-and-Minsky turn inside the project. A book about systems that build systems became, in small but real form, a system that inspects itself and continues the build. The manuscript, the metrics, the reread plan, and the revision process do not stand apart. They behave like a small society of cooperating processes working on a shared object.
 
 Together, they form a complete atlas.
 

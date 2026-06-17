@@ -34,20 +34,9 @@ You do not need to master every historical detail in this chapter to keep the ma
 Before embeddings became a story about local perturbations, calculus first had to become a story about lawful change. That shift did not happen all at once. It emerged from a tension within equation space itself.
 
 
-Before we can appreciate what Leibniz invented, we need to feel the failure of the old tools. Try the algebraic moves you already know:
+Before we can appreciate what Leibniz invented, we need to feel the failure of the old tools. Try the algebraic moves you already know: subtract $x$ from both sides, take logarithms, isolate the variable, rearrange the terms. Every move leads to a dead end. The variable is trapped in two incompatible worlds: $x$ lives in the linear world, while $5^x$ lives in the exponential one. Algebra can handle either world separately, but not both at once.
 
-- subtract $x$ from both sides,
-- take logarithms,
-- isolate the variable,
-- rearrange the terms.
-
-Every move leads to a dead end. The variable is trapped in two incompatible worlds: $x$ lives in the linear world, while $5^x$ lives in the exponential one. Algebra can handle either world separately, but not both at once. There is no clean sequence of ordinary symbolic manipulations that isolates $x$. The equation is not merely difficult; it is structurally resistant to the algebraic grammar.
-
-This is the moment where mathematics needed a new idea: not a trick, not a clever rearrangement, but a new way to reason when exact symbolic closure fails.
- 
-That tension deepens if we broaden the historical lens. For centuries, algebra pursued solvability: which equations admit explicit solutions, and by what operations? The eventual story of the quintic sharpened the point dramatically. There are deep structural reasons why general fifth-degree equations do not submit to solution by radicals. The quintic therefore marks a kind of boundary within classical solvability space. Algebra could classify, transform, and illuminate structure, but not always deliver a closed symbolic answer.
-
-That is one of the reasons differential thinking mattered so much. When exact symbolic solvability is unavailable, mathematics does not stop. Instead, it can ask a different kind of question:
+This is the moment where mathematics needed a new idea: not a trick, not a clever rearrangement, but a new way to reason when exact symbolic closure fails. The later story of the quintic sharpened that same point. Algebra could still classify, transform, and illuminate structure, but it could not always deliver a closed symbolic answer. Differential thinking mattered because it changed the question. When global solvability is unavailable, mathematics can still ask:
 
 - How does an expression behave nearby?
 - If a variable changes slightly, what happens to the result?
@@ -55,9 +44,7 @@ That is one of the reasons differential thinking mattered so much. When exact sy
 
 This chapter introduces the idea of the **differential**—Leibniz’s famous $dx$—and shows why it matters for modern representation spaces. The point is not that embedding models secretly contain classical infinitesimals in a literal historical sense. The point is that Leibniz developed a language for reasoning about **local change**, and that language maps surprisingly well onto the way we analyze movement in vector spaces.
 
-But to understand why Leibniz matters here, we need to understand not only the utility of differentials, but also the controversy around them. Leibniz invented the grammar of infinitesimals. Berkeley, the philosopher-critic of the calculus, demanded metaphysical clarity about what those infinitesimals were. Lambert, the mathematician who extended that grammar into transcendental territory, later showed what it could do once mathematics accepted its new conceptual apparatus.
-
-One way to state Lambert's importance concretely is this: once mathematics accepted the new analytic grammar, it could begin to treat some transcendental equations as objects of systematic study rather than as isolated symbolic failures. In modern notation, that legacy appears in the Lambert $W$ function, defined implicitly by
+But to understand why Leibniz matters here, we need to understand not only the utility of differentials, but also the controversy around them. Leibniz invented the grammar of infinitesimals. Berkeley demanded metaphysical clarity about what those infinitesimals were. Lambert later showed how far the new grammar could reach once mathematics accepted its conceptual cost. In modern notation, that legacy appears in the Lambert $W$ function, defined implicitly by
 
 $$
 W(z)e^{W(z)} = z,

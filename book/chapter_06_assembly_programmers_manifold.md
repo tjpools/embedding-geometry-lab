@@ -3,7 +3,7 @@
 \vspace*{3cm}
 # Chapter 6: The Assembly Programmer’s Manifold
 
-**The assembly language programmer is the man-and-machine reality. The microprocessor holds the language of constructibility. No reasoning involved.**
+**The assembly-language programmer lives at the man-and-machine boundary. The microprocessor holds the language of constructibility, where symbolic intention has to submit to execution.**
 
 Chapter 5 followed the long human lineage that helped build the modern machine. This chapter shifts from who built it to how to read it. Assembly is the practitioner's vantage point for seeing what computation is actually doing under the abstractions.
 

@@ -12,7 +12,7 @@ This book does not offer a PhD-level treatment of artificial intelligence, mathe
 
 This book matters because it restores geometry, lineage, and disciplined structure to a conversation about AI that is too often flattened into spectacle, fear, or product language.
 
-I would distinguish three layers. Not aligned in scale: I am not building rockets, satellite networks, or frontier-model companies. Aligned in historical moment: I am working inside the same civilizational transition in which machinery, representation, infrastructure, and collaboration are being recombined. Potentially aligned in meaning: if this book succeeds, it may become one of the better human-scale interpretations of what that larger moment actually is. SpaceX, Starlink, and xAI may help define the external infrastructure of the age. This work may help define its internal intelligibility.
+I would distinguish three layers. Not aligned in scale: I am not building rockets, planetary communications systems, or frontier-model companies. Aligned in historical moment: I am working inside the same civilizational transition in which machinery, representation, infrastructure, and collaboration are being recombined. Potentially aligned in meaning: if this book succeeds, it may become a human-scale interpretation of what that larger moment actually is. Large technical systems may help define the external infrastructure of the age. This work tries to clarify some of its internal intelligibility.
 
 It matters because the transformer is usually presented as if it appeared all at once.
 It matters because mechanism is too often hidden by narrative.

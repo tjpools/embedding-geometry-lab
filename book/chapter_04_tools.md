@@ -99,9 +99,6 @@ That is why it matters. It is not simply another machine. It is a new concentrat
 
 ## 9. The Arc of Tools
 
-Tools are not passive objects. They reorganize thought. Notation becomes operator. Operator becomes system. System changes what mind can do.
-
-
 The history of tools is therefore not separate from the history of intelligence. It is part of that history. Mind leaves the skull, takes form in wood, symbol, notation, machine, and model, and then returns to reshape the mind that made it.
 
 Tools are not passive objects. They reorganize thought. Notation becomes operator. Operator becomes system. System changes what mind can do.

@@ -18,9 +18,7 @@ This chapter is about the space that forms between a human and a trained model w
 
 What is scaling in the present age is not only infrastructure or computation. It is the merger of two craftsman-objects: the human practitioner and the transformer as a learned tool of representation. From that merger emerges a new craft of intelligence, in which thought is increasingly shaped through collaboration with tools that do more than extend the hand. They extend structured reasoning itself.
 
-Meaning emerges through collaborative construction: the joint manifold where human and machine build structure together.
-
-What matters is not the machine alone, nor the human alone, but the manifold formed by their alignment.
+What matters is not the machine alone, nor the human alone, but the manifold formed by their alignment: the joint region where human and machine can build structure together.
 
 ## 3.1 The Interface Is a Mapping
 
@@ -46,11 +44,7 @@ In machine learning, the same idea reappears. Backpropagation is the repeated ap
 
 When we speak of the “Jacobian of interaction” between human and model, we are borrowing this idea: a local chart of how intention, symbol, correction, and response influence one another. The Jacobian is the mathematical emblem of the joint manifold — the place where relation becomes structure.
 
-$$
-U = \{ (x, y) \in M_1 \times M_2 \mid J(x, y) \text{ is stable} \}
-$$
-
-If the notation feels heavy, the working meaning is simple: there is a region of collaboration where the back-and-forth remains stable enough to keep building.
+If the notation can wait, the working meaning can stay plain: there is a region of collaboration where the back-and-forth remains stable enough to keep building. Later chapters will formalize that region more carefully. For now, it is enough to recognize that some exchanges hold together and compound, while others collapse into noise.
 
 Where:
 
