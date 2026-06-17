@@ -27,9 +27,11 @@ This repository is not only a container for a book. It is a public cognitive ins
 - **The book** in `book/` is the story layer: the human path through the argument.
 - **The epilogue** is the instance layer: a small runtime proof that a simple question can open a deep corridor.
 - **The repository documents** are the communication layer: the public interface for readers who want to inspect structure, builds, metrics, and supporting artifacts.
+- **The metrics** are the self-describing layer: the counts, heatmaps, and structural traces through which the project explains its own density, drift, and curvature.
 
 If you want to enter the project from the book side, start with `book/HOW_TO_READ_THIS_BOOK.md`.
 If you want to understand how the repository itself participates in the argument, read `book/architecture_of_the_repository.md`.
+If you want to see the project observing itself, inspect `book/analysis_throughput/`, `chapters_wordcount/`, and `book/wordcounts.csv`.
 If you want the shortest version of the invitation, it is this: the work is meant to be entered, not merely consumed.
 
 ## Thesis

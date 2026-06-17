@@ -17,9 +17,10 @@ The project is easiest to understand if it is read in four layers:
 - **story layer** — the book itself
 - **instance layer** — the epilogue and other small runtime demonstrations
 - **communication layer** — the repository documents, notes, and public entry points
+- **self-describing layer** — the metrics, heatmaps, counts, and reflective traces through which the project observes its own structure
 - **protein layer** — the aggregate object formed by book, artifacts, measurements, scripts, and reader engagement taken together
 
-This document mainly describes the communication layer so that readers can enter the larger structure without confusing it with the book’s narrative role.
+This document mainly describes the communication and self-describing layers so that readers can enter the larger structure without confusing them with the book’s narrative role.
 
 ## 1. Repository as Manifold
 
@@ -73,6 +74,10 @@ This is the right place for structural measurements of the manuscript, including
 If `book/` is where the manuscript is traversed, `book/analysis_throughput/` is where the manuscript is inspected as structure.
 
 This placement matters. It means the analysis layer is not external to the book. It sits inside the same field as the manuscript, close enough to function as a local reflective surface. The book does not send itself out to be analyzed elsewhere. It contains its own instruments nearby.
+
+This is the layer in which the project becomes self-describing. Word counts, heatmaps, chapter curvature, and revision-facing summaries do more than report facts. They form a kind of Jacobian of the manuscript: a local picture of where density accumulates, where drift has occurred, and where structural pressure is highest.
+
+In that sense, the metrics are not decorative telemetry. They are executable reflection.
 
 ## 5. Appendices, Afterword, and Structural Reflection
 
@@ -150,6 +155,8 @@ The work does not merely discuss structure, intelligence, geometry, and visibili
 - the operational build layer
 - the appendicial and interpretive layer
 - the developmental traces around the finished work
+
+The metrics layer is especially important because it gives the system a way to expose its own runtime shape. It reveals where the book grew, where it tightened, where density concentrates, and how the artifact changed under collaboration. That is one of the clearest differences between a merely narrative artifact and a self-observing one.
 
 A well-formed repository does not merely hold the book. It demonstrates the book’s internal logic in file form.
 

@@ -20,6 +20,10 @@ This project has three public layers, and each one does a different job.
 - **The epilogue** is the instance layer: one small, live example of the thesis in action.
 - **The repository** is the communication layer: the public structure around the book where readers can inspect tools, notes, builds, and measurements.
 
+Alongside those public layers sits a reflective one:
+
+- **The metrics** are the self-describing layer: word counts, heatmaps, drift surfaces, and coherence traces that show how the object tightens, where the density lives, and how the artifact changed across revisions.
+
 If you only want the argument, stay in the book.
 If you want to see the thesis demonstrated, read the epilogue.
 If you want to inspect how the object is assembled, follow the repository paths and supporting documents.
@@ -73,6 +77,12 @@ The main repository-facing orientation documents are:
 - `book/HOW_TO_READ_THIS_BOOK.md` — this navigation guide
 - `book/architecture_of_the_repository.md` — the structural map of the larger object
 
+The main self-describing artifacts live in the measurement layer, especially:
+
+- `book/analysis_throughput/` — local analysis outputs and manuscript-facing instrumentation
+- `chapters_wordcount/` — chapter metrics, heatmaps, and related summaries
+- `book/wordcounts.csv` — the current manuscript-wide count surface
+
 **Engage With Interactive Elements**  
 Some chapters include diagrams, metrics, or analytic tools.  
 Use them to:
@@ -112,6 +122,8 @@ AI is not a definition — it is a space.
 This book is the atlas that makes the space visible.
 
 The repository around the book exists because this project is not only a text. It is also a public cognitive instrument: a structure that can be read, built, inspected, and entered from several directions.
+
+The metrics complete that instrument. They are where the system explains itself: where curvature, drift, density, and coherence become visible instead of merely asserted.
 
 You are the explorer.
 
