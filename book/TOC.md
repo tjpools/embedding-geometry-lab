@@ -2,7 +2,11 @@
 
 ## Front Matter
 - Cover — BOOK_COVER.md
+- Copyright — copyright.md
+- Dedication — dedication.md
+- Epigraph — epigraph.md
 - How to Read This Book — HOW_TO_READ_THIS_BOOK.md
+- Preface — preface.md
 
 ## Main Matter
 - Chapter 1: Me — chapter_01_me.md
@@ -25,6 +29,7 @@
 - Chapter 18: Three Is the First Intelligent Number — chapter_18_three_is_the_first_intelligent_number.md
 
 ## Back Matter
+- Epilogue: One Question, One Table — epilogue_one_question_one_table.md
 - Appendix A: Heatmap Manifold — appendix_heatmap_manifold.md
 - Appendix B: Ghost Chapters — appendix_ghost_chapters.md
 - Postscript — Postscript.md

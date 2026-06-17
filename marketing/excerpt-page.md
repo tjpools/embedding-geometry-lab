@@ -1,9 +1,11 @@
-# The Society of Man and Machine
-## How Intelligence Becomes a Manifold
+# Embedding Geometry
+## A Coordinate Atlas for Intelligence
 
-**A new way to understand AI — not as a rival mind, but as a system of reasoning we now inhabit.**
+**A serious path into AI: not as hype, not as a rival mind, but as a walkable structure of tools, lineage, geometry, and collaboration.**
 
-This book offers a new way to understand AI: not as a rival mind or a cycle of hype, but as a system in which human and machine reasoning now interact. Tracing a path from tools and symbols to computation, geometry, and transformers, it shows how intelligence is becoming distributed across people, models, devices, and institutions. Through stories, conceptual analysis, and structural insight, the book helps readers make sense of a world in which thinking is no longer purely individual, authorship is increasingly collaborative, and knowledge moves through new environments. It is for readers who want a serious, grounded account of what AI is changing — not only in technology, but in thought itself.
+Embedding Geometry offers a new way to understand AI: not as a rival mind or a cycle of hype, but as a system of reasoning that can be entered, inspected, and learned. Tracing a path from tools and symbols to computation, geometry, and transformers, it gives readers a grounded account of what AI changes not only in technology, but in thought itself.
+
+This is not a book of slogans. It is a coordinate atlas: a structured route through the lineage that made modern AI possible.
 
 ## Manifesto Excerpt
 
@@ -19,6 +21,13 @@ This is why the book is not only about AI. It is also an instance of the conditi
 
 If you want to understand the future of intelligence, you need more than opinions about technology. You need a map of the spaces in which intelligence now moves. This book is an attempt to provide one.
 
+## How to Enter the Project
+
+- Read the book for the story layer.
+- Read the epilogue for one small, concrete proof that a simple question can open a deep corridor.
+- Visit the repository for the structural layer: notes, builds, and executable artifacts.
+- Inspect the metrics for the self-describing layer: heatmaps, counts, and chapter-level traces.
+
 ## Featured Quotables
 
 - **Intelligence is no longer a possession. It is a place.**
@@ -30,5 +39,6 @@ If you want to understand the future of intelligence, you need more than opinion
 ## Get the Preview
 
 - **Download the free preview**
+- **Read the epilogue and sample materials**
 - **Join the early reader list**
 - **Get notified at launch**
