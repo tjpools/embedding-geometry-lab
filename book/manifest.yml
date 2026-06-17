@@ -1,0 +1,6 @@
+version: 1
+chapters:
+  # Canonical reader-facing source files (Markdown only)
+  # Paths are repository-root relative.
+  # Example:
+  # - book/01-introduction.md
