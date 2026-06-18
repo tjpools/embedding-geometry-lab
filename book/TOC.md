@@ -21,7 +21,7 @@
 - Chapter 10: The Cockpit — chapter_10_cockpit.md
 - Chapter 11: The Ebook as Manifold — chapter_11_ebook_as_manifold.md
 - Chapter 12: Why This Book Matters — chapter_12_why_this_book_matters.md
-- Chapter 13: Marvin Minsky: Architect of the Distributed Mind — chapter_13_minsky.md
+- Chapter 13: Marvin Minsky: Structural Operator of the Distributed Mind — chapter_13_minsky.md
 - Chapter 14: The Proper Analysis — chapter_14_proper_analysis.md
 - Chapter 15: EasterDate — A Machine Within a Machine — chapter_15_easterdate.md
 - Chapter 16: Structure Becomes Object — chapter_16_structure_becomes_object.md
@@ -32,4 +32,5 @@
 - Epilogue: One Question, One Table — epilogue_one_question_one_table.md
 - Appendix A: Heatmap Manifold — appendix_heatmap_manifold.md
 - Appendix B: Ghost Chapters — appendix_ghost_chapters.md
+- Appendix C: The Deep Machinery — appendix_deep_machinery.md
 - Postscript — Postscript.md

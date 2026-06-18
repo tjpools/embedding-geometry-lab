@@ -36,6 +36,8 @@ You have seen the ebook become the public interface through which part of that p
 
 Taken one at a time, these chapters may look like separate arguments. Taken together, they form a single claim: AI becomes more intelligible when it is placed back inside the longer history of tools, operators, notation, geometry, and disciplined traversal.
 
+What the book keeps returning to is simple: computation is the substrate, and the many tools built upon it are configurations through which that substrate becomes visible and usable.
+
 That is what this book has been building.
 
 ## 12.2 What This Book Restores
@@ -147,4 +149,4 @@ The task now is not to worship those spaces or fear them blindly. It is to learn
 
 That is why this book matters.
 
-The next question is what kind of mind such a landscape implies when intelligence is no longer imagined as one indivisible thing. That question belongs to Minsky.
+The next question is what kind of mind such a landscape implies when intelligence is no longer imagined as one indivisible thing. The structural operator for that question is Minsky.

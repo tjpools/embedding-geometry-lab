@@ -46,6 +46,15 @@ Tools do not just help us think.
 They change what thinking can become available to ordinary people.
 
 If this book has argued for a manifold of reasoning, this epilogue offers one local proof.
-One question.
-One table.
-One visible reduction in the cost of beginning.
+
+Across these eighteen chapters, you have seen the substrate and the configurations that sit upon it.
+
+You have seen how number systems shape representation, how matrices expose structure, how assembly aligns with the microprocessor, how operating systems enforce contracts, and how transformers compute meaning through dense geometry. None of these are separate worlds. They are different dials on the same movement.
+
+You have also seen how humans and machines approach the same substrate through different architectures: one sparse and survival-shaped, the other dense and clocked. Collaboration becomes possible when we stop projecting human qualities onto tools and instead understand the configurations that make them work.
+
+This book was never meant to mystify AI. It was meant to make the domain more intelligible, to show the gears, and to reveal enough of the movement that the reader can return to it and go deeper.
+
+Computation is the substrate. Tools are configurations. To understand the configurations is to understand the domain.
+
+Everything else is exploration.

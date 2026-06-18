@@ -35,6 +35,8 @@ It is not a prediction of the future.
 
 It is the representational space in which the question “What is AI?” becomes answerable.
 
+Part of what made that answer feel trustworthy was the order of construction. I did not want to borrow machinery I did not understand. I wanted to build the machinery that uses the machinery: the grammar, the operators, the build surfaces, the measurements, and the artifact that could hold them together. In that sense, the project was less like buying a watch than like forging the dials before building the movement.
+
 And because the world is now entangled with this technology — across languages, cultures, and continents — it felt wrong to keep that clarity private.
 So this book became a public‑domain attempt.
 A global artifact.

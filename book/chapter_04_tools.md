@@ -105,6 +105,8 @@ The history of tools is therefore not separate from the history of intelligence.
 
 Tools are not passive objects. They reorganize thought. Notation becomes operator. Operator becomes system. System changes what mind can do.
 
+What changes across this lineage is configuration, scale, and reach. The underlying domain remains computation.
+
 That is the arc of tools: externalization, stabilization, amplification, transformation.
 
 *For extended timelines, diagrams, and experimental notes, see the live companion in the repository.*

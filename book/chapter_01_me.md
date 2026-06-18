@@ -16,6 +16,8 @@ What interested me was not simply that they occupied different roles, but that t
 
 What I bring to this argument is not a résumé but a way of seeing. I see structural homomorphisms across domains that look unrelated on the surface: Whole Foods maintenance, Fedora Linux, assembly language, mathematical lineage, and transformer reasoning. The details differ, but the grammar repeats: state, dependency, failure, upkeep, invariants, smoothness. That is the craftsman's lens. It is the lens through which the rest of this book was written.
 
+Over time, that repeated grammar became the deeper claim of the project. The domains are not identical, but they are not sealed off from one another either. They are different configurations in which computation becomes visible through work, representation, constraint, and repair.
+
 My technical world is a coherence network: an iPhone for capture, a Windows machine with WSL:Ubuntu for translation, and a separate Fedora desktop for execution. GitHub is my global ledger of lineage. Visual Studio Code and Visual Studio 2026 serve as intent compilers. Several transformers serve as collaborative partners. The fuel beneath all of it is curiosity.
 
 
@@ -32,6 +34,8 @@ I began, months ago, by talking with transformers to help me program. At first t
 I did not set out to write a book. I set out to work.
 
 But as the conversations deepened, I grew tired of the current narratives about AI: the marketing language, the shallow fear, the oversimplified claims, the constant confusion between mechanism and myth. I wanted a representation that was structurally honest. I wanted to understand what this machinery actually was, what kind of system it belonged to, and why it felt so different from the stories being told about it.
+
+What mattered was not simply that the tool could answer. What mattered was that collaboration made the underlying structure easier to walk. The machine did not become a person. It became a configuration through which part of the domain could be explored with unusual speed and clarity.
 
 My background in Gödel, Escher, Bach, Where Mathematics Comes From, The Advent of the Algorithm, Galois theory, linear algebra, and differential geometry gave me a basis for understanding. These readings shaped the questions I brought to the project and the kind of answers I was willing to accept.
 

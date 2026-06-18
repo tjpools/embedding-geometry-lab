@@ -21,7 +21,7 @@ This chapter is not about solving that equation. It is about the invention of a 
 
 To understand Lambert's later triumphs, the modern idea of a function as a geometric object, or the full power of calculus itself, we first have to understand what $dx$ is supposed to be and why Berkeley thought it involved metaphysical sleight of hand. The mathematics becomes more powerful here because the ontology changes. The world becomes continuous, and continuity demands a new grammar.
 
-The cast of this chapter comes from the seventeenth and eighteenth centuries, but you do not need their biographies. You only need their roles: Newton is the geometric and physical imagination behind calculus; Leibniz is the symbolic architect of its language; Berkeley is the philosopher who asks what infinitesimals really are; Lambert is the mathematician who shows what the new grammar can actually do.
+The cast of this chapter comes from the seventeenth and eighteenth centuries. You do not need full biographies, but you do need enough of their intellectual positions to see why they disagree. Newton is the physical-geometric operator who stabilizes change as motion, force, and curvature; Leibniz is the symbolic architect of calculus and the operator who makes local change writable; Berkeley is the philosopher and bishop who asks what infinitesimals really are and what kind of reasoning is allowed to rely on them; Lambert is the mathematician who shows what the new grammar can actually do.
 
 Think of this era not as background history, but as the moment mathematics changed its operating system.
 
@@ -76,7 +76,7 @@ That is the beginning of calculus.
 
 ## 7.2 Newton, Leibniz, and two imaginations of calculus
 
-Newton and Leibniz both developed calculus, but they imagined its foundations differently. Newton imagined calculus through motion; Leibniz imagined it through symbols. Newton was the geometric and physical imagination behind the subject; Leibniz was the symbolic architect who made its operations writable.
+Newton and Leibniz both developed calculus, but they imagined its foundations differently. Newton imagined calculus through motion; Leibniz imagined it through symbols. Newton was the physical-geometric operator who stabilized change as motion and lawful curvature; Leibniz was the symbolic architect who made its operations writable.
 
 Newton’s picture was still deeply geometric and kinematic. His quantities flowed. Magnitudes changed over time. His fluxions arose from motion, variation, and geometric generation. Even when symbolic, the underlying imagination was dynamic and geometric.
 
@@ -92,9 +92,11 @@ So while Newton and Leibniz are both founders of calculus, Leibniz belongs espec
 
 The power of Leibniz’s notation came with a philosophical problem: what exactly is $dx$? Is it a genuine quantity, an infinitesimal magnitude, a convenient fiction, a limit in disguise, or a formal symbol that works operationally even if its ontology is unclear?
 
+Berkeley matters here not as a historical cameo, but as a distinct intellectual configuration. He was an Irish philosopher and Anglican bishop, a radical empiricist, and one of the sharpest critics of abstractions that seemed to outrun what could be conceptually justified. He is famous in philosophy for denying that matter exists independently of perception, but in mathematics his importance is narrower and more practical. He treated mathematical language as a tool that still had to answer for the entities it introduced. If a symbol was doing real work, he wanted to know what sort of thing it named, what licensed its use, and whether a successful procedure had smuggled in a dubious ontology. That is why his critique of infinitesimals still echoes. It is not only about calculus. It is about what counts as a legitimate abstraction.
+
 George Berkeley, the philosopher who demanded to know what infinitesimals are, famously challenged the early calculus on precisely this point. His objection was not that calculus failed in practice. It worked remarkably well. His objection was that its foundational language seemed unstable. Infinitesimals appeared to be treated first as if they were nonzero quantities—so that one could divide by them—and then as if they were zero or negligible quantities—so that one could discard them.
 
-Berkeley's critique was not theological so much as ontological. What is $dx$? Is it something or nothing? If it is something, then it must have some magnitude, but that magnitude seems impossible to specify. If it is nothing, then dividing by it should be illegitimate, yet calculus proceeds by doing exactly that. The price of the infinitesimal is that mathematics begins to manipulate entities that do not exist in the ordinary finite sense.
+Berkeley's critique was theological, epistemological, and ontological all at once. He was suspicious of reasoning that asked the mind to tolerate entities it could neither perceive clearly nor define consistently. What is $dx$? Is it something or nothing? If it is something, then it must have some magnitude, but that magnitude seems impossible to specify. If it is nothing, then dividing by it should be illegitimate, yet calculus proceeds by doing exactly that. The price of the infinitesimal is that mathematics begins to manipulate entities that do not exist in the ordinary finite sense.
 
 That, for Berkeley, was not conceptual rigor. It was a kind of sanctioned ambiguity. His famous phrase for infinitesimals was that they were the **ghosts of departed quantities**.
 

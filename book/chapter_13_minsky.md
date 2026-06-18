@@ -1,10 +1,10 @@
 \newpage
 \vspace*{3cm}
-# Chapter 13: Marvin Minsky: Architect of the Distributed Mind
+# Chapter 13: Marvin Minsky: Structural Operator of the Distributed Mind
 
 For readers who know contemporary AI better than its earlier intellectual lineage, Marvin Minsky needs a sentence of introduction before he can become a conceptual bridge. He was an American mathematician, computer scientist, and cofounder of the MIT Artificial Intelligence Laboratory, and he became one of the central twentieth-century figures arguing that intelligence should be understood mechanistically rather than mystically.
 
-He matters in this book not because every technical program associated with his era survived unchanged, but because he helped change the question. Instead of asking where one indivisible intelligence resides, he asked how many smaller processes might cooperate to produce what we call mind. That shift in viewpoint is one of the necessary preconditions for understanding the transformer without turning it into a ghost.
+He matters in this book not because every technical program associated with his era survived unchanged, but because he helped change the question. Instead of asking where one indivisible intelligence resides, he asked how many smaller processes might cooperate to produce what we call mind. In that sense, Minsky is the modern structural operator in this manuscript: the figure who stabilizes cognition as a system of interacting modules rather than a single inner essence. That shift in viewpoint is one of the necessary preconditions for understanding the transformer without turning it into a ghost.
 
 That historical correction matters especially now. Many readers meet AI first through a chat interface and are therefore invited, almost by default, to imagine one conversational intelligence sitting behind the screen. Minsky helps break that illusion. He reminds us that apparent unity at the surface may be the result of many partial mechanisms operating underneath.
 
@@ -15,6 +15,8 @@ Chapter 12 restored the longer lineage beneath the transformer. Chapter 14 will 
 That is Minsky's contribution.
 
 He gives the right ontology for modern AI: intelligence as a society of interacting parts rather than a monolithic essence.
+
+Placed alongside Leibniz, Newton, and Berkeley, his role becomes clearer. Leibniz stabilizes symbolic manipulation, Newton stabilizes physical and geometric lawfulness, Berkeley stabilizes epistemic discipline, and Minsky stabilizes structural multiplicity.
 
 If that sentence sounds abstract, the practical version is this: what looks like one intelligence from the outside may actually be many small processes working together.
 

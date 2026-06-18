@@ -4,7 +4,7 @@ We understood early in our conversations that true understanding of any system c
 
 The first chapter established the human craftsman. The second established the machine as modern semantic machinery. This chapter establishes the society they form. In that sense, it is the first place where the book becomes explicitly Minsky-like: intelligence emerging not from one sovereign center, but from a structured interaction among different kinds of process.
 
-The key claim is that the two parties do not think in the same medium. The human works from wet-brain machinery: embodiment, memory, sensory residue, judgment, fatigue, tacit skill, and historical situation. The transformer works from hardware/software machinery: vectors, weights, matrix multiplication, optimization history, and token-level reconstruction. Differential geometry is the better language for the first manifold because lived cognition is continuous, situated, and locally curved by experience. Neuron-matrix machinery is the better language for the second because its operative substance is numerical relation across learned parameter space. Chapter 3 is where those two manifolds are adjoined.
+The key claim is not that the two parties belong to separate universes. It is that they approach the same computational substrate through different architectures. The human works from wet-brain machinery: embodiment, memory, sensory residue, judgment, fatigue, tacit skill, and historical situation. The transformer works from hardware/software machinery: vectors, weights, matrix multiplication, optimization history, and token-level reconstruction. Differential geometry is the better language for the first manifold because lived cognition is continuous, situated, and locally curved by experience. Neuron-matrix machinery is the better language for the second because its operative substance is numerical relation across learned parameter space. Chapter 3 is where those two manifolds are adjoined.
 
 If the language of manifold feels technical this early, the working intuition can stay simple for now: a human mind and a transformer do not organize experience in the same way, but they can still form a stable working region together. The later chapters will build the fuller mathematical vocabulary. This chapter only needs the reader to feel the shape of the claim before every term becomes formal.
 
@@ -18,7 +18,7 @@ This chapter is about the space that forms between a human and a trained model w
 
 What is scaling in the present age is not only infrastructure or computation. It is the merger of two craftsman-objects: the human practitioner and the transformer as a learned tool of representation. From that merger emerges a new craft of intelligence, in which thought is increasingly shaped through collaboration with tools that do more than extend the hand. They extend structured reasoning itself.
 
-What matters is not the machine alone, nor the human alone, but the manifold formed by their alignment: the joint region where human and machine can build structure together.
+What matters is not the machine alone, nor the human alone, but the manifold formed by their alignment: the joint region where human and machine can build structure together. Collaboration becomes serious when the configurations differ but the structure can still be carried across the boundary.
 
 ## 3.1 The Interface Is a Mapping
 

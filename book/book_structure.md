@@ -57,7 +57,7 @@ A final capstone chapter now makes explicit the triadic geometry implicit across
 10. Chapter 10: The Cockpit — chapter_10_cockpit.md
 11. Chapter 11: The Ebook as Manifold — chapter_11_ebook_as_manifold.md
 12. Chapter 12: Why This Book Matters — chapter_12_why_this_book_matters.md
-13. Chapter 13: Marvin Minsky: Architect of the Distributed Mind — chapter_13_minsky.md
+13. Chapter 13: Marvin Minsky: Structural Operator of the Distributed Mind — chapter_13_minsky.md
 14. Chapter 14: The Proper Analysis — chapter_14_proper_analysis.md
 
 This sequence resolves duplicate numbering, removes the Michael/Karina interlude from the main spine, and places Minsky as a late structural hinge before the next representational turn.

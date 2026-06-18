@@ -24,6 +24,8 @@ xor     eax, eax    ; ??
 
 This repository is not only a container for a book. It is a public cognitive instrument built in layers.
 
+The manuscript is now the authoritative source of truth for the project. The EPUB, PDF, metrics, heatmaps, and supporting notes are downstream synchronizations of a stable conceptual core rather than parallel drafts competing for definition.
+
 - **The book** in `book/` is the story layer: the human path through the argument.
 - **The epilogue** is the instance layer: a small runtime proof that a simple question can open a deep corridor.
 - **The repository documents** are the communication layer: the public interface for readers who want to inspect structure, builds, metrics, and supporting artifacts.
@@ -34,9 +36,15 @@ If you want to understand how the repository itself participates in the argument
 If you want to see the project observing itself, inspect `book/analysis_throughput/`, `chapters_wordcount/`, and `book/wordcounts.csv`.
 If you want the shortest version of the invitation, it is this: the work is meant to be entered, not merely consumed.
 
+This project was built from the conviction that machinery should not merely be borrowed. A lot of projects borrow machinery they do not really understand. This one tried to build the machinery that uses the machinery.
+
 ## Thesis
 
-> *Man and machine have always been with us. Through updating and upgrading we have arrived at LLMs and transformers. We got there with one important pivot in the history of tools: Leibniz introduced differential notation, and that set us on this path. At each turn, tools changed us, and we changed them. We are now studying not just machines, but ourselves in relation to them. We can either drift with this change, or build a cockpit and navigate it.*
+**Computation is the substrate.**
+**Tools are configurations.**
+**Understanding the configurations is understanding the domain.**
+
+> *Man and machine have always been with us. Through updating and upgrading we have arrived at LLMs and transformers. We got there with one important pivot in the history of tools: Leibniz introduces* dx — *the operator that lives with us in modern AI. By probing the machine we learn its inner workings. This is an assembly language developer's mindset.*
 
 **Five claims, five measurements.**
 
@@ -76,7 +84,9 @@ In 2026, the largest models in existence — hundreds of billions of parameters 
 
 Berkeley called it a ghost. He was right that it was not a number. He was wrong that it was therefore empty. It was an operator — a relationship, not a quantity. The formalism caught up three centuries later: nonstandard analysis, smooth infinitesimal analysis, rigorous epsilon-delta limits. The ghost became machinery.
 
-But Berkeley was not wrong to push. He forced the question. The naysayers are essential — they demand that you clarify what you mean, and then test it. Leibniz could gesture at dx. Berkeley forced the proof. The proof gave us calculus as instrument, not metaphor.
+In the same grammar, Newton is the physical-geometric operator who stabilizes change as motion and curvature, Leibniz is the symbolic operator who makes local change writable, Berkeley is the epistemic operator who demands conceptual cleanliness, and Minsky is the structural operator who treats cognition as a coordinated society rather than a single essence.
+
+But Berkeley was not wrong to push. He forced the question. The naysayers are essential — they demand that you clarify what you mean, and then test it. Leibniz could gesture at dx. Berkeley forced the world to ask: *what exactly is this thing?* The answer took centuries and ended up in the training loop of every transformer alive.
 
 This is the same in any domain. The critic who says *that's not real* forces the proof. The proof produces the instrument. The instrument produces the measurement. The measurement produces the record. The record becomes the new baseline.
 
@@ -147,12 +157,26 @@ To build the manuscript outputs from the `book/` directory:
 bash book/build_book.sh
 ```
 
+To refresh metrics plus rebuild all downstream manuscript artifacts from the `book/` directory:
+
+```bash
+bash book/update_artifacts.sh
+```
+
 This script:
 
 - builds `embedding-geometry.epub`
 - attempts to build `embedding-geometry.pdf`
 - uses `xelatex` if available, otherwise `pdflatex`
 - skips PDF generation if no LaTeX PDF engine is installed
+
+The combined update script also refreshes:
+
+- `book/wordcounts.csv`
+- `chapters_wordcount/chapters_metrics.md`
+- `book/analysis_throughput/chapter_heatmap.png`
+- `book/analysis_throughput/chapters_heatmap.md`
+- `book/analysis_throughput/chapter_coherence_audit.md`
 
 Requirements:
 

@@ -122,6 +122,7 @@ python chapter_metrics_suite.py
 - `chapters_metrics.md`: Markdown table of metrics for all units
 - `*_wordcount.txt` or `*_metrics.txt`: Metric logs for each unit
 - `heatmap.png`: Visual heatmap of metric density
+- `chapter_coherence_audit.md`: Chapter-by-chapter coherence and cohesion audit snapshot for the current manuscript
 
 ## Advanced Metrics
 

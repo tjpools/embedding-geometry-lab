@@ -4,9 +4,13 @@
 
 This repository is not organized merely as a storage location for text and code. It is organized as a conceptual system.
 
+At this stage of the project, the manuscript is the authoritative source of truth. The repository's metrics, builds, summaries, and supporting documentation are synchronized outward from that stabilized textual core.
+
 It is also meant to be entered in public, not merely downloaded. The repository is part of the project’s interface to the world. The book tells the story. The epilogue gives one live instance of the thesis. The repository documents explain how the larger object is assembled and how a reader can move from narrative into structure.
 
 The project treats writing, analysis, and computation as different views of the same underlying manifold. The repository therefore has an architecture in which the manuscript, its measurement layer, and its supporting tools remain close to one another. The book provides the primary coordinate system. The analysis layer measures that system from within the same textual field. The build and support materials make the whole object traversable, exportable, and inspectable.
+
+This matters because the repository is no longer only a place where book and artifacts co-evolve. It is now a workstation whose downstream layers are expected to reflect a stable thesis, a stable operator grammar, and a stable lineage of constraints.
 
 What follows is not only a description of folders. It is a map of functions as they currently appear in the repository.
 
@@ -76,6 +80,8 @@ If `book/` is where the manuscript is traversed, `book/analysis_throughput/` is 
 This placement matters. It means the analysis layer is not external to the book. It sits inside the same field as the manuscript, close enough to function as a local reflective surface. The book does not send itself out to be analyzed elsewhere. It contains its own instruments nearby.
 
 This is the layer in which the project becomes self-describing. Word counts, heatmaps, chapter curvature, and revision-facing summaries do more than report facts. They form a kind of Jacobian of the manuscript: a local picture of where density accumulates, where drift has occurred, and where structural pressure is highest.
+
+The coherence audit added to this layer extends that reflection one step further. It does not only measure size or density. It measures how well each chapter holds its role and how well the sequence carries the book's thesis across transitions.
 
 In that sense, the metrics are not decorative telemetry. They are executable reflection.
 

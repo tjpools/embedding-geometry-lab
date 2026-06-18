@@ -110,7 +110,7 @@ Leibniz gives structure: operators, invariants, symbolic transformation.
 Newton gives geometry: motion, curvature, propagation through space.
 Berkeley gives justification: the demand that mathematical meaning be conceptually answerable.
 
-These are not merely historical figures placed beside one another. They form three directions in the manifold of understanding. Structure. Geometry. Justification. Across the chapters of this book, these directions recur as the minimal basis in which intelligence becomes legible.
+These are not merely historical names placed beside one another. They are operator positions in the manifold of understanding. Structure. Geometry. Justification. Across the chapters of this book, these directions recur as the minimal basis in which intelligence becomes legible.
 
 The cubic belongs to the structural axis. The Jacobian belongs to the geometric axis. The critique of invisible entities belongs to the justificatory axis. Lorenz and attention sit in the region where all three meet.
 
@@ -128,7 +128,7 @@ The geometry of intelligence first becomes visible at three.
 
 This chapter feels conclusive not because it introduces a final piece of machinery, but because it names a structure that had already been forming across the book.
 
-If a reader felt a jump in abstraction here, that is understandable. The chapter is trying to name, in compressed form, a pattern that previously appeared spread across many chapters. The point is not that cubics, Jacobians, Lorenz systems, attention, and historical figures are secretly the same thing. The point is that each reveals, at its own scale, the moment when relation becomes organized enough to produce behavior.
+If a reader felt a jump in abstraction here, that is understandable. The chapter is trying to name, in compressed form, a pattern that previously appeared spread across many chapters. The point is not that cubics, Jacobians, Lorenz systems, attention, and classical operators are secretly the same thing. The point is that each reveals, at its own scale, the moment when relation becomes organized enough to produce behavior.
 
 The ideas gathered here were not built all at once. They emerged through repeated returns to the same underlying object from different directions: algebraic, differential, dynamical, computational, and philosophical. Each return added another chart. Each chart made the transitions smoother. Over time, what first appeared as separate topics began to reveal themselves as local views of one manifold of understanding.
 
