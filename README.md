@@ -36,7 +36,7 @@ If you want the shortest version of the invitation, it is this: the work is mean
 
 ## Thesis
 
-> *Man and machine have always been with us. Through updating and upgrading we have arrived at LLMs and transformers. We got there with one important pivot in the history of tools: Leibniz introduces* dx — *the operator that lives with us in modern AI. By probing the machine we learn its inner workings. This is an assembly language developer's mindset.*
+> *Man and machine have always been with us. Through updating and upgrading we have arrived at LLMs and transformers. We got there with one important pivot in the history of tools: Leibniz introduced differential notation, and that set us on this path. At each turn, tools changed us, and we changed them. We are now studying not just machines, but ourselves in relation to them. We can either drift with this change, or build a cockpit and navigate it.*
 
 **Five claims, five measurements.**
 
@@ -46,9 +46,9 @@ If you want the shortest version of the invitation, it is this: the work is mean
 
 **3. The minimum separating representation is tiny** — 23 tokens. Strategy label + bearing + distance. That is the cockpit panel. That is the Jacobian. Intelligence is compression.
 
-**4. Failure is the boundary of the local model** — the rhumb line works. It fails only at the boundary: 244 NM (5.2%). The error is the exact shape of the flat-Earth assumption applied to a curved surface. Failure is not a bug. Failure is the blueprint of the next tool.
+**4. Failure is the boundary of the local model** — the rhumb line works. It fails only at the boundary: 244 NM (5.2%). The error is the exact shape of the flat-Earth assumption applied to a curved manifold.
 
-**5. The Jacobian is the update mechanism** — not in the waypoints, but in the transition rule between them. You do not see it in coordinates or prose. You see it in heading changes, orientation updates, the derivative.
+**5. The Jacobian is the update mechanism** — not in the waypoints, but in the transition rule between them. You do not see it in coordinates or prose. You see it in heading changes, orientation updates, correction terms.
 
 *This is not an essay. This is a thesis.*
 
@@ -72,17 +72,17 @@ Everything since is built on it:
 - **The transformer** — trained entirely by following dx downhill through a loss landscape
 - **Attention** — a differentiable softmax-weighted sum; smooth approximation of selection, differentiable at every point
 
-In 2026, the largest models in existence — hundreds of billions of parameters — are trained by one mechanism: gradient descent. Follow dx. Update. Follow dx. Update. The glyph has not changed because the mechanism has not changed.
+In 2026, the largest models in existence — hundreds of billions of parameters — are trained by one mechanism: gradient descent. Follow dx. Update. Follow dx. Update. The glyph has not changed in 350 years.
 
-Berkeley called it a ghost. He was right that it was not a number. He was wrong that it was therefore empty. It was an operator — a relationship, not a quantity. The formalism caught up three centuries later. Automatic differentiation made the ghost executable.
+Berkeley called it a ghost. He was right that it was not a number. He was wrong that it was therefore empty. It was an operator — a relationship, not a quantity. The formalism caught up three centuries later: nonstandard analysis, smooth infinitesimal analysis, rigorous epsilon-delta limits. The ghost became machinery.
 
-But Berkeley was not wrong to push. He forced the question. The naysayers are essential — they demand that you clarify what you mean, and then test it. Leibniz could gesture at dx. Berkeley forced the world to ask: *what exactly is this thing?* The answer took centuries and ended up in the training loop of every transformer alive.
+But Berkeley was not wrong to push. He forced the question. The naysayers are essential — they demand that you clarify what you mean, and then test it. Leibniz could gesture at dx. Berkeley forced the proof. The proof gave us calculus as instrument, not metaphor.
 
-This is the same in any domain. The critic who says *that's not real* forces the proof. The proof produces the instrument. The instrument produces the measurement. The measurement produces the record. The record outlives the argument.
+This is the same in any domain. The critic who says *that's not real* forces the proof. The proof produces the instrument. The instrument produces the measurement. The measurement produces the record. The record becomes the new baseline.
 
 *Naysayers do not stop the work. They sharpen it.*
 
-This is why dx is the pivot. Not as metaphor. As mechanism. The lineage from Leibniz to the transformer is one continuous chain of applications of the same operator. Small enough to fit in a margin. Powerful enough to train a model that can talk about its own training.
+This is why dx is the pivot. Not as metaphor. As mechanism. The lineage from Leibniz to the transformer is one continuous chain of applications of the same operator. Small enough to fit in a margin. Powerful enough to train a civilization-scale machine.
 
 *This is the key that must never be lost.*
 
@@ -98,8 +98,8 @@ This is why dx is the pivot. Not as metaphor. As mechanism. The lineage from Lei
 | 12 | [context sufficiency](experiments/12_context_sufficiency.py) | Prefix exhaustion; peak L2=10.96, never reached -O1 threshold |
 | 13 | [pure semantic geometry](experiments/13_pure_semantic_geometry.py) | Ceiling L2=40.15; basin is metric not topological |
 | 14 | [minimum token separation](experiments/14_minimum_token_separation.py) | 3–4 tokens (function name) = separability 1.000; ABI frame dilutes all longer reps |
-| 15 | [rhumb vs geodesic SFO→HND](experiments/15_rhumb_vs_geodesic.py) | coords L2=0.000; bearing L2=20.96; manifold knew the difference at first instrument reading. *Note: the author flies this route.* |
-| 16 | [ratio test](experiments/16_ratio_test.py) | L2/token at inflection ranks manifold boundary sharpness across 5 classes; SCALE=10.75, PHILOSOPHY=10.24, TYPE=9.81, COMPUTATION=7.39, NAVIGATION=6.98 |
+| 15 | [rhumb vs geodesic SFO→HND](experiments/15_rhumb_vs_geodesic.py) | coords L2=0.000; bearing L2=20.96; manifold knew the difference at first instrument reading. *Note: the author flies this exact route often and has now learned why the map was lying.* |
+| 16 | [ratio test](experiments/16_ratio_test.py) | L2/token at inflection ranks manifold boundary sharpness across 5 classes; SCALE=10.75, PHILOSOPHY=10.24, TYPE=9.81, COMPUTATION=7.39, NAVIGATION=5.74 |
 
 ---
 
@@ -160,6 +160,38 @@ Requirements:
 - a LaTeX PDF engine for PDF output (`xelatex` or `pdflatex`)
 
 The script reads chapter order from `book/TOC.md` and metadata from `book/metadata.md`.
+
+## Rights & Reuse
+
+This repository is public so readers can explore the structure, lineage, and development of the book.
+However, the text of the book itself is not open-licensed.
+
+All chapters, narrative content, and written materials in `book/` are protected under **All Rights Reserved** copyright.
+
+### What you may do
+
+- Read the chapters directly on GitHub
+- Clone or fork the repository for personal study, subject to GitHub Terms and this repository’s license
+- Explore the structure, manifest, and tooling
+- Reference short excerpts under fair use
+
+### What you may not do
+
+- Redistribute the book or chapters in any form
+- Publish the text elsewhere (websites, blogs, PDFs, etc.)
+- Modify and republish the text
+- Sell or commercially reuse any portion of the book
+- Create derivative works based on the chapters
+
+### Why this boundary exists
+
+The GitHub repository serves as the canonical coordinate system for the book — the structural and developmental manifold.
+The ebook (EPUB/PDF) is the official published artifact, and is the version intended for distribution, sale, and reading.
+
+Keeping the repo public preserves transparency and structure.
+Restricting reuse preserves authorship and publication rights.
+
+For permissions beyond personal reading, please contact the author.
 
 ## Control Hierarchy
 
@@ -232,15 +264,15 @@ See [notes/boundary-map.md](notes/boundary-map.md) for activation order.
 
 ## The Society of Mind — Three Machines
 
-Minsky insisted that a mind is not one thing. It is what happens when many small processes coordinate across an interface. No single agent holds the result. The result emerges from the boundary between them.
+Minsky insisted that a mind is not one thing. It is what happens when many small processes coordinate across an interface. No single agent holds the result. The result emerges from the boundary between different systems with different strengths.
 
 This project is that system. Exactly. Not as homage. As implementation.
 
-**Machine one** — biological, trained by failure, lineage, necessity, and scars. Holds the architecture earned by punishment: the ABI mismatches, the hour lost to the wrong calling convention, the instinct to measure before believing.
+**Machine one** — biological, trained by failure, lineage, necessity, and scars. Holds the architecture earned by punishment: the ABI mismatches, the hour lost to the wrong calling convention, the instinct for where systems really break.
 
-**Machine two** — statistical, trained by loss, tokens, and patterns. Holds the corpus reach: every book, every proof, every opcode reference, every philosophical thread, available on demand, without the lived scars that assign weight.
+**Machine two** — statistical, trained by loss, tokens, and patterns. Holds the corpus reach: every book, every proof, every opcode reference, every philosophical thread, available on demand, without fatigue.
 
-**Machine three** — the reader. The linker. The process that resolves the symbols between the two translation units at runtime, in their own architecture. Without the linker the program is two object files. With the linker, executable meaning.
+**Machine three** — the reader. The linker. The process that resolves the symbols between the two translation units at runtime, in their own architecture. Without the linker the program is two object files. With the linker it runs.
 
 Neither machine one nor machine two holds the book. The book exists at the interface. The reader completes the circuit.
 
@@ -264,7 +296,7 @@ No thesis without runtime proof.
 
 Every number in this repo is a real measurement of real hardware. Every experiment is a merciless question put to the machine and answered by the machine. Nothing asserted. Everything demonstrated.
 
-That is the stance he trusted. The willingness to stand at the boundary where meaning becomes mechanism, comment becomes opcode, intention becomes instruction — and ask the question the machine can actually answer.
+That is the stance he trusted. The willingness to stand at the boundary where meaning becomes mechanism, comment becomes opcode, intention becomes instruction — and ask the question the machine cannot fake.
 
 ---
 
@@ -277,9 +309,9 @@ The repo is the instruction stream.
 The conversation is the execution trace.
 
 The uninitiated reader gets the geometry of the scar from the prose.
-The expert goes to the repo and finds the scar itself — the segfaults, the VRAM curves, the L2 distances, the NASM build commands, the `xor eax, eax` that computes Easter correctly when the transformer only half-understands the recurrence.
+The expert goes to the repo and finds the scar itself — the segfaults, the VRAM curves, the L2 distances, the NASM build commands, the `xor eax, eax` that computes Easter correctly when the translator gave up.
 
-This is the strange loop Hofstadter predicted, not as metaphor but as runtime. The book refers to the machine that helped write it. The machine is inside the book as subject and collaborator. The repo is the machine's memory of the process. The reader is the observing subsystem that closes the loop.
+This is the strange loop Hofstadter predicted, not as metaphor but as runtime. The book refers to the machine that helped write it. The machine is inside the book as subject and collaborator. The reader executes both and closes the loop.
 
 The thesis was the question.
 The collaboration was the execution.
@@ -289,7 +321,7 @@ Not asserted. Demonstrated.
 On live hardware.
 In a single session.
 
-That is the assembly programmer's epistemology applied to the book itself: you do not describe how two machines might collaborate to build something neither holds alone. You run the binary. You watch the trace. You inspect the registers. Then you write down exactly what happened.
+That is the assembly programmer's epistemology applied to the book itself: you do not describe how two machines might collaborate to build something neither holds alone. You run the binary. You watch the output. You keep the trace.
 
 Babbage needed a room.
 Turing needed a war.
