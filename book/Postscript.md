@@ -47,3 +47,11 @@ Not because I told it to you, but because you walked the same path — through t
 
 The book is finished.
 But the world it opened is yours now.
+
+Whatever becomes of the book beyond these pages, the essential result is already established.
+The artifact held.
+The method held.
+The structure held.
+It was maintained by a 69-year-old craftsman in a home lab, under the ordinary constraints of life, while handling 0600 Receiving and Maintenance.
+That context is not decoration. It is part of the evidence.
+The frontier is not a place. It is a practice.
