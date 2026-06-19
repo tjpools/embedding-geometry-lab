@@ -64,46 +64,31 @@ It is a structural map of how silicon implements the ideas.
 
 How machines approximate continuity.
 
-- Floating-point numbers split a value into sign, exponent, and significand.
-- This gives enormous range, but only finite precision at each scale.
-- Rounding is not an accident of implementation; it is part of the contract.
-- Continuity in hardware is therefore always structured approximation.
+Floating-point numbers split a value into sign, exponent, and significand so that the machine can cover a vast numerical range with finite storage. A simple example is `0.1`: it looks exact in decimal notation, but in binary floating-point it becomes a repeating expansion that must be rounded. That small fact explains a great deal. The machine does not possess the real line directly. It possesses a disciplined approximation to it, with precise rules for rounding, overflow, underflow, and comparison. Continuity in hardware is therefore always structured approximation.
 
 ### 2. Registers: The Machine's Local Coordinates
 
 Where computation actually happens.
 
-- Registers are the smallest fast storage locations directly visible to the instruction stream.
-- They are where values become actionable rather than merely stored.
-- Calling conventions and shadow space determine how those local coordinates are shared across functions.
-- At the assembly level, the register file is the machine's immediate working geometry.
+Registers are the smallest fast storage locations directly visible to the instruction stream, and they are where values become active rather than merely stored. In a simple x86-64 function call, one register may hold an argument, another the stack pointer, another the return value. If `rax` carries a result while `rsp` preserves the call frame, the machine is already navigating a small coordinate system of roles and constraints. Calling conventions and shadow space formalize that geometry so that separately written code can still meet and cooperate.
 
 ### 3. Pipelines: Discrete Geodesic Steps
 
 How the CPU moves through instructions.
 
-- Modern processors do not complete one instruction before beginning the next.
-- They overlap fetch, decode, schedule, execute, and retire in a staged flow.
-- Hazards, speculation, and branch prediction shape how smoothly that flow proceeds.
-- A pipeline is the machine's way of turning discrete instructions into continuous throughput.
+Modern processors do not wait for one instruction to finish before preparing the next. A load, an add, and a store may all be in flight at once, each at a different stage of fetch, decode, execute, or retire. When the path is predictable, throughput becomes smooth; when a branch mispredicts or a dependency stalls, the flow bends and loses momentum. A pipeline is therefore the machine's way of turning discrete instructions into something closer to continuous movement, one staged step at a time.
 
 ### 4. Vector Units: Hardware Attention
 
 How parallel dot products become the engine of modern AI.
 
-- SIMD and tensor units apply the same operation across many values at once.
-- Dot products and matrix multiplies become cheap only because the hardware is organized for them.
-- Modern inference depends on this parallel inner-product machinery at every layer.
-- What looks abstract in linear algebra is implemented here as real physical throughput.
+Vector units and tensor hardware make modern AI possible by performing the same numerical operation across many values at once. A dot product that would once have required a long scalar loop can now be computed across multiple lanes in one coordinated burst, and matrix multiplication scales that idea up to the level of the model. This is why the language of linear algebra survives contact with hardware so well: the machine has been physically organized to treat inner products and matrix multiplies as first-class events.
 
 ### 5. Memory Hierarchy: The Curvature of Access
 
 How distance, latency, and locality shape computation.
 
-- Registers, caches, RAM, and storage do not sit on one flat access plane.
-- Each layer trades size against latency and bandwidth.
-- Locality is therefore not just a software convenience but a structural necessity.
-- The machine's memory hierarchy is a geometry of access costs.
+Registers, caches, RAM, and storage do not sit on one flat access plane. They form a hierarchy in which nearness is paid for with small size and distance is paid for with latency. A cache hit feels almost local; a miss that falls through to main memory changes the timing landscape of the whole computation. This is why locality matters so much in real systems. The machine's memory hierarchy is not background plumbing. It is a geometry of access costs that shapes what kinds of computation feel smooth and what kinds feel expensive.
 
 This section shows the physical side of the deeper machinery: the discrete, architectural, engineered tradition that supports modern tools.
 

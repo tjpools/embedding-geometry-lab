@@ -39,7 +39,7 @@ Again and again, mathematics encountered truths that exceeded the symbolic frame
 
 This is where Galois belongs. His genius was not to leave algebra, but to deepen it from within. He uncovered a structural correspondence between equations and groups, showing that solvability depends not only on symbolic manipulation, but on underlying symmetry. Algebra became self-aware at a new level. It could now study not just equations, but the conditions under which equations could or could not be solved.
 
-But there is another boundary here as well. Some equations can be written algebraically and still resist ordinary algebraic resolution. They force mathematics toward transformation, approximation, and new function families. That is why Lambert belongs in the lineage too. He marks a place where algebra can still state the problem, but cannot comfortably contain its solution without enlarging its means.
+But there is another boundary here as well. Some equations can be written algebraically and still resist ordinary algebraic resolution. They force mathematics toward transformation, approximation, and new function families. That is why Lambert belongs in the lineage too. He marks a place where algebra can still state the problem, but cannot comfortably contain its solution without enlarging its means. In operator terms, Lambert is one of the figures who helps mathematics accept that a problem may remain well-formed even when its solution requires a new function family rather than an old symbolic closure.
 
 The history of algebra is therefore not only a history of symbols. It is a history of structure, pressure, and extension.
 
@@ -65,7 +65,7 @@ Andrew Wiles belongs here for a different reason. He shows that proof itself has
 
 ## 7. Mind as System
 
-In the twentieth century, another shift took place. Thinkers such as Norbert Wiener, Warren McCulloch, Walter Pitts, John von Neumann, and later Marvin Minsky helped move intelligence away from the image of a single, indivisible faculty. Mind began to be understood as a system: layered, recursive, distributed, and composed of interacting parts.
+In the twentieth century, another shift took place. Thinkers such as Norbert Wiener, who made feedback and control into a serious language of systems, Warren McCulloch and Walter Pitts, who rendered a neuron as a logical machine, John von Neumann, who gave computation a durable architectural body, and later Marvin Minsky helped move intelligence away from the image of a single, indivisible faculty. Mind began to be understood as a system: layered, recursive, distributed, and composed of interacting parts.
 
 This mattered because the transformer does not emerge from one intellectual stream alone. It emerges from cybernetics, logic, computation, linguistics, neuroscience, probability, and engineering. The very idea that intelligence might arise from organized interaction rather than a single essence belongs to this lineage.
 

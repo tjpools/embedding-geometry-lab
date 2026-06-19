@@ -5,7 +5,7 @@
 
 ## 18.1 Three as Threshold
 
-This chapter is a walk through complexity. It enters a mathematical domain that does not remain sealed inside pure abstraction, because it stays coupled throughout to computational hardware. In that respect, it belongs to the same lineage that joins Babbage and Lovelace: machinery on one side, symbolic possibility on the other, and structure emerging from their coupling.
+This chapter is a walk through complexity. It enters a mathematical domain that does not remain sealed inside pure abstraction, because it stays coupled throughout to computational hardware. In that respect, it belongs to the same lineage that joins Charles Babbage and Ada Lovelace: machinery on one side, symbolic possibility on the other, and structure emerging from their coupling. Babbage matters here as the builder of programmable mechanism; Lovelace as the thinker who saw that such machinery could operate on symbolic form rather than mere arithmetic.
 
 The previous chapter ended with orientation: zero, identity, and reference as the conditions that make a manifold inhabitable at all. This chapter takes the next step. Once a system can be located, preserved, and revisited, the next question is when relation becomes rich enough to produce real behavior. My claim is that this threshold first becomes visible at three.
 

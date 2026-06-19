@@ -23,6 +23,8 @@ To understand Lambert's later triumphs, the modern idea of a function as a geome
 
 The cast of this chapter comes from the seventeenth and eighteenth centuries. You do not need full biographies, but you do need enough of their intellectual positions to see why they disagree. Newton is the physical-geometric operator who stabilizes change as motion, force, and curvature; Leibniz is the symbolic architect of calculus and the operator who makes local change writable; Berkeley is the philosopher and bishop who asks what infinitesimals really are and what kind of reasoning is allowed to rely on them; Lambert is the mathematician who shows what the new grammar can actually do.
 
+Lambert deserves one more sentence of placement because, unlike Newton, Leibniz, and Berkeley, many readers will not already know his name. Johann Heinrich Lambert was an eighteenth-century Swiss polymath working across mathematics, astronomy, and measurement. In this book he matters as an operator of extension: one of the figures who shows that when algebra reaches a real boundary, mathematics can answer not only with approximation, but with new function families that preserve the problem while enlarging the language used to solve it.
+
 Think of this era not as background history, but as the moment mathematics changed its operating system.
 
 For readers coming from AI more than calculus, the key idea can be stated very simply before the history gets denser: some systems cannot be understood all at once, but they can be understood locally, by watching how small changes behave nearby. Leibniz's $dx$ is one of the great tools for making that local behavior thinkable.
