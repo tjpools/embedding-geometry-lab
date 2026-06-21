@@ -22,6 +22,18 @@ This section outlines the conceptual tools that modern AI inherits from centurie
 It is not a full course in calculus or geometry.
 It is a structural overview: the minimum needed to see how the lineage fits together.
 
+### 0. The Equation Ladder: One, Two, Three
+
+Before the machinery widens into calculus and geometry, it helps to see the chapter's triadic claim in minimal algebraic form. The point is not that these equations exhaust the subject. The point is that they provide a small ladder on which the change in structure can be felt directly.
+
+One-ness can be represented by the fixed equation $x = 1$. It gives a single value, a single node, a singular state. Nothing branches. Nothing mediates. The equation names identity without internal drama.
+
+Two-ness can be represented by a quadratic such as $x^2 - x - 1 = 0$. Now a split appears. There are two roots, two branches, two positions that can be compared or opposed. This is the world of distinction: binary structure, reversible symmetry, the first real separation.
+
+Three-ness can be represented by $x^3 - 1 = 0$, or by a system of three equations in three unknowns. Here the subject changes character. The roots of unity no longer merely split; they form a relation that can cycle. A three-by-three system no longer merely pairs variables; it couples them. At this threshold, relation stops being bookkeeping and becomes the substance of the structure.
+
+This is why the passage from one to two to three matters so much in the main text. One gives identity. Two gives distinction. Three gives the first closure rich enough to sustain a complex set of relations. That is the smallest environment in which the geometry of layered complexity becomes easy to see.
+
 ### 1. Local Change: Partial Derivatives
 
 A partial derivative measures how a quantity changes when you vary one direction while holding all others fixed. It is the first step from arithmetic to geometry: the moment you acknowledge that a function lives in a space with multiple independent axes. In modern computation, partial derivatives supply the local linear approximations that make optimization possible. Every gradient descent step, every backpropagated signal, and every learned parameter begins with this idea: change decomposes into directional components, and those components can be measured.

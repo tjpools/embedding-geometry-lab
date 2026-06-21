@@ -22,17 +22,17 @@ The larger project includes artifacts that exceed the form of the book: reposito
 
 For that reason, the book should not be mistaken for the whole terrain. It is one artifact of the work, not the work in its entirety. The manuscript offers a path through the landscape, but the landscape extends beyond the path. Other routes persist in code, notes, repositories, and structures explored but not fully enclosed.
 
-This does not diminish the book. It clarifies its form. A route is not only a reduction; it is also a way of making a larger terrain traversable. The book exists because the inquiry demanded a shape that could be walked.
+This does not diminish the book. It clarifies its form. A route is not only a reduction. It is also a way of making a larger terrain traversable. The book exists because the inquiry demanded a shape that could be walked.
 
 In that sense, I learned how to write this book partly by first learning how to write a program in a particular language. Both acts require structure, sequencing, constraint, naming, and a disciplined awareness of what the receiving system can actually take in and preserve. A program is not a pile of instructions. It is a walkable path that preserves invariants through execution. A book is not a pile of content either. It is a walkable path that preserves meaning through a reader's changing attention.
 
-But the audiences differ in throughput. A program is written for a machine with fixed symbolic bandwidth: fixed instruction set, fixed calling convention, fixed timing discipline, almost no tolerance for ambiguity. A book is written for a human runtime whose throughput is variable: the reader gets tired, gets curious, gets lost, accelerates, slows down, loops back, skips ahead, and needs orientation, compression, widening, and landing. The underlying craft is related. The delivery geometry is not.
+But the audiences differ in throughput. A program is written for a machine with fixed symbolic bandwidth: fixed instruction set, fixed calling convention, fixed timing discipline, almost no tolerance for ambiguity. A book is written for a human runtime whose throughput varies: the reader gets tired, gets curious, gets lost, accelerates, slows down, loops back, skips ahead, and needs orientation, compression, widening, and landing. The underlying craft is related. The delivery geometry is not.
 
 Put plainly: a program can demand exact execution from its receiving system. A book has to earn coherence from its reader one transition at a time.
 
 That difference shaped the architecture of this manuscript. In a program, the compiler and the ABI enforce structure from the outside. They determine where input arrives, where output must go, which registers must survive, which may be clobbered, and how certain operations shape the flow. In a book, the writer must enforce structure for the reader from within the path itself. Where can the reader enter? Where will the reader get lost? Where must the argument widen? Where must it compress? Where does the reader need orientation, and where does the reader need landing? The book has to solve those questions actively because no compiler will solve them for the author.
 
-This is why the real difference is not simply medium, but bandwidth. A CPU has fixed clock, fixed registers, fixed instruction set, and fixed memory model. A human reader has emotional bandwidth, cognitive fatigue, curiosity spikes, confusion valleys, narrative expectation, and a desire for closure.
+This is why the real difference is not simply medium, but bandwidth. A CPU has a fixed clock, fixed registers, a fixed instruction set, and a fixed memory model. A human reader has emotional bandwidth, cognitive fatigue, curiosity spikes, confusion valleys, narrative expectation, and a desire for closure.
 
 A program preserves invariants through register state and exact execution. A book preserves meaning through curvature: pacing, return, emphasis, transition, and relief.
 
@@ -68,7 +68,7 @@ This also clarifies the role AI played in the making of the work.
 
 AI was not used here merely as a ghostwriter, a convenience, or an engine for textual production. It functioned as part of the reasoning environment within which the inquiry became more traversable. It made possible a pace and density of probing, testing, reformulating, comparing, and extending that altered the character of the investigation itself.
 
-This matters because the collaboration did not simply accelerate expression. It changed the space of inquiry. Concepts could be revisited from multiple angles, historical connections surfaced more quickly, formulations tested in real time, and latent structures made visible through repeated interaction. In that sense, the work belongs to its own thesis. It was not merely about AI; it was partly conducted through the altered conditions of reasoning AI made possible.
+This matters because the collaboration did not simply accelerate expression. It changed the space of inquiry. Concepts could be revisited from multiple angles, historical connections could surface more quickly, formulations could be tested in real time, and latent structures could be made visible through repeated interaction. In that sense, the work belongs to its own thesis. It was not merely about AI. It was partly conducted through the altered conditions of reasoning AI made possible.
 
 This is also why the book should not be mistaken for a theory in the thin speculative sense. It is closer to a statement grounded in operational truth. The morning conversations, the revisions, the repositories, the builds, the failures, and the rereads were not decorative background. They were the proving ground in which the structure either held or did not hold. EasterDate made that visible first. Later artifacts extended it. The manuscript followed the same rule: what could not survive contact with operation did not deserve to remain.
 
@@ -90,9 +90,9 @@ The path of this book has therefore not been linear in any ordinary sense. It ha
 
 If this ending carries any closure, it is not because the subject has been exhausted. It is because a form has become visible. The same deep structures that appeared at the outset have shown their force across every scale of the inquiry. Zero. Identity. Reference. They were never merely the first things. They were among the deepest. To end with them is not to circle back decoratively. It is to acknowledge where the whole landscape was quietly anchored from the beginning.
 
-If these chapters have done their work, they have not settled the matter once and for all. They have made the terrain more intelligible, the lineage more visible, and the present moment more thinkable. What remains is not merely an invitation to agree or disagree, but an invitation to continue walking: through the structures, through the artifacts, through the historical lineages, and through the transformed space of reasoning in which those lineages now meet again.
+If these chapters have done their work, they have not settled the matter once and for all. They have made the terrain more intelligible, the lineage more visible, and the present moment more thinkable. What remains is not merely an invitation to agree or disagree. It is an invitation to continue walking: through the structures, through the artifacts, through the historical lineages, and through the transformed space of reasoning in which those lineages now meet again.
 
-The next and final question therefore does not leave these orienting structures behind. It asks what happens once orientation gives way to relation. Zero and identity establish the conditions under which a system can be located and preserved. But intelligence does not become visible there alone. It becomes visible when relation acquires enough structure to close, turn, and return.
+The next and final question does not leave these orienting structures behind. It asks what happens once orientation gives way to relation. Zero and identity establish the conditions under which a system can be located and preserved. But intelligence does not become visible there alone. It becomes visible when relation acquires enough structure to close, turn, and return.
 
 That is where this book ends.
 

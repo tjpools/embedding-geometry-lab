@@ -86,6 +86,8 @@ The tools of the mathematician became the engines of the engineer.
 
 The transformer is not a rupture with the past. It is the latest major synthesis in a long lineage of tools that became operators, and operators that became systems. Its power comes not only from novelty, but from inheritance.
 
+Between the calculator and the transformer lies the spreadsheet, and later Excel: a mass-market semantic grid in which ordinary users could build formulas, dependencies, and small models without formal programming.
+
 It gathers several older achievements into one learnable architecture:
 
 - measurement, in the conversion of input into tokens and vectors
@@ -98,6 +100,18 @@ Seen this way, the transformer is not merely an artifact of contemporary AI. It 
 This is one place where narrative habit fails. Narrative likes to separate simple tools from complex ones, old tools from new ones, as if they belonged to different ages of intelligence. But the deeper truth is structural. The ruler, the slide rule, the Jacobian, and the transformer coexist in one manifold of externalized reasoning. Some regions are low-curvature and directly graspable. Others are high-curvature and harder to map. The continuity remains.
 
 That is why it matters. It is not simply another machine. It is a new concentration of many older tools into one operator stack—a system standing on the shoulders of the tools that came before it, and extending their logic into a new architecture of thought.
+
+## 8.5 Tooling the Predicate
+
+One way to see this continuity clearly is to begin with a predicate so small that it seems beneath notice only because a mature brain has already spent years wiring itself to make it feel obvious: $4 + 3 = 7$.
+
+Tools can even illuminate their own structure; a tool may help us understand the geometry of another tool, or occasionally itself. But the principle remains the same: the predicate stays stable while the machinery shifts.
+
+The predicate remains stable while the machinery changes. In a human mind, it appears as a compressed and embodied arithmetic fact. In a calculator, it becomes a circuit evaluation. In assembly, it becomes a sequence of explicit state transitions. In Excel, it becomes a dependency in a semantic grid. In a transformer, it becomes a highly coherent path through a learned representational field. The answer does not change. The geometry of execution does.
+
+That pattern scales. The predicate "What is AI?" is not harder in kind so much as larger in the geometry required to execute it. A small arithmetic relation can be carried by one tool. A civilizational question requires many. This is one reason the book has eighteen chapters while EasterDate can be made to run in a few dozen lines of assembly. The right tool depends on the predicate, and as tools evolve, the reasons for using them evolve with it.
+
+The older saying remains sound: use the tool appropriate to the job. In the present age, that principle can be sharpened. Use the geometry appropriate to the predicate.
 
 ## 9. The Arc of Tools
 

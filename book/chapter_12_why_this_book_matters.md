@@ -110,6 +110,8 @@ That line matters because it gives a compact form to the broader human-machine r
 
 This book has tried to keep that boundary visible at every scale: in assembly, in calculus, in cockpit practice, in collaborative writing, and in the structure of the book itself.
 
+It also explains something practical about the project as a whole. The thesis of this book could not be executed by the brain alone, by a calculator, or by an assembly program. The brain could hold the predicate. The calculator could not represent it. Assembly could formalize only a narrow portion of it. The transformer could traverse the semantic field, but not supply the stable human intent that kept the argument coherent across months of work. The runtime therefore belonged to the collaboration itself: a disciplined boundary across which two different geometries could cooperate on one artifact. In that sense, the project did not merely use a tool to produce an artifact. It also used a tool to examine the tool, reason about the tool, and help make its place in the larger lineage visible. This book is an example of a human doing what they are good at mixed with a machine doing what it is good at. The collaboration was not ornament. It was the runtime.
+
 ## 12.5 Why the Book and the Repo Both Matter
 
 The project is not only a book. It is a book and a repository because the subject requires both.

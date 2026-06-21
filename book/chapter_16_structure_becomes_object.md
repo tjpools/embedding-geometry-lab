@@ -82,8 +82,8 @@ Our own work provides a small contemporary instance of this return. MiniTransfor
 
 ## 16.7 What This Means for the Book
 
-If operations can become objects, then this book has been tracing more than a sequence of inventions. It has been tracing a long expansion in the kinds of structure human beings can externalize, inhabit, and think through.
+If operations can become objects, then this book has traced more than a sequence of inventions. It has traced a long expansion in the kinds of structure human beings can externalize, inhabit, and think through.
 
 That is why this chapter matters so much near the end of the book. It reveals that the through-line was never merely technological. It was structural. The recurring objects of the manuscript — zero, identity, notation, algebra, infinitesimals, matrices, transformations, embeddings, attention — are not disparate episodes. They are phases in a long history of making relation, operation, and invariance visible.
 
-What looked at first like a historical survey now appears as a lineage of externalized intelligibility. And this, in turn, prepares the final question. If Chapter 16 clarified the long historical shift by which operations, transformations, and relations became objects of thought in their own right, what kind of artifact emerges when that same history becomes traversable as a book?
+What looked at first like a historical survey now appears as a lineage of externalized intelligibility. That, in turn, prepares the final question. If this chapter clarified the long shift by which operations, transformations, and relations became objects of thought in their own right, what kind of artifact emerges when that same history becomes traversable as a book?
