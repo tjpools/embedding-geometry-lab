@@ -3,17 +3,9 @@
 \vspace*{3cm}
 # Chapter 6: The Assembly Programmer’s Manifold
 
-**The assembly-language programmer lives at the man-and-machine boundary. The microprocessor holds the language of constructibility, where symbolic intention has to submit to execution.**
+The previous two chapters followed the stabilizers that made modern computation possible: first as tools, then as contributors. This chapter returns to the living practitioner who inherits that lineage and must use it where symbol meets machine. The assembly-language practitioner occupies that perch. Here software meets hardware, representation meets execution, and intention submits to constraint. Closure is not optional.
 
-Chapter 5 followed the long human lineage that helped build the modern machine. This chapter shifts from who built it to how to read it. Assembly is the practitioner's vantage point for seeing what computation is actually doing under the abstractions.
-
-
-This chapter opens with a contrast: C++ is 'close' to the machine, with pointers and explicit memory management, but it still mediates through abstractions. Python, by contrast, obscures the machine almost entirely, wrapping computation in its own interpretive machinery. The assembly language practitioner is different—not because of nostalgia or technical bravado, but because they are directly engaged with the machinery itself. Here, constructibility is not a metaphor. It is the only reality that matters. For a concrete example of assembly in a modern Linux environment, see [github.com/tjpools/hello_fedora/](https://github.com/tjpools/hello_fedora/).
-
-
-
-
-The assembly-language programmer occupies a distinctive position in the history of computation.  
+The assembly-language programmer occupies a distinctive position in the history of computation.
 Not because assembly is primitive, nor because proximity to the machine confers mystique, but because assembly exposes the lawful boundary where symbolic software must submit to hardware reality.
 
 A high-level language is written for a compiler, runtime, or virtual machine. Assembly is written to an architecture. The programmer is still working symbolically — with mnemonics, labels, directives, conventions, and comments — but those symbols are bound much more tightly to execution. Registers matter. Addressing modes matter. Stack discipline matters. Calling conventions matter. Timing sometimes matters. At this level, abstraction is not abolished, but it is thinned until its costs become visible.
@@ -90,13 +82,17 @@ Assembly also makes one distinction unusually difficult to ignore: the distincti
 Consider:
 
 ```asm
-sub rsp, 28h      ; reserve stack space for the call
+sub rsp, 28h      ; insert human comment
 ```
+
+In assembly, a line such as `sub rsp, 28h` is not merely arithmetic. It is architectural compliance. The processor executes the subtraction, but the deeper obligation is to the calling convention, the stack discipline, and the operating system's expectations about a lawful frame.
 
 The instruction executes.  
 The comment does not.
 
 Yet the comment matters. It stabilizes human interpretation. It records intention, rationale, and local context. The two layers remain adjacent but non-identical: one is for the machine, one is for the reader.
+
+The comment beside it is for the human, not the machine. The instruction preserves execution. The comment preserves interpretation. Assembly reasoning lives in that split world, where symbolic intention must submit to structural constraint if the system is to hold.
 
 That relation is central to this book.
 

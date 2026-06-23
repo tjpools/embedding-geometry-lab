@@ -7,6 +7,8 @@ This chapter is where the manifold becomes walkable.
 
 So this is not a break from rigor. It is a change of coordinate system. After asking the reader to think in operators, differentials, and local behavior, the book now asks what those same structures feel like when they reappear in ordinary human scenes.
 
+A symbol is a stabilizing contract. It encodes the rules under which meaning, operation, and transformation can remain coherent. Reasoning advances when a new symbol creates a new domain of lawful action. That continuity runs from Euclid's diagrams to Leibniz's $dx$, from algebraic notation to assembly instructions, from the Jacobian to the transformer token, and from sparse stories to resolved meaning. Each symbol is a surface on which coherence can be preserved long enough for reasoning to compound.
+
 It is also where the book tries to solve one of its hardest problems. The argument depends on words from mathematics, computing, and AI that interested readers may recognize unevenly or use with different levels of precision. If those words arrive too quickly, the reader can lose the structure before the structure has become visible. The stories in this chapter are meant to prevent that loss.
 
 The stories here are not illustrations.

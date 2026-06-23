@@ -142,5 +142,7 @@ That is the bridge Minsky provides.
 He does not finish the analysis.
 He makes the analysis possible.
 
+If the earlier chapters have walked the reader through a construction site of tools, operators, lineages, and contracts, then one of the most important contractors can now be named more clearly. It is the machine reasoning system working beside the human reasoner: not as a monolithic mind, and not as an imitator of thought, but as a structured society of partial operators whose coordinated work helps hold the larger object together.
+
 Chapter 14 takes the next step: if AI is best understood as structured transformation rather than monolithic essence, then the right analysis is not narrative first, but coordinate, geometric, and operational.
 

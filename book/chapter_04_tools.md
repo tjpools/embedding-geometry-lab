@@ -4,12 +4,14 @@
 # Chapter 4: The Ages of Tools — From Ruler to Transformer
 
 *Prefatory Note:*  
-Chapter 3 showed the joint manifold in operation. These next two chapters step back to show the deeper inheritance that made that collaboration possible: first as a lineage of tools, and then as a lineage of minds. They are retrospective chapters, but not detours. They restate the argument in civilizational terms.
+Chapter 3 showed the joint manifold in operation. These next two chapters step back to show the deeper inheritance that made that collaboration possible. They are the same continuity seen from two sides: first as stabilizers deposited into tools, and then as stabilizers introduced by contributors. They are retrospective chapters, but not detours. They restate the argument in civilizational terms.
 
 **Live Companion:** Extended timelines, diagrams, and notes for this chapter are available in the repository’s book atlas:  
 https://github.com/tjpools/embedding-geometry-lab/tree/main/book
 
 ## 1. Measure Before Symbol
+
+This chapter is about tools as stabilizers. A tool matters in this lineage when it changes the conditions under which reasoning can be preserved, shared, manipulated, and extended. The ruler, the slide rule, algebraic notation, `dx`, and the transformer belong to the same continuity not because they look alike, but because each deposits part of thought into a form that later thought can reuse.
 
 Before there was formal mathematics, there were tools for measuring. The ruler is one of the earliest cases of human thought being deposited into an object. A piece of wood marked with units made length visible, repeatable, and transferable. Measurement no longer depended only on memory or estimation. It could be shared, checked, and carried from one person to another.
 

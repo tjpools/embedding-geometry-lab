@@ -6,15 +6,11 @@ Not all chapters appear in prose. Tools and Lineage are embodied in the reposito
 
 After the stories, the system is easier to feel from within. The reader has walked the manifold at human scale, not only as abstraction but as lived symbolic passage. That experience makes it possible to ask a different question: what kind of architecture must underlie a book whose meanings are meant to be entered, traversed, and re-entered in this way?
 
-The Meta Layer begins there.
-
 One way to approach this chapter is through the cockpit, and specifically through the cockpit of an aircraft flying IFR. Under instrument flight rules, the pilot cannot trust an outside visual horizon. The route must be inferred from instruments. A cockpit in that condition does not give the pilot one giant picture of reality. It gives several instrument surfaces, each reporting one local aspect of the same flight: altitude, airspeed, heading, drift, vertical speed, glide slope, attitude.
 
 Taken together, those readings behave like a Jacobian of the aircraft's current situation: not a complete copy of the world, but a structured field of local sensitivities from which a safe path can be maintained. The pilot reads changing relations among instruments and, from those relations, holds course. This chapter asks the reader to view the book in a similar way. Different chapters show different angles on one underlying structure, and their couplings establish a route through the larger machinery of the argument.
 
 There is a moment in every system where the internal structure becomes visible. In an operating system, it is the `/proc` filesystem. In a transformer, it is the attention map. In mathematics, it is the manifold definition before the theorem. In assembly, it is the moment you see the call graph instead of the instructions.
-
-This chapter is that moment for this book.
 
 The Meta Layer is where the book reveals its own architecture — not as flourish, and not as trick, but because the structure is part of the meaning. You are not only reading a sequence of chapters. You are moving through a structured object whose transitions, layers, and interfaces are part of its argument.
 

@@ -176,6 +176,8 @@ That point matters historically. Most earlier tools amplified human intention wi
 
 AI is different. It is the first tool in human history that can participate with us in building a coherence network across shared artifacts, shared inputs, and shared structure. The manuscript, the repository, the metrics, the builds, the diffs, and the rereads all became part of one material reasoning space.
 
+AI is therefore best understood not as a self-sufficient object, but as a symbol whose meaning does not reside in the name alone. Its meaning emerges from the ancestral tool-chain of structures, operators, contributors, and machines that make the name executable.
+
 That is why AI should not be imagined as belonging only to technical specialists. What matters first is not specialist identity, but the ability to ask a real question and walk a real answer. If the structure is built well enough, many kinds of readers can enter it from different directions and still find the same underlying manifold. In that sense, the book does not merely talk about AI as collaborative craft. It demonstrates that craft in public form.
 
 That is why this chapter stands at the end of the book.

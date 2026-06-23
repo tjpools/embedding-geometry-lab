@@ -6,6 +6,8 @@
 
 EasterDate gave us an executable example of structure made walkable. This chapter does not leave that object behind. It widens the frame around it. The question now is how such an object became historically possible at all. To answer that, we need the older story of how operations, transformations, and relations became objects of thought in their own right.
 
+EasterDate is not the subject of this chapter in isolation. It is the bounded proof of a larger historical turn. What became visible there in miniature is the same shift that changed modern reasoning at scale: the moment when an operation ceased to be merely something one performs and became something one could inspect, preserve, compose, and inhabit as an object.
+
 For much of the history of mathematics, operations were treated as means rather than as objects. They were actions to be performed, procedures to be followed, transformations to be executed on something more primary: numbers, magnitudes, figures, ratios. One added, subtracted, extracted roots, balanced equations, and manipulated forms, but the operations themselves did not yet stand fully in view as mathematical beings in their own right.
 
 A profound shift occurs when this changes. The history of modern mathematics can be read, in part, as the history of operations becoming visible. Procedures ceased to be merely what one does and became something one can name, analyze, classify, compose, invert, constrain, and represent. This is one of the deepest conceptual turns in the entire book: the moment when structure itself begins to become object.
@@ -13,6 +15,8 @@ A profound shift occurs when this changes. The history of modern mathematics can
 This shift does not happen all at once, nor does it belong to a single person or tradition. Its roots are distributed across algebraic practice, symbolic notation, procedural mathematics, matrix methods, geometric transformations, and the gradual abstraction of lawful action. By the nineteenth century, however, the turn becomes unmistakable. One no longer studies only quantities and figures; one studies the operations that preserve, transform, and generate them. Action becomes entity. Relation becomes form. Mathematics begins to externalize not only results, but its own mechanisms.
 
 That is why this shift matters for the present book. Everything traced so far — from physical tools to symbolic systems, from algebraic manipulation to the infinitesimal, from geometry to computation, from matrices to transformers — depends on a growing capacity to make structure explicit. The modern world is built increasingly not only from objects, but from systems of transformation. To understand AI in this lineage requires understanding the older moment when mathematics first learned to treat transformation itself as a thinkable thing.
+
+This is also the point at which computation becomes a domain rather than a mere procedure. Once structure can stand before us as object, it can be compared, translated, executed, inspected, and generalized. That is why EasterDate matters here. It is not special because it computes Easter. It is special because it lets the reader watch structure become object in a fully walkable form.
 
 ## 16.2 Cayley and the Algebra of Operations
 

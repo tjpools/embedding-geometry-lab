@@ -21,3 +21,17 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Book scratch and transient build byproducts
+book/build_output.log
+book/debug.tex
+book/test.tex
+
+# Book workflow aids generated locally
+chapters_wordcount/*.bak
+chapters_wordcount/*.bak.png
+
+# Legacy analysis byproducts no longer part of the curated artifact surface
+book/analysis_throughput/*_wordcount.txt
+book/analysis_throughput/chapter_coherence_audit.md
+book/analysis_throughput/chapter_03_us.md

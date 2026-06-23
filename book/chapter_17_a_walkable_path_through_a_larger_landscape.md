@@ -10,6 +10,8 @@ The inquiry came first. The book came later.
 
 What began here was not primarily a literary project, nor a conventional argument about artificial intelligence. It was a structural investigation: an attempt to understand computation as a conceptual engine, to trace the lineage of mathematical tools, to see how notation externalizes thought, and to follow the moment when operations, transformations, and relations become objects of reflection in their own right.
 
+What widened the inquiry was the realization that we had not merely traversed a program. We had traversed a tool-chain: a dependent system of structures in which each layer preserved, constrained, and exposed the next. That same pattern is what lets protein, directory tree, executable artifact, and book be read in one frame. Each is a structure built from other structures, and each becomes intelligible only when its dependencies can be walked rather than merely named.
+
 That inquiry moved across many domains: tools and notation, algebra and the infinitesimal, geometry and invariance, assembly language and transformer architectures, zero and identity, recurrence and infinity, historical lineages in Europe, China, and India, and the experience of reasoning alongside a machine. The book emerged because the inquiry grew too large to remain formless.
 
 ## 17.2 The Book as Compression Layer
@@ -24,7 +26,7 @@ For that reason, the book should not be mistaken for the whole terrain. It is on
 
 This does not diminish the book. It clarifies its form. A route is not only a reduction. It is also a way of making a larger terrain traversable. The book exists because the inquiry demanded a shape that could be walked.
 
-In that sense, I learned how to write this book partly by first learning how to write a program in a particular language. Both acts require structure, sequencing, constraint, naming, and a disciplined awareness of what the receiving system can actually take in and preserve. A program is not a pile of instructions. It is a walkable path that preserves invariants through execution. A book is not a pile of content either. It is a walkable path that preserves meaning through a reader's changing attention.
+In that sense, I learned how to write this book partly by first learning how to write a program in a particular language. Both acts require structure, sequencing, constraint, naming, and a disciplined awareness of what the receiving system can actually take in and preserve. A program is not a pile of instructions. It is a walkable path that preserves invariants through execution. But EasterDate also taught a stronger lesson: a finished artifact is rarely only a program. It is part of a tool-chain whose compilers, assemblers, linkers, conventions, directories, and inspection surfaces all help determine what the object can become. A book is not a pile of content either. It is a walkable path that preserves meaning through a reader's changing attention.
 
 But the audiences differ in throughput. A program is written for a machine with fixed symbolic bandwidth: fixed instruction set, fixed calling convention, fixed timing discipline, almost no tolerance for ambiguity. A book is written for a human runtime whose throughput varies: the reader gets tired, gets curious, gets lost, accelerates, slows down, loops back, skips ahead, and needs orientation, compression, widening, and landing. The underlying craft is related. The delivery geometry is not.
 

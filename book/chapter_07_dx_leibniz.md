@@ -3,7 +3,7 @@
 # Chapter 7: Leibniz, Differentials, and the Local Shape of Meaning
 ## Crossing Over: From Machine to Mathematics
 
-Chapter 6 kept us close to the discrete machine: instructions, registers, stack discipline, and execution. This chapter crosses into a different but necessary language: the language for talking about change itself. If assembly showed how computation runs, calculus begins to show how structured variation can be described.
+Chapter 6 kept us close to the discrete machine: instructions, registers, stack discipline, and execution. This chapter crosses into a different but necessary language: the language for talking about change itself. If assembly showed how computation runs, calculus begins to show how structured variation can be described. The shift matters because Chapter 7 is not about solving an equation. It is about the moment algebra fails and a new domain must be invented.
 
 There are moments in the history of mathematics when the existing tools simply stop working. Not because the problems become harder in a familiar way, but because the world reveals a kind of structure the old grammar cannot express.
 
@@ -13,11 +13,11 @@ $$
 5^x + x = 49
 $$
 
-It looks innocent, almost playful, but it marks a boundary. Algebra can manipulate it, rearrange its pieces, and approximate its solution numerically, but it cannot solve it by the ordinary symbolic methods that earlier equations seemed to reward. The equation is a door, and on the other side is a different ontology.
+It looks innocent, almost playful, but it marks a boundary. Algebra can manipulate it, rearrange its pieces, and approximate its solution numerically, but it cannot solve it by the ordinary symbolic methods that earlier equations seemed to reward. The point is not the numerical answer. The equation is a specimen: a structural demonstration of what happens when an established formal system reaches a boundary it cannot cross by its old means.
 
 This is not the kind of problem rescued by adjoining one more symbol to an otherwise intact algebraic world. It is the kind of problem that reveals the need for a different representational grammar.
 
-This chapter is not about solving that equation. It is about the invention of a new kind of object: Leibniz's $dx$. Leibniz, the inventor of the symbolic grammar of calculus, did not merely introduce a symbol. He introduced a new species of mathematical being: something smaller than any ordinary quantity, yet not simply zero; something that behaves like a number in calculation, yet becomes difficult to pin down when examined too closely. The infinitesimal is the hinge between two eras: the algebraic world, where equations are rearranged until they yield, and the analytic world, where equations are approached through local behavior rather than mastered in a single symbolic stroke.
+This chapter is about the invention of a new kind of object: Leibniz's $dx$. Leibniz, the inventor of the symbolic grammar of calculus, did not merely introduce a symbol. He introduced a new domain of reasoning: a way to make local change writable, manipulable, and structurally stable when exact algebraic closure fails. The infinitesimal is the hinge between two eras: the algebraic world, where equations are rearranged until they yield, and the analytic world, where equations are approached through local behavior rather than mastered in a single symbolic stroke.
 
 To understand Lambert's later triumphs, the modern idea of a function as a geometric object, or the full power of calculus itself, we first have to understand what $dx$ is supposed to be and why Berkeley thought it involved metaphysical sleight of hand. The mathematics becomes more powerful here because the ontology changes. The world becomes continuous, and continuity demands a new grammar.
 
@@ -84,6 +84,10 @@ Newton’s picture was still deeply geometric and kinematic. His quantities flow
 
 Leibniz’s picture was more algebraic, symbolic, and relational. He wrote $dx$, $dy$, and $dy/dx$ in a way that made change look manipulable. His notation did not merely record motion; it made local dependence visible inside symbolic form. It suggested that changes themselves could participate in calculation.
 
+The historical disagreement was not a mere priority quarrel. It concerned what the new machinery of calculus really was. Newton's fluxions leaned on generated motion and evanescent quantities: variables changing in time and vanishing toward limiting behavior. Leibniz leaned on symbolic operability: differentials as formal objects one could combine, compare, and transform inside calculation. Both frameworks worked. But they licensed different intuitions about what sort of thing a differential was.
+
+The dispute between Newton, Leibniz, and Berkeley was therefore not a quarrel about personalities. It was a structural argument about the status of infinitesimals. Newton used ratios of vanishing magnitudes and grounded them in a geometric world of motion. Berkeley rejected infinitesimals as illegitimate abstractions, the famous ghosts of departed quantities. Leibniz treated them differently: not primarily as tiny objects, but as symbolic operators that define a domain of local change.
+
 This matters for our purposes. Embedding spaces are usually handled as algebraic objects inside vector spaces: vectors, maps, gradients, Jacobians, projections, norms. In that sense, Leibniz’s formalism fits naturally. His notation helps us reason about how one quantity varies with another inside a symbolic and structural setting.
 
 Leibniz was also a master of language structure. His genius was not only mathematical but linguistic. The symbol $dx$ did not succeed merely because it named a tiny quantity. It succeeded because it gave mathematics a compact formal interface for local complexity. It made variation writable, combinable, and manipulable before every foundational question had been resolved.
@@ -105,6 +109,10 @@ That, for Berkeley, was not conceptual rigor. It was a kind of sanctioned ambigu
 Berkeley was right to press the issue. The early success of calculus outran the clarity of its foundations. Mathematicians trusted the method before they fully settled what kind of thing a differential was.
 
 That trust was not blind faith, but it was still a form of methodological confidence prior to ontological resolution. The methods worked. They produced coherent results, strong predictions, and extraordinary explanatory reach. But the exact status of $dx$ remained contested.
+
+The core argument did not disappear. Modern mathematics largely buried the infinitesimal dispute under the language of limits, rigor, and later formalizations. But operationally the old tension remains. We still reason as if local change can be captured, linearized, and propagated by symbolic machinery before every ontological question is settled in full. In modern analysis and machine learning, that symbolic machinery appears as differentials, gradients, and Jacobians.
+
+The infinitesimal did not disappear. It was formalized into limits, stabilized into differential geometry, and operationalized in the Jacobian. The Jacobian is one of the clearest heirs of Leibniz's move. It does not ask us to re-fight the seventeenth-century metaphysics every time we study change. It records, in one object, the best local linear account of how one structured system varies with respect to another. Modern computation still depends on that move.
 
 This matters for our chapter because it reveals something important: differential reasoning became powerful before its foundations became fully clean.
 

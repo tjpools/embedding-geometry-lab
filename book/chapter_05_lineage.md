@@ -4,12 +4,14 @@
 # Chapter 5: The Human Lineage Behind the Machine
 
 *Prefatory Note:*  
-If the previous chapter followed the evolution of tools and operators, this chapter follows the humans who invented them, refined them, transmitted them, and made them usable across generations. The transformer did not arise from machinery alone. It stands on a long civilizational scaffolding of minds, traditions, disciplines, and labors.
+If the previous chapter followed the evolution of tools and operators, this chapter follows the humans who invented them, refined them, transmitted them, and made them usable across generations. The two chapters name the same continuity from different sides: tools are stabilizers deposited into objects, and contributors are the people who made those stabilizers possible. The transformer did not arise from machinery alone. It stands on a long civilizational scaffolding of minds, traditions, disciplines, and labors.
 
 **Live Companion:** Extended biographies, contributor graphs, and references for this chapter are available in the repository’s book atlas:  
 https://github.com/tjpools/embedding-geometry-lab/tree/main/book
 
 ## 1. The Keepers of Form
+
+This chapter is not a parade of great names. It is a study of stabilizing contributions: the people who changed the conditions under which reasoning could be preserved, transmitted, manipulated, and extended. Lineage matters here not as inheritance alone, but as structured continuation.
 
 Before there were modern sciences, there were people who learned how to preserve form across time. Surveyors, scribes, builders, navigators, merchants, and teachers carried procedures from hand to hand and generation to generation. Long before abstraction became a formal discipline, it existed as practice: measuring land, marking boundaries, recording quantities, comparing lengths, and transmitting methods.
 

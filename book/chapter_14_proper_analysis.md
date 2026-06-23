@@ -8,9 +8,11 @@ Everything in this chapter follows from that sentence.
 
 The argument of the previous chapters has been clearing away the wrong pictures. The model is not a monolithic thinker hidden behind the interface. It is not a ghostly person made of statistics. It is not best understood by asking what it "really believes" or "really wants." Chapter 13 made the decisive correction: behavior emerges from coordinated operators, not from one sovereign center.
 
-Once that is clear, the question changes. We no longer ask what kind of mind the model secretly is. We ask what transformations are being applied to representation, and what structure those transformations reveal.
+Once that is clear, the question changes. We no longer ask what kind of mind the model secretly is. We ask what transformations are being applied to representation, what structure those transformations reveal, and how a reader can move lawfully between the human and machine coordinate charts that make the system intelligible.
 
 That is the proper analysis.
+
+Proper analysis is not a viewpoint. It is a traversal. It moves across operators, layers, coordinate systems, and representational states without collapsing them into one another. Its task is to identify what survives transformation, what changes locally, and what structure holds the system together across different surfaces of description.
 
 ## 14.1 The Thesis in One Line
 
@@ -78,6 +80,8 @@ That is why narrative is a lossy compression of mechanism. It may be useful at t
 ## 14.4 What Proper Analysis Requires
 
 If the model is a transform, then proper analysis must also be structural.
+
+It must also be traversable. Analysis is not completed by naming one favored description and stopping there. The analyst has to move between charts: from architecture to runtime, from runtime to behavior, from behavior to geometry, from geometry back to mechanism. In the language of this book, proper analysis is the disciplined walk through a joint manifold where human reasoning and machine reasoning touch the same object under different contracts.
 
 In practice, this means asking questions an engineer would recognize. Which component is carrying the signal? Which change in input caused the biggest shift in output? Which part preserved continuity, and which part introduced the new distinction?
 

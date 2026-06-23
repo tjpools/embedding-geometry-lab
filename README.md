@@ -176,7 +176,6 @@ The combined update script also refreshes:
 - `chapters_wordcount/chapters_metrics.md`
 - `book/analysis_throughput/chapter_heatmap.png`
 - `book/analysis_throughput/chapters_heatmap.md`
-- `book/analysis_throughput/chapter_coherence_audit.md`
 
 Requirements:
 

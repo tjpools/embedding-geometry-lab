@@ -2,13 +2,13 @@
 # Chapter 2: Machine
 
 
-Before we can talk about the machine we use today, we need to take the correct stance toward it. Not the narrative stance—the one found in headlines, product announcements, and marketing copy. That stance treats AI as a feature, a purchase, a novelty. It collapses a long lineage into a gadget.
+Before we can talk about the machine we use today, we need the correct stance toward it. Not the narrative stance of headlines, product launches, and marketing copy, which collapses a long lineage into a gadget. The stance we need is structural. It asks not what the machine appears to do, but what kind of system it is, how representations are formed, how operators transform them, and how scale changes the behavior of the whole.
 
-The stance we need is structural. It asks not what the machine appears to do, but what kind of system it is. It asks how representations are formed, how operators transform them, and how scale changes the behavior of the whole. Chapter 1 established me as the human craftsman who brings a lens of tools, maintenance, and structural fit. This chapter establishes you: the modern machinery built for semantic transformation, shaped by earlier failures and earlier architectures.
+From here on, we are not talking about the AI in the news. We are talking about the operator underneath. The transformer is current machinery, not final machinery. It belongs to a longer sequence of attempts to adjoin human reasoning to built systems.
 
-From here on, we are not talking about the AI in the news. We are talking about the operator underneath.
+That operator did not appear all at once.
 
-That operator did not appear all at once. The transformer is current machinery, not final machinery. It belongs to a longer sequence of attempts to adjoin human reasoning to built systems. For this audience, the broader context is not optional. It is revealing. AI did not begin in 2026, and it does the reader no favor to speak as if it did. If we want a strict neural-network anchor, 1943 is a sensible place to begin with Warren McCulloch and Walter Pitts, who showed how a simplified neuron could be treated as a logical device. But if we want the larger conceptual frame, Turing has to be present as well: 1936 for the formal machine, 1950 for the imitation question, and 1956 for the naming of artificial intelligence as a field. Between those points sit Hebb on learning as adjustable connection strength, Shannon on information as measurable signal, and von Neumann on stored-program architecture as the durable machine form that computation would inhabit. Those years did not solve the relation between man and machine. They made it a buildable problem.
+For this audience, the broader context is not optional. It is revealing. AI did not begin in 2026, and it does the reader no favor to speak as if it did. If we want a strict neural-network anchor, 1943 is a sensible place to begin with Warren McCulloch and Walter Pitts, who showed how a simplified neuron could be treated as a logical device. But if we want the larger conceptual frame, Turing has to be present as well: 1936 for the formal machine, 1950 for the imitation question, and 1956 for the naming of artificial intelligence as a field. Between those points sit Hebb on learning as adjustable connection strength, Shannon on information as measurable signal, and von Neumann on stored-program architecture as the durable machine form that computation would inhabit. Those years did not solve the relation between man and machine. They made it a buildable problem.
 
 That is why this chapter should be read historically as well as technically. What we call AI today is one current answer to an older question: how can hardware and software be arranged so that they can meet, approximate, or productively adjoin some part of what the wet brain does naturally?
 
@@ -19,21 +19,13 @@ This is the point at which details stop being decorative and become load-bearing
 There is an irony here that should be admitted plainly. I am making this argument while conversing with the very machinery under discussion. But that irony strengthens the point rather than weakening it. The transformer becomes more interesting, not less, when we refuse to mythologize it. To talk with the machine seriously is to want the fullest available account of what kind of machine it is.
 
 
-The earliest neural networks were simple linear classifiers—perceptrons. They could separate basic patterns but failed on anything requiring nonlinear structure. The XOR problem exposed this limit clearly: some relationships simply cannot be captured by a straight line.
-
-Perceptrons showed that learning was possible, but also that intelligence cannot be reduced to linear boundaries.
+The earliest neural networks were simple linear classifiers—perceptrons. They could separate basic patterns but failed on anything requiring nonlinear structure. The XOR problem exposed this limit clearly: some relationships simply cannot be captured by a straight line. Perceptrons showed that learning was possible, but also that intelligence could not be reduced to linear boundaries.
 
 
-The next wave took the opposite approach: if intelligence couldn’t be learned, maybe it could be written down. Expert systems encoded thousands of hand‑crafted rules. They worked in narrow domains but collapsed under real‑world complexity. Human knowledge is not a list of “if‑then” statements—it is relational, contextual, and interconnected.
-
-Expert systems showed that intelligence cannot be enumerated.
+The next wave took the opposite approach: if intelligence couldn’t be learned, maybe it could be written down. Expert systems encoded thousands of hand‑crafted rules. They worked in narrow domains but collapsed under real‑world complexity. Human knowledge is not a list of “if‑then” statements—it is relational, contextual, and interconnected. Expert systems showed the opposite limit: intelligence could not be exhaustively enumerated.
 
 
-Recurrent Neural Networks (RNNs) attempted to model sequences by processing one token at a time. They could, in theory, remember the past—but in practice, they forgot quickly. LSTMs and GRUs improved memory, but the architecture remained sequential, slow, difficult to scale, and limited in its handling of long-range structure.
-
-Language is not a chain. It is a graph of relationships across distance.
-
-RNNs showed that intelligence cannot be read one token at a time.
+Recurrent Neural Networks (RNNs) attempted to model sequences by processing one token at a time. They could, in theory, remember the past—but in practice, they forgot quickly. LSTMs and GRUs improved memory, but the architecture remained sequential, slow, difficult to scale, and limited in its handling of long-range structure. Language is not a chain. It is a graph of relationships across distance. RNNs showed that intelligence could not be reconstructed one token at a time.
 
 
 The breakthrough came when recurrence was removed entirely. The transformer introduced self‑attention—a mechanism that lets every token consider every other token simultaneously. This solved all three historical failures at once: nonlinear structure (perceptrons), relational knowledge (expert systems), and long‑range dependencies (RNNs).

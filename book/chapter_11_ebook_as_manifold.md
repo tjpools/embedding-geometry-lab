@@ -6,7 +6,9 @@ An ebook is often treated as a final container: a file exported from a finished 
 
 It is also the public-facing front end of the collaboration that produced the book. The conversations, repositories, notes, scripts, and revisions belong to the wider craft domain. The ebook is the surface through which that larger domain becomes legible to other people.
 
-This chapter turns from models, charts, and stories to the book itself as an object. Not a neutral object, and not a static one, but a navigable artifact whose structure helps produce its meaning. The ebook is not outside the argument of this book. It is the reader's public interface to the larger collaboration.
+The ebook is not a container for the manifold. It is one of the manifold's active surfaces, where human reading and machine traversal meet the same structured object under different contracts.
+
+This chapter turns from models, charts, and stories to the book itself as an object. Not a neutral object, and not a static one, but a navigable artifact whose structure helps produce its meaning. The ebook is not outside the argument of this book. It is one of the ways the reader enters the larger collaboration.
 
 Chapter 10 argued that a cockpit teaches curvature by forcing the pilot to inhabit it. Chapter 11 makes a parallel claim about reading. A nonlinear digital book teaches structure by forcing the reader to navigate it.
 
