@@ -35,7 +35,9 @@ Minsky belongs in this chapter because he teaches the reader how to stop looking
 
 He also matters for a more specific historical reason that many programmers now miss. Minsky, together with Seymour Papert, became strongly associated with the critique of the early perceptron. That critique is often remembered badly as if Minsky had simply "been against neural networks." The more precise point is narrower and more important.
 
-The early perceptron was a single-layer model. It could separate some patterns, but not all. The XOR problem became the famous illustration: XOR cannot be captured by a single linear separator. The significance of that limit was not merely technical. It showed that one simple learning mechanism could not stand in for intelligence as such.
+The early perceptron was a single-layer model. It could separate some patterns, but not all. The XOR problem became the famous illustration: XOR cannot be captured by a single linear separator. A single-layer perceptron can draw one boundary, but XOR requires a composition of boundaries, because the positive cases lie on opposite corners rather than on one side of a line. The significance of that limit was not merely technical. It showed that one simple learning mechanism could not stand in for intelligence as such.
+
+That did not mean all AI at the time was linear, or that the whole field had been reduced to one kind of machine. Symbolic AI, search, theorem proving, and rule-based programs were already present. But one major learning-centered line of research was still constrained by the single-layer perceptron's linear form, and Minsky's critique forced the field to face that boundary directly.
 
 Seen this way, Minsky's role becomes clearer. He was not only helping expose a boundary in one early architecture. He was helping force the field toward a better question: if one mechanism is insufficient, what kind of organized system of multiple mechanisms might be required? That question leads naturally toward his later emphasis on distributed, interacting processes.
 

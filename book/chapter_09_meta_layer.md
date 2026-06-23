@@ -2,7 +2,7 @@
 \vspace*{3cm}
 # Chapter 9: The Meta Layer
 
-Not all chapters appear in prose. Tools and Lineage are embodied in the repository itself. See Appendix: Ghost Chapters.
+Not all chapters appear in prose. Tools and Lineage are embodied in the repository itself. See Appendix B: Ghost Chapters.
 
 After the stories, the system is easier to feel from within. The reader has walked the manifold at human scale, not only as abstraction but as lived symbolic passage. That experience makes it possible to ask a different question: what kind of architecture must underlie a book whose meanings are meant to be entered, traversed, and re-entered in this way?
 

@@ -220,7 +220,7 @@ EasterDate is the first time I experienced authorship as a coupled manifold: the
 
 ## 15.8 The Directory as Proof: Structure Over Narrative
 
-The EasterDate repository is not merely source code. It is the structural record of a collaboration between human and machine. The directory tree, the calling convention notes, the stack diagrams, and the assembly modules are the modern equivalent of the medieval computus tables: a shared external artifact where lineage becomes explicit. This is the difference between narrative AI and structural AI. Narrative AI produces stories; structural AI helps build the structure in which understanding lives. EasterDate is powerful because it is the first time the machine and I jointly reconstructed a historical algorithm into a walkable state machine. The repository at GitHub is the public proof.
+The EasterDate repository is not merely source code. It is the structural record of a collaboration between human and machine. The directory tree, the calling convention notes, the stack diagrams, and the assembly modules are the modern equivalent of the medieval computus tables: a shared external artifact where lineage becomes explicit. This is the difference between narrative AI and structural AI. Narrative AI produces stories; structural AI helps build the structure in which understanding lives. EasterDate is powerful because it is the first time the machine and I jointly reconstructed a historical algorithm into a walkable state machine. [The repository at GitHub is the public proof.](https://github.com/tjpools/EasterDate/)
 
 ## 15.9 From Glyph to World: The Book’s Origin
 

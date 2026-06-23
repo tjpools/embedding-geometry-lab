@@ -37,7 +37,6 @@ But as the conversations deepened, I grew tired of the current narratives about 
 
 What mattered was not simply that the tool could answer. What mattered was that collaboration made the underlying structure easier to walk. The machine did not become a person. It became a configuration through which part of the domain could be explored with unusual speed and clarity.
 
-My background in Gödel, Escher, Bach, Where Mathematics Comes From, The Advent of the Algorithm, Galois theory, linear algebra, and differential geometry gave me a basis for understanding. These readings shaped the questions I brought to the project and the kind of answers I was willing to accept.
-
-
 To explain how I arrived here, I have to begin earlier: with the books I read, the machines I learned, the habits of abstraction I inherited, and the work that taught me to see reasoning as something embodied before it was ever formalized.
+
+My background in Gödel, Escher, Bach, Where Mathematics Comes From, The Advent of the Algorithm, Galois theory, linear algebra, and differential geometry gave me a basis for understanding. These readings shaped the questions I brought to the project and the kind of answers I was willing to accept.
