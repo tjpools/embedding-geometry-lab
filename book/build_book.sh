@@ -6,16 +6,30 @@ cd "$(dirname "$0")"
 OUTDIR=".."
 EPUB_OUT="$OUTDIR/embedding-geometry.epub"
 PDF_OUT="$OUTDIR/embedding-geometry.pdf"
+KDP_PDF_OUT="$OUTDIR/embedding-geometry-6x9.pdf"
 
 if ! command -v pandoc >/dev/null 2>&1; then
   echo "Error: pandoc is not installed." >&2
   exit 1
 fi
 
-toc_files=$(grep -o '[a-zA-Z0-9_/-]*\.md' TOC.md | xargs)
+mapfile -t toc_files < <(grep -o '[a-zA-Z0-9_/-]*\.md' TOC.md)
+
+kdp_pdf_files=("kdp_title_page.md")
+for file in "${toc_files[@]}"; do
+  if [[ "$file" == "BOOK_COVER.md" ]]; then
+    continue
+  fi
+
+  if [[ "$file" == "chapter_01_me.md" ]]; then
+    kdp_pdf_files+=("kdp_mainmatter_break.md")
+  fi
+
+  kdp_pdf_files+=("$file")
+done
 
 echo "Building EPUB..."
-pandoc $toc_files \
+pandoc "${toc_files[@]}" \
   --metadata-file=metadata.md \
   --toc \
   --epub-cover-image=cover.png \
@@ -34,10 +48,27 @@ else
   exit 0
 fi
 
-pandoc $toc_files \
+pandoc "${toc_files[@]}" \
   --metadata-file=metadata.md \
   --toc \
   --pdf-engine="$PDF_ENGINE" \
   -o "$PDF_OUT"
 
 echo "PDF build complete: $PDF_OUT"
+
+echo "Building KDP interior PDF..."
+pandoc "${kdp_pdf_files[@]}" \
+  --metadata-file=metadata.md \
+  --toc \
+  --pdf-engine="$PDF_ENGINE" \
+  -H kdp_preamble.tex \
+  -V classoption=twoside \
+  -V geometry:paperwidth=6in \
+  -V geometry:paperheight=9in \
+  -V geometry:top=0.75in \
+  -V geometry:bottom=0.75in \
+  -V geometry:inner=0.75in \
+  -V geometry:outer=0.5in \
+  -o "$KDP_PDF_OUT"
+
+echo "KDP interior PDF build complete: $KDP_PDF_OUT"
