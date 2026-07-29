@@ -40,10 +40,12 @@ Mechanically, the pattern is simple enough to name. Tokens are embedded into vec
 
 This is why there is no such thing as "the transformer" except at a very high level of generality. There are only particular transformers built from particular linkages, with particular tradeoffs, geometries, and invariants. The general label is useful. The distinctions are where understanding begins.
 
-In that sense, the transformer is not a synthetic brain. It is a neuron-matrix machine: a hardware/software system that uses linear algebra, optimization, and scale to build a manipulable field of semantic relations. Its success comes not from reproducing the human nervous system directly, but from finding a tractable machinery that can operate on language-like structure.
+In that sense, the transformer is not a synthetic brain; it is a geometric operator. More specifically, it is a neuron-matrix operator: a hardware/software system that uses linear algebra, optimization, and scale to build a manipulable field of semantic relations. Its success comes not from reproducing the human nervous system directly, but from finding a tractable machinery that can operate on language-like structure.
 
 
 When the transformer architecture is trained at scale, something new emerges: a manifold—a learned geometry of human language. This is the large language model.
+
+The manifold is not stored as a static map; it is enacted by the parameters.
 
 An LLM is not the architecture itself. It is the global structure produced by training the architecture on massive corpora.
 
@@ -53,6 +55,8 @@ But this field is not meaning in the human sense. Human meaning is grounded in e
 
 
 Once the manifold exists, it can be navigated. When that navigation is coupled with goals, memory, tool use, and iteration, it can support planning and action. That is where agents begin.
+
+An agent is not a mind; it is a path.
 
 Agents are systems that use the LLM to pursue goals over time. They are trajectories across the learned manifold.
 
