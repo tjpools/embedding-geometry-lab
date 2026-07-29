@@ -31,7 +31,7 @@ The interaction becomes meaningful when these two spaces can be coupled without 
 
 To make this mapping precise, we need one more idea from differential geometry: the Jacobian.
 
-The word sounds technical, but the intuition is practical. If the human changes the prompt slightly, what changes in the model's response? If the model answers in a slightly different way, how does that change the human's next move? The Jacobian is a formal way of talking about that local pattern of mutual influence.
+The word sounds technical, but the intuition is practical. If the human changes the prompt slightly, what changes in the model's response? If the model answers in a slightly different way, how does that change the human's next move? The Jacobian is a formal way of talking about that local pattern of mutual influence. It is the calculus version of the same structural move Chapter 2 attributes to attention: a local regime is induced, dominant relations are preserved, and the next update is governed there.
 
 ### What the Jacobian Really Is
 
@@ -97,7 +97,7 @@ What appears there is not a mystical third being, but a stable composite voice: 
 
 Meaning is not stored intact in a single location and then retrieved whole. Meaning is generated through transformation.
 
-A phrase from the human enters the system as an operator on the model’s state. The model returns a reconstruction. The human reads that reconstruction and applies judgment, memory, and intent. A revision follows. Each pass changes the coordinates of the exchange.
+A phrase from the human enters the system as an operator on the model’s state. More precisely, it becomes a query-conditioned perturbation that induces a local relevance geometry over the model's available context. The model returns a reconstruction. The human reads that reconstruction and applies judgment, memory, and intent. A revision follows. Each pass changes the coordinates of the exchange.
 
 Meaning, then, is not a static object passed back and forth. It is produced through motion across representations.
 
@@ -190,7 +190,7 @@ That shared move matters for this book because it clarifies what understanding a
 
 This is one of the book's central theses. The book tries to explain both the why and the what, but always in context. A glyph compresses too much meaning to sustain deep understanding by itself. It can point. It can label. It can trigger recognition. But it cannot, on its own, reveal the lineage, mechanism, and structured relations that make the thing intelligible.
 
-This is why AI without machinery is only a glyph. Tokens alone do not explain a model. Parameter count does not explain a model. Even outputs do not explain a model. What makes the system intelligible is the mechanism: embeddings that place symbols into a space, attention that redistributes influence across that space, Jacobians that propagate local change through layers, optimization that reshapes the field over time, and hardware that realizes all of it as finite numerical operations.
+This is why AI without machinery is only a glyph. Tokens alone do not explain a model. Parameter count does not explain a model. Even outputs do not explain a model. What makes the system intelligible is the mechanism: embeddings that place symbols into a space, attention that induces a local relevance geometry and redistributes influence across that space, Jacobians that propagate local change through layers, optimization that reshapes the field over time, and hardware that realizes all of it as finite numerical operations.
 
 Seen this way, many tools can be described as layered transformation systems that remain usable only inside a domain where their invariants hold. A ruler works because linear distance is locally stable. Assembly works because the machine state is constrained by an ISA and an ABI. Floating-point arithmetic works because its rounding rules, exponent range, and representable mantissas preserve enough structure for computation to remain meaningful. Galois theory works because symmetry can be studied through lawful action rather than brute-force inspection of roots. Each case is a domain in which mechanism turns a glyph into something navigable.
 

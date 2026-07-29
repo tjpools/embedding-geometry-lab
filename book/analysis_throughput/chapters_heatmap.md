@@ -2,7 +2,7 @@
 |---------|-------|-----------:|-----------:|---------|
 | Ch 1 | Me | 1088 | 2.7% | █      |
 | Ch 2 | Machine | 1497 | 3.8% | ██     |
-| Ch 3 | Us | 3508 | 8.8% | ████   |
+| Ch 3 | Us | 3563 | 9.0% | ████   |
 | Ch 4 | Tools | 1946 | 4.9% | ██     |
 | Ch 5 | Lineage | 1796 | 4.5% | ██     |
 | Ch 6 | Assembly Programmer’s Manifold | 2068 | 5.2% | ██     |
@@ -12,11 +12,11 @@
 | Ch 10 | Cockpit | 1575 | 4.0% | ██     |
 | Ch 11 | Ebook as Manifold | 2131 | 5.4% | ███    |
 | Ch 12 | Why This Book Matters | 1782 | 4.5% | ██     |
-| Ch 13 | Minsky | 1846 | 4.7% | ██     |
+| Ch 13 | Minsky | 1846 | 4.6% | ██     |
 | Ch 14 | Proper Analysis | 1933 | 4.9% | ██     |
 | Ch 15 | EasterDate | 2608 | 6.6% | ███    |
 | Ch 16 | Structure Becomes Object | 2184 | 5.5% | ███    |
-| Ch 17 | Walkable Path | 2243 | 5.7% | ███    |
-| Ch 18 | Three Is the First Intelligent Number | 3038 | 7.7% | ████   |
+| Ch 17 | Walkable Path | 2243 | 5.6% | ███    |
+| Ch 18 | Three Is the First Intelligent Number | 3038 | 7.6% | ████   |
 
-Total words: 39,676
+Total words: 39,731
