@@ -144,6 +144,8 @@ This is one of the most compact and influential formulas in mathematics.
 
 It says that, to first order, the output change $dy$ is the derivative $f'(x)$ times the input change $dx$. In modern language, the differential is the **best local linear approximation** to the change in the function.
 
+More strongly, the derivative induces the local geometry in which that first-order term governs change. The higher-order structure has not ceased to exist, but at the scale selected by the differential it is deferred, and the local regime is organized by the term that survives.
+
 For a scalar function of one variable, this is familiar. If
 
 $$
@@ -226,7 +228,7 @@ $$
 df = \nabla f(x)\cdot dx.
 $$ 
 
-This tells us several things immediately.
+This tells us several things immediately. The embedding manifold does not become globally linear. What happens instead is the same structural move we saw earlier: a local displacement induces a local regime in which first-order behavior governs the next intelligible update.
 
 First, not all directions are equal. If $dx$ points in a direction aligned with the gradient, the function changes rapidly. If $dx$ is orthogonal to the gradient, the first-order change is zero.
 
