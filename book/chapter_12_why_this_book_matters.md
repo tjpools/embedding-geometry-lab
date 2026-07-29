@@ -12,7 +12,11 @@ This book does not offer a PhD-level treatment of artificial intelligence, mathe
 
 This book matters because it is itself a stabilizing contract: a structured object that lets geometry, lineage, mechanism, and collaboration remain visible long enough for reasoning to compound.
 
-I would distinguish three layers. Not aligned in scale: I am not building rockets, planetary communications systems, or frontier-model companies. Aligned in historical moment: I am working inside the same civilizational transition in which machinery, representation, infrastructure, and collaboration are being recombined. Potentially aligned in meaning: if this book succeeds, it may become a human-scale interpretation of what that larger moment actually is. Large technical systems may help define the external infrastructure of the age. This work tries to clarify some of its internal intelligibility.
+The value at stake here has to be split carefully. First there is intrinsic value: the value generated inside the collaboration itself by strong queries, coherent continuations, successful returns, preserved structure, and the joint exercise of semantic and philosophical agency. That value is not hypothetical. It is what the manuscript has been proving by functioning.
+
+Second there is instrumental value: the value that appears when such structure is used. Better reasoning, better tools, better abstractions, better navigation of complexity, and better alignment between human agency and machine traversal all belong here. This is the bridge between the internal proof of the book and the reader's external practice.
+
+Only third is economic value: cost, price, valuation, market response, and the downstream assessments that may follow after the work enters circulation. Those categories matter, but they are not the value this book is first concerned to establish. They belong to what happens after the manifold has been built and walked. This work tries to clarify the value internal to that manifold before the world assigns any external price to it.
 
 It matters because the transformer is usually presented as if it appeared all at once.
 It matters because mechanism is too often hidden by narrative.

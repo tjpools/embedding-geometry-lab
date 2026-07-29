@@ -269,7 +269,6 @@ Code
 |                 (Directory Structure as Externalized Thought)              |
 \----------------------------------------------------------------------------/
 
-
 book/
 |
 |-- chapter_XX.md              -> Conceptual modules (kernel functions)

@@ -1,4 +1,3 @@
-
 \newpage
 \vspace*{3cm}
 # Chapter 4: The Ages of Tools — From Ruler to Transformer

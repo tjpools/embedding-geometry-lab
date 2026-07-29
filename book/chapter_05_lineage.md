@@ -1,4 +1,3 @@
-
 \newpage
 \vspace*{3cm}
 # Chapter 5: The Human Lineage Behind the Machine

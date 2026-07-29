@@ -1,4 +1,3 @@
-
 \newpage
 \vspace*{3cm}
 # Chapter 6: The Assembly Programmer’s Manifold

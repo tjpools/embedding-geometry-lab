@@ -1,4 +1,3 @@
-
 \newpage
 \vspace*{3cm}
 # Chapter 18: Three Is the First Intelligent Number

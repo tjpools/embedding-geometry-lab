@@ -19,7 +19,7 @@
 - Chapter 8: Stories — chapter_08_stories.md
 - Chapter 9: The Meta Layer — chapter_09_meta_layer.md
 - Chapter 10: The Cockpit — chapter_10_cockpit.md
-- Chapter 11: The Ebook as Manifold — chapter_11_ebook_as_manifold.md
+- Chapter 11: The Book as Manifold — chapter_11_book_as_manifold.md
 - Chapter 12: Why This Book Matters — chapter_12_why_this_book_matters.md
 - Chapter 13: Marvin Minsky: Structural Operator of the Distributed Mind — chapter_13_minsky.md
 - Chapter 14: The Proper Analysis — chapter_14_proper_analysis.md

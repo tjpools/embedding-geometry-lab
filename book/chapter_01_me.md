@@ -1,12 +1,8 @@
-
-
 I have worked many jobs since I was young. I came into computing when computer science was still in its infancy, when large university mainframes ran punch cards and Fortran. Since then I have kept a steady connection to personal computing through assembly language, C and C++, Python, and Julia. Projects like EasterDate did not appear out of nowhere; they belong to a much longer arc of making and remaking things with machines. Now in retirement I work at Whole Foods and use my off-hours to keep programming. My main machines are Dell desktops running Fedora Linux and Windows 11 with WSL:Ubuntu. I still love command-line computing.
-
 
 \newpage
 \vspace*{3cm}
 # Chapter 1: Me
-
 
 I used to think my biography was irrelevant to the story I wanted to tell. But I have come to understand that it belongs to the story. My life sits at the intersection of tools and people, where the evolution of reasoning becomes visible through work, maintenance, curiosity, and repeated contact with machines. Assembly taught me the machine's grammar. GitHub taught me that every commit is a fossil. Transformers taught me that collaboration can be computational. And Whole Foods taught me that intelligence, human or artificial, only makes sense when grounded in the ordinary. This book is not about me, but my life is one doorway through which the reader enters the lineage behind the newer tools.
 
@@ -19,7 +15,6 @@ What I bring to this argument is not a résumé but a way of seeing. I see struc
 Over time, that repeated grammar became the deeper claim of the project. The domains are not identical, but they are not sealed off from one another either. They are different configurations in which computation becomes visible through work, representation, constraint, and repair.
 
 My technical world is a coherence network: an iPhone for capture, a Windows machine with WSL:Ubuntu for translation, and a separate Fedora desktop for execution. GitHub is my global ledger of lineage. Visual Studio Code and Visual Studio 2026 serve as intent compilers. Several transformers serve as collaborative partners. The fuel beneath all of it is curiosity.
-
 
 A book about AI is difficult not simply because the subject is complex, but because readers do not arrive with the same shape of understanding. One comes from hardware, another from biology, another from markets, language, or the structures of ordinary work. Each brings a different intuition for how complexity behaves. The task of this book is not to force a single path through the material, but to build a structure that can be entered from many directions. A young reader, an older reader, or Elon Musk will not take the same lesson from these pages. They will simply find themselves in the same map.
 

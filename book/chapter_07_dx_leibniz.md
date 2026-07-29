@@ -37,7 +37,6 @@ You do not need to master every historical detail in this chapter to keep the ma
 
 Before embeddings became a story about local perturbations, calculus first had to become a story about lawful change. That shift did not happen all at once. It emerged from a tension within equation space itself.
 
-
 Before we can appreciate what Leibniz invented, we need to feel the failure of the old tools. Try the algebraic moves you already know: subtract $x$ from both sides, take logarithms, isolate the variable, rearrange the terms. Every move leads to a dead end. The variable is trapped in two incompatible worlds: $x$ lives in the linear world, while $5^x$ lives in the exponential one. Algebra can handle either world separately, but not both at once.
 
 This is the moment where mathematics needed a new idea: not a trick, not a clever rearrangement, but a new way to reason when exact symbolic closure fails. The later story of the quintic sharpened that same point. Algebra could still classify, transform, and illuminate structure, but it could not always deliver a closed symbolic answer. Differential thinking mattered because it changed the question. When global solvability is unavailable, mathematics can still ask:
@@ -177,7 +176,7 @@ Leibniz’s notation proved especially durable because it makes structural relat
 $$
 \frac{dy}{dx}
 $$
- 
+
 
 looks like a ratio, and while one must treat that carefully, the notation encourages us to think in terms of dependence and transformation. It says: *how much does $y$ change relative to $x$?*
 
