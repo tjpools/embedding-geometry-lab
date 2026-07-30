@@ -82,7 +82,7 @@ Another keeps the scale of interaction stable enough for the next round to proce
 
 This is why the transformer belongs so naturally after Minsky. It is not merely a powerful statistical model. It is one of the clearest machine realizations we have of intelligence emerging from many small, specialized, coordinated operations.
 
-## 13.4 Demonstration: A Layer at Work
+## 13.6 Demonstration: A Layer at Work
 
 The argument becomes clearer if we watch a small society do its work.
 
@@ -113,7 +113,7 @@ That is the point Minsky helps us see.
 The intelligence is not located in one little sovereign center.
 It emerges from the society.
 
-## 13.6 Why Minsky's Framework Still Matters
+## 13.7 Why Minsky's Framework Still Matters
 
 Minsky still matters because his framework keeps the reader's analysis proportionate.
 
@@ -129,7 +129,7 @@ That is a much better question.
 
 It is also the question that Chapter 14 requires.
 
-## 13.7 The Hand-Off to Analysis
+## 13.8 The Hand-Off to Analysis
 
 The perceptron/XOR moment is the first modern case in this book where a machine tool reveals its geometry by failing at its boundary. Minsky interpreted that failure as evidence that mind required richer internal structure than a single-layer tool could provide. That is why this chapter stands where it does.
 
