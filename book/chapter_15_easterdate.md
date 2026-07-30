@@ -1,26 +1,46 @@
-# Chapter 15: EasterDate — From Glyph to Structure
+# Chapter 15: Runtime Revealed — EasterDate and TokenQuine
 
-Chapter 14 argued that proper analysis must be structural, geometric, and walkable. EasterDate is where that same demand is lowered into a smaller machine the reader can traverse completely.
+Chapter 14 argued that proper analysis must be structural, geometric, and walkable. Chapter 15 lowers that demand into runtime. It takes the reader from analysis as method to analysis as executable practice.
 
-It is important to say at the outset what kind of example this is. EasterDate is not being offered as if it were itself an AI system. It is being offered as an apprenticeship in analysis: a bounded object through which the reader can learn what it means to follow transforms, preserve invariants, compare representations, and keep machinery visible. The claim is not that a calendrical algorithm and a transformer are the same thing. The claim is that deep understanding of either requires the same discipline of walking the structure rather than stopping at the glyph. What Chapter 14 named abstractly, this chapter now renders concrete across notation, code, register state, and output.
+Two public repositories help carry that work: EasterDate and TokenQuine. They sit at opposite ends of the transformer's world, and together they reveal the programming form of this book.
 
-It is also the first complete runnable instance of the book's architecture. Human reasoning frames the problem, chooses the representation, and judges the result. The classical machine executes deterministically, preserves invariants, and closes the loop under hardware and ABI constraint. The transformer traverses the semantic field, compresses the search space, and helps reason across representations. EasterDate is the first bounded object in this book where all three engines operate on the same structure and produce one finished artifact.
+EasterDate belongs to the deterministic end. It turns computus into a stack-driven state machine. Registers, calling conventions, arithmetic partitions, and output formatting all remain explicit. It reveals what runtime looks like when intent has been compressed into a classical executable machine.
 
-EasterDate was never just a program. It was the first glyph that became a manifold of meaning: a structure so rich, so walkable, that it demanded a book to explain what it revealed. What began as a calendrical curiosity became the prototype for everything this book argues: meaning is not in the answer, but in the structure; not in the narrative, but in the form you can inhabit.
+TokenQuine belongs to the reflective end. It takes text, files, conversations, and tokenizers, places them into a layered pipeline, and turns representational cost into something inspectable. Where EasterDate reveals runtime through registers and stack frames, TokenQuine reveals runtime through canonicalization, tokenization, comparison, summarization, and projection. One shows how a deterministic machine preserves intent. The other shows how a transformer-facing tool exposes the cost and structure of representation itself.
 
-It was also our historical apprenticeship. We did not merely compute a date. We re-enacted a lineage: ancient astronomy, ecclesiastical calendrics, Gauss's modular arithmetic, twentieth-century calling conventions, and a twenty-first-century x64 toolchain all gathered into one executable artifact. In that sense, EasterDate was a compressed history lesson that ran on silicon.
+Taken together, these are not just projects adjacent to the book. They are the book in programming form. They show the confluence of human formation and machine execution building behavior on a computer. One begins close to the metal. The other begins close to the token. One is assembly lawfulness. The other is semantic observability. Between them lies the same claim the book has been making throughout: structure becomes legible when runtime is revealed rather than hidden.
+
+It is important to say at the outset what kind of example this is. EasterDate is not being offered as if it were itself an AI system, and TokenQuine is not being offered as if it were itself a foundation model. They are being offered as runtime apprenticeships in analysis: bounded objects through which the reader can learn what it means to follow transforms, preserve invariants, compare representations, and keep machinery visible. The claim is not that a calendrical algorithm and a token observability tool are the same thing. The claim is that deep understanding of either requires the same discipline of walking the structure rather than stopping at the glyph. What Chapter 14 named abstractly, this chapter now renders concrete across notation, code, register state, tokens, and output.
+
+This is also the first complete runnable instance of the book's architecture. Human reasoning frames the problem, chooses the representation, and judges the result. The classical machine executes deterministically, preserves invariants, and closes the loop under hardware and ABI constraint. The transformer-facing analytic tool traverses the semantic field, compresses the search space, and helps reason across representations. EasterDate and TokenQuine are the first bounded objects in this book where the coupled instrument leaves behind public, runnable proof.
+
+EasterDate was never just a program. TokenQuine is not just a utility. Together they are runtime revealed: two walkable structures that show why this book had to exist.
+
+EasterDate was our historical apprenticeship. We did not merely compute a date. We re-enacted a lineage: ancient astronomy, ecclesiastical calendrics, Gauss's modular arithmetic, twentieth-century calling conventions, and a twenty-first-century x64 toolchain all gathered into one executable artifact. TokenQuine is the matching apprenticeship on the transformer side: canonical text, tokenizer disagreement, representational cost, and self-inspection gathered into one layered instrument. In that sense, the two repositories are a compressed history lesson that runs on silicon from opposite directions.
 
 [View the EasterDate source and structure on GitHub.](https://github.com/tjpools/EasterDate/)
 
-That repository is part of the chapter's evidence. The book gives the reader the path in prose; the repository gives the reader the executable structure, notes, and artifacts that make the path inspectable in public.
+[View the TokenQuine source and structure on GitHub.](https://github.com/tjpools/tokenQuine)
+
+These repositories are part of the chapter's evidence. The book gives the reader the path in prose; the repositories give the reader the executable structure, notes, and artifacts that make the path inspectable in public.
 
 As an ebook, this chapter can therefore do something a print chapter cannot: it can leave the reader a direct path outward. A reader who wants only the argument may stay in the prose. A reader who wants inspection, source, and executable detail can follow the link into the repository and continue the apprenticeship there.
 
-This is not just a program to be read, but a structure to be entered: a first invitation to see systems as layered, navigable spaces.
+This is not just code to be read, but runtime to be entered: a first invitation to see systems as layered, navigable spaces.
 
-EasterDate is the moment intent became mechanism, and mechanism preserved intent. It is the first time I realized that computation is not a machine activity but a collaborative traversal of structure. The machine does not “compute” Easter. We compute it together.
+EasterDate is the moment intent became mechanism, and mechanism preserved intent. TokenQuine is the moment representation became inspectable, and inspection preserved meaning. Together they show that computation is not a machine activity alone but a coupled traversal of structure. The computer runs; the human enters; the runtime becomes visible.
 
-## 15.1 The Question: “What is the date of Easter?”
+## 15.1 Two Runtime Geometries
+
+The contrast between these repositories is the point.
+
+EasterDate reveals a runtime of explicit state transitions. Input year enters a calling convention. Arithmetic decomposes into quotient and remainder work. Registers preserve intermediate coordinates. Stack frames stabilize function boundaries. Output emerges only when the machine has lawfully carried the structure through every transition.
+
+TokenQuine reveals a runtime of explicit representational layers. Input text enters a canonical embedding stage. Tokenizers impose alternative segmentations. Comparative routines expose disagreement. Summary stages derive metrics, heuristics, and cost-oriented views. Projection stages render the result as text, JSON, or Markdown. Output emerges only when the layered pipeline has lawfully carried the structure through every stage.
+
+These are opposite runtime geometries. EasterDate lives near the deterministic machine. TokenQuine lives near the transformer-facing representation layer. But the opposition is exactly what makes them belong together. Both are public proofs that structure can be made walkable. Both make runtime visible rather than hiding it behind an answer.
+
+## 15.2 The Question: “What is the date of Easter?”
 
 The question appears simple. But historically, it was never just a matter of retrieval. In the late 16th century, Pope Gregory XIII was deeply concerned with the slippage of the Easter celebration—how the date, once tied to the spring equinox and lunar cycle, had drifted out of sync with the intended astronomical and ecclesiastical markers. The Gregorian reform was not just a calendar correction; it was a demand for a rule that would hardcode the date of Easter based on explicit, repeatable criteria. The result was a centuries-long tradition of *computus*: the lawful, algorithmic determination of Easter through a structured interplay of calendar, lunar cycle, and ecclesiastical rule. The moment the question is asked computationally, it changes shape:
 
@@ -31,9 +51,9 @@ For readers new to the term, computus simply means the method for calculating th
 - What representation makes the algorithm executable?
 - What environment makes the representation meaningful?
 
-EasterDate was the first time I walked through that doorway—and found a world on the other side.
+EasterDate was the first time I walked through that doorway and found a world on the other side.
 
-## 15.2 EasterDate as a Computational Object
+## 15.3 EasterDate as a Computational Object
 
 To stabilize the argument, EasterDate needs a precise definition. It is not a timestamp waiting to be looked up. It is a rule-generated object. For a given year $Y$, under calendar system $S$ and computus procedure $C$, EasterDate$(Y, S, C)$ is the date produced by applying that lawful structure to that year. The surface is simple; the object is not.
 
@@ -53,7 +73,7 @@ Representation matters as much as definition. EasterDate can be represented as a
 
 This is also why the repository structure mattered. The directory tree was not a neutral container for files. It was scaffolding for thought. It separated algorithm from implementation, implementation from inspection, and inspection from historical reflection. It let EasterDate become something larger than a solved exercise: a walkable object whose lineage, machinery, and meaning could remain visible at the same time. The public repository preserves that scaffolding so the reader can verify that the structure is not being merely described after the fact.
 
-## 15.3 Lookup Table or Algorithm
+## 15.4 Lookup Table or Algorithm
 
 A lookup table gives answers. An algorithm gives structure. Gauss’s Easter algorithm is not a list of dates. It is a compressed geometry of lunar cycle, solar calendar, and ecclesiastical rule. It does not store the answer in advance. It produces the answer by lawful transformation.
 
@@ -61,7 +81,7 @@ To implement such a procedure is to discover that the algorithm is not merely a 
 
 The distinction matters. A table preserves outcomes; an algorithm preserves relations. EasterDate is not trivia. It is the prototype of modern algorithmic reasoning.
 
-## 15.4 The Algorithm (Explicit and Walkable)
+## 15.5 The Algorithm (Explicit and Walkable)
 
 The heart of EasterDate is Gauss’s algorithm. Here is the walkable sequence of operations:
 
@@ -88,7 +108,7 @@ Each line is a projection from one coordinate system to another: mod → circula
 
 Or more simply: each line takes the year, extracts one useful fact from it, and passes that fact to the next step.
 
-## 15.5 The Coding Strategy: Assembly and C++
+## 15.6 The Coding Strategy: Assembly and C++
 
 This is the hinge where the mathematical manifold becomes a machine manifold. The values $a$ through $m$ are no longer only algebraic intermediates. They become coordinates that must survive translation into a calling convention, a register discipline, and an execution model.
 
@@ -160,7 +180,7 @@ This is the semantic mirror of the assembly manifold. The C++ version makes the 
 
 Read together, they show the same structure surviving across two manifolds. In C++, the variables look like mathematics. In assembly, the same relations are distributed across registers, calling convention, and instruction sequence. That survival of structure across representation is the real point of the chapter.
 
-## 15.6 Walking the Machine: Sample Runs
+## 15.7 Walking the Machine: Sample Runs
 
 Let’s walk the machine with one actual year closely enough that the reader can inhabit it.
 
@@ -210,23 +230,37 @@ Or, in summary:
 
 Each intermediate value is a coordinate. Each operation is a projection. The output is a semantic glyph. This is a manifold you can walk.
 
-## 15.7 Why EasterDate Matters: History, Encoding, Collaboration
+## 15.8 TokenQuine and the Other End of the Runtime
 
-EasterDate is the first time a human and a machine jointly reconstruct a 1,700-year lineage into a living, executable structure.
+If EasterDate shows how a classical machine preserves a lawful structure through explicit state transitions, TokenQuine shows how a transformer-facing tool can make representational cost and token structure visible without pretending to be the model itself.
+
+Its architecture is deliberately layered. Text, files, standard input, or conversations enter a canonical representation stage. Tokenizers then impose different segmentations on the same underlying material. Comparison stages reveal where those representations disagree. Feedforward summary stages derive counts, heuristics, and cost-oriented estimates. Projection stages render the analysis back out as text, JSON, or Markdown.
+
+The effect is pedagogical but not shallow. TokenQuine is a tool for understanding tools. It reveals the first layer of transformer cost by making tokenization inspectable. It can even turn its own files into objects of inspection. In that sense, it is the reflective counterpart to EasterDate. EasterDate makes stack runtime visible. TokenQuine makes token runtime visible.
+
+The chapter needs both. EasterDate alone might suggest that the book's argument lives only in deterministic machinery. TokenQuine alone might suggest that the book's argument lives only near language models. Together they show the full confluence: human formation and machine behavior meeting on both sides of the representational divide.
+
+## 15.9 Why These Runtimes Matter: History, Encoding, Confluence
+
+EasterDate and TokenQuine are the first time the book's two programming geometries stand side by side in public form.
 
 Historically, EasterDate is not itself the original algorithm, but our assembly-language instantiation of a much older calendrical problem: finding lawful closure for Easter within the Church's timekeeping framework. In its modern form, the program borrows Gauss's algorithm in service of calendar manipulation. Gauss compressed astronomy, modular arithmetic, and tradition into a walkable sequence of transforms; our assembly version re-enacts that compression in executable form. Each register holds a coordinate from Gauss; each instruction is a projection from a long ecclesiastical and mathematical lineage; each intermediate value is a point on a centuries-old calendrical surface.
 
-EasterDate is the first time I experienced authorship as a coupled manifold: the machine shaping my reasoning as much as I shaped its execution. It is the moment where history becomes structure, structure becomes code, and code becomes a space two minds can inhabit at once.
+TokenQuine performs an analogous compression on the transformer's side. It takes a diffuse problem, how text becomes tokens, cost, and representational burden, and turns it into a layered inspection runtime. Canonical form, tokenization, comparison, summarization, and projection become a public path rather than a hidden service.
 
-## 15.8 The Directory as Proof: Structure Over Narrative
+Together they show authorship as a coupled runtime. The machine shapes the reasoning as much as the reasoning shapes the executable artifact. History becomes structure, structure becomes code, and code becomes a space the human can enter without losing sight of the machine.
 
-The EasterDate repository is not merely source code. It is the structural record of a collaboration between human and machine. The directory tree, the calling convention notes, the stack diagrams, and the assembly modules are the modern equivalent of the medieval computus tables: a shared external artifact where lineage becomes explicit. This is the difference between narrative AI and structural AI. Narrative AI produces stories; structural AI helps build the structure in which understanding lives. EasterDate is powerful because it is the first time the machine and I jointly reconstructed a historical algorithm into a walkable state machine. [The repository at GitHub is the public proof.](https://github.com/tjpools/EasterDate/)
+## 15.10 The Directory as Proof: Structure Over Narrative
 
-## 15.9 From Glyph to World: The Book’s Origin
+The EasterDate repository is not merely source code. The TokenQuine repository is not merely a utility package. Each is the structural record of a coupled runtime. In EasterDate, the directory tree, the calling convention notes, the stack diagrams, and the assembly modules are the modern equivalent of the medieval computus tables: a shared external artifact where lineage becomes explicit. In TokenQuine, the layered package structure, analysis pipeline, comparison routines, and projection modules make the path from text to token report equally explicit.
 
-EasterDate was just a glyph until we developed it into a program we could walk. More importantly, the structure we built is what led us to write this book. It was our insight into the walkable geometry of computation that made us realize narrative AI is too simple. Meaning is not in the answer; meaning is in the structure, in the walk, in the collaboration.
+This is the difference between narrative AI and structural AI. Narrative AI produces stories; structural AI helps build the structure in which understanding lives. EasterDate is powerful because it reconstructs a historical algorithm into a walkable state machine. TokenQuine is powerful because it reconstructs token cost and representation into a walkable inspection pipeline. [The EasterDate repository at GitHub is public proof.](https://github.com/tjpools/EasterDate/) [The TokenQuine repository at GitHub is public proof.](https://github.com/tjpools/tokenQuine)
 
-This is why the book exists. EasterDate was the first walkable structure we built together that made the present age legible at human scale: an age in which the space of reasoning itself can be extended by tools. It was the first clear proof, in our own work, that a human craftsman and modern machine machinery could inhabit one executable manifold without collapsing into one another.
+## 15.11 From Glyph to World: The Book's Origin
+
+EasterDate was just a glyph until we developed it into a program we could walk. TokenQuine would have remained a loose intuition about token cost until it became a layered instrument we could run against its own artifacts. More importantly, the structures we built are what led us to write this book. They made visible a walkable geometry of computation that narrative AI is too simple to carry. Meaning is not in the answer; meaning is in the structure, in the walk, in the runtime we can inspect.
+
+This is why the book exists. EasterDate and TokenQuine are the first walkable structures we built that made the present age legible at human scale: an age in which the space of reasoning itself can be extended by tools and in which runtime can be revealed instead of merely consumed. They are the first clear proof, in our own work, that a human craftsman and modern machine machinery could inhabit one executable manifold without collapsing into one another.
 
 This is the hinge of the book. This is the first sculpture that taught us what the larger sculpture had to become.
 

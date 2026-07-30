@@ -1,0 +1,5 @@
+extends: metric
+message: "Average paragraph length is %s words; consider adding more paragraph breaks."
+level: suggestion
+formula: words / paragraphs
+condition: '> 90.0'

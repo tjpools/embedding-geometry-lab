@@ -96,6 +96,8 @@ If these chapters have done their work, they have not settled the matter once an
 
 The next and final question does not leave these orienting structures behind. It asks what happens once orientation gives way to relation. Zero and identity establish the conditions under which a system can be located and preserved. But intelligence does not become visible there alone. It becomes visible when relation acquires enough structure to close, turn, and return.
 
+That is why the book ends not with scale, but with the smallest walkable closure. The final chapter asks what the minimum intelligible geometry of behavior actually is, and answers: not one, not two, but three.
+
 That is where this book ends.
 
 And that is why the inquiry does not.

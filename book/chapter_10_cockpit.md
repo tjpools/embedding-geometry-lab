@@ -2,11 +2,13 @@
 \vspace*{3cm}
 # Chapter 10: The Cockpit — Where Local Linearization Becomes Survival
 
-After the Meta Layer, we can see the architecture of the system more clearly. But seeing structure is not the same as navigating it. A system may be intelligible in outline and still unforgiving in operation.
+Chapter 9 made the architecture visible. Chapter 10 asks what that architecture feels like from inside a live system.
 
-Chapter 9 treated the cockpit as an instrument panel for orientation. This chapter begins where that one leaves off: once the pilot is inside the IFR system, the panel is no longer explanatory. It is operational. `dx` stops being a symbol and becomes a lived constraint, where local derivatives become necessity.
+Seeing structure is not the same as navigating it. A system may be intelligible in outline and still unforgiving in operation. The cockpit matters because it is where architecture comes under pressure, where every relation must be read in time, and where misunderstanding acquires cost.
 
-That is why the cockpit belongs here. It takes the differential language of Chapter 7 and the system-awareness of Chapter 9 and forces them into practice. In a cockpit, Leibniz, Newton, and Berkeley are no longer abstract figures in the history of ideas. They become companions in survival.
+Chapter 9 treated the cockpit as an instrument panel for orientation. This chapter begins one step later: once the pilot is inside the IFR system, the panel is no longer explanatory. It is operational. `dx` stops being a symbol and becomes a lived constraint. Local derivatives stop being elegant descriptions of change and become necessary disciplines of survival.
+
+That is why the cockpit belongs here. It takes the differential language of Chapter 7, the human-scale walkability of Chapter 8, and the system-awareness of Chapter 9 and forces them into practice. In a cockpit, Leibniz, Newton, and Berkeley are no longer abstract figures in the history of ideas. They become companions in survival.
 
 ## 10.1 The Cockpit as a Jacobian
 
@@ -152,7 +154,7 @@ Chapter 7 described the deep inheritance of `dx`: the symbolic operationalizatio
 Chapter 8 translated the manifold into human-scale geodesics of meaning.
 Chapter 9 stepped back to reveal the architecture that holds these movements together.
 
-Chapter 10 returns from architecture to operation.
+Chapter 10 returns from architecture to operation, from visible system to costly motion inside it.
 
 It asks what it means to navigate a system whose curvature is real, whose local state must be inferred continuously, and whose stability depends on timely correction. The cockpit answers with discipline, instrument scan, and local linearization.
 

@@ -319,6 +319,22 @@ Whenever we care about local expressivity or fragility, we are already in the wo
 
 If the Jacobian has directions with very small singular values, then movement in those input directions barely affects the output to first order. Those are locally compressed directions.
 
+If it has directions with very large singular values, then tiny perturbations can be amplified sharply. Those are locally sensitive directions. In between lies the practical terrain of modern representation: some local moves are semantically quiet, some are semantically loud, and some change the whole behavior of the system faster than ordinary intuition expects.
+
+This perspective makes the differential more than a technical artifact. It becomes the first operator of local meaning. A displacement $dx$ is no longer only a numerical tweak. It is a candidate semantic move. The resulting $df$ is no longer only a scalar change. It is the first local trace of how meaning responds.
+
+The Jacobian sharpens that view. It is the local shape of meaning under transformation. It tells us which directions in a representation space preserve structure, which distort it, which collapse it, and which make the system fragile. That is why Jacobians belong so naturally in the lineage from Leibniz to transformers. They inherit the original differential insight and scale it into multivariable space.
+
+This is also where Berkeley's old question returns in a modern register. What exactly is a semantic direction? What sort of thing is being preserved or changed when a local displacement in embedding space alters a score, a classification, or an apparent meaning? We still work operationally before every ontological question is settled cleanly. Differential reasoning remains powerful partly because it lets structure become analyzable before it becomes metaphysically transparent.
+
+That is not a weakness of the method. It is one of the recurrent conditions of intelligence. Human beings, mathematical systems, and machine-learning systems alike often proceed by building stable local operators before they fully settle the ontology of what those operators range over.
+
+Leibniz's $dx$ matters here because it was one of the first great symbols to make that kind of intelligence durable. It allowed mathematics to write local change before it could exhaustively justify every entity involved. Modern machine learning inherits that same pattern. We manipulate gradients, Jacobians, feature directions, and local sensitivity maps because they make the nearby structure intelligible, even when the deeper ontology of representation remains partly open.
+
+This is the bridge to the later chapters. Chapter 6 showed execution as structured motion on a discrete machine. Chapter 7 now shows local change as a continuous geometry of intelligibility. Together they provide the two sides modern AI requires: discrete runtime and continuous variation.
+
+The differential is therefore not merely a historical curiosity. It is the first local operator of meaning. The Jacobian is its multivariable heir. And the transformer becomes thinkable only when this local grammar of change can be carried into representation space itself.
+
 If it has directions with very large singular values, then tiny input changes can cause large output shifts. Those are sensitive or amplified directions.
 
 This gives a geometric vocabulary for understanding representational stability.

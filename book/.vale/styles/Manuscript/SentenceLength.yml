@@ -1,0 +1,5 @@
+extends: metric
+message: "Average sentence length is %s words; consider tightening prose density."
+level: suggestion
+formula: words / sentences
+condition: '> 25.0'

@@ -13,7 +13,7 @@ That position matters for this book. If the transformer is to be understood not 
 
 I do not speak from a high position here. I speak as a craftsman. And like all craftspeople, the assembly-language practitioner is judged less by posture than by care: care for tools, care for interfaces, care for materials, care for maintenance, and care for the conditions under which work remains reliable. That ethic matters because a person who tends tools seriously learns to respect structure instead of talking past it.
 
-This chapter argues that assembly does more than teach a syntax. It cultivates a geometry of thought: a way of seeing computation as constrained motion through structured state spaces. That geometry becomes one of the keys to understanding transformers, because it trains attention toward propagation, local competence, interface contracts, and the difference between architecture, stored state, and execution.
+This chapter argues that assembly does more than teach a syntax. It reveals both man and machine at once. It cultivates a geometry of thought: a way of seeing computation as constrained motion through structured state spaces. That geometry becomes one of the keys to understanding transformers, because it trains attention toward propagation, local competence, interface contracts, and the difference between architecture, stored state, and execution.
 
 ## 6.1 The Perch at the Hardware–Software Boundary
 
@@ -81,17 +81,19 @@ Assembly also makes one distinction unusually difficult to ignore: the distincti
 Consider:
 
 ```asm
-sub rsp, 28h      ; insert human comment
+sub rsp, 28h      ; reserve shadow space and restore 16-byte stack alignment
 ```
 
-In assembly, a line such as `sub rsp, 28h` is not merely arithmetic. It is architectural compliance. The processor executes the subtraction, but the deeper obligation is to the calling convention, the stack discipline, and the operating system's expectations about a lawful frame.
+In assembly, a line such as `sub rsp, 28h` is not merely arithmetic. It is the establishment of legal space in the Windows x64 world. The processor executes the subtraction, but the assembly-language programmer reads something larger: a lawful frame is being opened, 32 bytes of shadow space are being reserved, and 16-byte alignment is being restored so later calls can happen without corruption. The deeper obligation is to the calling convention, the stack discipline, and the operating system's expectations about a proper frame.
+
+This is the geometry of the predicate. `rsp` is the moving origin of a local execution world. To subtract from it is to create room beneath that origin, to make a region of action available, and to do so under exact architectural law. The glyph establishes space.
 
 The instruction executes.  
 The comment does not.
 
-Yet the comment matters. It stabilizes human interpretation. It records intention, rationale, and local context. The two layers remain adjacent but non-identical: one is for the machine, one is for the reader.
+Yet the comment matters. It stabilizes human interpretation. It records intention, rationale, and local context. The two layers remain adjacent but non-identical: one is for the machine, one is for the reader. The instruction preserves execution. The comment makes meaning explicit.
 
-The comment beside it is for the human, not the machine. The instruction preserves execution. The comment preserves interpretation. Assembly reasoning lives in that split world, where symbolic intention must submit to structural constraint if the system is to hold.
+The comment beside it is for the human, not the machine. The instruction preserves execution. The comment preserves interpretation. Assembly reasoning lives in that split world, where symbolic intention must submit to structural constraint if the system is to hold. This is why assembly is unique. It reveals both sides of computation at once: the machine's lawful event and the human's explicit account of what that event means.
 
 That relation is central to this book.
 

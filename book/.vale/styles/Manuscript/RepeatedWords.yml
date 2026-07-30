@@ -1,0 +1,7 @@
+extends: existence
+message: "Possible repeated word: '%s'"
+level: warning
+ignorecase: true
+scope: raw
+raw:
+  - '\\b([A-Za-z]+)\\s+\\1\\b'
