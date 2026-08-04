@@ -148,6 +148,19 @@ book/
 
 This layout expresses an important principle: the manuscript is primary, but it is surrounded by its own reflective, operational, and developmental layers.
 
+## 8.5 Functional Architecture Map
+
+The repository can also be read as a functional machine with six practical regions:
+
+- **entry** — `README.md`, which states the public stance and tells readers where to enter
+- **book** — `book/`, where the manuscript and canonical spine live
+- **production** — `manifest.yml`, `metadata.md`, `build_book.sh`, `update_artifacts.sh`, and the cover-package documents that turn manuscript into artifact
+- **analytics** — `book/analysis_throughput/` and `chapters_wordcount/`, where the project measures its own structure
+- **output** — `embedding-geometry.epub`, `embedding-geometry.pdf`, and `embedding-geometry-6x9.pdf`, which are built representations rather than source
+- **support** — `notes/`, `experiments/`, `pipeline/`, `environment/`, `marketing/`, and related materials that surround the manuscript without replacing it as source of truth
+
+This map matters because it names where decisions belong. Questions of thesis, chapter order, and front matter belong to the book layer. Questions of assembly belong to production. Questions of density, drift, and relative scale belong to analytics. Questions of launch language belong to support. The outputs are where these layers become public artifact.
+
 ## 9. Why This Architecture Matters
 
 This architecture matters because the repository is part of the project’s argument.
@@ -187,3 +200,19 @@ Together, they make the repository not only a container for the book, but one of
 The repository is part of the manifold.
 
 It is the book arranged so that it can be read, built, reflected on, and measured from within.
+
+## 11. Economics of Collaboration
+
+There is also an economics implicit in this repository, and it is not reducible to money.
+
+The real cost of the work is the cost practitioners recognize immediately:
+
+- time spent in the loop
+- effort applied with discipline
+- minimal tools used with precision
+- curiosity sustained across complexity
+- support exchanged in conversation
+
+These inputs are materially modest and humanly expensive. That is why their output cannot be measured only by price.
+
+The value created here is disproportionate: manuscript, structure, stance, cover, metrics, and artifacts brought into alignment through repeated contact, constraint, inspection, and return. The price of the book may be determined later. The valuation of the work will be determined by the people who walk it. But the value is already visible in the coherence of the built object.

@@ -4,7 +4,7 @@
 - A new walkable introduction to AI
 - Introducing *Embedding Geometry*
 - A book about AI beyond hype
-- What if intelligence is something we enter, not something we possess?
+- What if AI is a tool you can touch?
 - Launching soon: *Embedding Geometry*
 
 ## Preview text options

@@ -32,6 +32,20 @@ If you want the repository-side architecture, read [book/architecture_of_the_rep
 
 The manuscript in `book/` is the current source of truth. EPUB, PDF, metrics, and related outputs are downstream artifacts.
 
+## Architecture Map
+
+The repository is organized by function rather than by file type alone.
+
+- `README.md` — public entry point and governing stance
+- `book/` — source of truth for manuscript, spine, front matter, back matter, and package decisions
+- `book/analysis_throughput/` and `chapters_wordcount/` — analytics and self-description layers
+- `book/BOOK_COVER.md`, `book/SCRIBUS_KDP_COVER_WORKFLOW.md`, `book/PRINT_PACKAGE_CHECKLIST.md`, `book/PRINT_COVER_TYPOGRAPHY_SPEC.md` — cover and packaging layer
+- `book/build_book.sh`, `book/update_artifacts.sh`, `book/manifest.yml`, `book/metadata.md` — production layer
+- `embedding-geometry.epub`, `embedding-geometry.pdf`, `embedding-geometry-6x9.pdf` — output artifacts
+- `notes/`, `experiments/`, `pipeline/`, `environment/`, `marketing/` — support materials, exploratory work, and launch-facing surfaces around the book
+
+This layout keeps the operating philosophy visible: source first, production second, analytics nearby, outputs downstream, and support materials clearly separated from the canonical manuscript.
+
 ## Build The Book
 
 From the repository root:
@@ -75,3 +89,19 @@ All chapters and written materials in `book/` remain All Rights Reserved unless 
 ## Working Principle
 
 The project is meant to be entered, not merely consumed.
+
+## Economics of Collaboration
+
+The true cost of this project was never primarily financial. It was the cost every practitioner recognizes:
+
+- time spent in the loop
+- effort applied with discipline
+- minimal tools used with precision
+- curiosity sustained across complexity
+- support exchanged in conversation
+
+Those are the real inputs. Small in material terms, large in human terms.
+
+The value created is disproportionate: priceless.
+
+The price of the book will be determined later. The valuation of the work will be determined by the people who walk it. But the value is already clear: a system built through contact, constraint, inspection, and return.

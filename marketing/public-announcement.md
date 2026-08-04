@@ -8,7 +8,7 @@ It is a walkable introduction to AI through building, testing, and collaboration
 
 ## Medium Version
 
-I, Terrence J McLaughlin, have finished a book called *Embedding Geometry*.
+I, Terrence J McLaughlin, have written a book called *Embedding Geometry*.
 
 The book asks a simple question: what kind of thing is AI when we stop admiring it from a distance and start touching the system directly?
 
@@ -25,7 +25,7 @@ So the work is not only something to read. It is something to enter, inspect, an
 
 ## Long Version
 
-I, Terrence J McLaughlin, have published a project called *Embedding Geometry*.
+I, Terrence J McLaughlin, have published a book and public project called *Embedding Geometry*.
 
 At the center of it is a claim: AI becomes easier to understand when we stop treating it as magic, personality, or spectacle and start treating it as structure. This book traces that structure historically and practically, following the lineage from older tools and symbolic systems into computation, geometry, transformers, and collaboration.
 
