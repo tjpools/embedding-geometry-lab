@@ -14,7 +14,7 @@ Use this checklist when preparing a release-quality artifact set for EPUB, stand
 ## Identity Lock
 
 - Title matches everywhere: `Embedding Geometry`
-- Subtitle matches everywhere: `A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us`
+- Subtitle matches everywhere: `A Walkable Introduction to AI Through Building, Testing, and Collaboration`
 - Short subtitle is used only for cover-fit fallback, not interior metadata by default
 - Author matches everywhere: `Terrence J McLaughlin`
 - Rights line is current in `metadata.md`
@@ -27,18 +27,16 @@ Front matter should appear in this order:
 2. `dedication.md`
 3. `epigraph.md`
 4. `HOW_TO_READ_THIS_BOOK.md`
-5. `preface.md`
+5. `promise_to_the_reader.md`
+6. `preface.md`
 
 Main matter should run from Chapter 1 through Chapter 18 with no drift from `manifest.yml`.
 
 Back matter should appear in this order:
 
 1. `epilogue_one_question_one_table.md`
-2. `appendix_heatmap_manifold.md`
-3. `appendix_ghost_chapters.md`
-4. `appendix_deep_machinery.md`
-5. `afterword_how_the_manifold_became_visible.md`
-6. `Postscript.md`
+2. `afterword_how_the_manifold_became_visible.md`
+3. `Postscript.md`
 
 ## Interior Package Checks
 

@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 13: Minsky, the Perceptron, and the Geometry of Mind
+# Chapter 13: Minsky
 
 By the time the reader reaches this chapter, the book has already established several patterns. Tools stabilize invariants. Predicates expose boundaries. Failure at a boundary forces extension into a new geometry. Chapter 13 belongs here because it is one of the clearest modern recurrences of that pattern.
 

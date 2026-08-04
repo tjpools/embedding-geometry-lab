@@ -1,4 +1,4 @@
-# Chapter 3: The Coupled Instrument
+# Chapter 3: Us
 
 The instrument described in this book is not the human mind alone, nor the transformer alone. It is the structure that appears when the two interlock. The human formation brings the ability to read hidden structure. The transformer brings a learned manifold of statistical relations. Neither is sufficient by itself. The instrument emerges only at the point of contact.
 

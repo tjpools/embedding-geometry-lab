@@ -11,6 +11,17 @@ import yaml
 REPO_ROOT = pathlib.Path(".").resolve()
 BOOK_DIR = REPO_ROOT / "book"
 MANIFEST_PATH = BOOK_DIR / "manifest.yml"
+SPINE_ROOT_FILES = {
+    "copyright.md",
+    "dedication.md",
+    "epigraph.md",
+    "HOW_TO_READ_THIS_BOOK.md",
+    "promise_to_the_reader.md",
+    "preface.md",
+    "epilogue_one_question_one_table.md",
+    "afterword_how_the_manifold_became_visible.md",
+    "Postscript.md",
+}
 
 
 def fail(message: str) -> None:
@@ -93,11 +104,11 @@ def main() -> None:
         if abs_path.name.lower() == "manifest.yml":
             fail("manifest.yml cannot appear in chapters list")
 
-    # Orphan detection: all Markdown files directly under book/ must be listed
+    # Orphan detection applies only to the publication spine, not support docs.
     book_md_files = sorted(
         p.relative_to(REPO_ROOT)
         for p in BOOK_DIR.glob("*.md")
-        if p.name.lower() != "manifest.yml"
+        if p.name.startswith("chapter_") or p.name in SPINE_ROOT_FILES
     )
     manifest_set = set(normalized_entries)
     book_set = set(book_md_files)

@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 4: The Ages of Tools — From Ruler to Transformer
+# Chapter 4: Tools
 
 *Prefatory Note:*  
 Chapter 3 showed the coupled instrument in operation. These next two chapters step back to show the deeper inheritance that made that instrument possible. They are the same continuity seen from two sides: first as human needs compressed into tools, and then as those compressions made possible by contributors across generations. They are retrospective chapters, but not detours. They restate the argument in civilizational terms.

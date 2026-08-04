@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 18: Three Is the First Intelligent Number
+# Chapter 18: Three
 
 ## 18.1 Three as Threshold
 

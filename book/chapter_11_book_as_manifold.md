@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 11: The Book as Manifold
+# Chapter 11: Book as Manifold
 
 An ebook is often treated as a final container: a file exported from a finished manuscript and delivered to a reader. But for a project like this one, that view is too small. The ebook is not merely the afterlife of a print book. It is an operating environment: a structured object that must be entered, navigated, interpreted, and reconstituted by a reader.
 

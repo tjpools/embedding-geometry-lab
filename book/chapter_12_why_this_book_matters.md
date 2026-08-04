@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 12: Why This Book Matters
+# Chapter 12: Why This Matters
 
 This chapter can still act as a compass, even though it appears after much of the path has already been walked. Read in sequence, it gathers what the earlier chapters have established. Read out of sequence, it offers a serious point of orientation for readers who want to understand what this book is trying to do and why its path matters.
 

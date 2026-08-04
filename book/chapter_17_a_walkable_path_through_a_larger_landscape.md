@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 17: A Walkable Path Through a Larger Landscape
+# Chapter 17: Larger Landscape
 
 ## 17.1 This Work Did Not Begin as a Book
 

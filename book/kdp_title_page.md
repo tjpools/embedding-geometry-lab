@@ -4,7 +4,7 @@
 \begin{center}
 {\Huge\bfseries Embedding Geometry\par}
 \vspace{0.5in}
-{\Large A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us\par}
+{\Large A Walkable Introduction to AI Through Building, Testing, and Collaboration\par}
 \vfill
 {\Large Terrence J McLaughlin\par}
 \end{center}

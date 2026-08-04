@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 6: The Assembly Programmer’s Manifold
+# Chapter 6: Assembly
 
 The previous two chapters followed the stabilizers that made modern computation possible: first as tools, then as contributors. This chapter turns to the practitioner who must inherit that accumulated structure and make it hold at the point of execution. The assembly-language practitioner occupies that boundary. Here software meets hardware, representation meets execution, and intention submits to constraint. Closure is not optional.
 

@@ -24,11 +24,11 @@ If you want the repository-side architecture, read [book/architecture_of_the_rep
 
 ## Repository Structure
 
-- `book/` — the authoritative manuscript, front matter, appendices, build scripts, and package-facing docs
+- `book/` — the authoritative manuscript, front matter, eighteen chapters, back matter, build scripts, and package-facing docs
 - `chapters_wordcount/` — generated chapter metrics and supporting artifacts
 - `book/analysis_throughput/` — heatmaps, metric reports, and structural analysis outputs
 - `experiments/` — runnable experiments and supporting code
-- `notes/`, `pipeline/`, `tools/`, `environment/` — development and supporting infrastructure around the broader project
+- `notes/`, `pipeline/`, `tools/`, `environment/` — broader lab infrastructure and supporting materials around the book
 
 The manuscript in `book/` is the current source of truth. EPUB, PDF, metrics, and related outputs are downstream artifacts.
 
@@ -48,12 +48,14 @@ bash book/update_artifacts.sh
 
 This refreshes the manuscript outputs plus structural metrics such as word counts and heatmaps.
 
+`book/build_book.sh` and `book/update_artifacts.sh` are the canonical build entry points.
+
 ## Public Framing
 
 The public-facing package currently centers on:
 
 - Title: Embedding Geometry
-- Subtitle: A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us
+- Subtitle: A Walkable Introduction to AI Through Building, Testing, and Collaboration
 - Author: Terrence J McLaughlin
 
 The book's structural core is organized around three coupled terms:

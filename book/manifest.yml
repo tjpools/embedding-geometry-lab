@@ -5,6 +5,7 @@ chapters:
   - book/dedication.md
   - book/epigraph.md
   - book/HOW_TO_READ_THIS_BOOK.md
+  - book/promise_to_the_reader.md
   - book/preface.md
 
   # Main chapters
@@ -29,8 +30,5 @@ chapters:
 
   # Back matter
   - book/epilogue_one_question_one_table.md
-  - book/appendix_heatmap_manifold.md
-  - book/appendix_ghost_chapters.md
-  - book/appendix_deep_machinery.md
   - book/afterword_how_the_manifold_became_visible.md
   - book/Postscript.md

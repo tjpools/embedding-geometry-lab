@@ -1,4 +1,4 @@
-# Chapter 15: Runtime Revealed — EasterDate and TokenQuine
+# Chapter 15: EasterDate
 
 Chapter 14 argued that proper analysis must be structural, geometric, and walkable. Chapter 15 lowers that demand into runtime. It takes the reader from analysis as method to analysis as executable practice.
 

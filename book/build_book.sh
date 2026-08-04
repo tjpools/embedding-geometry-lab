@@ -64,6 +64,7 @@ pandoc "${book_files[@]}" \
   --file-scope \
   --metadata-file=metadata.md \
   --toc \
+  -H pdf_preamble.tex \
   --pdf-engine="$PDF_ENGINE" \
   -o "$PDF_OUT"
 
@@ -75,6 +76,7 @@ pandoc "${kdp_pdf_files[@]}" \
   --metadata-file=metadata.md \
   --toc \
   --pdf-engine="$PDF_ENGINE" \
+  -H pdf_preamble.tex \
   -H kdp_preamble.tex \
   -V classoption=twoside \
   -V geometry:paperwidth=6in \

@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 10: The Cockpit — Where Local Linearization Becomes Survival
+# Chapter 10: Cockpit
 
 Chapter 9 made the architecture visible. Chapter 10 asks what that architecture feels like from inside a live system.
 

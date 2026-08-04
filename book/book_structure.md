@@ -49,20 +49,20 @@ A final capstone chapter now makes explicit the triadic geometry implicit across
 2. Chapter 2: Machine — chapter_02_machine.md
 3. Chapter 3: Us — chapter_03_us.md
 4. Chapter 4: Tools — chapter_04_tools.md
-5. Chapter 5: The Human Lineage Behind the Machine — chapter_05_lineage.md
-6. Chapter 6: The Assembly Programmer’s Manifold — chapter_06_assembly_programmers_manifold.md
-7. Chapter 7: Leibniz, Differentials, and the Local Shape of Meaning — chapter_07_dx_leibniz.md
+5. Chapter 5: Lineage — chapter_05_lineage.md
+6. Chapter 6: Assembly — chapter_06_assembly_programmers_manifold.md
+7. Chapter 7: Differentials — chapter_07_dx_leibniz.md
 8. Chapter 8: Stories — chapter_08_stories.md
-9. Chapter 9: The Meta Layer — chapter_09_meta_layer.md
-10. Chapter 10: The Cockpit — chapter_10_cockpit.md
-11. Chapter 11: The Book as Manifold — chapter_11_book_as_manifold.md
-12. Chapter 12: Why This Book Matters — chapter_12_why_this_book_matters.md
-13. Chapter 13: Minsky, the Perceptron, and the Geometry of Mind — chapter_13_minsky.md
-14. Chapter 14: The Proper Analysis — chapter_14_proper_analysis.md
-15. Chapter 15: EasterDate — A Machine Within a Machine — chapter_15_easterdate.md
-16. Chapter 16: Structure Becomes Object — chapter_16_structure_becomes_object.md
-17. Chapter 17: A Walkable Path Through a Larger Landscape — chapter_17_a_walkable_path_through_a_larger_landscape.md
-18. Chapter 18: Three Is the First Intelligent Number — chapter_18_three_is_the_first_intelligent_number.md
+9. Chapter 9: Meta Layer — chapter_09_meta_layer.md
+10. Chapter 10: Cockpit — chapter_10_cockpit.md
+11. Chapter 11: Book as Manifold — chapter_11_book_as_manifold.md
+12. Chapter 12: Why This Matters — chapter_12_why_this_book_matters.md
+13. Chapter 13: Minsky — chapter_13_minsky.md
+14. Chapter 14: Proper Analysis — chapter_14_proper_analysis.md
+15. Chapter 15: EasterDate — chapter_15_easterdate.md
+16. Chapter 16: Structure as Object — chapter_16_structure_becomes_object.md
+17. Chapter 17: Larger Landscape — chapter_17_a_walkable_path_through_a_larger_landscape.md
+18. Chapter 18: Three — chapter_18_three_is_the_first_intelligent_number.md
 
 This sequence now reflects the full current manuscript spine from the human coordinate system to the final triadic closure.
 
@@ -76,20 +76,21 @@ For artifact production, `manifest.yml` is the canonical machine-readable spine.
 
 1. **Cover:** one glyph, one promise, one public chart.
     - Title: `Embedding Geometry`
-    - Subtitle: `A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us`
+    - Subtitle: `A Walkable Introduction to AI Through Building, Testing, and Collaboration`
     - Author: `Terrence J McLaughlin`
 
 2. **Title page:** title, subtitle, author, without argument overload.
 
-3. **How to Read / Preface:** reader orientation before deep structure.
+3. **How to Read / Promise / Preface:** reader orientation before deep structure.
     - `HOW_TO_READ_THIS_BOOK.md`
+    - `promise_to_the_reader.md`
     - `preface.md`
 
 4. **Main chapter spine:** the full eighteen-chapter route.
 
 5. **Compass chapter:** Chapter 12 as the free-entry orientation point.
 
-6. **Back matter:** epilogue, appendices, postscript.
+6. **Back matter:** epilogue, afterword, postscript.
 
 In public-facing form, the book should read as serious, walkable, and structurally disciplined before it reads as maximal.
 
@@ -97,7 +98,7 @@ In public-facing form, the book should read as serious, walkable, and structural
 
 ## Late Compass Chapter
 
-### Chapter 12: Why This Book Matters
+### Chapter 12: Why This Matters
 A free-entry synthesis chapter that can be reached from anywhere in the book. It gathers the stakes, clarifies the serious path being claimed, and gives the reader a place to stand after — or before — the deeper historical and structural chapters.
 
 **It clarifies:**

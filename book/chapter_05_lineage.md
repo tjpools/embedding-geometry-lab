@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 5: The Human Lineage Behind the Machine
+# Chapter 5: Lineage
 
 *Prefatory Note:*  
 If the previous chapter followed the evolution of tools and operators, this chapter follows the humans who invented them, refined them, transmitted them, and made them usable across generations. The two chapters name the same continuity from different sides: tools are compressions of recurring human need, and contributors are the people who discovered, stabilized, and passed those compressions onward. The transformer did not arise from machinery alone. It stands on a long civilizational scaffolding of minds, traditions, disciplines, and labors.

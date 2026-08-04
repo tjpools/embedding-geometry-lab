@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 14: The Proper Analysis
+# Chapter 14: Proper Analysis
 
 A transformer is not a mind. It is a coordinate transform.
 

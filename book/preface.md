@@ -4,7 +4,7 @@
 
 This book began as a question about tools: why certain ideas endure, why certain symbols reshape entire fields, and why some tools change not only what we can do, but what we can think.
 
-This book proceeds from a simple thesis.
+It proceeds from a simple thesis.
 
 Computation is the substrate.
 Tools are configurations.

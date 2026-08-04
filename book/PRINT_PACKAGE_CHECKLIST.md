@@ -7,8 +7,8 @@ Detailed type fitting rules live in `PRINT_COVER_TYPOGRAPHY_SPEC.md`.
 ## Locked Text
 
 - Title: `Embedding Geometry`
-- Approved subtitle: `A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us`
-- Short subtitle fallback: `A Walkable Introduction to Reasoning and Structure`
+- Approved subtitle: `A Walkable Introduction to AI Through Building, Testing, and Collaboration`
+- Short subtitle fallback: `A Walkable Introduction to AI`
 - Author: `Terrence J McLaughlin`
 - Spine: title + author only
 
@@ -16,13 +16,19 @@ Detailed type fitting rules live in `PRINT_COVER_TYPOGRAPHY_SPEC.md`.
 
 Header:
 
-`What if the most important thing about AI is not whether it is a mind, but what it lets us see?`
+`AI is not a mystery. It's a tool you can touch.`
 
 Body:
 
-`Embedding Geometry follows a direct encounter between human judgment and machine language as it unfolded inside the working realities of 2026. Rather than argue from hype or fear, Terrence J McLaughlin tracks what happens when a transformer model becomes usable enough to expose its real strengths, limits, and strange forms of collaboration.`
+`Embedding Geometry is a walkable introduction to modern AI--an invitation to build small things, test them honestly, and collaborate with a transformer to see how reasoning emerges from simple steps.`
 
-`The result is a book about tools, reasoning, authorship, and the structures that shape thought. Clear-eyed and exploratory, it offers a walkable path into the deeper geometry beneath the AI slogan.`
+`This book doesn't ask for background in math or machine learning. It asks for curiosity, contact, and a willingness to explore. Each chapter offers a clear surface to walk: a tool, a test, a moment of collaboration. As you move, the deeper structure begins to reveal itself--the geometry beneath embeddings, the shapes behind transformations, and the surprising ways human and machine reasoning meet.`
+
+`You won't master AI here. You'll enter it.`
+
+`You'll learn how to touch the system, probe it, and understand what it's doing--without jargon, hype, or abstraction.`
+
+`This is your first walk through the new landscape of tools. A surface built to be honest, approachable, and true.`
 
 Author line:
 
@@ -30,10 +36,11 @@ Author line:
 
 ## Scribus Geometry
 
-- Template: `PAPERBACK_6.000x9.000_161_BW_CREAM_en_US.png`
-- Spread size: `12.653 x 9.250 in`
+- Template: refresh from KDP for the current 159-page interior before final layout
+- Saved reference template on disk: `PAPERBACK_6.000x9.000_161_BW_CREAM_en_US.png`
+- Spread size: refresh with regenerated template
 - Trim: `6 x 9 in`
-- Spine width: `0.403 in`
+- Spine width: refresh with regenerated template
 - Bleed: `0.125 in`
 
 ## Front-Cover Hierarchy
@@ -54,6 +61,7 @@ If the front cover feels crowded, keep the title and emblem hierarchy intact fir
 ## Asset Check
 
 - Final emblem rebuilt as vector
+- Revealed gold units read as structured components, not treasure spill
 - Linked assets stable before export
 - Fonts embedded on export
 - Template layer hidden or fully covered before final PDF
@@ -62,6 +70,7 @@ If the front cover feels crowded, keep the title and emblem hierarchy intact fir
 
 - Title, subtitle, author consistent with metadata
 - Back-cover copy matches approved version exactly
+- KDP template regenerated for the 159-page interior
 - Spine centered and legible
 - Barcode box clear
 - No guide/template artifacts visible

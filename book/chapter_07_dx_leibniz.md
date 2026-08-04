@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 7: Leibniz, Differentials, and the Local Shape of Meaning
+# Chapter 7: Differentials
 ## Crossing Over: From Machine to Mathematics
 
 Chapter 6 kept us close to the discrete machine: instructions, registers, stack discipline, and execution. This chapter crosses into a different but necessary language: the language for talking about change itself. If assembly showed how computation runs, calculus begins to show how structured variation can be described. The shift matters because Chapter 7 is not about solving an equation. It is about the moment algebra fails and a new domain must be invented.

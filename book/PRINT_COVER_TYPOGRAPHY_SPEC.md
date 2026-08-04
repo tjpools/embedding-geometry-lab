@@ -46,11 +46,11 @@ Avoid:
 
 Approved subtitle:
 
-`A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us`
+`A Walkable Introduction to AI Through Building, Testing, and Collaboration`
 
 Short fallback:
 
-`A Walkable Introduction to Reasoning and Structure`
+`A Walkable Introduction to AI`
 
 Rules:
 
@@ -64,15 +64,15 @@ Rules:
 
 Preferred line-break order for approved subtitle:
 
-1. `A Walkable Introduction to`
-2. `Reasoning, Structure, and`
-3. `the Tools That Shape Us`
+1. `A Walkable Introduction to AI`
+2. `Through Building, Testing,`
+3. `and Collaboration`
 
 Acceptable alternate:
 
-1. `A Walkable Introduction to`
-2. `Reasoning, Structure, and the`
-3. `Tools That Shape Us`
+1. `A Walkable Introduction`
+2. `to AI Through Building,`
+3. `Testing, and Collaboration`
 
 Preferred line-break order for short fallback:
 
@@ -116,7 +116,7 @@ Rules:
 
 Text:
 
-`What if the most important thing about AI is not whether it is a mind, but what it lets us see?`
+`AI is not a mystery. It's a tool you can touch.`
 
 Rules:
 
@@ -128,9 +128,8 @@ Rules:
 
 Preferred line-break order:
 
-1. `What if the most important thing`
-2. `about AI is not whether it is a`
-3. `mind, but what it lets us see?`
+1. `AI is not a mystery.`
+2. `It's a tool you can touch.`
 
 ### Body Copy
 

@@ -1,6 +1,6 @@
 \newpage
 \vspace*{3cm}
-# Chapter 9: The Meta Layer
+# Chapter 9: Meta Layer
 
 Not all chapters appear in prose. Tools and Lineage are embodied in the repository itself. See Appendix B: Ghost Chapters.
 

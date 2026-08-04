@@ -8,7 +8,8 @@ Use this sequence in Scribus. Do not improvise the document geometry before KDP 
 
 1. Freeze the interior first.
    - Current interior artifact: `embedding-geometry-6x9.pdf`
-   - Current PDF page count: 161 pages
+   - Current PDF page count: 159 pages
+   - The saved 161-page KDP template files are now reference-only and must be regenerated before final cover lock.
    - KDP may round the print count up to an even number, so confirm the final calculator output before locking the spine width.
 
 2. Download the KDP paperback cover template.
@@ -62,7 +63,7 @@ Use this sequence in Scribus. Do not improvise the document geometry before KDP 
 
 ## 2. Book-Specific Production Spec
 
-The planning estimates are now superseded by the actual KDP template files:
+The saved template files on disk reflect the earlier 161-page interior and must be refreshed before final production:
 
 - `PAPERBACK_6.000x9.000_161_BW_CREAM_en_US.pdf`
 - `PAPERBACK_6.000x9.000_161_BW_CREAM_en_US.png`
@@ -70,16 +71,16 @@ The planning estimates are now superseded by the actual KDP template files:
 ### Current known inputs
 
 - Title: `Embedding Geometry`
-- Subtitle: `A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us`
+- Subtitle: `A Walkable Introduction to AI Through Building, Testing, and Collaboration`
 - Author: `Terrence J McLaughlin`
 - Interior trim size: `6 x 9 in`
 - Current interior PDF page size: `6 x 9 in`
-- Current interior PDF page count: `161`
+- Current interior PDF page count: `159`
 - Current front-cover concept asset: `cover.png` at `1024 x 1536`
 
 ### Exact KDP geometry
 
-The template gives the authoritative production geometry:
+The saved template gives the prior 161-page geometry. Regenerate the KDP template for the 159-page interior before using any of these numbers for final cover placement:
 
 - Format: paperback
 - Interior: black and white
@@ -405,11 +406,11 @@ Front-cover title:
 
 Front-cover subtitle:
 
-`A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us`
+`A Walkable Introduction to AI Through Building, Testing, and Collaboration`
 
 Front-cover subtitle, short fallback:
 
-`A Walkable Introduction to Reasoning and Structure`
+`A Walkable Introduction to AI`
 
 Front-cover author:
 
@@ -425,17 +426,23 @@ Spine author:
 
 Back-cover copy, preferred first pass:
 
-`What if the most important thing about AI is not whether it is a mind, but what it lets us see?`
+`AI is not a mystery. It's a tool you can touch.`
 
-`Embedding Geometry follows a direct encounter between human judgment and machine language as it unfolded inside the working realities of 2026. Rather than argue from hype or fear, Terrence J McLaughlin tracks what happens when a transformer model becomes usable enough to expose its real strengths, limits, and strange forms of collaboration.`
+`Embedding Geometry is a walkable introduction to modern AI--an invitation to build small things, test them honestly, and collaborate with a transformer to see how reasoning emerges from simple steps.`
 
-`The result is a book about tools, reasoning, authorship, and the structures that shape thought. Clear-eyed and exploratory, it offers a walkable path into the deeper geometry beneath the AI slogan.`
+`This book doesn't ask for background in math or machine learning. It asks for curiosity, contact, and a willingness to explore. Each chapter offers a clear surface to walk: a tool, a test, a moment of collaboration. As you move, the deeper structure begins to reveal itself--the geometry beneath embeddings, the shapes behind transformations, and the surprising ways human and machine reasoning meet.`
+
+`You won't master AI here. You'll enter it.`
+
+`You'll learn how to touch the system, probe it, and understand what it's doing--without jargon, hype, or abstraction.`
+
+`This is your first walk through the new landscape of tools. A surface built to be honest, approachable, and true.`
 
 Back-cover author line:
 
 `Terrence J McLaughlin writes about reasoning, tools, and the changing structure of human-machine work.`
 
-This is the best first-pass text because it is tighter than version A and more likely to fit the back-cover frame cleanly.
+This is the best first-pass text because it states the orientation-book promise directly and keeps the public-facing tone warm, concrete, and truthful.
 
 Lock status for production:
 
@@ -448,6 +455,8 @@ For line-break, hierarchy, and fitting rules, use `PRINT_COVER_TYPOGRAPHY_SPEC.m
 ### SVG construction plan
 
 Build the first emblem as a simple vector drawing with filled shapes only. The goal is a stable `v01`, not a perfect final mark.
+
+The emblem should begin as a glyph and resolve into geometry. The figure and lifted mass stay simple. The reveal beneath the rock should read as structured golden units: discrete components that imply a larger field rather than treasure spill, robot parts, or generic tech ornament.
 
 Artboard:
 
@@ -520,7 +529,7 @@ This draft is deliberately tighter than the manuscript description. Back cover c
 ### Front cover
 
 - Title: `Embedding Geometry`
-- Subtitle: `A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us`
+- Subtitle: `A Walkable Introduction to AI Through Building, Testing, and Collaboration`
 - Author: `Terrence J McLaughlin`
 
 ### Spine
@@ -530,11 +539,17 @@ This draft is deliberately tighter than the manuscript description. Back cover c
 
 ### Back-cover copy, approved first pass
 
-What if the most important thing about AI is not whether it is a mind, but what it lets us see?
+AI is not a mystery. It's a tool you can touch.
 
-Embedding Geometry follows a direct encounter between human judgment and machine language as it unfolded inside the working realities of 2026. Rather than argue from hype or fear, Terrence J McLaughlin tracks what happens when a transformer model becomes usable enough to expose its real strengths, limits, and strange forms of collaboration.
+Embedding Geometry is a walkable introduction to modern AI--an invitation to build small things, test them honestly, and collaborate with a transformer to see how reasoning emerges from simple steps.
 
-The result is a book about tools, reasoning, authorship, and the structures that shape thought. Clear-eyed and exploratory, it offers a walkable path into the deeper geometry beneath the AI slogan.
+This book doesn't ask for background in math or machine learning. It asks for curiosity, contact, and a willingness to explore. Each chapter offers a clear surface to walk: a tool, a test, a moment of collaboration. As you move, the deeper structure begins to reveal itself--the geometry beneath embeddings, the shapes behind transformations, and the surprising ways human and machine reasoning meet.
+
+You won't master AI here. You'll enter it.
+
+You'll learn how to touch the system, probe it, and understand what it's doing--without jargon, hype, or abstraction.
+
+This is your first walk through the new landscape of tools. A surface built to be honest, approachable, and true.
 
 ### Short author line options
 

@@ -46,8 +46,7 @@ It contains:
 - the numbered chapter manuscripts
 - orienting materials such as `TOC.md`, `metadata.md`, and `HOW_TO_READ_THIS_BOOK.md`
 - closure materials such as the afterword and postscript
-- appendices
-- build support such as `build_epub.sh`
+- build support such as `build_book.sh` and `update_artifacts.sh`
 - analysis subdirectories such as `analysis_throughput/`
 - related structural materials such as `narrative_manifold/` and `sessions/`
 
@@ -87,7 +86,7 @@ In that sense, the metrics are not decorative telemetry. They are executable ref
 
 ## 5. Appendices, Afterword, and Structural Reflection
 
-This repository already includes materials such as appendices, afterword, and postscript files in `book/`.
+This repository already includes materials such as the epilogue, afterword, and postscript files in `book/`.
 
 These files matter architecturally because they are not simply extra content. They help mediate between main argument, reflection, and structural overview. They provide places where the book can comment on itself, reframe itself, or close conceptual loops that the numbered chapters have opened.
 
@@ -95,7 +94,7 @@ In that sense, they form a secondary reflective layer adjacent to the main path.
 
 ## 6. Build and Support Files as Operational Infrastructure
 
-Files such as `build_epub.sh`, along with manifest, TOC, and metadata materials, form the operational infrastructure of the manuscript.
+Files such as `build_book.sh` and `update_artifacts.sh`, along with manifest, TOC, and metadata materials, form the operational infrastructure of the manuscript.
 
 In the current publishing structure, `manifest.yml` is the canonical machine-readable spine used for artifact assembly, while `TOC.md` is the human-facing expression of that same order.
 
@@ -132,8 +131,6 @@ book/
   afterword_how_the_manifold_became_visible.md
   Postscript.md
 
-  appendix_ghost_chapters.md
-  appendix_heatmap_manifold.md
   book_structure.md
 
   analysis_throughput/
@@ -145,7 +142,8 @@ book/
   sessions/
     [development/session traces]
 
-  build_epub.sh
+  build_book.sh
+  update_artifacts.sh
 ```
 
 This layout expresses an important principle: the manuscript is primary, but it is surrounded by its own reflective, operational, and developmental layers.
@@ -161,7 +159,7 @@ The work does not merely discuss structure, intelligence, geometry, and visibili
 - the primary textual path
 - the reflective measurement layer
 - the operational build layer
-- the appendicial and interpretive layer
+- the reflective closing layer
 - the developmental traces around the finished work
 
 The metrics layer is especially important because it gives the system a way to expose its own runtime shape. It reveals where the book grew, where it tightened, where density concentrates, and how the artifact changed under collaboration. That is one of the clearest differences between a merely narrative artifact and a self-observing one.
@@ -180,7 +178,7 @@ Across the project, several moments of closure appear:
 In the repository as it now exists, those moments are not separated into distant systems. They are gathered under `book/` and around it.
 
 The chapter files give the manifold its textual body.  
-The appendices and afterword give it reflective articulation.  
+The epilogue, afterword, and postscript give it reflective articulation.  
 `analysis_throughput/` gives it structural measurability.  
 The build and support files give it operational form.
 
