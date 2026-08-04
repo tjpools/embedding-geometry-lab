@@ -407,6 +407,10 @@ Front-cover subtitle:
 
 `A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us`
 
+Front-cover subtitle, short fallback:
+
+`A Walkable Introduction to Reasoning and Structure`
+
 Front-cover author:
 
 `Terrence J McLaughlin`
@@ -432,6 +436,14 @@ Back-cover author line:
 `Terrence J McLaughlin writes about reasoning, tools, and the changing structure of human-machine work.`
 
 This is the best first-pass text because it is tighter than version A and more likely to fit the back-cover frame cleanly.
+
+Lock status for production:
+
+- Back-cover copy: approved first pass
+- Back-cover author line: approved first pass
+- Subtitle fallback: use only if the approved subtitle will not fit cleanly after real typography and spacing are applied
+
+For line-break, hierarchy, and fitting rules, use `PRINT_COVER_TYPOGRAPHY_SPEC.md` during layout.
 
 ### SVG construction plan
 
@@ -516,17 +528,7 @@ This draft is deliberately tighter than the manuscript description. Back cover c
 - `Embedding Geometry`
 - `Terrence J McLaughlin`
 
-### Back-cover copy, version A
-
-In 2026, a familiar slogan met a live test.
-
-This book is not a manifesto about artificial intelligence from a distance. It is a grounded account of what became visible when a human being worked directly with a modern transformer system and followed the results carefully enough to separate theater from structure.
-
-What emerged was not an artificial person, but a new kind of working environment: part language, part tool runtime, part reasoning surface. From that encounter, a deeper picture comes into view. Intelligence is not a slogan, software is not neutral, and the shapes we build to think with eventually begin to think through us.
-
-Embedding Geometry is a walkable introduction to reasoning, structure, and the tools that now mediate human judgment.
-
-### Back-cover copy, version B
+### Back-cover copy, approved first pass
 
 What if the most important thing about AI is not whether it is a mind, but what it lets us see?
 

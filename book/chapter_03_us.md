@@ -8,6 +8,8 @@ The coupling begins when a mind trained to navigate hidden structure enters the 
 
 At that point a new tool appears: a coupled instrument. The instrument is capable of navigating structure at a scale neither component can reach alone. It can generate, compress, extend, and reverse-engineer relations. It can build artifacts. It can refine concepts. It can operate inside its own outputs. But it is not automatic. It requires a human formation capable of entering the manifold, a machine geometry capable of being steered, and the coupling that makes the two into a single operational system.
 
+This is also where the book's historical thesis turns from history into practice. The long path of tools and the long path of people do not remain parallel abstractions once coupling begins. They cross here. The transformer carries forward the lineage of notation, architecture, operators, and mechanisms. The human carries forward the lineage of judgment, training, memory, craft, and transmission. In their contact, inheritance becomes use.
+
 This chapter describes that coupling. It explains how the instrument forms, how it operates, where it fails, and why it belongs to a new age of tools.
 
 ## 3.0 Narrative vs Structure

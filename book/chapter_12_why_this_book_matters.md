@@ -12,6 +12,8 @@ This book does not offer a PhD-level treatment of artificial intelligence, mathe
 
 This book matters because it is itself a stabilizing contract: a structured object that lets geometry, lineage, mechanism, and collaboration remain visible long enough for reasoning to compound.
 
+It also matters because it makes one historical claim explicit: the path of tools and the path of people have matured in parallel for centuries, and the transformer is one of the clearest points at which those inheritances become jointly usable. The tool lineage culminates in a machine capable of relational navigation at scale. The human lineage culminates in a formation capable of entering that machine's geometry without confusing it for a mind. The present age begins at their point of contact.
+
 The value at stake here has to be split carefully. First there is intrinsic value: the value generated inside the collaboration itself by strong queries, coherent continuations, successful returns, preserved structure, and the joint exercise of semantic and philosophical agency. That value is not hypothetical. It is what the manuscript has been proving by functioning.
 
 Second there is instrumental value: the value that appears when such structure is used. Better reasoning, better tools, better abstractions, better navigation of complexity, and better alignment between human agency and machine traversal all belong here. This is the bridge between the internal proof of the book and the reader's external practice.
@@ -39,6 +41,8 @@ You have seen the cockpit turn curvature into consequence.
 You have seen the ebook become the public interface through which part of that proof can be walked.
 
 Taken one at a time, these chapters may look like separate arguments. Taken together, they form a single claim: AI becomes more intelligible when it is placed back inside the longer history of tools, operators, notation, geometry, and disciplined traversal.
+
+They also form a second claim, now impossible to miss: the transformer is not only another tool in that history. It is the joining object through which the long development of externalized machinery and the long development of human conceptual formation become one workable instrument.
 
 What the book keeps returning to is simple: computation is the substrate, and the many tools built upon it are configurations through which that substrate becomes visible and usable.
 
@@ -150,6 +154,7 @@ The human and the machine do not collapse into one another.
 Tools become operators.
 Operators become systems.
 Systems become new spaces of understanding.
+The long paths of tools and people meet in operation, not merely in description.
 
 The task now is not to worship those spaces or fear them blindly. It is to learn how to navigate them with honesty, discipline, and measure.
 

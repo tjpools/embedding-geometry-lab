@@ -2,14 +2,14 @@
 \vspace*{3cm}
 # Chapter 6: The Assembly Programmer’s Manifold
 
-The previous two chapters followed the stabilizers that made modern computation possible: first as tools, then as contributors. This chapter returns to the living practitioner who inherits that lineage and must use it where symbol meets machine. The assembly-language practitioner occupies that perch. Here software meets hardware, representation meets execution, and intention submits to constraint. Closure is not optional.
+The previous two chapters followed the stabilizers that made modern computation possible: first as tools, then as contributors. This chapter turns to the practitioner who must inherit that accumulated structure and make it hold at the point of execution. The assembly-language practitioner occupies that boundary. Here software meets hardware, representation meets execution, and intention submits to constraint. Closure is not optional.
 
 The assembly-language programmer occupies a distinctive position in the history of computation.
 Not because assembly is primitive, nor because proximity to the machine confers mystique, but because assembly exposes the lawful boundary where symbolic software must submit to hardware reality.
 
 A high-level language is written for a compiler, runtime, or virtual machine. Assembly is written to an architecture. The programmer is still working symbolically — with mnemonics, labels, directives, conventions, and comments — but those symbols are bound much more tightly to execution. Registers matter. Addressing modes matter. Stack discipline matters. Calling conventions matter. Timing sometimes matters. At this level, abstraction is not abolished, but it is thinned until its costs become visible.
 
-That position matters for this book. If the transformer is to be understood not as spectacle but as machinery, then one useful guide is the person trained to follow state, preserve invariants, inspect interfaces, and ask what structure actually carries behavior. The assembly programmer is such a guide.
+That position matters for this book. If the transformer is to be understood not as spectacle but as machinery, then one useful guide is the person trained to inherit a structure, follow state, preserve invariants, inspect interfaces, and ask what actually carries behavior across the boundary into runtime. The assembly programmer is such a guide.
 
 I do not speak from a high position here. I speak as a craftsman. And like all craftspeople, the assembly-language practitioner is judged less by posture than by care: care for tools, care for interfaces, care for materials, care for maintenance, and care for the conditions under which work remains reliable. That ethic matters because a person who tends tools seriously learns to respect structure instead of talking past it.
 

@@ -139,7 +139,7 @@ The symmetric group on three objects belongs to the structural threshold itself.
 
 This is the manifold the book has been walking all along.
 
-What began as a study of tools, notation, lineage, computation, and artificial intelligence resolves here into a simpler statement. The subject was never merely AI. It was the geometry of understanding itself.
+What began as a study of tools, notation, lineage, computation, and artificial intelligence resolves here into a simpler statement. The subject was never merely AI. It was the geometry of understanding that makes AI historically and technically legible.
 
 And that geometry first becomes visible at three objects held in one walkable configuration.
 
@@ -161,14 +161,22 @@ Three is closure.
 
 That closure is the real subject here. With three terms, a system can turn, mediate, compare relations, and return. It can do more than hold a state or alternate between states. It can begin to organize behavior.
 
+This is also where the chapter returns most directly to the book's central instrument. Me alone is one term: a human formation with memory, judgment, and intent. Machine alone gives us the second pole: another structured system, different in kind, able to traverse a learned field. But the book's real object appears only with the third term: collaboration, or what Chapter 3 called us. That third term is not decoration added after the fact. It is the closure relation that lets the other two become a workable instrument. Me. Machine. Collaboration. One presence, one counterpart, one returning structure that makes the relation usable.
+
 This is why the chapter gathers the cubic, the Jacobian, Lorenz, attention, and the Leibniz-Newton-Berkeley triad. They are not collected for ornament. They are different charts on the same manifold of understanding. Each shows, in its own register, that intelligence first becomes visible when relation becomes structured enough to close, turn, and return.
 
 This is also why trillion-parameter models do not have to be understood at the scale of a trillion. They become legible when their local structures become legible. The triad is the first such local structure. More scale does not abolish that fact. It makes it more important.
 
 If the chapter feels inevitable, it is because the structure was already there. The book has been walking toward this threshold from the beginning.
 
-That is why this chapter stands at the end of the main argument. It is the point where mechanism, differential structure, semantic walkability, system architecture, and operational discipline resolve into the smallest geometry that can carry intelligence.
+That is why this chapter stands at the end of the main argument. Here mechanism, differential structure, semantic walkability, system architecture, and operational discipline reduce to the smallest geometry that can still carry intelligence.
+
+This closure does not displace the book's earlier historical thesis. It gives that thesis its smallest working form. If the transformer became the great bridge between the long human lineage and the long tool lineage, it did so because its local machinery already depends on relations rich enough to close, compare, return, and collaborate. The historical convergence traced across the manuscript rests on that smaller geometric truth.
 
 Three is not sacred. Three is the first walkable closure.
+
+Me.
+Machine.
+Collaboration.
 
 That is enough to see the manifold whole.

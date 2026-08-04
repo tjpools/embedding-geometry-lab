@@ -27,8 +27,6 @@ Lambert deserves one more sentence of placement because, unlike Newton, Leibniz,
 
 Think of this era not as background history, but as the moment mathematics changed its operating system.
 
-For readers coming from AI more than calculus, the key idea can be stated very simply before the history gets denser: some systems cannot be understood all at once, but they can be understood locally, by watching how small changes behave nearby. Leibniz's $dx$ is one of the great tools for making that local behavior thinkable.
-
 You do not need to master every historical detail in this chapter to keep the main thread. What matters most is this:
 
 - algebra looks for exact symbolic closure
@@ -45,7 +43,7 @@ This is the moment where mathematics needed a new idea: not a trick, not a cleve
 - If a variable changes slightly, what happens to the result?
 - If we cannot solve globally in one stroke, can we reason locally and move step by step?
 
-This chapter introduces the idea of the **differential**—Leibniz’s famous $dx$—and shows why it matters for modern representation spaces. The point is not that embedding models secretly contain classical infinitesimals in a literal historical sense. The point is that Leibniz developed a language for reasoning about **local change**, and that language maps surprisingly well onto the way we analyze movement in vector spaces.
+This chapter introduces the idea of the **differential**—Leibniz’s famous $dx$—and shows why it matters for modern representation spaces. The point is not that embedding models secretly contain classical infinitesimals in a literal historical sense. The point is that Leibniz developed a language for reasoning about **local change**, and that language still maps well onto the way we analyze movement in vector spaces.
 
 But to understand why Leibniz matters here, we need to understand not only the utility of differentials, but also the controversy around them. Leibniz invented the grammar of infinitesimals. Berkeley demanded metaphysical clarity about what those infinitesimals were. Lambert later showed how far the new grammar could reach once mathematics accepted its conceptual cost. In modern notation, that legacy appears in the Lambert $W$ function, defined implicitly by
 
@@ -334,16 +332,6 @@ Leibniz's $dx$ matters here because it was one of the first great symbols to mak
 This is the bridge to the later chapters. Chapter 6 showed execution as structured motion on a discrete machine. Chapter 7 now shows local change as a continuous geometry of intelligibility. Together they provide the two sides modern AI requires: discrete runtime and continuous variation.
 
 The differential is therefore not merely a historical curiosity. It is the first local operator of meaning. The Jacobian is its multivariable heir. And the transformer becomes thinkable only when this local grammar of change can be carried into representation space itself.
-
-If it has directions with very large singular values, then tiny input changes can cause large output shifts. Those are sensitive or amplified directions.
-
-This gives a geometric vocabulary for understanding representational stability.
-
-A robust semantic feature should often be stable across irrelevant perturbations. That means there are directions in embedding space along which the feature score changes very little. By contrast, a brittle feature may depend strongly on a narrow local direction, making it vulnerable to tiny perturbations.
-
-This is why differential thinking connects naturally to adversarial examples. An adversarial perturbation is often a very small movement in input space engineered to produce a disproportionately large change in output. That is a statement about the local derivative structure of the model.
-
-Leibniz’s $dx$ was meant to represent an arbitrarily small change. In modern ML, the meaningful question is often: *what kinds of tiny changes matter, and why?*
 
 ## 7.11 Differential versus finite difference
 

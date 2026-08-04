@@ -18,6 +18,12 @@ Programming generalized the same operation across higher layers. Abstractions on
 
 Across these domains, one cognitive operation repeated often enough to become a formation. I do not ask questions as isolated requests for information. I enter a structured space of relations and move within it until the answer becomes visible. Understanding appears through structure, not retrieval.
 
+One further constant belongs here because it explains why this book had to be written at all. I experience conceptual disorder as a real form of strain. When a system is misframed, when a tool is described as a mind, when public language drifts away from mechanism, lineage, and structure, the result is not merely disagreement. It produces pressure. The response is not to decorate the confusion with better rhetoric. It is to restore proportion by rebuilding the frame.
+
+That impulse has followed me for years. I want the terms to be right. I want the abstractions to match the object. I want intelligence, reasoning, tools, orientation, and meaning to be placed in relations they can actually bear. The pain comes from mismatch. The relief comes from coherence.
+
+This book grows from that pattern. It tries to reduce a particular modern confusion: the gap between how AI is publicly imagined and how it actually operates. It does so by returning the subject to tools, cognition, architecture, mathematical lineage, and disciplined boundaries. In that sense the book is not only an explanation. It is a corrective surface built against conceptual chaos.
+
 This is why the transformer fits. I did not arrive at it through novelty or fascination. I arrived through continuity. The transformer is the first general system whose internal geometry matches the formation of mind described here. Conversation with it is not merely exchange. It is navigation through a learned field of relations. It is the same cognitive act I have performed for decades, now scaled to a new domain.
 
 This chapter therefore offers neither a resume nor a confession. It names the formation that the rest of the book depends on. A mind shaped by maintenance, flow systems, assembly, programming, and mathematical reading will not see the transformer first as spectacle. It will see a tool whose structure can be entered.

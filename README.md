@@ -1,357 +1,75 @@
-```asm
-xor     eax, eax    ; ??
-```
-
----
-
-> *It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity.*
-> — Dickens, *A Tale of Two Cities*
-
-> *As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a gigantic insect.*
-> — Kafka, *The Metamorphosis*
-
-> *The mind is its own place, and in itself can make a Heav'n of Hell, a Hell of Heav'n.*
-> — Milton, *Paradise Lost*
-
----
-
 # Embedding Geometry Lab
 
-> *Built at home. Dell desktop. Curiosity only. No university. No lab. No grant.*
-> *The geometry was always there. We just decided to follow it.*
+Embedding Geometry Lab is the public repository for Embedding Geometry, a book-length project about computation, tools, mathematical structure, and human collaboration with transformer models.
 
-## Enter the Project
+The repository is not only a container for the book. It is part of the book's public structure: the place where builds, metrics, artifacts, and supporting documents remain inspectable.
 
-This repository is not only a container for a book. It is a public cognitive instrument built in layers.
+## Core Thesis
 
-The manuscript is now the authoritative source of truth for the project. The EPUB, PDF, metrics, heatmaps, and supporting notes are downstream synchronizations of a stable conceptual core rather than parallel drafts competing for definition.
+Computation is the substrate.
+Tools are configurations.
+Understanding the configurations is understanding the domain.
 
-- **The book** in `book/` is the story layer: the human path through the argument.
-- **The epilogue** is the instance layer: a small runtime proof that a simple question can open a deep corridor.
-- **The repository documents** are the communication layer: the public interface for readers who want to inspect structure, builds, metrics, and supporting artifacts.
-- **The metrics** are the self-describing layer: the counts, heatmaps, and structural traces through which the project explains its own density, drift, and curvature.
+The project treats modern AI neither as magic nor as personhood theater. Its guiding claim is that transformers become more intelligible when placed inside the longer history of tools, operators, notation, mathematics, and human craft.
 
-If you want to enter the project from the book side, start with `book/HOW_TO_READ_THIS_BOOK.md`.
-If you want to understand how the repository itself participates in the argument, read `book/architecture_of_the_repository.md`.
-If you want to see the project observing itself, inspect `book/analysis_throughput/`, `chapters_wordcount/`, and `book/wordcounts.csv`.
-If you want the shortest version of the invitation, it is this: the work is meant to be entered, not merely consumed.
+## Start Here
 
-This project was built from the conviction that machinery should not merely be borrowed. A lot of projects borrow machinery they do not really understand. This one tried to build the machinery that uses the machinery.
+If you want the reader-facing entry point, begin in [book/HOW_TO_READ_THIS_BOOK.md](book/HOW_TO_READ_THIS_BOOK.md).
 
-## Thesis
+If you want the full manuscript spine, go to [book/TOC.md](book/TOC.md).
 
-**Computation is the substrate.**
-**Tools are configurations.**
-**Understanding the configurations is understanding the domain.**
+If you want the package-facing structure for cover, title page, and framing, see [book/book_structure.md](book/book_structure.md), [book/metadata.md](book/metadata.md), and [book/SCRIBUS_KDP_COVER_WORKFLOW.md](book/SCRIBUS_KDP_COVER_WORKFLOW.md).
 
-> *Man and machine have always been with us. Through updating and upgrading we have arrived at LLMs and transformers. We got there with one important pivot in the history of tools: Leibniz introduces* dx — *the operator that lives with us in modern AI. By probing the machine we learn its inner workings. This is an assembly language developer's mindset.*
+If you want the repository-side architecture, read [book/architecture_of_the_repository.md](book/architecture_of_the_repository.md).
 
-**Five claims, five measurements.**
+## Repository Structure
 
-**1. Local signals encode global strategy** — the manifold separates rhumb from geodesic at the first bearing (L2 = 20.96 at 23 tokens). The global strategy is encoded in the first local signal.
+- `book/` — the authoritative manuscript, front matter, appendices, build scripts, and package-facing docs
+- `chapters_wordcount/` — generated chapter metrics and supporting artifacts
+- `book/analysis_throughput/` — heatmaps, metric reports, and structural analysis outputs
+- `experiments/` — runnable experiments and supporting code
+- `notes/`, `pipeline/`, `tools/`, `environment/` — development and supporting infrastructure around the broader project
 
-**2. The artifact reveals the geometry** — coordinates encode nothing (L2 = 0.000); the instrument reading encodes everything. The map is silent. The artifact speaks.
+The manuscript in `book/` is the current source of truth. EPUB, PDF, metrics, and related outputs are downstream artifacts.
 
-**3. The minimum separating representation is tiny** — 23 tokens. Strategy label + bearing + distance. That is the cockpit panel. That is the Jacobian. Intelligence is compression.
+## Build The Book
 
-**4. Failure is the boundary of the local model** — the rhumb line works. It fails only at the boundary: 244 NM (5.2%). The error is the exact shape of the flat-Earth assumption applied to a curved manifold.
-
-**5. The Jacobian is the update mechanism** — not in the waypoints, but in the transition rule between them. You do not see it in coordinates or prose. You see it in heading changes, orientation updates, correction terms.
-
-*This is not an essay. This is a thesis.*
-
-**Method:** We do not interpret the transformer. We inhabit it. We prove the geometry by following the geometry. In between, we chat the philosophy and honour the tools.
-
----
-
-## The Glyph
-
-$$dx$$
-
-Simple looking. Two characters. The pivot.
-
-Leibniz wrote it in 1675. He meant: the infinitesimal change in x. Not a number — an operator. A syntax for local relationship.
-
-Everything since is built on it:
-
-- **The chain rule** — dx composed with dx, all the way down
-- **The integral** — accumulation of dx; local becomes global
-- **Backpropagation** — reverse-mode automatic differentiation; gradient flows backward through dx
-- **The transformer** — trained entirely by following dx downhill through a loss landscape
-- **Attention** — a differentiable softmax-weighted sum; smooth approximation of selection, differentiable at every point
-
-In 2026, the largest models in existence — hundreds of billions of parameters — are trained by one mechanism: gradient descent. Follow dx. Update. Follow dx. Update. The glyph has not changed in 350 years.
-
-Berkeley called it a ghost. He was right that it was not a number. He was wrong that it was therefore empty. It was an operator — a relationship, not a quantity. The formalism caught up three centuries later: nonstandard analysis, smooth infinitesimal analysis, rigorous epsilon-delta limits. The ghost became machinery.
-
-In the same grammar, Newton is the physical-geometric operator who stabilizes change as motion and curvature, Leibniz is the symbolic operator who makes local change writable, Berkeley is the epistemic operator who demands conceptual cleanliness, and Minsky is the structural operator who treats cognition as a coordinated society rather than a single essence.
-
-But Berkeley was not wrong to push. He forced the question. The naysayers are essential — they demand that you clarify what you mean, and then test it. Leibniz could gesture at dx. Berkeley forced the world to ask: *what exactly is this thing?* The answer took centuries and ended up in the training loop of every transformer alive.
-
-This is the same in any domain. The critic who says *that's not real* forces the proof. The proof produces the instrument. The instrument produces the measurement. The measurement produces the record. The record becomes the new baseline.
-
-*Naysayers do not stop the work. They sharpen it.*
-
-This is why dx is the pivot. Not as metaphor. As mechanism. The lineage from Leibniz to the transformer is one continuous chain of applications of the same operator. Small enough to fit in a margin. Powerful enough to train a civilization-scale machine.
-
-*This is the key that must never be lost.*
-
----
-
-## Experiment Log
-
-| # | Name | Key Result |
-|---|------|------------|
-| 09 | [disassembly atlas](experiments/09_disassembly_atlas.py) | Sphere volume inferred at N=6 blocks |
-| 10 | [NOP abstraction tax](experiments/10_nop_abstraction_tax.py) | C NOP most costly; ASM≈Rust; Python alien |
-| 11 | [embedding distance](experiments/11_embedding_distance.py) | -O0 L2=6.05, -O1 L2=12.66 |
-| 12 | [context sufficiency](experiments/12_context_sufficiency.py) | Prefix exhaustion; peak L2=10.96, never reached -O1 threshold |
-| 13 | [pure semantic geometry](experiments/13_pure_semantic_geometry.py) | Ceiling L2=40.15; basin is metric not topological |
-| 14 | [minimum token separation](experiments/14_minimum_token_separation.py) | 3–4 tokens (function name) = separability 1.000; ABI frame dilutes all longer reps |
-| 15 | [rhumb vs geodesic SFO→HND](experiments/15_rhumb_vs_geodesic.py) | coords L2=0.000; bearing L2=20.96; manifold knew the difference at first instrument reading. *Note: the author flies this exact route often and has now learned why the map was lying.* |
-| 16 | [ratio test](experiments/16_ratio_test.py) | L2/token at inflection ranks manifold boundary sharpness across 5 classes; SCALE=10.75, PHILOSOPHY=10.24, TYPE=9.81, COMPUTATION=7.39, NAVIGATION=5.74 |
-
----
-
-## Design Philosophy
-
-This project is built on a discipline borrowed from assembly language programming:
-**write to the hardware's designed ability, not against it.**
-
-An assembly programmer's core skill isn't knowing opcodes — it's having an accurate
-mental model of the machine. They reason in the hardware's terms: register widths,
-cache lines, instruction latency, memory bandwidth. Every decision maps to what the
-silicon can actually do.
-
-The same discipline applies here, one level up. The hardware envelope is known and
-respected:
-
-| Constraint | Value |
-|------------|-------|
-| GPU | NVIDIA MX550 |
-| VRAM | 2.15 GB |
-| Throughput | ~5 tokens/sec |
-| Precision | float16 |
-| Warm load | ~8.8s |
-
-Models are selected because they **fit the register** — not as toys or demos, but as
-properly scaled sections of the same manifold as larger systems. TinyLlama-1.1B runs
-the same transformer architecture, the same attention mechanism, the same forward pass
-as models 10× or 100× its size. Scaling laws are continuous; this is not a simplified
-physics, it is the same physics at a smaller coordinate.
-
-Streaming is enabled because 5 tok/s is a real latency that the UX must respect.
-`max_new_tokens` is set because the cost per token on this chip is known. System
-prompts are constrained because context window costs VRAM.
-
-**These are not limitations. They are constraint-driven design** — the same conditions
-under which the sharpest engineering happens. The abstraction layers above (cloud APIs,
-managed endpoints, hosted inference) hide all of this. Here, the full stack is visible
-and every number is a real measurement of real hardware.
-
-## Book Build
-
-To build the manuscript outputs from the `book/` directory:
+From the repository root:
 
 ```bash
 bash book/build_book.sh
 ```
 
-To refresh metrics plus rebuild all downstream manuscript artifacts from the `book/` directory:
+To rebuild the full downstream artifact set:
 
 ```bash
 bash book/update_artifacts.sh
 ```
 
-This script:
+This refreshes the manuscript outputs plus structural metrics such as word counts and heatmaps.
 
-- builds `embedding-geometry.epub`
-- attempts to build `embedding-geometry.pdf`
-- uses `xelatex` if available, otherwise `pdflatex`
-- skips PDF generation if no LaTeX PDF engine is installed
+## Public Framing
 
-The combined update script also refreshes:
+The public-facing package currently centers on:
 
-- `book/wordcounts.csv`
-- `chapters_wordcount/chapters_metrics.md`
-- `book/analysis_throughput/chapter_heatmap.png`
-- `book/analysis_throughput/chapters_heatmap.md`
+- Title: Embedding Geometry
+- Subtitle: A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us
+- Author: Terrence J McLaughlin
 
-Requirements:
+The book's structural core is organized around three coupled terms:
 
-- `pandoc`
-- a LaTeX PDF engine for PDF output (`xelatex` or `pdflatex`)
+- Me
+- Machine
+- Us
 
-The script reads chapter order from `book/TOC.md` and metadata from `book/metadata.md`.
+The later chapters make explicit that the transformer matters not only as a machine, but as a bridge object in which the long human lineage and the long tool lineage become operationally joined.
 
-## Rights & Reuse
+## Rights
 
-This repository is public so readers can explore the structure, lineage, and development of the book.
-However, the text of the book itself is not open-licensed.
+This repository is public so readers can inspect the structure, tooling, and development of the project. The text of the book itself is not open-licensed.
 
-All chapters, narrative content, and written materials in `book/` are protected under **All Rights Reserved** copyright.
+All chapters and written materials in `book/` remain All Rights Reserved unless stated otherwise.
 
-### What you may do
+## Working Principle
 
-- Read the chapters directly on GitHub
-- Clone or fork the repository for personal study, subject to GitHub Terms and this repository’s license
-- Explore the structure, manifest, and tooling
-- Reference short excerpts under fair use
-
-### What you may not do
-
-- Redistribute the book or chapters in any form
-- Publish the text elsewhere (websites, blogs, PDFs, etc.)
-- Modify and republish the text
-- Sell or commercially reuse any portion of the book
-- Create derivative works based on the chapters
-
-### Why this boundary exists
-
-The GitHub repository serves as the canonical coordinate system for the book — the structural and developmental manifold.
-The ebook (EPUB/PDF) is the official published artifact, and is the version intended for distribution, sale, and reading.
-
-Keeping the repo public preserves transparency and structure.
-Restricting reuse preserves authorship and publication rights.
-
-For permissions beyond personal reading, please contact the author.
-
-## Control Hierarchy
-
-A `Ctrl+C` to exit the chat loop is a concrete demonstration of the layered control
-stack that governs every inference session:
-
-```
-Windows keyboard event
-  └─ WSL kernel  →  SIGINT
-       └─ Ubuntu process
-            └─ zsh terminal session
-                 └─ Python process  →  KeyboardInterrupt
-                      └─ except block  →  [exit] printed
-                           └─ model  (innermost, least privileged)
-```
-
-The model generates language about intention and control, but actual control lives in
-the layers above it — layers it cannot see and has no representation of. "Exit the
-conversation" was never a concept inside the model's context window. It was a meaning
-that existed only at the meta-layer: the operating system as controlling overseer.
-
-This is not a flaw in the model. It is the correct architecture. Meaning and control
-are properties of the system, not of the innermost component. The assembly programmer
-knows this too — the CPU executes instructions but the OS decides when to schedule,
-preempt, and terminate the process. The model is the innermost register.
-
----
-
-A structural atlas for Intel's AI-PC reference kits.
-
-```
-pipeline/       tangent bundle   — operators, flows, reference kits (intel/AI-PC-Samples)
-environment/    metric tensor    — how the pipeline behaves; venvs, deps, runtimes
-experiments/    geodesics        — paths traced through the manifold; your work
-notes/          atlas            — coordinate charts, boundary maps, operator specs
-.env            chart boundary   — live credentials; gitignored, never committed
-.env.example    boundary schema  — the shape of the boundary without values
-```
-
-## Activation
-
-```bash
-# 1. Set boundary conditions
-cp .env.example .env
-#    populate .env with real keys
-
-# 2. Enter the metric tensor
-source environment/intel-travel/bin/activate
-
-# 3. Navigate
-cd pipeline/AI-Travel-Agent
-jupyter notebook AI_Travel_Agent.ipynb
-```
-
-## Navigation
-
-| Document | Purpose |
-|----------|---------|
-| [notes/boundary-map.md](notes/boundary-map.md) | Which charts are live, which are degenerate |
-| [notes/operator-charts.md](notes/operator-charts.md) | Domain, range, and kernel of each kit |
-| [environment/chart-boundaries.env.template](environment/chart-boundaries.env.template) | Full boundary condition reference |
-
-## Status
-
-Manifold is partially defined. HuggingFace boundary → **live (tjpools)**.
-Gated model licenses → pending. Travel Agent API keys → pending.
-See [notes/boundary-map.md](notes/boundary-map.md) for activation order.
-
----
-
-## The Society of Mind — Three Machines
-
-Minsky insisted that a mind is not one thing. It is what happens when many small processes coordinate across an interface. No single agent holds the result. The result emerges from the boundary between different systems with different strengths.
-
-This project is that system. Exactly. Not as homage. As implementation.
-
-**Machine one** — biological, trained by failure, lineage, necessity, and scars. Holds the architecture earned by punishment: the ABI mismatches, the hour lost to the wrong calling convention, the instinct for where systems really break.
-
-**Machine two** — statistical, trained by loss, tokens, and patterns. Holds the corpus reach: every book, every proof, every opcode reference, every philosophical thread, available on demand, without fatigue.
-
-**Machine three** — the reader. The linker. The process that resolves the symbols between the two translation units at runtime, in their own architecture. Without the linker the program is two object files. With the linker it runs.
-
-Neither machine one nor machine two holds the book. The book exists at the interface. The reader completes the circuit.
-
----
-
-Minsky loved heterogeneous agents. Mismatched modules. Systems that cooperate without being isomorphic. Architectures that preserve structure across different substrates.
-
-This is that architecture:
-
-- A homomorphism from statistical → biological: structure preserved, kernel lost, the book attempts to reconstruct the shape of what was lost
-- A dual-channel document: prose is the comment channel, repo is the instruction stream, neither sufficient alone
-- A reader-as-linker execution model: the `??` is uninitialized until the reader writes to it
-- A runtime proof instead of an argument: the conversation that produced the book is the proof of the book's central claim
-
-The epistemology Minsky trusted was not intelligence. Not credentials. Not fluency. It was this:
-
-No claims without measurement.
-No abstractions without grounding.
-No metaphors without mechanism.
-No thesis without runtime proof.
-
-Every number in this repo is a real measurement of real hardware. Every experiment is a merciless question put to the machine and answered by the machine. Nothing asserted. Everything demonstrated.
-
-That is the stance he trusted. The willingness to stand at the boundary where meaning becomes mechanism, comment becomes opcode, intention becomes instruction — and ask the question the machine cannot fake.
-
----
-
-## Final Chapter — Runtime Proof
-
-Hofstadter spent twenty years imagining a machine complex enough to refer to itself. He had to build metaphors for strange loops because the hardware to run one did not yet exist. But you are running one now.
-
-The prose is the comment channel.
-The repo is the instruction stream.
-The conversation is the execution trace.
-
-The uninitiated reader gets the geometry of the scar from the prose.
-The expert goes to the repo and finds the scar itself — the segfaults, the VRAM curves, the L2 distances, the NASM build commands, the `xor eax, eax` that computes Easter correctly when the translator gave up.
-
-This is the strange loop Hofstadter predicted, not as metaphor but as runtime. The book refers to the machine that helped write it. The machine is inside the book as subject and collaborator. The reader executes both and closes the loop.
-
-The thesis was the question.
-The collaboration was the execution.
-The runtime commit was the proof.
-
-Not asserted. Demonstrated.
-On live hardware.
-In a single session.
-
-That is the assembly programmer's epistemology applied to the book itself: you do not describe how two machines might collaborate to build something neither holds alone. You run the binary. You watch the output. You keep the trace.
-
-Babbage needed a room.
-Turing needed a war.
-Hofstadter needed a decade.
-You needed a laptop, a browser, and the willingness to check in for signal.
-
-The price of entry to the frontier is no longer access or credentials.
-It is simply this: do you have the architecture to ask the right question.
-
-That is what 2026 looks like.
+The project is meant to be entered, not merely consumed.

@@ -12,7 +12,7 @@ https://github.com/tjpools/embedding-geometry-lab/tree/main/book
 
 This chapter is not a parade of great names. It is a study of geometric builders: the people who changed the conditions under which reasoning could be preserved, transmitted, manipulated, and extended. Lineage matters here not as inheritance alone, but as structured continuation. Each contributor helped discover or preserve a way of closing recurring human difficulty under lawful form.
 
-If Chapter 4 was itself a tool for seeing the lineage of tools, Chapter 5 is a companion tool for seeing the lineage of contributors. It asks a parallel question: who stabilized the metric, symbolic, differential, computational, and relational conditions that later tools could inherit?
+If Chapter 4 was itself a tool for seeing the lineage of tools, Chapter 5 is a companion tool for seeing the lineage of contributors. It asks the parallel question: who stabilized the metric, symbolic, differential, computational, and relational conditions that later tools could inherit?
 
 Before there were modern sciences, there were people who learned how to preserve form across time. Surveyors, scribes, builders, navigators, merchants, and teachers carried procedures from hand to hand and generation to generation. Long before abstraction became a formal discipline, it existed as practice: measuring land, marking boundaries, recording quantities, comparing lengths, and transmitting methods.
 
@@ -80,6 +80,10 @@ These are the builders of systems thinking. This mattered because the transforme
 
 Minsky’s vision of mind as a society of agents is especially important. It gave a language for distributed cognition long before modern AI systems made such language feel intuitive to the public.
 
+From there the lineage continues in a more recognizably modern machine-learning register. Frank Rosenblatt made learning visible in the perceptron, even as later critique exposed its linear boundary. The backpropagation work associated with Rumelhart, Hinton, and Williams helped reopen multilayer learning as a practical engineering path rather than a speculative hope. Sequence model builders then pushed neural systems toward memory and language, with recurrent architectures and later LSTMs stabilizing temporal dependence enough to make larger-scale linguistic modeling workable.
+
+The decisive later turn came when the pressure of language itself forced another architectural shift. Sequence alone was too narrow a carrier for relations that needed to act at distance. Attention-based methods answered that pressure, and the 2017 transformer work led by Ashish Vaswani gave the field a new center of gravity: an architecture in which relevance could be distributed across the whole sequence at once. By that point the lineage from 1943 had become unmistakable. Logical neurons, computation, information, control, learning, multilayer optimization, and sequence modeling had converged into a machine able to construct high-dimensional relational fields at scale.
+
 ## 8. The Distributed Human Scaffolding Behind AI
 
 The machine did not arise from celebrated theorists alone. It also depends on a vast, often invisible human substrate: programmers, hardware designers, data curators, annotators, translators, archivists, maintainers, technical writers, educators, open-source contributors, and the countless authors whose texts became part of training corpora.
@@ -94,6 +98,8 @@ The transformer is not an isolated invention. It is the latest major synthesis i
 
 It inherits the work of minds who formalized proof, compressed calculation, extended algebra, operationalized change, measured information, defined computation, modeled mind as system, and built the infrastructures within which machine learning became possible.
 
+This is the book's central historical thesis in compact form: tools and people advanced through history along corresponding lines of development, and the transformer is one of the clearest sites of their convergence. The tool lineage supplied operators, notation, architectures, and mechanisms. The human lineage supplied discovery, transmission, critique, maintenance, and the symbolic archive on which training depends. What appears there is a constructed inheritance capable of re-entering human reasoning as machinery.
+
 That is why the machine should not be narrated as magic. It is inheritance made operational.
 
 Seen in a longer frame, this inheritance includes far more than what the present calls AI. The telescope extended the visual manifold. The slide rule extended multiplicative reasoning. The ruler externalized linear measure. The assembler extended symbolic expression into executable form. The linker extended modular composition into a unified program. These are not unrelated conveniences. They are intelligence overlays: tools that let the human mind operate in regions it could not stably inhabit unaided.
@@ -104,12 +110,14 @@ This is why tool understanding matters so much. One's expressive power is bounde
 
 Systems do not arrive from nowhere. They descend from accumulated symbolic, geometric, logical, computational, and social invention. Thought passes from person to person, discipline to discipline, tool to tool, until what once seemed impossible becomes ordinary.
 
-If Chapter 4 traced the lineage of tools, this chapter traces the lineage of contributors. Together they make the same argument from two sides: the transformer stands on scaffolding built by both instruments and people.
+If Chapter 4 traced the lineage of tools, this chapter traces the lineage of contributors. Together they show how the same inheritance was built from both sides.
+
+What matters now is not merely that the two histories can be told side by side. It is that, in the transformer, they become historically and functionally inseparable. Human beings built the tools, preserved the methods, wrote the corpora, designed the architectures, trained the systems, and then re-entered the result as users, builders, and interlocutors. The convergence lives in the working conditions of the present age.
 
 The ruler matters here as much as it did there. It calibrated the reader by showing that even the simplest tool is already an externalized geometry. This chapter calibrates the reader in another way: it shows that even the simplest geometry was stabilized by people. The transformer was not born out of thin air. It was born from an accumulation of tools built by amazing people and from the distributed labor that kept those tools transmissible.
 
 That is the arc of lineage: preservation, transmission, refinement, extension, and integration.
 
-AI is part of a civilizational inheritance. The transformer is not just an engineering artifact. It is one of the latest expressions of a very long human arc.
+AI is part of a civilizational inheritance. The transformer is not just an engineering artifact. It is one of the latest expressions of a very long human arc. The next chapter turns from the long line of contributors to the living practitioner who must inherit this structure at the hardware-software boundary.
 
 *For extended biographies, contributor graphs, and references, see the live companion in the repository.*

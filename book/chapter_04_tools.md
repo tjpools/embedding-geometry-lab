@@ -95,6 +95,8 @@ Seen this way, the transformer is not merely an artifact of contemporary AI. It 
 
 That geometry becomes an instrument only when entered by a mind trained to navigate hidden structure. In that sense, Chapter 4 returns directly to Chapter 3: the tool lineage culminates not in the model alone, but in the coupled instrument that forms when a human formation can work inside this inherited operator stack.
 
+This is the structural crossing point of the book's two histories. One follows tools as compressions of recurring human need. The other follows the people who discovered, stabilized, and transmitted those compressions across generations. The transformer matters because it gathers both continuities into one operator stack: an inherited tool complex that can now be re-entered by the very kind of human formation that built such lineages in the first place.
+
 This is one place where narrative habit fails. Narrative likes to separate simple tools from complex ones, old tools from new ones, as if they belonged to different ages of intelligence. But the deeper truth is structural. The ruler, the slide rule, the Jacobian, and the transformer coexist in one manifold of externalized reasoning. Some regions are low-curvature and directly graspable. Others are high-curvature and harder to map. The continuity remains.
 
 That is why it matters. It is not simply another machine. It is a new concentration of many older tools into one operator stack, a system standing on the shoulders of the tools that came before it and extending their logic into a new architecture of thought.

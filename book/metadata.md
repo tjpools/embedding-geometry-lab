@@ -3,10 +3,11 @@ author: "Terrence J McLaughlin"
 language: "en"
 rights: "Copyright 2026 Terrence J McLaughlin. Distributed as part of a public cognitive instrument; see the project homepage for repository, tools, and supporting materials."
 description: |
-  In 2026, something unusual happened. Not the arrival of "AI" as a slogan, but the arrival of a machine usable enough to test the slogan against reality. This book documents that test. Rather than speculate about artificial intelligence from a distance, it follows what happened when a human being worked directly with a live transformer model and watched what it could and could not do. What emerged was not a synthetic person, but a collaboration between embodied human judgment and clever machinery.
+  What if the most important thing about AI is not whether it is a mind, but what it lets us see? Embedding Geometry follows a direct encounter between human judgment and machine language as it unfolded inside the working realities of 2026. Rather than argue from hype or fear, it tracks what happens when a transformer model becomes usable enough to expose its real strengths, limits, and strange forms of collaboration. The result is a walkable introduction to reasoning, structure, and the tools that shape thought.
 version: "1.0"
 date: "2026-06-23"
 subtitle: "A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us"
+subtitle_short: "A Walkable Introduction to Reasoning and Structure"
 mainfont: "DejaVu Serif"
 sansfont: "DejaVu Sans"
 monofont: "DejaVu Sans Mono"
