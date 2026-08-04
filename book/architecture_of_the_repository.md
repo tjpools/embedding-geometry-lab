@@ -95,7 +95,9 @@ In that sense, they form a secondary reflective layer adjacent to the main path.
 
 ## 6. Build and Support Files as Operational Infrastructure
 
-Files such as `build_epub.sh`, along with TOC and metadata materials, form the operational infrastructure of the manuscript.
+Files such as `build_epub.sh`, along with manifest, TOC, and metadata materials, form the operational infrastructure of the manuscript.
+
+In the current publishing structure, `manifest.yml` is the canonical machine-readable spine used for artifact assembly, while `TOC.md` is the human-facing expression of that same order.
 
 These are not part of the conceptual argument in the same way chapters are, but they make the manuscript portable, buildable, and publishable. They are the infrastructure that allows the textual manifold to be assembled into other forms.
 

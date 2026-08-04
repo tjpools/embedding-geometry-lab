@@ -33,4 +33,5 @@
 - Appendix A: Heatmap Manifold — appendix_heatmap_manifold.md
 - Appendix B: Ghost Chapters — appendix_ghost_chapters.md
 - Appendix C: The Deep Machinery — appendix_deep_machinery.md
+- Afterword: How the Manifold Became Visible — afterword_how_the_manifold_became_visible.md
 - Postscript — Postscript.md

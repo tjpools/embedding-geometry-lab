@@ -13,23 +13,34 @@ if ! command -v pandoc >/dev/null 2>&1; then
   exit 1
 fi
 
-mapfile -t toc_files < <(grep -o '[a-zA-Z0-9_/-]*\.md' TOC.md)
+mapfile -t manifest_files < <(awk '/^  - book\/.*\.md$/ { sub(/^  - /, ""); print }' manifest.yml)
+
+if [[ ${#manifest_files[@]} -eq 0 ]]; then
+  echo "Error: manifest.yml did not yield any manuscript files." >&2
+  exit 1
+fi
+
+book_files=()
+for file in "${manifest_files[@]}"; do
+  book_files+=("${file#book/}")
+done
 
 kdp_pdf_files=("kdp_title_page.md")
-for file in "${toc_files[@]}"; do
-  if [[ "$file" == "BOOK_COVER.md" ]]; then
+for local_file in "${book_files[@]}"; do
+
+  if [[ "$local_file" == "BOOK_COVER.md" ]]; then
     continue
   fi
 
-  if [[ "$file" == "chapter_01_me.md" ]]; then
+  if [[ "$local_file" == "chapter_01_me.md" ]]; then
     kdp_pdf_files+=("kdp_mainmatter_break.md")
   fi
 
-  kdp_pdf_files+=("$file")
+  kdp_pdf_files+=("$local_file")
 done
 
 echo "Building EPUB..."
-pandoc "${toc_files[@]}" \
+pandoc "${book_files[@]}" \
   --metadata-file=metadata.md \
   --toc \
   --epub-cover-image=cover.png \
@@ -48,7 +59,7 @@ else
   exit 0
 fi
 
-pandoc "${toc_files[@]}" \
+pandoc "${book_files[@]}" \
   --metadata-file=metadata.md \
   --toc \
   --pdf-engine="$PDF_ENGINE" \

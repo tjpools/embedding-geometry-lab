@@ -72,6 +72,8 @@ This sequence now reflects the full current manuscript spine from the human coor
 
 This is the package-facing order that matters most for Scribus, title pages, metadata, and cover framing.
 
+For artifact production, `manifest.yml` is the canonical machine-readable spine. `TOC.md` remains the reader-facing mirror of that order.
+
 1. **Cover:** one glyph, one promise, one public chart.
     - Title: `Embedding Geometry`
     - Subtitle: `A Walkable Introduction to Reasoning, Structure, and the Tools That Shape Us`
