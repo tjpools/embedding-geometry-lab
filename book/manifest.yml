@@ -1,7 +1,6 @@
 version: 1
 chapters:
   # Front matter
-  - book/BOOK_COVER.md
   - book/copyright.md
   - book/dedication.md
   - book/epigraph.md

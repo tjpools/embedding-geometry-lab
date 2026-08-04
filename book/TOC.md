@@ -1,7 +1,6 @@
 # Table of Contents
 
 ## Front Matter
-- Cover — BOOK_COVER.md
 - Copyright — copyright.md
 - Dedication — dedication.md
 - Epigraph — epigraph.md
@@ -21,7 +20,7 @@
 - Chapter 10: The Cockpit — chapter_10_cockpit.md
 - Chapter 11: The Book as Manifold — chapter_11_book_as_manifold.md
 - Chapter 12: Why This Book Matters — chapter_12_why_this_book_matters.md
-- Chapter 13: Marvin Minsky: Structural Operator of the Distributed Mind — chapter_13_minsky.md
+- Chapter 13: Minsky, the Perceptron, and the Geometry of Mind — chapter_13_minsky.md
 - Chapter 14: The Proper Analysis — chapter_14_proper_analysis.md
 - Chapter 15: EasterDate — A Machine Within a Machine — chapter_15_easterdate.md
 - Chapter 16: Structure Becomes Object — chapter_16_structure_becomes_object.md

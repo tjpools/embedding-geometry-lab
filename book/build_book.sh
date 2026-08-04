@@ -41,6 +41,7 @@ done
 
 echo "Building EPUB..."
 pandoc "${book_files[@]}" \
+  --file-scope \
   --metadata-file=metadata.md \
   --toc \
   --epub-cover-image=cover.png \
@@ -60,6 +61,7 @@ else
 fi
 
 pandoc "${book_files[@]}" \
+  --file-scope \
   --metadata-file=metadata.md \
   --toc \
   --pdf-engine="$PDF_ENGINE" \
@@ -69,6 +71,7 @@ echo "PDF build complete: $PDF_OUT"
 
 echo "Building KDP interior PDF..."
 pandoc "${kdp_pdf_files[@]}" \
+  --file-scope \
   --metadata-file=metadata.md \
   --toc \
   --pdf-engine="$PDF_ENGINE" \

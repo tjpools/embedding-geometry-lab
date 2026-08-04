@@ -1,5 +1,5 @@
 
-\noindent\textbf{\Large How to Read This Book}
+# How to Read This Book
 
 This book begins from a simple premise: computation is the substrate, and the tools we inherit or build are configurations for working within that substrate.
 
