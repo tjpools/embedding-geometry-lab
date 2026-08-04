@@ -17,6 +17,6 @@
 | Ch 15 | EasterDate | 3331 | 7.9% | ████   |
 | Ch 16 | Structure Becomes Object | 2429 | 5.7% | ███    |
 | Ch 17 | Walkable Path | 2279 | 5.4% | ███    |
-| Ch 18 | Three Is the First Intelligent Number | 2683 | 6.3% | ███    |
+| Ch 18 | Three Is the First Intelligent Number | 2684 | 6.3% | ███    |
 
-Total words: 42,368
+Total words: 42,369

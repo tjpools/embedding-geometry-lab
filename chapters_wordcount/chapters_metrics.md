@@ -6,7 +6,7 @@
 | chapter_04_tools.md | 2343 | 5.5% | 182 | 51 | 3.57 | 2026-08-04 08:59 |
 | chapter_05_lineage.md | 2471 | 5.8% | 177 | 50 | 3.54 | 2026-08-04 09:01 |
 | chapter_06_assembly_programmers_manifold.md | 2210 | 5.2% | 190 | 66 | 2.88 | 2026-08-04 09:02 |
-| chapter_07_dx_leibniz.md | 5375 | 12.7% | 364 | 163 | 2.23 | 2026-08-04 09:32 |
+| chapter_07_dx_leibniz.md | 5375 | 12.7% | 364 | 163 | 2.23 | 2026-08-04 09:33 |
 | chapter_08_stories.md | 1405 | 3.3% | 103 | 32 | 3.22 | 2026-07-29 12:11 |
 | chapter_09_meta_layer.md | 1878 | 4.4% | 125 | 74 | 1.69 | 2026-08-04 09:09 |
 | chapter_10_cockpit.md | 1624 | 3.8% | 159 | 63 | 2.52 | 2026-07-29 18:21 |
@@ -17,6 +17,6 @@
 | chapter_15_easterdate.md | 3331 | 7.9% | 232 | 73 | 3.18 | 2026-07-29 17:05 |
 | chapter_16_structure_becomes_object.md | 2429 | 5.7% | 188 | 45 | 4.18 | 2026-07-29 17:10 |
 | chapter_17_a_walkable_path_through_a_larger_landscape.md | 2279 | 5.4% | 182 | 45 | 4.04 | 2026-07-29 18:27 |
-| chapter_18_three_is_the_first_intelligent_number.md | 2683 | 6.3% | 244 | 76 | 3.21 | 2026-08-04 09:15 |
+| chapter_18_three_is_the_first_intelligent_number.md | 2684 | 6.3% | 244 | 76 | 3.21 | 2026-08-04 09:45 |
 
-Total words: 42368
+Total words: 42369

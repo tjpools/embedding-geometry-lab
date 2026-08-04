@@ -179,4 +179,4 @@ Me.
 Machine.
 Collaboration.
 
-That is enough to see the manifold whole.
+From that triad, the long lineage becomes one instrument.
