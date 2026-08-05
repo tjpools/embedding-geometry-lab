@@ -36,7 +36,7 @@ Author line:
 
 ## Scribus Geometry
 
-- Template: refresh from KDP for the current 159-page interior before final layout
+- Template: refresh from KDP for the current 158-page interior before final layout
 - Saved reference template on disk: `PAPERBACK_6.000x9.000_161_BW_CREAM_en_US.png`
 - Spread size: refresh with regenerated template
 - Trim: `6 x 9 in`
@@ -70,7 +70,7 @@ If the front cover feels crowded, keep the title and emblem hierarchy intact fir
 
 - Title, subtitle, author consistent with metadata
 - Back-cover copy matches approved version exactly
-- KDP template regenerated for the 159-page interior
+- KDP template regenerated for the 158-page interior
 - Spine centered and legible
 - Barcode box clear
 - No guide/template artifacts visible

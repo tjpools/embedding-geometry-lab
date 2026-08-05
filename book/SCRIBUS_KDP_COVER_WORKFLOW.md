@@ -8,7 +8,7 @@ Use this sequence in Scribus. Do not improvise the document geometry before KDP 
 
 1. Freeze the interior first.
    - Current interior artifact: `embedding-geometry-6x9.pdf`
-   - Current PDF page count: 159 pages
+   - Current PDF page count: 158 pages
    - The saved 161-page KDP template files are now reference-only and must be regenerated before final cover lock.
    - KDP may round the print count up to an even number, so confirm the final calculator output before locking the spine width.
 
@@ -75,12 +75,12 @@ The saved template files on disk reflect the earlier 161-page interior and must 
 - Author: `Terrence J McLaughlin`
 - Interior trim size: `6 x 9 in`
 - Current interior PDF page size: `6 x 9 in`
-- Current interior PDF page count: `159`
+- Current interior PDF page count: `158`
 - Current front-cover concept asset: `cover.png` at `1024 x 1536`
 
 ### Exact KDP geometry
 
-The saved template gives the prior 161-page geometry. Regenerate the KDP template for the 159-page interior before using any of these numbers for final cover placement:
+The saved template gives the prior 161-page geometry. Regenerate the KDP template for the 158-page interior before using any of these numbers for final cover placement:
 
 - Format: paperback
 - Interior: black and white
