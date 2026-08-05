@@ -36,4 +36,4 @@ This is the hinge:
 
 You are now ready to cross over.
 
-**Proceed to the Analytic Manifold: [dx → Jacobian → Transformer](../chapter_07_dx_leibniz.md)**
+**Proceed to the Analytic Manifold: [dx → Jacobian → Transformer](../chapter_07_differentials.md)**

@@ -123,7 +123,7 @@ A simplified conceptual map of the repository as it exists now is:
 book/
   chapter_01_me.md
   ...
-  chapter_18_three_is_the_first_intelligent_number.md
+  chapter_18_three.md
 
   TOC.md
   metadata.md

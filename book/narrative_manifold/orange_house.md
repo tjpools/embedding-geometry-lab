@@ -1,6 +1,6 @@
 # The Programmer’s Glyph: Orange House
 
-> [Return to Introduction](INTRO.md) | [Back to Stop Sign](stop_sign.md) | [Cross over to the Analytic Manifold](../chapter_07_dx_leibniz.md)
+> [Return to Introduction](INTRO.md) | [Back to Stop Sign](stop_sign.md) | [Cross over to the Analytic Manifold](../chapter_07_differentials.md)
 
 There is a house.
 
@@ -137,4 +137,4 @@ This is the perceptual side of what transformers do with tokens.
 
 **Navigation**
 - [← Back to Stop Sign](stop_sign.md)
-- [Cross over to the Analytic Manifold (dx → Jacobian → Transformer)](../chapter_07_dx_leibniz.md)
+- [Cross over to the Analytic Manifold (dx → Jacobian → Transformer)](../chapter_07_differentials.md)

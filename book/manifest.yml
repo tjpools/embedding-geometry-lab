@@ -14,19 +14,19 @@ chapters:
   - book/chapter_03_us.md
   - book/chapter_04_tools.md
   - book/chapter_05_lineage.md
-  - book/chapter_06_assembly_programmers_manifold.md
-  - book/chapter_07_dx_leibniz.md
+  - book/chapter_06_assembly.md
+  - book/chapter_07_differentials.md
   - book/chapter_08_stories.md
   - book/chapter_09_meta_layer.md
   - book/chapter_10_cockpit.md
   - book/chapter_11_book_as_manifold.md
-  - book/chapter_12_why_this_book_matters.md
+  - book/chapter_12_why_this_matters.md
   - book/chapter_13_minsky.md
   - book/chapter_14_proper_analysis.md
   - book/chapter_15_easterdate.md
-  - book/chapter_16_structure_becomes_object.md
-  - book/chapter_17_a_walkable_path_through_a_larger_landscape.md
-  - book/chapter_18_three_is_the_first_intelligent_number.md
+  - book/chapter_16_structure_as_object.md
+  - book/chapter_17_larger_landscape.md
+  - book/chapter_18_three.md
 
   # Back matter
   - book/epilogue_one_question_one_table.md

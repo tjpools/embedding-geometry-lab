@@ -50,19 +50,19 @@ A final capstone chapter now makes explicit the triadic geometry implicit across
 3. Chapter 3: Us — chapter_03_us.md
 4. Chapter 4: Tools — chapter_04_tools.md
 5. Chapter 5: Lineage — chapter_05_lineage.md
-6. Chapter 6: Assembly — chapter_06_assembly_programmers_manifold.md
-7. Chapter 7: Differentials — chapter_07_dx_leibniz.md
+6. Chapter 6: Assembly — chapter_06_assembly.md
+7. Chapter 7: Differentials — chapter_07_differentials.md
 8. Chapter 8: Stories — chapter_08_stories.md
 9. Chapter 9: Meta Layer — chapter_09_meta_layer.md
 10. Chapter 10: Cockpit — chapter_10_cockpit.md
 11. Chapter 11: Book as Manifold — chapter_11_book_as_manifold.md
-12. Chapter 12: Why This Matters — chapter_12_why_this_book_matters.md
+12. Chapter 12: Why This Matters — chapter_12_why_this_matters.md
 13. Chapter 13: Minsky — chapter_13_minsky.md
 14. Chapter 14: Proper Analysis — chapter_14_proper_analysis.md
 15. Chapter 15: EasterDate — chapter_15_easterdate.md
-16. Chapter 16: Structure as Object — chapter_16_structure_becomes_object.md
-17. Chapter 17: Larger Landscape — chapter_17_a_walkable_path_through_a_larger_landscape.md
-18. Chapter 18: Three — chapter_18_three_is_the_first_intelligent_number.md
+16. Chapter 16: Structure as Object — chapter_16_structure_as_object.md
+17. Chapter 17: Larger Landscape — chapter_17_larger_landscape.md
+18. Chapter 18: Three — chapter_18_three.md
 
 This sequence now reflects the full current manuscript spine from the human coordinate system to the final triadic closure.
 

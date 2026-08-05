@@ -4,16 +4,16 @@ chapter,title,path
 3,Us,book/chapter_03_us.md
 4,Tools,book/chapter_04_tools.md
 5,Lineage,book/chapter_05_lineage.md
-6,Assembly,book/chapter_06_assembly_programmers_manifold.md
-7,Differentials,book/chapter_07_dx_leibniz.md
+6,Assembly,book/chapter_06_assembly.md
+7,Differentials,book/chapter_07_differentials.md
 8,Stories,book/chapter_08_stories.md
 9,Meta Layer,book/chapter_09_meta_layer.md
 10,Cockpit,book/chapter_10_cockpit.md
 11,Book as Manifold,book/chapter_11_book_as_manifold.md
-12,Why This Matters,book/chapter_12_why_this_book_matters.md
+12,Why This Matters,book/chapter_12_why_this_matters.md
 13,Minsky,book/chapter_13_minsky.md
 14,Proper Analysis,book/chapter_14_proper_analysis.md
 15,EasterDate,book/chapter_15_easterdate.md
-16,Structure as Object,book/chapter_16_structure_becomes_object.md
-17,Larger Landscape,book/chapter_17_a_walkable_path_through_a_larger_landscape.md
-18,Three,book/chapter_18_three_is_the_first_intelligent_number.md
+16,Structure as Object,book/chapter_16_structure_as_object.md
+17,Larger Landscape,book/chapter_17_larger_landscape.md
+18,Three,book/chapter_18_three.md
