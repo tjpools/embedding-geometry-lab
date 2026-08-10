@@ -111,6 +111,8 @@ This layer does not sit outside the project’s logic. It is part of the same ar
 
 The presence of directories such as `narrative_manifold/` and `sessions/` suggests that the repository preserves not only final text, but traces of development, framing, and iterative thought.
 
+It also preserves external state transitions, such as publication boundary events, as dated session artifacts so the operational history remains machine-legible and temporally stable.
+
 That is important. It means the repository is not just a static book container. It is a record of becoming.
 
 The manuscript, the notes around it, and the analytical instruments beside it all participate in the same larger object: a project that can be read both as finished text and as an evolving structured system.
@@ -187,6 +189,7 @@ Across the project, several moments of closure appear:
 - the manifold becomes visible
 - the manifold becomes nameable
 - the manifold becomes measurable
+- the manifold becomes publicly purchasable
 
 In the repository as it now exists, those moments are not separated into distant systems. They are gathered under `book/` and around it.
 

@@ -12,7 +12,10 @@ Paperback is intentionally delayed until the print cover package is rebuilt and 
 
 ## Files to Have Ready
 
-- Ebook file: `../embedding-geometry.epub`
+- Preferred ebook upload file: `../embedding-geometry-kdp.epub`
+- Secondary ebook upload file: `../embedding-geometry-kdp.docx`
+- Fallback/source EPUB: `../embedding-geometry.epub`
+- Cover image fallback: `cover_kindle.png`
 - Listing source: `KDP_LISTING_PACKAGE.md`
 - Upload sequence: `KDP_UPLOAD_CHECKLIST.md`
 
@@ -113,11 +116,20 @@ If KDP’s live category tree differs, choose the closest equivalents that prese
 
 ### Upload Ebook Manuscript
 
-- Upload: `embedding-geometry.epub`
+- Upload: `embedding-geometry-kdp.epub`
+
+Use `embedding-geometry-kdp.epub` first for Amazon KDP upload.
+
+If KDP accepts EPUB cleanly, stay on that path.
+
+Use `embedding-geometry-kdp.docx` only as the secondary upload attempt.
+
+Use `embedding-geometry.epub` only as the source EPUB inside the repository workflow.
 
 ### Ebook Cover
 
-- Use the cover embedded in the EPUB unless KDP requires separate intervention
+- Use the cover embedded in the EPUB as the primary path.
+- If KDP requests a separate file, upload `cover_kindle.png` (Stickman/Rock Kindle variant).
 
 ### Preview Questions
 

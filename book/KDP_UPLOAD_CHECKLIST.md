@@ -27,7 +27,10 @@ Working stance:
 
 ## Current Artifacts
 
-- Kindle ebook: `../embedding-geometry.epub`
+- Kindle source EPUB: `../embedding-geometry.epub`
+- Kindle KDP upload EPUB: `../embedding-geometry-kdp.epub`
+- Kindle KDP upload DOCX: `../embedding-geometry-kdp.docx`
+- Kindle cover image upload file: `cover_kindle.png`
 - Reading PDF: `../embedding-geometry.pdf`
 - KDP interior PDF: `../embedding-geometry-6x9.pdf`
 
@@ -42,7 +45,7 @@ Confirm these before opening KDP:
 1. Title is `Embedding Geometry` everywhere.
 2. Subtitle is `A Walkable Introduction to AI Through Building, Testing, and Collaboration` everywhere.
 3. Author is `Terrence J McLaughlin` everywhere.
-4. EPUB is the current rebuilt file with the cleaned navigation structure.
+4. `embedding-geometry-kdp.epub` is the current ebook upload file.
 5. KDP interior PDF is the current 158-page `6 x 9 in` artifact.
 6. Any last-minute copy edits are committed before upload.
 
@@ -71,9 +74,10 @@ Use these first-pass values unless KDP forces a concrete change.
 
 ### Ebook Files
 
-1. Upload `embedding-geometry.epub`.
-2. Confirm KDP accepts the EPUB without structural complaints.
-3. Confirm the cover appears correctly from the embedded EPUB cover.
+1. Upload `embedding-geometry-kdp.epub`.
+2. If KDP asks for a separate cover image, upload `cover_kindle.png`.
+3. Use `embedding-geometry-kdp.docx` only as fallback if EPUB upload fails.
+4. Confirm the cover appears correctly in KDP preview.
 
 ### Ebook Pricing
 
@@ -183,7 +187,7 @@ Go forward with paperback publication only when these are all true:
 
 ## Recommended Immediate Sequence
 
-1. Upload the ebook first.
+1. Upload `embedding-geometry-kdp.epub` first.
 2. Run the Kindle/KDP preview pass.
 3. Publish the ebook once the preview is clean.
 4. Announce or circulate the ebook as the first public artifact.

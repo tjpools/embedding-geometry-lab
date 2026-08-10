@@ -29,3 +29,27 @@ Send excerpt and await reaction.
 
 **Sales significance:**
 The project begins to leave the private drafting environment and enter reader circulation.
+
+## 2026-08-08 — Amazon KDP Live Confirmation
+
+**Channel:** Kindle Direct Publishing transactional email
+
+**Milestone:**
+Amazon confirmed that `Embedding Geometry` is now live and available for purchase in the Kindle Store.
+
+**Live listing URL:**
+https://www.amazon.com/Embedding-Geometry-Introduction-Reasoning-Structure-ebook/dp/B0HDJV26DL
+
+**Signal:**
+This is the transition from pre-release preparation to active retail availability.
+
+**Interpretation:**
+The book has crossed the publication boundary. The project is now in live discovery, purchase, and reader-feedback conditions.
+
+**Follow-up actions:**
+- Record and verify the live Amazon listing URL
+- Build out initial promotion steps (merchandising options, Author Central updates)
+- Evaluate KDP Select enrollment as a separate strategic decision
+
+**Sales significance:**
+This is the first full market-state event: the manuscript is no longer only a crafted artifact, but a purchasable public object.

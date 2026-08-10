@@ -43,3 +43,25 @@ Tom
 - Send directly to `clark@quinnovation.com`
 - Do not include the repo link in the email
 - Keep the email short and confident
+
+## 2026-08-08 — Kindle Direct Publishing live-notice email
+
+**Contact:** Kindle Direct Publishing Team
+
+**Context:**
+Transactional account email confirming publication state after KDP processing.
+
+**Decision:**
+Treat this as a publication milestone and record it as the canonical go-live signal.
+
+**Email summary:**
+- "Congratulations, your book 'Embedding Geometry' is now live and available for purchase in the Kindle Store."
+- Includes post-launch resource prompts: merchandising programs, KDP Select enrollment, and Author Central profile guidance.
+
+**Operational meaning:**
+- Ebook publication state has moved from pending to live.
+- Promotion and discoverability workflows can now proceed against a live listing.
+
+**Notes:**
+- This is a transactional message tied to account/publication state.
+- Subscription preferences language confirms it is not a standard marketing blast.
