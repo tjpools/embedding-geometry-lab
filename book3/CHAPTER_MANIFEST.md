@@ -4,7 +4,7 @@
 **Title:** *The Architecture of Geometric Semantics*
 **Subtitle:** *Berkeley, Transformers, and the Geometry of Inquiry*
 
-This manifest derives 16 chapters from the 27-module philosophical DAG in [dependency_map.md](dependency_map.md). It makes derived meaning an input to evidence-bounded closure rather than the manuscript's endpoint. The machine-readable assignment is [chapter_modules.tsv](chapter_modules.tsv), and every chapter remains subject to [OWNERSHIP_CONTRACT.md](OWNERSHIP_CONTRACT.md) and [CLOSURE_PROBE.md](CLOSURE_PROBE.md).
+This manifest derives 16 chapters from the 27-module philosophical DAG in [dependency_map.md](dependency_map.md). It makes derived meaning an input to evidence-bounded closure rather than the manuscript's endpoint. The machine-readable assignment is [chapter_modules.tsv](chapter_modules.tsv), and every chapter remains subject to [PHILOSOPHY_CONTRACT.md](PHILOSOPHY_CONTRACT.md), [OWNERSHIP_CONTRACT.md](OWNERSHIP_CONTRACT.md), and [CLOSURE_PROBE.md](CLOSURE_PROBE.md).
 
 ## Part I — The Question
 

@@ -40,6 +40,12 @@ The cover places a historically grounded line rendering of George Berkeley in re
 
 > Book Three examines how humans responsibly convert bounded operational evidence into warranted action while keeping the irreducible act of closure visible and accountable.
 
+The governing operational definition is:
+
+> **Philosophy is the disciplined examination of the concepts, assumptions, values, judgments, and responsibilities involved when empirical evidence and formal derivation constrain, but do not determine, warranted action.**
+
+This definition makes philosophy an inspectable method, not a substitute for evidence, proof, history, or technical operation. Its full scope, demarcations, permitted metaphors, and enforcement rules are defined in [PHILOSOPHY_CONTRACT.md](PHILOSOPHY_CONTRACT.md).
+
 Closure is an evidence-bounded commitment, not a replacement for evidence:
 
 $$
@@ -126,7 +132,7 @@ Book Three must distinguish:
 
 The philosophy must remain answerable to inspectable practice. Metaphor may orient inquiry, but it may not erase technical distinctions established in Book Two.
 
-Collaboration, provenance, and responsibility are governed across all crates by [OWNERSHIP_CONTRACT.md](OWNERSHIP_CONTRACT.md). They are book-level invariants rather than isolated topics.
+The philosophical method is governed across all crates by [PHILOSOPHY_CONTRACT.md](PHILOSOPHY_CONTRACT.md). Collaboration, provenance, and responsibility are governed across all crates by [OWNERSHIP_CONTRACT.md](OWNERSHIP_CONTRACT.md). They are book-level invariants rather than isolated topics.
 
 ## Working Method
 

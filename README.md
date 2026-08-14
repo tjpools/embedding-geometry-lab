@@ -22,9 +22,16 @@ If you want the package-facing structure for cover, title page, and framing, see
 
 If you want the repository-side architecture, read [book/architecture_of_the_repository.md](book/architecture_of_the_repository.md).
 
+*The Geometry of Meaning* trilogy has separate manuscript packages: [book/](book/) for Book One, [book2/](book2/) for Book Two, and [book3/](book3/) for Book Three.
+
+The coordinated metadata, preorder gates, and announcement language for the two forthcoming volumes are in [publication/](publication/).
+
 ## Repository Structure
 
-- `book/` — the authoritative manuscript, front matter, eighteen chapters, back matter, build scripts, and package-facing docs
+- `book/` — the authoritative Book One manuscript, front matter, eighteen chapters, back matter, build scripts, and package-facing docs
+- `book2/` — the independent Book Two package, beginning with its global manifest and architectural boundary
+- `book3/` — the independent Book Three package, with an evidence-bounded closure thesis, closure-probe contract, provisional structure, provenance policy, and analytics tests
+- `publication/` — verified KDP gates and coordinated rollout packages for Books Two and Three
 - `chapters_wordcount/` — generated chapter metrics and supporting artifacts
 - `book/analysis_throughput/` — heatmaps, metric reports, and structural analysis outputs
 - `experiments/` — runnable experiments and supporting code

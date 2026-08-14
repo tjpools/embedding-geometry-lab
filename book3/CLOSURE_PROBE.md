@@ -2,7 +2,7 @@
 
 **Status:** Canonical cross-cutting contract established August 14, 2026
 
-Book Three tests closure as Book Two tested mechanism: through bounded, inspectable records that preserve the difference between operational evidence and warranted action.
+Book Three tests closure as Book Two tested mechanism: through bounded, inspectable records that preserve the difference between operational evidence and warranted action. The philosophical operations that identify and examine that difference are governed by [PHILOSOPHY_CONTRACT.md](PHILOSOPHY_CONTRACT.md).
 
 ## Canonical Thesis
 
@@ -76,4 +76,4 @@ A closure probe passes only when:
 
 Book Two establishes what the bounded machine did and where its operational evidence stops. Book Three may inherit those findings but cannot strengthen them. It owns the visible transition from evidence to action and the responsibility for testing that transition.
 
-The contract applies across every crate and chapter. It complements [OWNERSHIP_CONTRACT.md](OWNERSHIP_CONTRACT.md): ownership governs attribution, provenance, and responsibility; the closure probe governs the conversion of evidence into action.
+The contract applies across every crate and chapter. It complements [PHILOSOPHY_CONTRACT.md](PHILOSOPHY_CONTRACT.md) and [OWNERSHIP_CONTRACT.md](OWNERSHIP_CONTRACT.md): the philosophy contract governs conceptual and normative inquiry; ownership governs attribution, provenance, and responsibility; the closure probe governs the conversion of evidence into action.

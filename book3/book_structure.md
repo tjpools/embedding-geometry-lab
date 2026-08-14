@@ -26,7 +26,7 @@ flowchart LR
 
 The complete module registry is [modules.txt](modules.txt). Explanatory prerequisites are recorded in [dependency_map.md](dependency_map.md), and the validated chapter spine derived from them is [CHAPTER_MANIFEST.md](CHAPTER_MANIFEST.md). Every crate imports collaboration, provenance, and responsibility invariants from [OWNERSHIP_CONTRACT.md](OWNERSHIP_CONTRACT.md).
 
-Every crate also imports [CLOSURE_PROBE.md](CLOSURE_PROBE.md). Derived meaning is an input to closure, not the manuscript's final warrant. Each concrete case must expose bounded evidence, unresolved judgment, declared values, an accountable actor, authorized action, and consequences with a revision path.
+Every crate imports [PHILOSOPHY_CONTRACT.md](PHILOSOPHY_CONTRACT.md) and [CLOSURE_PROBE.md](CLOSURE_PROBE.md). The philosophy contract defines the inspectable operations used to examine concepts, assumptions, evidence boundaries, and normative transitions. Derived meaning is an input to closure, not the manuscript's final warrant. Each concrete case must expose bounded evidence, unresolved judgment, declared values, an accountable actor, authorized action, and consequences with a revision path.
 
 ## Governing Question Fields
 
@@ -83,6 +83,7 @@ This field is enforced through the closure probe in every case. The `closure` cr
 A module remains canonical in the chapter spine only while it has:
 
 - a distinct philosophical problem
+- an inspectable philosophical operation defined by the philosophy contract
 - an explicit technical inheritance from Book One or Book Two
 - a boundary separating it from neighboring fields
 - an inspectable conversation, artifact, case, or failure
