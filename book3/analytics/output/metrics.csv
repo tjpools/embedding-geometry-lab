@@ -1,12 +1,2 @@
 kind,order,title,path,words,unique_words,characters,characters_no_spaces,sentences,paragraphs,headings,code_blocks,figures,lexical_diversity,average_sentence_words,long_sentence_percent,cci,reading_ease_estimate,terminology_density,links,local_links,external_links,anchor_links,broken_links
-framing,1,Global Manifest,GLOBAL_MANIFEST.md,1219,525,9035,7780,72,25,12,1,0,43.1,16.9,11.1,2.88,15.5,44.3,6,6,0,0,0
-framing,2,Closure Probe Contract,CLOSURE_PROBE.md,490,253,3622,3120,13,7,7,0,0,51.6,37.7,30.8,1.86,-12.0,28.6,1,1,0,0,0
-framing,3,Book Structure,book_structure.md,577,290,4392,3802,36,13,12,1,0,50.3,16.0,5.6,2.77,8.6,48.5,10,10,0,0,0
-framing,4,Dependency Map,dependency_map.md,968,430,8089,6856,85,9,8,1,0,44.4,11.4,2.4,9.44,-1.6,57.9,6,6,0,0,0
-framing,5,Chapter Manifest,CHAPTER_MANIFEST.md,1967,682,15250,13260,115,35,24,1,0,34.7,17.1,9.6,3.29,2.0,46.3,6,6,0,0,0
-framing,6,Ownership Contract,OWNERSHIP_CONTRACT.md,737,377,5786,4905,33,5,19,0,0,51.2,22.3,6.1,6.6,-1.6,39.3,2,2,0,0,0
-framing,7,Provenance and Versioning,PROVENANCE.md,424,251,3199,2761,14,9,6,1,0,59.2,30.3,42.9,1.56,0.7,14.2,2,2,0,0,0
-framing,8,Interface Preface,INTERFACE_PREFACE.md,401,230,2993,2586,40,10,1,0,0,57.4,10.0,2.5,4.0,20.5,57.4,4,4,0,0,0
-framing,9,Concurrent Workflow,concurrent_workflow.md,320,178,2271,1941,16,6,6,1,0,55.6,20.0,6.2,2.67,25.3,21.9,2,2,0,0,0
-framing,10,Chapter Derivation,chapter_derivation.md,617,318,4726,4038,27,7,7,0,0,51.5,22.9,18.5,3.86,2.2,38.9,8,8,0,0,0
-framing,11,Cover Specification,BOOK_COVER.md,684,325,4842,4140,28,13,11,2,0,47.5,24.4,25.0,2.15,16.1,43.9,1,1,0,0,0
+chapter,1,Chapter 1 — Berkeley's Question,chapters/chapter_01.md,3224,1026,21789,18408,225,45,9,0,0,31.8,14.3,4.4,5.0,33.2,16.7,0,0,0,0,0

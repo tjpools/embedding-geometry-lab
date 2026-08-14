@@ -4,9 +4,9 @@
 
 ## Runtime
 
-- Mode: **framing**
-- Measured units: 11
-- Words: 8,404
+- Mode: **chapter**
+- Measured units: 1
+- Words: 3,224
 - Canonical modules: 27
 - Dependency edges: 54
 - Dependency layers: 13
@@ -16,17 +16,7 @@
 
 | Unit | Words | Share | Avg words/sentence | Long sentences | CCI | Lexical diversity | Reading ease* | Term density | Links |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Global Manifest | 1,219 | 14.5% | 16.9 | 11.1% | 2.88 | 43.1% | 15.5 | 44.3 | 6 (0 broken) |
-| Closure Probe Contract | 490 | 5.8% | 37.7 | 30.8% | 1.86 | 51.6% | -12.0 | 28.6 | 1 (0 broken) |
-| Book Structure | 577 | 6.9% | 16.0 | 5.6% | 2.77 | 50.3% | 8.6 | 48.5 | 10 (0 broken) |
-| Dependency Map | 968 | 11.5% | 11.4 | 2.4% | 9.44 | 44.4% | -1.6 | 57.9 | 6 (0 broken) |
-| Chapter Manifest | 1,967 | 23.4% | 17.1 | 9.6% | 3.29 | 34.7% | 2.0 | 46.3 | 6 (0 broken) |
-| Ownership Contract | 737 | 8.8% | 22.3 | 6.1% | 6.60 | 51.2% | -1.6 | 39.3 | 2 (0 broken) |
-| Provenance and Versioning | 424 | 5.0% | 30.3 | 42.9% | 1.56 | 59.2% | 0.7 | 14.2 | 2 (0 broken) |
-| Interface Preface | 401 | 4.8% | 10.0 | 2.5% | 4.00 | 57.4% | 20.5 | 57.4 | 4 (0 broken) |
-| Concurrent Workflow | 320 | 3.8% | 20.0 | 6.2% | 2.67 | 55.6% | 25.3 | 21.9 | 2 (0 broken) |
-| Chapter Derivation | 617 | 7.3% | 22.9 | 18.5% | 3.86 | 51.5% | 2.2 | 38.9 | 8 (0 broken) |
-| Cover Specification | 684 | 8.1% | 24.4 | 25.0% | 2.15 | 47.5% | 16.1 | 43.9 | 1 (0 broken) |
+| Chapter 1 — Berkeley's Question | 3,224 | 100.0% | 14.3 | 4.4% | 5.00 | 31.8% | 33.2 | 16.7 | 0 (0 broken) |
 
 *Reading ease is heuristic and comparative; technical vocabulary can lower it without indicating weak prose.*
 
@@ -34,18 +24,18 @@
 
 | Term | Exact count |
 |---|---:|
-| berkeley | 32 |
-| closure | 88 |
-| constraint | 5 |
-| derivation | 24 |
-| geometry | 38 |
-| interface | 15 |
-| interpretation | 38 |
-| provenance | 31 |
-| responsibility | 43 |
-| transformer | 48 |
+| berkeley | 31 |
+| closure | 6 |
+| constraint | 1 |
+| derivation | 3 |
+| geometry | 0 |
+| interface | 0 |
+| interpretation | 10 |
+| provenance | 0 |
+| responsibility | 1 |
+| transformer | 2 |
 
-## Architecture density
+## Chapter analytics
 
 ![Book Three analytic heatmap](heatmap.svg)
 

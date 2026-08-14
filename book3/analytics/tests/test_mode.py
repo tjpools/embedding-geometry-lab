@@ -96,10 +96,9 @@ class CorpusModeTests(unittest.TestCase):
         book_dir = Path(__file__).resolve().parents[2]
         registry_path = book_dir / "analytics/runtime/registry.json"
 
-        mode, sources, _ = select_corpus(book_dir, registry_path)
-        paths = {source.path for source in sources}
+        registry = json.loads(registry_path.read_text(encoding="utf-8"))
+        paths = {source["path"] for source in registry["framing_sources"]}
 
-        self.assertEqual(mode, CorpusMode.FRAMING)
         self.assertIn("CLOSURE_PROBE.md", paths)
         self.assertIn("PROVENANCE.md", paths)
 
