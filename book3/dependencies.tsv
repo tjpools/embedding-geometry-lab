@@ -38,3 +38,17 @@ meaning.derivation	meaning.anti_narrative
 meaning.interpretation	meaning.anti_narrative
 meaning.limits	meaning.anti_narrative
 comparative_systems.transformers	meaning.anti_narrative
+closure.limits	closure.evidence_boundary
+meaning.limits	closure.evidence_boundary
+lineage.berkeley	closure.values
+lineage.kant	closure.values
+meaning.interpretation	closure.values
+closure.evidence_boundary	closure.judgment
+closure.values	closure.judgment
+meaning.anti_narrative	closure.judgment
+comparative_systems.engineered_systems	closure.authority
+closure.judgment	closure.authority
+closure.judgment	closure.action
+closure.authority	closure.action
+closure.action	closure.revision
+meaning.limits	closure.revision

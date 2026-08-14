@@ -87,10 +87,10 @@ class CorpusModeTests(unittest.TestCase):
 
         architecture = load_architecture(book_dir, registry)
 
-        self.assertEqual(architecture["module_count"], 21)
-        self.assertEqual(architecture["edge_count"], 40)
-        self.assertEqual(architecture["chapter_count"], 14)
-        self.assertEqual(len(architecture["layers"]), 9)
+        self.assertEqual(architecture["module_count"], 27)
+        self.assertEqual(architecture["edge_count"], 54)
+        self.assertEqual(architecture["chapter_count"], 16)
+        self.assertEqual(len(architecture["layers"]), 13)
 
     def test_book_three_framing_includes_governing_contracts(self):
         book_dir = Path(__file__).resolve().parents[2]

@@ -19,7 +19,7 @@ flowchart LR
 ## Canonical Crates
 
 - [lineage/](lineage/) — historical interlocutors and the ancestry of derived meaning
-- [closure/](closure/) — operations, constraints, interfaces, and philosophical limits
+- [closure/](closure/) — operations, evidence boundaries, values, judgment, authority, action, and revision
 - [geometry/](geometry/) — spaces, trajectories, order, and attention geometry
 - [meaning/](meaning/) — derivation, interpretation, limits, and anti-narrative critique
 - [comparative_systems/](comparative_systems/) — cases that test claims without collapsing differences
@@ -50,9 +50,9 @@ This field rejects two simplifications: the transformer as passive instrument an
 
 ### Closure
 
-**Question:** How do permitted operations, representations, interfaces, and boundaries define reachable outcomes?
+**Question:** How do permitted operations, representations, and interfaces define reachable outcomes, and how does accountable action proceed when their evidence reaches a boundary?
 
-Closure must be treated separately in algebraic, programmed, learned, institutional, and philosophical contexts before analogies among them are trusted.
+Closure must be treated separately in algebraic, programmed, learned, institutional, and philosophical contexts before analogies among them are trusted. Its owned sequence moves from operational limits through evidence boundaries, declared values, unresolved judgment, authority, action, and revision.
 
 ### Geometry
 
@@ -76,7 +76,7 @@ Collaboration may distribute causal contribution without dissolving human accoun
 
 **Question:** How do humans move from bounded operational evidence to action without disguising values, judgment, authority, or responsibility as machine conclusions?
 
-This field is cross-cutting rather than a separate crate. It is enforced through the closure probe in every case and supplies the manuscript's final movement.
+This field is enforced through the closure probe in every case. The `closure` crate owns its explicit modules; the ownership contract keeps responsibility cross-cutting and human rather than turning it into a fictitious machine faculty.
 
 ## Module-Derivation Rule
 

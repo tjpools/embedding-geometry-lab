@@ -7,6 +7,12 @@ closure.operations
 closure.constraints
 closure.interfaces
 closure.limits
+closure.evidence_boundary
+closure.values
+closure.judgment
+closure.authority
+closure.action
+closure.revision
 geometry.manifolds
 geometry.trajectories
 geometry.non_commutativity

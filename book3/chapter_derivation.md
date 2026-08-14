@@ -1,6 +1,6 @@
 # Book Three — Chapter Derivation Pipeline
 
-**Status:** Re-derivation required after closure thesis established August 14, 2026
+**Status:** Canonical closure spine derived August 14, 2026
 
 Book Three chapters will be derived from the philosophical DAG under the ownership contract. Topological order is necessary but insufficient: a chapter must create a reader movement, test a distinction, or join dependencies at a meaningful interface.
 
@@ -73,13 +73,15 @@ Structural derivation may proceed before every source brief is complete. Draftin
 - transformer claims must distinguish learned relation, retrieval, provenance, and verification
 - comparative cases must record both the relevant similarity and disanalogy
 
-## Previous Output
+## Output
 
-The August 12 derivation operation produced:
+The August 14 re-derivation operation produced:
 
-- [CHAPTER_MANIFEST.md](CHAPTER_MANIFEST.md), the canonical 14-chapter spine
+- [CHAPTER_MANIFEST.md](CHAPTER_MANIFEST.md), the canonical 16-chapter closure spine
 - [chapter_modules.tsv](chapter_modules.tsv), the machine-readable chapter-to-module mapping
 - chapter-level invariant, evidence, forbidden-inference, and handoff assignments
-- a validated order in which all 40 dependency edges remain internal or forward
+- a validated order in which all 54 dependency edges remain internal or forward
 
-The 14-chapter result was derived rather than targeted, but it culminates in derived meaning rather than evidence-bounded warranted action. It remains a structural baseline until the module graph and chapter spine are re-derived under the closure probe. No chapter is drafting-eligible solely because it appears in the previous spine.
+The result contains 27 modules across 16 chapters and 13 topological build layers. Chapters 1–11 preserve the historical, operational, geometric, comparative, and semantic dependencies that survived the new thesis. Chapters 12–16 declare values, locate the evidence boundary, audit explanatory excess, assign judgment and authority, and complete action under revision.
+
+The prior 21-module, 14-chapter result remains visible in version history as the structural baseline. It was not silently edited into the replacement.

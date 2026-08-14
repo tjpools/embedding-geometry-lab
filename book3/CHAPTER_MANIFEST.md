@@ -1,10 +1,10 @@
 # Book Three — Chapter Manifest
 
-**Status:** Structural baseline; re-derivation required August 14, 2026
+**Status:** Canonical closure spine established August 14, 2026
 **Title:** *The Architecture of Geometric Semantics*
 **Subtitle:** *Berkeley, Transformers, and the Geometry of Inquiry*
 
-This manifest records the 14 chapters derived from the 21-module philosophical DAG in [dependency_map.md](dependency_map.md). It predates the canonical evidence-bounded closure thesis in [CLOSURE_PROBE.md](CLOSURE_PROBE.md) and remains a baseline for re-derivation, not current drafting authority. The machine-readable assignment is [chapter_modules.tsv](chapter_modules.tsv), and every future chapter remains subject to [OWNERSHIP_CONTRACT.md](OWNERSHIP_CONTRACT.md).
+This manifest derives 16 chapters from the 27-module philosophical DAG in [dependency_map.md](dependency_map.md). It makes derived meaning an input to evidence-bounded closure rather than the manuscript's endpoint. The machine-readable assignment is [chapter_modules.tsv](chapter_modules.tsv), and every chapter remains subject to [OWNERSHIP_CONTRACT.md](OWNERSHIP_CONTRACT.md) and [CLOSURE_PROBE.md](CLOSURE_PROBE.md).
 
 ## Part I — The Question
 
@@ -122,40 +122,40 @@ Place the transformer in lineage, inspect the geometric usefulness and limits of
 **Forbidden inference:** attention weights reveal intention, explanation, consciousness, or complete provenance.
 **Handoff:** The transformer becomes a bounded modern site where the thesis of derived meaning can be tested.
 
-## Part IV — Derived Meaning
+## Part IV — Meaning and Its Limits
 
 ### Chapter 11 — Meaning Is Derived
 
 **Modules:** `meaning.derivation`
 
-Join relational form, permitted operations, trajectories, programming enforcement, and transformer execution into the book's central thesis. Use a declared alias and its expansion as a bounded case of symbolic compression. Test it by naming its referent, recovering its valid context, exposing consequential omissions, and demonstrating the operative machinery required by the reader's question. The glyph saves space, but it does not preserve every detail or contain meaning intact. Meaning emerges through structured contact and transformation rather than arriving as an object retrieved from one participant or stored whole inside a symbol.
+Join relational form, permitted operations, trajectories, programming enforcement, and transformer execution into the book's necessary semantic thesis. Use a declared alias and its expansion as a bounded case of symbolic compression. Test it by naming its referent, recovering its valid context, exposing consequential omissions, and demonstrating the operative machinery required by the reader's question. The glyph saves space, but it does not preserve every detail or contain meaning intact. Meaning emerges through structured contact and transformation rather than arriving as an object retrieved from one participant or stored whole inside a symbol.
 
 **Evidence classes:** philosophical synthesis, inherited technical evidence, alias-expansion demonstration, comparative cases, collaboration trace
 **Ownership invariants:** C1, C2, C3, C4, P2, P3, R1, R3, R4
 **Forbidden inference:** derivation proves that meaning resides in the transformer, belongs equally to every causal contributor, remains intact inside a glyph independently of its defining practice, or can be losslessly reconstructed from every compression.
-**Handoff:** The thesis is available for contextual interpretation rather than treated as self-validating.
+**Handoff:** Derived meaning becomes an inspectable input to interpretation, not a warrant for action.
 
-### Chapter 12 — Interpretation and the Human Return
+### Chapter 12 — Interpretation, Values, and the Human Return
 
-**Modules:** `meaning.interpretation`
+**Modules:** `meaning.interpretation`, `closure.values`
 
-Make the trilogy's excursion-and-return structure explicit, then return derived output to human purpose, context, judgment, and responsibility. Examine care in transformer use through differences in user knowledge, goals, context, susceptibility, access, and interpretive practice rather than through invented rankings of cognitive machinery. Berkeley's question and Kant's conditions meet the practical loop in which a result becomes meaningful through selection, testing, revision, and use. Mean-and-sigma language remains a declared narrative coordinate rather than a statistical, biological, or moral claim.
+Make the trilogy's excursion-and-return structure explicit, then return derived output to human purpose and context. Examine care in transformer use through differences in user knowledge, goals, stakes, access, and interpretive practice rather than through invented rankings of cognitive machinery. Identify the priorities, duties, tolerances, and rights introduced when an interpreted result becomes a candidate for action. Berkeley's question and Kant's conditions meet the practical loop without allowing values to hide inside technical language.
 
-**Evidence classes:** philosophical interpretation, collaboration trace, provenance audit, human-factors evidence, interaction case, counterexample
+**Evidence classes:** philosophical interpretation, declared value judgment, collaboration trace, provenance audit, human-factors evidence, interaction case, counterexample
 **Ownership invariants:** C1, C2, C3, C4, P2, P3, R1, R3, R4
-**Forbidden inference:** human interpretation can repair unsupported provenance, transfer accountability to the collaboration, turn a transformer into a person or biological brain, or rank people through an unspecified Jacobian.
-**Handoff:** Meaning can now be evaluated against architectural, epistemic, and interpretive limits.
+**Forbidden inference:** values can be derived from model output, hidden inside a metric, or made objective by institutional repetition; human interpretation cannot repair unsupported provenance or transfer accountability to the collaboration.
+**Handoff:** Meaning and values can now be tested against the exact point where available evidence stops deciding.
 
-### Chapter 13 — The Limits of Derived Meaning
+### Chapter 13 — Where Evidence Ends
 
-**Modules:** `meaning.limits`
+**Modules:** `meaning.limits`, `closure.evidence_boundary`
 
-Separate what cannot be reached, computed, known, sourced, interpreted, or responsibly claimed. Compare closure limits, attention geometry, engineered failure, order-sensitive cases, and human interpretation without compressing them into one boundary.
+Separate what cannot be reached, computed, known, sourced, interpreted, or responsibly claimed. Import Book Two's constraint envelope without strengthening it, then identify the unresolved judgment that remains after technical, empirical, and interpretive evidence has done all it can. Compare closure limits, attention geometry, engineered failure, order-sensitive cases, and human interpretation without compressing them into one universal boundary.
 
-**Evidence classes:** inherited technical limits, comparative cases, epistemic analysis, philosophical argument
+**Evidence classes:** inherited technical limits, comparative cases, epistemic analysis, philosophical argument, counterexample
 **Ownership invariants:** C4, P2, P3, P4, R1, R2, R3, R4
-**Forbidden inference:** identifying limits proves either machine impossibility or unlimited human interpretive privilege.
-**Handoff:** The manuscript can test explanatory stories against the complete architecture of evidence and limits.
+**Forbidden inference:** identifying an evidence boundary proves a claim false, licenses arbitrary belief, establishes machine impossibility, or grants unlimited human interpretive privilege.
+**Handoff:** The manuscript has a bounded evidence record and can test whether explanatory language is concealing what remains undecided.
 
 ### Chapter 14 — Against the Story That Explains Too Much
 
@@ -166,7 +166,31 @@ Distinguish narrative as a legitimate human form from narrative used to replace 
 **Evidence classes:** philosophical critique, provenance audit, transformer case, counterexample, self-audit of the trilogy
 **Ownership invariants:** C1, C2, C3, C4, P2, P3, P4, R1, R2, R3, R4
 **Forbidden inference:** narrative is inherently false, structural analysis can eliminate interpretation, or an inspectable artifact validates itself.
-**Handoff:** The trilogy returns its claims to the reader as inspectable structures rather than compulsory conclusions.
+**Handoff:** Explanatory excess has been removed before judgment and authority enter the closure record.
+
+## Part V — Warranted Action
+
+### Chapter 15 — Who Closes?
+
+**Modules:** `closure.judgment`, `closure.authority`
+
+Ask who evaluates alternatives after evidence is bounded, which values constrain that evaluation, and who possesses legitimate authority to decide. Distinguish a generated justification from warranted judgment, delegated power from normative warrant, and causal participation from responsibility. Use paired institutional cases in which the same machine output enters different value and authority structures.
+
+**Evidence classes:** complete bounded-evidence record, declared value judgment, institutional case, philosophical inference, counterexample
+**Ownership invariants:** C1, C2, C4, P3, P4, R1, R2, R3, R4
+**Forbidden inference:** a model, metric, policy, or institution can launder human judgment; possession of authority proves that a decision is warranted; distributed contribution dissolves responsibility.
+**Handoff:** A named accountable actor has made a contestable judgment and may now authorize a concrete action.
+
+### Chapter 16 — Action Under Revision
+
+**Modules:** `closure.action`, `closure.revision`
+
+Complete the closure probe by naming the authorized reliance, refusal, escalation, delay, or intervention; observing its consequences; and specifying what triggers correction, withdrawal, or renewed inquiry. Compare a revisable closure with a decision that hides its values, actor, or stopping rule. End the trilogy with responsibility continuing after action rather than with uncertainty rhetorically erased.
+
+**Evidence classes:** complete closure record, observed consequence, institutional or collaboration trace, revision test, counterexample
+**Ownership invariants:** C1, C2, C4, P3, P4, R1, R2, R3, R4
+**Forbidden inference:** action makes the underlying claim true, successful consequences retroactively erase weak warrant, revision signals failure rather than accountability, or closure transfers responsibility to the machine.
+**Handoff:** The reader can inspect, contest, authorize, observe, and revise the conversion of bounded evidence into accountable action.
 
 ## Narrative Spine
 
@@ -174,7 +198,8 @@ Distinguish narrative as a legitimate human form from narrative used to replace 
 flowchart LR
     P1[Part I<br/>The Question] --> P2[Part II<br/>Operators and Spaces]
     P2 --> P3[Part III<br/>Systems That Enforce]
-    P3 --> P4[Part IV<br/>Derived Meaning]
+    P3 --> P4[Part IV<br/>Meaning and Its Limits]
+    P4 --> P5[Part V<br/>Warranted Action]
 ```
 
 The reader movement is:
@@ -182,10 +207,11 @@ The reader movement is:
 1. Berkeley opens the question; Leibniz and Kant complicate its formal and epistemic conditions
 2. closure and geometry supply operators without becoming ontology
 3. comparative systems test those operators in visible and executable cases
-4. derivation becomes interpretation, encounters limits, and submits its own explanatory language to critique
+4. derivation becomes interpretation, declares its values, reaches an evidence boundary, and submits its explanatory language to critique
+5. judgment and authority become visible before action; consequences keep closure open to revision
 
 ## Drafting Boundary
 
-The spine remains structurally valid under its August 12 thesis but is not drafting-ready under the August 14 closure thesis. Re-derivation must preserve useful historical, technical, and comparative dependencies while making warranted action, accountable authority, consequences, and revision part of the final movement. Every replacement chapter must satisfy the candidate chapter contract in [chapter_derivation.md](chapter_derivation.md).
+The spine is structurally valid under the August 14 closure thesis but is not a research shortcut. Historical chapters require source briefs, technical handoffs require concrete Book Two evidence, and every chapter that supports action must complete or explicitly withhold the record required by [CLOSURE_PROBE.md](CLOSURE_PROBE.md). Every draft must satisfy the candidate chapter contract in [chapter_derivation.md](chapter_derivation.md).
 
 Interior visual anchors remain unassigned until Book Three establishes a visual grammar distinct from, but compatible with, Book Two.

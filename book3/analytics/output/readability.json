@@ -8,10 +8,10 @@
       "title": "Global Manifest",
       "sentences": 72,
       "paragraphs": 25,
-      "average_sentence_words": 17.1,
+      "average_sentence_words": 16.9,
       "long_sentence_percent": 11.1,
       "cci": 2.88,
-      "reading_ease_estimate": 15.1
+      "reading_ease_estimate": 15.5
     },
     {
       "order": 2,
@@ -26,32 +26,32 @@
     {
       "order": 3,
       "title": "Book Structure",
-      "sentences": 35,
+      "sentences": 36,
       "paragraphs": 13,
-      "average_sentence_words": 15.3,
-      "long_sentence_percent": 5.7,
-      "cci": 2.69,
-      "reading_ease_estimate": 9.5
+      "average_sentence_words": 16.0,
+      "long_sentence_percent": 5.6,
+      "cci": 2.77,
+      "reading_ease_estimate": 8.6
     },
     {
       "order": 4,
       "title": "Dependency Map",
-      "sentences": 73,
+      "sentences": 85,
       "paragraphs": 9,
-      "average_sentence_words": 10.8,
-      "long_sentence_percent": 2.7,
-      "cci": 8.11,
-      "reading_ease_estimate": -4.3
+      "average_sentence_words": 11.4,
+      "long_sentence_percent": 2.4,
+      "cci": 9.44,
+      "reading_ease_estimate": -1.6
     },
     {
       "order": 5,
       "title": "Chapter Manifest",
-      "sentences": 96,
-      "paragraphs": 31,
+      "sentences": 115,
+      "paragraphs": 35,
       "average_sentence_words": 17.1,
-      "long_sentence_percent": 9.4,
-      "cci": 3.1,
-      "reading_ease_estimate": 0.1
+      "long_sentence_percent": 9.6,
+      "cci": 3.29,
+      "reading_ease_estimate": 2.0
     },
     {
       "order": 6,
@@ -96,12 +96,12 @@
     {
       "order": 10,
       "title": "Chapter Derivation",
-      "sentences": 25,
-      "paragraphs": 6,
-      "average_sentence_words": 23.8,
-      "long_sentence_percent": 20.0,
-      "cci": 4.17,
-      "reading_ease_estimate": 0.4
+      "sentences": 27,
+      "paragraphs": 7,
+      "average_sentence_words": 22.9,
+      "long_sentence_percent": 18.5,
+      "cci": 3.86,
+      "reading_ease_estimate": 2.2
     },
     {
       "order": 11,

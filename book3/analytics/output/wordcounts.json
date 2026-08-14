@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "mode": "framing",
-  "total_words": 7840,
+  "total_words": 8404,
   "units": [
     {
       "order": 1,
       "title": "Global Manifest",
       "path": "GLOBAL_MANIFEST.md",
-      "words": 1230,
-      "unique_words": 528,
-      "characters": 9121,
-      "characters_no_spaces": 7855
+      "words": 1219,
+      "unique_words": 525,
+      "characters": 9035,
+      "characters_no_spaces": 7780
     },
     {
       "order": 2,
@@ -25,28 +25,28 @@
       "order": 3,
       "title": "Book Structure",
       "path": "book_structure.md",
-      "words": 535,
-      "unique_words": 281,
-      "characters": 4078,
-      "characters_no_spaces": 3530
+      "words": 577,
+      "unique_words": 290,
+      "characters": 4392,
+      "characters_no_spaces": 3802
     },
     {
       "order": 4,
       "title": "Dependency Map",
       "path": "dependency_map.md",
-      "words": 787,
-      "unique_words": 388,
-      "characters": 6698,
-      "characters_no_spaces": 5686
+      "words": 968,
+      "unique_words": 430,
+      "characters": 8089,
+      "characters_no_spaces": 6856
     },
     {
       "order": 5,
       "title": "Chapter Manifest",
       "path": "CHAPTER_MANIFEST.md",
-      "words": 1637,
-      "unique_words": 593,
-      "characters": 12820,
-      "characters_no_spaces": 11160
+      "words": 1967,
+      "unique_words": 682,
+      "characters": 15250,
+      "characters_no_spaces": 13260
     },
     {
       "order": 6,
@@ -88,10 +88,10 @@
       "order": 10,
       "title": "Chapter Derivation",
       "path": "chapter_derivation.md",
-      "words": 595,
-      "unique_words": 307,
-      "characters": 4562,
-      "characters_no_spaces": 3895
+      "words": 617,
+      "unique_words": 318,
+      "characters": 4726,
+      "characters_no_spaces": 4038
     },
     {
       "order": 11,

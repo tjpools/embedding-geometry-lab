@@ -140,4 +140,4 @@ Books Two and Three may develop concurrently under the interface rules in [concu
 
 ## Current Boundary
 
-This manifest and the closure probe establish the philosophical center. The existing crate architecture, dependency graph, ownership invariants, and 14-chapter spine predate the evidence-bounded closure thesis and are inputs to re-derivation, not canonical drafting authority. Historical source briefs, concrete Book Two evidence handoffs, chapter prose, and publication artifacts remain subject to their separate research, drafting, and production gates.
+This manifest and the closure probe establish the philosophical center. The 27-module dependency graph, ownership invariants, and 16-chapter closure spine are canonical structural authority. Historical source briefs, concrete Book Two evidence handoffs, chapter prose, and publication artifacts remain subject to their separate research, drafting, and production gates.

@@ -28,7 +28,7 @@ PYTHONPATH=analytics python3 -m unittest discover -s analytics/tests -p 'test_*.
 
 The engine selects its corpus automatically from [runtime/registry.json](runtime/registry.json).
 
-- **Framing mode:** when no chapter drafts exist, it measures the canonical framing documents and visualizes module and dependency density across the 14-chapter architecture.
+- **Framing mode:** when no chapter drafts exist, it measures the canonical framing documents and visualizes module and dependency density across the 16-chapter architecture.
 - **Chapter mode:** when a matching chapter draft appears under `chapters/` or `manuscript/`, it measures chapter prose and switches the heatmap to manuscript metrics.
 
 Planning notes, generated reports, and publication outputs are never discovered as manuscript sources.

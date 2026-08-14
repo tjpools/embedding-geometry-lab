@@ -6,27 +6,27 @@
 
 - Mode: **framing**
 - Measured units: 11
-- Words: 7,840
-- Canonical modules: 21
-- Dependency edges: 40
-- Dependency layers: 9
+- Words: 8,404
+- Canonical modules: 27
+- Dependency edges: 54
+- Dependency layers: 13
 - Broken local links: 0
 
 ## Unit Metrics
 
 | Unit | Words | Share | Avg words/sentence | Long sentences | CCI | Lexical diversity | Reading ease* | Term density | Links |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Global Manifest | 1,230 | 15.7% | 17.1 | 11.1% | 2.88 | 42.9% | 15.1 | 43.9 | 6 (0 broken) |
-| Closure Probe Contract | 490 | 6.2% | 37.7 | 30.8% | 1.86 | 51.6% | -12.0 | 28.6 | 1 (0 broken) |
-| Book Structure | 535 | 6.8% | 15.3 | 5.7% | 2.69 | 52.5% | 9.5 | 48.6 | 10 (0 broken) |
-| Dependency Map | 787 | 10.0% | 10.8 | 2.7% | 8.11 | 49.3% | -4.3 | 55.9 | 6 (0 broken) |
-| Chapter Manifest | 1,637 | 20.9% | 17.1 | 9.4% | 3.10 | 36.2% | 0.1 | 45.8 | 5 (0 broken) |
-| Ownership Contract | 737 | 9.4% | 22.3 | 6.1% | 6.60 | 51.2% | -1.6 | 39.3 | 2 (0 broken) |
-| Provenance and Versioning | 424 | 5.4% | 30.3 | 42.9% | 1.56 | 59.2% | 0.7 | 14.2 | 2 (0 broken) |
-| Interface Preface | 401 | 5.1% | 10.0 | 2.5% | 4.00 | 57.4% | 20.5 | 57.4 | 4 (0 broken) |
-| Concurrent Workflow | 320 | 4.1% | 20.0 | 6.2% | 2.67 | 55.6% | 25.3 | 21.9 | 2 (0 broken) |
-| Chapter Derivation | 595 | 7.6% | 23.8 | 20.0% | 4.17 | 51.6% | 0.4 | 42.0 | 8 (0 broken) |
-| Cover Specification | 684 | 8.7% | 24.4 | 25.0% | 2.15 | 47.5% | 16.1 | 43.9 | 1 (0 broken) |
+| Global Manifest | 1,219 | 14.5% | 16.9 | 11.1% | 2.88 | 43.1% | 15.5 | 44.3 | 6 (0 broken) |
+| Closure Probe Contract | 490 | 5.8% | 37.7 | 30.8% | 1.86 | 51.6% | -12.0 | 28.6 | 1 (0 broken) |
+| Book Structure | 577 | 6.9% | 16.0 | 5.6% | 2.77 | 50.3% | 8.6 | 48.5 | 10 (0 broken) |
+| Dependency Map | 968 | 11.5% | 11.4 | 2.4% | 9.44 | 44.4% | -1.6 | 57.9 | 6 (0 broken) |
+| Chapter Manifest | 1,967 | 23.4% | 17.1 | 9.6% | 3.29 | 34.7% | 2.0 | 46.3 | 6 (0 broken) |
+| Ownership Contract | 737 | 8.8% | 22.3 | 6.1% | 6.60 | 51.2% | -1.6 | 39.3 | 2 (0 broken) |
+| Provenance and Versioning | 424 | 5.0% | 30.3 | 42.9% | 1.56 | 59.2% | 0.7 | 14.2 | 2 (0 broken) |
+| Interface Preface | 401 | 4.8% | 10.0 | 2.5% | 4.00 | 57.4% | 20.5 | 57.4 | 4 (0 broken) |
+| Concurrent Workflow | 320 | 3.8% | 20.0 | 6.2% | 2.67 | 55.6% | 25.3 | 21.9 | 2 (0 broken) |
+| Chapter Derivation | 617 | 7.3% | 22.9 | 18.5% | 3.86 | 51.5% | 2.2 | 38.9 | 8 (0 broken) |
+| Cover Specification | 684 | 8.1% | 24.4 | 25.0% | 2.15 | 47.5% | 16.1 | 43.9 | 1 (0 broken) |
 
 *Reading ease is heuristic and comparative; technical vocabulary can lower it without indicating weak prose.*
 
@@ -35,15 +35,15 @@
 | Term | Exact count |
 |---|---:|
 | berkeley | 32 |
-| closure | 62 |
-| constraint | 4 |
-| derivation | 25 |
+| closure | 88 |
+| constraint | 5 |
+| derivation | 24 |
 | geometry | 38 |
 | interface | 15 |
-| interpretation | 39 |
+| interpretation | 38 |
 | provenance | 31 |
-| responsibility | 38 |
-| transformer | 49 |
+| responsibility | 43 |
+| transformer | 48 |
 
 ## Architecture density
 
