@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "book": {
+    "name": "Book Three",
+    "analytics_title": "Book Three Analytics"
+  },
+  "architecture": {
+    "modules": "modules.txt",
+    "dependencies": "dependencies.tsv",
+    "chapter_mapping": "chapter_modules.tsv"
+  },
+  "framing_sources": [
+    {"order": 1, "title": "Global Manifest", "path": "GLOBAL_MANIFEST.md"},
+    {"order": 2, "title": "Closure Probe Contract", "path": "CLOSURE_PROBE.md"},
+    {"order": 3, "title": "Book Structure", "path": "book_structure.md"},
+    {"order": 4, "title": "Dependency Map", "path": "dependency_map.md"},
+    {"order": 5, "title": "Chapter Manifest", "path": "CHAPTER_MANIFEST.md"},
+    {"order": 6, "title": "Ownership Contract", "path": "OWNERSHIP_CONTRACT.md"},
+    {"order": 7, "title": "Provenance and Versioning", "path": "PROVENANCE.md"},
+    {"order": 8, "title": "Interface Preface", "path": "INTERFACE_PREFACE.md"},
+    {"order": 9, "title": "Concurrent Workflow", "path": "concurrent_workflow.md"},
+    {"order": 10, "title": "Chapter Derivation", "path": "chapter_derivation.md"},
+    {"order": 11, "title": "Cover Specification", "path": "BOOK_COVER.md"}
+  ],
+  "chapter_globs": [
+    "chapters/chapter_*.md",
+    "chapters/chapter-*.md",
+    "manuscript/chapter_*.md",
+    "manuscript/chapter-*.md"
+  ]
+}

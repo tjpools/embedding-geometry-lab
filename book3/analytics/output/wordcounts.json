@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "mode": "framing",
+  "total_words": 7840,
+  "units": [
+    {
+      "order": 1,
+      "title": "Global Manifest",
+      "path": "GLOBAL_MANIFEST.md",
+      "words": 1230,
+      "unique_words": 528,
+      "characters": 9121,
+      "characters_no_spaces": 7855
+    },
+    {
+      "order": 2,
+      "title": "Closure Probe Contract",
+      "path": "CLOSURE_PROBE.md",
+      "words": 490,
+      "unique_words": 253,
+      "characters": 3622,
+      "characters_no_spaces": 3120
+    },
+    {
+      "order": 3,
+      "title": "Book Structure",
+      "path": "book_structure.md",
+      "words": 535,
+      "unique_words": 281,
+      "characters": 4078,
+      "characters_no_spaces": 3530
+    },
+    {
+      "order": 4,
+      "title": "Dependency Map",
+      "path": "dependency_map.md",
+      "words": 787,
+      "unique_words": 388,
+      "characters": 6698,
+      "characters_no_spaces": 5686
+    },
+    {
+      "order": 5,
+      "title": "Chapter Manifest",
+      "path": "CHAPTER_MANIFEST.md",
+      "words": 1637,
+      "unique_words": 593,
+      "characters": 12820,
+      "characters_no_spaces": 11160
+    },
+    {
+      "order": 6,
+      "title": "Ownership Contract",
+      "path": "OWNERSHIP_CONTRACT.md",
+      "words": 737,
+      "unique_words": 377,
+      "characters": 5786,
+      "characters_no_spaces": 4905
+    },
+    {
+      "order": 7,
+      "title": "Provenance and Versioning",
+      "path": "PROVENANCE.md",
+      "words": 424,
+      "unique_words": 251,
+      "characters": 3199,
+      "characters_no_spaces": 2761
+    },
+    {
+      "order": 8,
+      "title": "Interface Preface",
+      "path": "INTERFACE_PREFACE.md",
+      "words": 401,
+      "unique_words": 230,
+      "characters": 2993,
+      "characters_no_spaces": 2586
+    },
+    {
+      "order": 9,
+      "title": "Concurrent Workflow",
+      "path": "concurrent_workflow.md",
+      "words": 320,
+      "unique_words": 178,
+      "characters": 2271,
+      "characters_no_spaces": 1941
+    },
+    {
+      "order": 10,
+      "title": "Chapter Derivation",
+      "path": "chapter_derivation.md",
+      "words": 595,
+      "unique_words": 307,
+      "characters": 4562,
+      "characters_no_spaces": 3895
+    },
+    {
+      "order": 11,
+      "title": "Cover Specification",
+      "path": "BOOK_COVER.md",
+      "words": 684,
+      "unique_words": 325,
+      "characters": 4842,
+      "characters_no_spaces": 4140
+    }
+  ]
+}

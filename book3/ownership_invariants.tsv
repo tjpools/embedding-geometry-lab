@@ -1,0 +1,13 @@
+rule_id	dimension	owner	applies_to	requirement
+C1	collaboration	book	meaning	Treat the human-transformer-tool-test loop as the operative system
+C2	collaboration	book	meaning	Keep collaboration distinct from co-authorship
+C3	collaboration	book	lineage,meaning	Keep manuscript assertions and transformer outputs attributable
+C4	collaboration	book	meaning,comparative_systems	Return interaction claims through evidence or counterexample
+P1	provenance	lineage	lineage	Separate primary text scholarly interpretation reconstruction and application
+P2	provenance	book	lineage,meaning	Keep learned relation distinct from cited provenance
+P3	provenance	book	lineage,closure,geometry,meaning,comparative_systems	Declare the evidence class of imported claims
+P4	provenance	comparative_systems	closure,geometry,comparative_systems	Use cases to test rather than universalize
+R1	responsibility	book	meaning	Keep selection verification publication and accountability human
+R2	responsibility	book	closure,geometry,comparative_systems	Preserve the scope of inherited technical evidence
+R3	responsibility	book	lineage,closure,geometry,meaning,comparative_systems	Expose interpretive assumptions limits and counterexamples
+R4	responsibility	book	geometry,meaning	Keep persuasive form distinct from verification

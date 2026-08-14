@@ -1,0 +1,1 @@
+"""Book Three analytics tests."""

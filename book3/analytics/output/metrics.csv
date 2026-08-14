@@ -1,0 +1,12 @@
+kind,order,title,path,words,unique_words,characters,characters_no_spaces,sentences,paragraphs,headings,code_blocks,figures,lexical_diversity,average_sentence_words,long_sentence_percent,cci,reading_ease_estimate,terminology_density,links,local_links,external_links,anchor_links,broken_links
+framing,1,Global Manifest,GLOBAL_MANIFEST.md,1230,528,9121,7855,72,25,12,1,0,42.9,17.1,11.1,2.88,15.1,43.9,6,6,0,0,0
+framing,2,Closure Probe Contract,CLOSURE_PROBE.md,490,253,3622,3120,13,7,7,0,0,51.6,37.7,30.8,1.86,-12.0,28.6,1,1,0,0,0
+framing,3,Book Structure,book_structure.md,535,281,4078,3530,35,13,12,1,0,52.5,15.3,5.7,2.69,9.5,48.6,10,10,0,0,0
+framing,4,Dependency Map,dependency_map.md,787,388,6698,5686,73,9,8,1,0,49.3,10.8,2.7,8.11,-4.3,55.9,6,6,0,0,0
+framing,5,Chapter Manifest,CHAPTER_MANIFEST.md,1637,593,12820,11160,96,31,21,1,0,36.2,17.1,9.4,3.1,0.1,45.8,5,5,0,0,0
+framing,6,Ownership Contract,OWNERSHIP_CONTRACT.md,737,377,5786,4905,33,5,19,0,0,51.2,22.3,6.1,6.6,-1.6,39.3,2,2,0,0,0
+framing,7,Provenance and Versioning,PROVENANCE.md,424,251,3199,2761,14,9,6,1,0,59.2,30.3,42.9,1.56,0.7,14.2,2,2,0,0,0
+framing,8,Interface Preface,INTERFACE_PREFACE.md,401,230,2993,2586,40,10,1,0,0,57.4,10.0,2.5,4.0,20.5,57.4,4,4,0,0,0
+framing,9,Concurrent Workflow,concurrent_workflow.md,320,178,2271,1941,16,6,6,1,0,55.6,20.0,6.2,2.67,25.3,21.9,2,2,0,0,0
+framing,10,Chapter Derivation,chapter_derivation.md,595,307,4562,3895,25,6,7,0,0,51.6,23.8,20.0,4.17,0.4,42.0,8,8,0,0,0
+framing,11,Cover Specification,BOOK_COVER.md,684,325,4842,4140,28,13,11,2,0,47.5,24.4,25.0,2.15,16.1,43.9,1,1,0,0,0

@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "mode": "framing",
+  "terms": [
+    "berkeley",
+    "closure",
+    "constraint",
+    "derivation",
+    "geometry",
+    "interface",
+    "interpretation",
+    "provenance",
+    "responsibility",
+    "transformer"
+  ],
+  "totals": {
+    "berkeley": 32,
+    "closure": 62,
+    "constraint": 4,
+    "derivation": 25,
+    "geometry": 38,
+    "interface": 15,
+    "interpretation": 39,
+    "provenance": 31,
+    "responsibility": 38,
+    "transformer": 49
+  },
+  "units": [
+    {
+      "order": 1,
+      "title": "Global Manifest",
+      "density_per_1000_words": 43.9,
+      "counts": {
+        "berkeley": 9,
+        "closure": 9,
+        "constraint": 0,
+        "derivation": 3,
+        "geometry": 4,
+        "interface": 2,
+        "interpretation": 3,
+        "provenance": 5,
+        "responsibility": 8,
+        "transformer": 11
+      }
+    },
+    {
+      "order": 2,
+      "title": "Closure Probe Contract",
+      "density_per_1000_words": 28.6,
+      "counts": {
+        "berkeley": 0,
+        "closure": 7,
+        "constraint": 0,
+        "derivation": 0,
+        "geometry": 0,
+        "interface": 0,
+        "interpretation": 0,
+        "provenance": 1,
+        "responsibility": 6,
+        "transformer": 0
+      }
+    },
+    {
+      "order": 3,
+      "title": "Book Structure",
+      "density_per_1000_words": 48.6,
+      "counts": {
+        "berkeley": 0,
+        "closure": 7,
+        "constraint": 0,
+        "derivation": 2,
+        "geometry": 3,
+        "interface": 0,
+        "interpretation": 1,
+        "provenance": 3,
+        "responsibility": 5,
+        "transformer": 5
+      }
+    },
+    {
+      "order": 4,
+      "title": "Dependency Map",
+      "density_per_1000_words": 55.9,
+      "counts": {
+        "berkeley": 1,
+        "closure": 12,
+        "constraint": 0,
+        "derivation": 4,
+        "geometry": 15,
+        "interface": 0,
+        "interpretation": 5,
+        "provenance": 2,
+        "responsibility": 2,
+        "transformer": 3
+      }
+    },
+    {
+      "order": 5,
+      "title": "Chapter Manifest",
+      "density_per_1000_words": 45.8,
+      "counts": {
+        "berkeley": 6,
+        "closure": 12,
+        "constraint": 2,
+        "derivation": 7,
+        "geometry": 8,
+        "interface": 5,
+        "interpretation": 16,
+        "provenance": 5,
+        "responsibility": 2,
+        "transformer": 12
+      }
+    },
+    {
+      "order": 6,
+      "title": "Ownership Contract",
+      "density_per_1000_words": 39.3,
+      "counts": {
+        "berkeley": 2,
+        "closure": 3,
+        "constraint": 0,
+        "derivation": 0,
+        "geometry": 2,
+        "interface": 0,
+        "interpretation": 3,
+        "provenance": 5,
+        "responsibility": 7,
+        "transformer": 7
+      }
+    },
+    {
+      "order": 7,
+      "title": "Provenance and Versioning",
+      "density_per_1000_words": 14.2,
+      "counts": {
+        "berkeley": 0,
+        "closure": 1,
+        "constraint": 0,
+        "derivation": 1,
+        "geometry": 0,
+        "interface": 0,
+        "interpretation": 0,
+        "provenance": 2,
+        "responsibility": 1,
+        "transformer": 1
+      }
+    },
+    {
+      "order": 8,
+      "title": "Interface Preface",
+      "density_per_1000_words": 57.4,
+      "counts": {
+        "berkeley": 1,
+        "closure": 2,
+        "constraint": 0,
+        "derivation": 0,
+        "geometry": 1,
+        "interface": 5,
+        "interpretation": 4,
+        "provenance": 1,
+        "responsibility": 3,
+        "transformer": 6
+      }
+    },
+    {
+      "order": 9,
+      "title": "Concurrent Workflow",
+      "density_per_1000_words": 21.9,
+      "counts": {
+        "berkeley": 0,
+        "closure": 2,
+        "constraint": 2,
+        "derivation": 0,
+        "geometry": 0,
+        "interface": 0,
+        "interpretation": 1,
+        "provenance": 1,
+        "responsibility": 1,
+        "transformer": 0
+      }
+    },
+    {
+      "order": 10,
+      "title": "Chapter Derivation",
+      "density_per_1000_words": 42.0,
+      "counts": {
+        "berkeley": 0,
+        "closure": 6,
+        "constraint": 0,
+        "derivation": 8,
+        "geometry": 0,
+        "interface": 3,
+        "interpretation": 1,
+        "provenance": 4,
+        "responsibility": 2,
+        "transformer": 1
+      }
+    },
+    {
+      "order": 11,
+      "title": "Cover Specification",
+      "density_per_1000_words": 43.9,
+      "counts": {
+        "berkeley": 13,
+        "closure": 1,
+        "constraint": 0,
+        "derivation": 0,
+        "geometry": 5,
+        "interface": 0,
+        "interpretation": 5,
+        "provenance": 2,
+        "responsibility": 1,
+        "transformer": 3
+      }
+    }
+  ]
+}

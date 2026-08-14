@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "mode": "framing",
+  "corpus": {
+    "units": 11,
+    "total_words": 7840,
+    "mean_words": 712.7,
+    "median_words": 595.0,
+    "minimum_words": 320,
+    "maximum_words": 1637,
+    "coefficient_of_variation": 0.528,
+    "distribution": [
+      {
+        "order": 1,
+        "title": "Global Manifest",
+        "words": 1230,
+        "delta_from_median": 635,
+        "ratio_to_median": 2.07
+      },
+      {
+        "order": 2,
+        "title": "Closure Probe Contract",
+        "words": 490,
+        "delta_from_median": -105,
+        "ratio_to_median": 0.82
+      },
+      {
+        "order": 3,
+        "title": "Book Structure",
+        "words": 535,
+        "delta_from_median": -60,
+        "ratio_to_median": 0.9
+      },
+      {
+        "order": 4,
+        "title": "Dependency Map",
+        "words": 787,
+        "delta_from_median": 192,
+        "ratio_to_median": 1.32
+      },
+      {
+        "order": 5,
+        "title": "Chapter Manifest",
+        "words": 1637,
+        "delta_from_median": 1042,
+        "ratio_to_median": 2.75
+      },
+      {
+        "order": 6,
+        "title": "Ownership Contract",
+        "words": 737,
+        "delta_from_median": 142,
+        "ratio_to_median": 1.24
+      },
+      {
+        "order": 7,
+        "title": "Provenance and Versioning",
+        "words": 424,
+        "delta_from_median": -171,
+        "ratio_to_median": 0.71
+      },
+      {
+        "order": 8,
+        "title": "Interface Preface",
+        "words": 401,
+        "delta_from_median": -194,
+        "ratio_to_median": 0.67
+      },
+      {
+        "order": 9,
+        "title": "Concurrent Workflow",
+        "words": 320,
+        "delta_from_median": -275,
+        "ratio_to_median": 0.54
+      },
+      {
+        "order": 10,
+        "title": "Chapter Derivation",
+        "words": 595,
+        "delta_from_median": 0,
+        "ratio_to_median": 1.0
+      },
+      {
+        "order": 11,
+        "title": "Cover Specification",
+        "words": 684,
+        "delta_from_median": 89,
+        "ratio_to_median": 1.15
+      }
+    ]
+  },
+  "architecture": {
+    "module_count": 21,
+    "edge_count": 40,
+    "chapter_count": 14,
+    "layers": [
+      [
+        "closure.operations",
+        "lineage.berkeley",
+        "lineage.leibniz",
+        "lineage.modern_geometry",
+        "lineage.transformers"
+      ],
+      [
+        "closure.constraints",
+        "geometry.manifolds",
+        "lineage.kant"
+      ],
+      [
+        "closure.interfaces",
+        "geometry.trajectories"
+      ],
+      [
+        "closure.limits",
+        "comparative_systems.engineered_systems",
+        "comparative_systems.programming_languages",
+        "geometry.attention_geometry",
+        "geometry.non_commutativity"
+      ],
+      [
+        "comparative_systems.rubiks_cube",
+        "comparative_systems.transformers"
+      ],
+      [
+        "meaning.derivation"
+      ],
+      [
+        "meaning.interpretation"
+      ],
+      [
+        "meaning.limits"
+      ],
+      [
+        "meaning.anti_narrative"
+      ]
+    ],
+    "chapter_density": [
+      {
+        "chapter": 1,
+        "modules": [
+          "lineage.berkeley"
+        ],
+        "module_count": 1,
+        "incoming_dependencies": 0,
+        "internal_dependencies": 0,
+        "outgoing_dependencies": 2,
+        "cross_crate_edges": 1
+      },
+      {
+        "chapter": 2,
+        "modules": [
+          "lineage.leibniz"
+        ],
+        "module_count": 1,
+        "incoming_dependencies": 0,
+        "internal_dependencies": 0,
+        "outgoing_dependencies": 2,
+        "cross_crate_edges": 1
+      },
+      {
+        "chapter": 3,
+        "modules": [
+          "lineage.kant"
+        ],
+        "module_count": 1,
+        "incoming_dependencies": 2,
+        "internal_dependencies": 0,
+        "outgoing_dependencies": 1,
+        "cross_crate_edges": 1
+      },
+      {
+        "chapter": 4,
+        "modules": [
+          "closure.constraints",
+          "closure.operations"
+        ],
+        "module_count": 2,
+        "incoming_dependencies": 0,
+        "internal_dependencies": 1,
+        "outgoing_dependencies": 7,
+        "cross_crate_edges": 5
+      },
+      {
+        "chapter": 5,
+        "modules": [
+          "geometry.manifolds",
+          "lineage.modern_geometry"
+        ],
+        "module_count": 2,
+        "incoming_dependencies": 0,
+        "internal_dependencies": 1,
+        "outgoing_dependencies": 2,
+        "cross_crate_edges": 1
+      },
+      {
+        "chapter": 6,
+        "modules": [
+          "closure.interfaces",
+          "geometry.trajectories"
+        ],
+        "module_count": 2,
+        "incoming_dependencies": 2,
+        "internal_dependencies": 0,
+        "outgoing_dependencies": 8,
+        "cross_crate_edges": 5
+      },
+      {
+        "chapter": 7,
+        "modules": [
+          "comparative_systems.rubiks_cube",
+          "geometry.non_commutativity"
+        ],
+        "module_count": 2,
+        "incoming_dependencies": 3,
+        "internal_dependencies": 1,
+        "outgoing_dependencies": 1,
+        "cross_crate_edges": 2
+      },
+      {
+        "chapter": 8,
+        "modules": [
+          "closure.limits"
+        ],
+        "module_count": 1,
+        "incoming_dependencies": 2,
+        "internal_dependencies": 0,
+        "outgoing_dependencies": 1,
+        "cross_crate_edges": 1
+      },
+      {
+        "chapter": 9,
+        "modules": [
+          "comparative_systems.engineered_systems",
+          "comparative_systems.programming_languages"
+        ],
+        "module_count": 2,
+        "incoming_dependencies": 4,
+        "internal_dependencies": 0,
+        "outgoing_dependencies": 2,
+        "cross_crate_edges": 2
+      },
+      {
+        "chapter": 10,
+        "modules": [
+          "comparative_systems.transformers",
+          "geometry.attention_geometry",
+          "lineage.transformers"
+        ],
+        "module_count": 3,
+        "incoming_dependencies": 3,
+        "internal_dependencies": 3,
+        "outgoing_dependencies": 3,
+        "cross_crate_edges": 6
+      },
+      {
+        "chapter": 11,
+        "modules": [
+          "meaning.derivation"
+        ],
+        "module_count": 1,
+        "incoming_dependencies": 5,
+        "internal_dependencies": 0,
+        "outgoing_dependencies": 2,
+        "cross_crate_edges": 0
+      },
+      {
+        "chapter": 12,
+        "modules": [
+          "meaning.interpretation"
+        ],
+        "module_count": 1,
+        "incoming_dependencies": 4,
+        "internal_dependencies": 0,
+        "outgoing_dependencies": 2,
+        "cross_crate_edges": 0
+      },
+      {
+        "chapter": 13,
+        "modules": [
+          "meaning.limits"
+        ],
+        "module_count": 1,
+        "incoming_dependencies": 5,
+        "internal_dependencies": 0,
+        "outgoing_dependencies": 1,
+        "cross_crate_edges": 0
+      },
+      {
+        "chapter": 14,
+        "modules": [
+          "meaning.anti_narrative"
+        ],
+        "module_count": 1,
+        "incoming_dependencies": 4,
+        "internal_dependencies": 0,
+        "outgoing_dependencies": 0,
+        "cross_crate_edges": 0
+      }
+    ]
+  }
+}
