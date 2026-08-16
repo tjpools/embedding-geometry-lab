@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Tensor Work on Parallel Lanes</title>
+  <desc id="description">Two batched input tensors feed eight output coordinates assigned across four abstract lanes. The assembled output equals the serial reference. A dashed control omits coordinate one-one-one and leaves one output cell empty.</desc>
+  <metadata>Original visual by Terrence J McLaughlin; generated from the verified Chapter 7 probe; August 13, 2026.</metadata>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#141719" />
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="#f7f7f3" />
+  <text x="600.0" y="54" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" text-anchor="middle" letter-spacing="0">TENSOR WORK ON PARALLEL LANES</text>
+  <text x="600.0" y="88" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="middle" letter-spacing="0">shape, partition, complete assignment, one assembled result</text>
+  <text x="195" y="126" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">BATCHED INPUTS</text>
+  <text x="600" y="126" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">DISJOINT OUTPUT WORK</text>
+  <text x="1005" y="126" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">ASSEMBLED RESULT</text>
+  <rect x="45" y="150" width="300" height="150" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="65" y="178" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="start" letter-spacing="0">A  shape (2, 2, 3)</text>
+  <text x="65" y="205" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0">batch 0</text>
+  <text x="65" y="232" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">[1  2  0]</text>
+  <text x="65" y="256" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">[-1  3  1]</text>
+  <text x="203" y="205" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0">batch 1</text>
+  <text x="203" y="232" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">[2  0  1]</text>
+  <text x="203" y="256" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">[1  -2  2]</text>
+  <rect x="45" y="345" width="300" height="150" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="65" y="373" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="start" letter-spacing="0">B  shape (2, 3, 2)</text>
+  <text x="65" y="400" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0">batch 0</text>
+  <text x="65" y="427" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">[1  2]</text>
+  <text x="65" y="451" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">[0  1]</text>
+  <text x="65" y="475" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">[3  -1]</text>
+  <text x="203" y="400" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="start" letter-spacing="0">batch 1</text>
+  <text x="203" y="427" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">[2  1]</text>
+  <text x="203" y="451" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">[1  0]</text>
+  <text x="203" y="475" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">[-1  2]</text>
+  <rect x="405" y="150" width="390" height="62" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="425" y="175" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="0">LANE 0</text>
+  <text x="500" y="189" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">(0,0,0) -&gt; 1    (1,0,0) -&gt; 3</text>
+  <rect x="405" y="238" width="390" height="62" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="425" y="263" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="0">LANE 1</text>
+  <text x="500" y="277" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">(0,0,1) -&gt; 4    (1,0,1) -&gt; 4</text>
+  <rect x="405" y="326" width="390" height="62" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="425" y="351" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="0">LANE 2</text>
+  <text x="500" y="365" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">(0,1,0) -&gt; 2    (1,1,0) -&gt; -2</text>
+  <rect x="405" y="414" width="390" height="62" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="425" y="439" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="0">LANE 3</text>
+  <text x="500" y="453" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="start" letter-spacing="0">(0,1,1) -&gt; 0    (1,1,1) -&gt; 5</text>
+  <line x1="355" y1="323" x2="393" y2="323" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <line x1="807" y1="323" x2="843" y2="323" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <text x="600" y="505" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">3 product terms per output cell</text>
+  <rect x="855" y="150" width="300" height="345" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="875" y="182" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="start" letter-spacing="0">C  shape (2, 2, 2)</text>
+  <text x="895" y="225" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="0">batch 0</text>
+  <text x="895" y="260" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="start" letter-spacing="0">[1  4]</text>
+  <text x="895" y="292" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="start" letter-spacing="0">[2  0]</text>
+  <text x="895" y="350" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="0">batch 1</text>
+  <text x="895" y="385" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="start" letter-spacing="0">[3  4]</text>
+  <text x="895" y="417" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="start" letter-spacing="0">[-2  5]</text>
+  <text x="1005" y="465" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">equals serial reference</text>
+  <rect x="120" y="565" width="960" height="125" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" stroke-dasharray="10 7" />
+  <text x="145" y="596" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="start" letter-spacing="0">OMITTED-WORK CONTROL</text>
+  <text x="145" y="630" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="start" letter-spacing="0">remove (1, 1, 1) from LANE 3</text>
+  <line x1="430" y1="625" x2="535" y2="625" stroke="#141719" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#arrow)" />
+  <text x="565" y="632" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="start" letter-spacing="0">batch 1  [[3  4]  [-2  EMPTY]]</text>
+  <text x="805" y="664" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start" letter-spacing="0">not equal to reference</text>
+  <text x="600" y="732" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">abstract work lanes; no GPU execution or timing measured</text>
+</svg>

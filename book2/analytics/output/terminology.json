@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "mode": "chapter",
+  "terms": [
+    "architecture",
+    "constraint",
+    "execution",
+    "geometry",
+    "interface",
+    "representation",
+    "structure",
+    "transformer"
+  ],
+  "totals": {
+    "architecture": 76,
+    "constraint": 14,
+    "execution": 28,
+    "geometry": 21,
+    "interface": 41,
+    "representation": 51,
+    "structure": 22,
+    "transformer": 34
+  },
+  "units": [
+    {
+      "order": 1,
+      "title": "Chapter 1 \u2014 Rules, Operations, and Programs",
+      "density_per_1000_words": 5.9,
+      "counts": {
+        "architecture": 0,
+        "constraint": 4,
+        "execution": 1,
+        "geometry": 0,
+        "interface": 0,
+        "representation": 1,
+        "structure": 1,
+        "transformer": 2
+      }
+    },
+    {
+      "order": 2,
+      "title": "Chapter 2 \u2014 Representation Becomes Numerical",
+      "density_per_1000_words": 7.5,
+      "counts": {
+        "architecture": 0,
+        "constraint": 0,
+        "execution": 0,
+        "geometry": 1,
+        "interface": 1,
+        "representation": 9,
+        "structure": 0,
+        "transformer": 0
+      }
+    },
+    {
+      "order": 3,
+      "title": "Chapter 3 \u2014 Reasoning Under Uncertainty",
+      "density_per_1000_words": 1.3,
+      "counts": {
+        "architecture": 0,
+        "constraint": 0,
+        "execution": 0,
+        "geometry": 0,
+        "interface": 0,
+        "representation": 2,
+        "structure": 0,
+        "transformer": 0
+      }
+    },
+    {
+      "order": 4,
+      "title": "Chapter 4 \u2014 Transformations and Change",
+      "density_per_1000_words": 5.2,
+      "counts": {
+        "architecture": 0,
+        "constraint": 0,
+        "execution": 1,
+        "geometry": 1,
+        "interface": 0,
+        "representation": 2,
+        "structure": 4,
+        "transformer": 0
+      }
+    },
+    {
+      "order": 5,
+      "title": "Chapter 5 \u2014 Memory, Types, and Translation",
+      "density_per_1000_words": 8.7,
+      "counts": {
+        "architecture": 0,
+        "constraint": 0,
+        "execution": 0,
+        "geometry": 0,
+        "interface": 2,
+        "representation": 9,
+        "structure": 2,
+        "transformer": 0
+      }
+    },
+    {
+      "order": 6,
+      "title": "Chapter 6 \u2014 Learning by Adjustment",
+      "density_per_1000_words": 0.6,
+      "counts": {
+        "architecture": 0,
+        "constraint": 0,
+        "execution": 0,
+        "geometry": 1,
+        "interface": 0,
+        "representation": 0,
+        "structure": 0,
+        "transformer": 0
+      }
+    },
+    {
+      "order": 7,
+      "title": "Chapter 7 \u2014 Tensors and Parallel Machines",
+      "density_per_1000_words": 8.9,
+      "counts": {
+        "architecture": 1,
+        "constraint": 1,
+        "execution": 5,
+        "geometry": 1,
+        "interface": 1,
+        "representation": 0,
+        "structure": 4,
+        "transformer": 1
+      }
+    },
+    {
+      "order": 8,
+      "title": "Chapter 8 \u2014 Learned Spaces",
+      "density_per_1000_words": 14.0,
+      "counts": {
+        "architecture": 2,
+        "constraint": 1,
+        "execution": 1,
+        "geometry": 7,
+        "interface": 0,
+        "representation": 6,
+        "structure": 2,
+        "transformer": 0
+      }
+    },
+    {
+      "order": 9,
+      "title": "Chapter 9 \u2014 Sequence, Memory, and Runtime",
+      "density_per_1000_words": 8.4,
+      "counts": {
+        "architecture": 4,
+        "constraint": 3,
+        "execution": 2,
+        "geometry": 2,
+        "interface": 0,
+        "representation": 0,
+        "structure": 3,
+        "transformer": 0
+      }
+    },
+    {
+      "order": 10,
+      "title": "Chapter 10 \u2014 Attention Changes the Path",
+      "density_per_1000_words": 8.0,
+      "counts": {
+        "architecture": 3,
+        "constraint": 2,
+        "execution": 0,
+        "geometry": 0,
+        "interface": 1,
+        "representation": 1,
+        "structure": 1,
+        "transformer": 5
+      }
+    },
+    {
+      "order": 11,
+      "title": "Chapter 11 \u2014 The Transformer",
+      "density_per_1000_words": 21.0,
+      "counts": {
+        "architecture": 6,
+        "constraint": 0,
+        "execution": 2,
+        "geometry": 0,
+        "interface": 8,
+        "representation": 2,
+        "structure": 2,
+        "transformer": 12
+      }
+    },
+    {
+      "order": 12,
+      "title": "Chapter 12 \u2014 From Paper to Tool",
+      "density_per_1000_words": 20.1,
+      "counts": {
+        "architecture": 17,
+        "constraint": 0,
+        "execution": 3,
+        "geometry": 0,
+        "interface": 7,
+        "representation": 0,
+        "structure": 2,
+        "transformer": 3
+      }
+    },
+    {
+      "order": 13,
+      "title": "Chapter 13 \u2014 Where the Journeys Meet",
+      "density_per_1000_words": 28.5,
+      "counts": {
+        "architecture": 13,
+        "constraint": 0,
+        "execution": 1,
+        "geometry": 8,
+        "interface": 8,
+        "representation": 5,
+        "structure": 0,
+        "transformer": 7
+      }
+    },
+    {
+      "order": 14,
+      "title": "Chapter 14 \u2014 Architecture in Full",
+      "density_per_1000_words": 24.1,
+      "counts": {
+        "architecture": 20,
+        "constraint": 1,
+        "execution": 5,
+        "geometry": 0,
+        "interface": 8,
+        "representation": 3,
+        "structure": 0,
+        "transformer": 2
+      }
+    },
+    {
+      "order": 15,
+      "title": "Chapter 15 \u2014 A Token Through the Machine",
+      "density_per_1000_words": 9.3,
+      "counts": {
+        "architecture": 3,
+        "constraint": 0,
+        "execution": 6,
+        "geometry": 0,
+        "interface": 2,
+        "representation": 2,
+        "structure": 0,
+        "transformer": 1
+      }
+    },
+    {
+      "order": 16,
+      "title": "Chapter 16 \u2014 Measured Limits",
+      "density_per_1000_words": 14.9,
+      "counts": {
+        "architecture": 7,
+        "constraint": 2,
+        "execution": 1,
+        "geometry": 0,
+        "interface": 3,
+        "representation": 9,
+        "structure": 1,
+        "transformer": 1
+      }
+    }
+  ]
+}

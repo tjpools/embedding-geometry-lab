@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">The Shape of Updated Belief</title>
+  <desc id="description">A shared probability axis shows locked increasing from prior 0.6 to posterior 0.8 and unlocked decreasing from prior 0.4 to posterior 0.2 after likelihood weighting by 0.8 and 0.3 and normalization by evidence probability 0.60. Sensitivity marks show alternate posterior values without selecting a certain state.</desc>
+  <metadata>Original visual by Terrence J McLaughlin; generated from chapter_03_bayesian_update_probe.py; August 12, 2026.</metadata>
+  <rect width="1200" height="760" fill="#f7f7f3" />
+  <text x="600.0" y="62" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="38" font-weight="700" text-anchor="middle" letter-spacing="0">THE SHAPE OF UPDATED BELIEF</text>
+  <text x="600.0" y="102" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="400" text-anchor="middle" letter-spacing="0">same hypotheses, same evidence, declared assumptions</text>
+  <line x1="112" y1="180.0" x2="112" y2="620.0" stroke="#141719" stroke-width="3" />
+  <text x="112" y="164" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">PROBABILITY</text>
+  <line x1="104" y1="620.0" x2="120" y2="620.0" stroke="#141719" stroke-width="2" />
+  <line x1="120" y1="620.0" x2="1080" y2="620.0" stroke="#141719" stroke-width="1" opacity="0.14" />
+  <text x="94" y="626.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="end" letter-spacing="0">0</text>
+  <line x1="104" y1="532.0" x2="120" y2="532.0" stroke="#141719" stroke-width="2" />
+  <line x1="120" y1="532.0" x2="1080" y2="532.0" stroke="#141719" stroke-width="1" opacity="0.14" />
+  <text x="94" y="538.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="end" letter-spacing="0">0.2</text>
+  <line x1="104" y1="444.0" x2="120" y2="444.0" stroke="#141719" stroke-width="2" />
+  <line x1="120" y1="444.0" x2="1080" y2="444.0" stroke="#141719" stroke-width="1" opacity="0.14" />
+  <text x="94" y="450.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="end" letter-spacing="0">0.4</text>
+  <line x1="104" y1="356.0" x2="120" y2="356.0" stroke="#141719" stroke-width="2" />
+  <line x1="120" y1="356.0" x2="1080" y2="356.0" stroke="#141719" stroke-width="1" opacity="0.14" />
+  <text x="94" y="362.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="end" letter-spacing="0">0.6</text>
+  <line x1="104" y1="268.0" x2="120" y2="268.0" stroke="#141719" stroke-width="2" />
+  <line x1="120" y1="268.0" x2="1080" y2="268.0" stroke="#141719" stroke-width="1" opacity="0.14" />
+  <text x="94" y="274.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="end" letter-spacing="0">0.8</text>
+  <line x1="104" y1="180.0" x2="120" y2="180.0" stroke="#141719" stroke-width="2" />
+  <line x1="120" y1="180.0" x2="1080" y2="180.0" stroke="#141719" stroke-width="1" opacity="0.14" />
+  <text x="94" y="186.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="400" text-anchor="end" letter-spacing="0">1</text>
+  <text x="300" y="145" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="0">PRIOR</text>
+  <text x="595" y="145" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="0">EVIDENCE: red</text>
+  <text x="890" y="145" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="0">POSTERIOR</text>
+  <line x1="300" y1="180.0" x2="300" y2="620.0" stroke="#141719" stroke-width="3" />
+  <line x1="890" y1="180.0" x2="890" y2="620.0" stroke="#141719" stroke-width="3" />
+  <line x1="300" y1="356.0" x2="495" y2="312.0" stroke="#141719" stroke-width="4" stroke-dasharray="none" />
+  <line x1="695" y1="312.0" x2="890" y2="268.0" stroke="#141719" stroke-width="4" stroke-dasharray="none" />
+  <circle cx="300" cy="356.0" r="15" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <circle cx="890" cy="268.0" r="15" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <rect x="495" y="280.0" width="200" height="64" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="595" y="320.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">× 0.8  →  0.48</text>
+  <text x="274" y="332.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="end" letter-spacing="0">LOCKED  0.6</text>
+  <text x="916" y="244.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="start" letter-spacing="0">0.8  LOCKED</text>
+  <line x1="300" y1="444.0" x2="495" y2="488.0" stroke="#141719" stroke-width="4" stroke-dasharray="10 8" />
+  <line x1="695" y1="488.0" x2="890" y2="532.0" stroke="#141719" stroke-width="4" stroke-dasharray="10 8" />
+  <rect x="286" y="430.0" width="28" height="28" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <rect x="876" y="518.0" width="28" height="28" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <rect x="495" y="456.0" width="200" height="64" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="595" y="496.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">× 0.3  →  0.12</text>
+  <text x="274" y="420.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="end" letter-spacing="0">UNLOCKED  0.4</text>
+  <text x="916" y="508.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="start" letter-spacing="0">0.2  UNLOCKED</text>
+  <rect x="425" y="650" width="340" height="54" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="595" y="683" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">NORMALIZE BY P(red) = 0.60</text>
+  <text x="1050" y="164" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">SENSITIVITY</text>
+  <text x="1000" y="188" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="middle" letter-spacing="0">prior</text>
+  <text x="1090" y="188" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="middle" letter-spacing="0">likelihood</text>
+  <line x1="985" y1="338.3999999999999" x2="1015" y2="338.3999999999999" stroke="#141719" stroke-width="5" />
+  <circle cx="1000" cy="338.3999999999999" r="7" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <text x="1000" y="325.3999999999999" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">0.64</text>
+  <line x1="1075" y1="305.7142857142857" x2="1105" y2="305.7142857142857" stroke="#141719" stroke-width="5" />
+  <circle cx="1090" cy="305.7142857142857" r="7" fill="#efefb7" stroke="#141719" stroke-width="2" />
+  <text x="1090" y="292.7142857142857" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">0.714</text>
+  <line x1="985" y1="461.6" x2="1015" y2="461.6" stroke="#141719" stroke-width="5" />
+  <circle cx="1000" cy="461.6" r="7" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <text x="1000" y="448.6" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">0.36</text>
+  <line x1="1075" y1="494.2857142857143" x2="1105" y2="494.2857142857143" stroke="#141719" stroke-width="5" />
+  <circle cx="1090" cy="494.2857142857143" r="7" fill="#efefb7" stroke="#141719" stroke-width="2" />
+  <text x="1090" y="481.2857142857143" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">0.286</text>
+  <text x="185" y="728" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start" letter-spacing="0">circle + solid = locked</text>
+  <text x="425" y="728" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start" letter-spacing="0">square + dashed = unlocked</text>
+  <text x="1015" y="728" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="end" letter-spacing="0">posterior remains a distribution, not a decision</text>
+</svg>

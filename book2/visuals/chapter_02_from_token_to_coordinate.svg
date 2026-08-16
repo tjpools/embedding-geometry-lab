@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">From Token to Coordinate</title>
+  <desc id="description">Source text OPEN is normalized to open and split into the token open. In the base vocabulary, open has identifier 3, one-hot coordinate 0 0 0 1, and selects vector 0.2 0.9 0.5. After a consistent vocabulary and table permutation, open has identifier 1 and coordinate 0 1 0 0 but selects the same vector. Under the declared unknown policy, ajar and obstructed both map to identifier 0 and zero vector.</desc>
+  <metadata>Original visual by Terrence J McLaughlin; generated from chapter_02_representation_probe.py; August 12, 2026.</metadata>
+  <rect width="1200" height="760" fill="#f7f7f3" />
+  <text x="600.0" y="52" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" text-anchor="middle" letter-spacing="0">FROM TOKEN TO COORDINATE</text>
+  <text x="600.0" y="88" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400" text-anchor="middle" letter-spacing="0">each boundary applies a declared representation rule</text>
+  <rect x="55" y="120" width="190" height="82" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="150.0" y="145" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">SOURCE TEXT</text>
+  <text x="150.0" y="178" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">SPACE | OPEN | SPACE</text>
+  <rect x="315" y="120" width="230" height="82" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="430.0" y="145" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">NORMALIZE</text>
+  <text x="430.0" y="178" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">NFC + casefold + trim</text>
+  <rect x="615" y="120" width="170" height="82" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="700.0" y="145" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">NORMALIZED</text>
+  <text x="700.0" y="178" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">'open'</text>
+  <rect x="855" y="120" width="290" height="82" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="1000.0" y="145" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">SPLIT ON WHITESPACE</text>
+  <text x="1000.0" y="178" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">token: open</text>
+  <line x1="245" y1="161" x2="295" y2="161" stroke="#141719" stroke-width="3" />
+  <polygon points="295,154 305,161 295,168" fill="#141719" />
+  <line x1="545" y1="161" x2="595" y2="161" stroke="#141719" stroke-width="3" />
+  <polygon points="595,154 605,161 595,168" fill="#141719" />
+  <line x1="785" y1="161" x2="835" y2="161" stroke="#141719" stroke-width="3" />
+  <polygon points="835,154 845,161 835,168" fill="#141719" />
+  <text x="245" y="278" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">TOKEN</text>
+  <text x="445" y="278" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">VOCABULARY ENTRY</text>
+  <text x="625" y="278" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">IDENTIFIER</text>
+  <text x="825" y="278" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">ONE-HOT COORDINATE</text>
+  <text x="1060" y="278" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">SELECTED VECTOR</text>
+  <text x="35" y="369" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0">BASE ASSIGNMENT</text>
+  <rect x="185" y="320" width="120" height="82" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="245.0" y="345" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">TOKEN</text>
+  <text x="245.0" y="378" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">open</text>
+  <rect x="350" y="320" width="190" height="82" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="445.0" y="345" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">ASSIGNMENT</text>
+  <text x="445.0" y="378" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">open → 3</text>
+  <rect x="585" y="320" width="90" height="82" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="630.0" y="345" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">ID</text>
+  <text x="630.0" y="378" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">3</text>
+  <rect x="720" y="320" width="220" height="82" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="830.0" y="345" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">DIMENSION 4</text>
+  <text x="830.0" y="378" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">[0, 0, 0, 1]</text>
+  <rect x="985" y="320" width="175" height="82" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="1072.5" y="345" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">LOOKUP ROW</text>
+  <text x="1072.5" y="378" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">(0.2, 0.9, 0.5)</text>
+  <line x1="305" y1="361" x2="330" y2="361" stroke="#141719" stroke-width="3" />
+  <polygon points="330,354 340,361 330,368" fill="#141719" />
+  <line x1="540" y1="361" x2="565" y2="361" stroke="#141719" stroke-width="3" />
+  <polygon points="565,354 575,361 565,368" fill="#141719" />
+  <line x1="675" y1="361" x2="700" y2="361" stroke="#141719" stroke-width="3" />
+  <polygon points="700,354 710,361 700,368" fill="#141719" />
+  <line x1="940" y1="361" x2="965" y2="361" stroke="#141719" stroke-width="3" />
+  <polygon points="965,354 975,361 965,368" fill="#141719" />
+  <text x="35" y="493" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0">CONSISTENT</text>
+  <text x="35" y="513" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0">PERMUTATION</text>
+  <rect x="185" y="455" width="120" height="82" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="245.0" y="480" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">TOKEN</text>
+  <text x="245.0" y="513" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">open</text>
+  <rect x="350" y="455" width="190" height="82" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="445.0" y="480" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">ASSIGNMENT</text>
+  <text x="445.0" y="513" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">open → 1</text>
+  <rect x="585" y="455" width="90" height="82" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="630.0" y="480" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">ID</text>
+  <text x="630.0" y="513" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">1</text>
+  <rect x="720" y="455" width="220" height="82" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="830.0" y="480" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">DIMENSION 4</text>
+  <text x="830.0" y="513" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">[0, 1, 0, 0]</text>
+  <rect x="985" y="455" width="175" height="82" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="1072.5" y="480" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">LOOKUP ROW</text>
+  <text x="1072.5" y="513" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">(0.2, 0.9, 0.5)</text>
+  <line x1="305" y1="496" x2="330" y2="496" stroke="#141719" stroke-width="3" />
+  <polygon points="330,489 340,496 330,503" fill="#141719" />
+  <line x1="540" y1="496" x2="565" y2="496" stroke="#141719" stroke-width="3" />
+  <polygon points="565,489 575,496 565,503" fill="#141719" />
+  <line x1="675" y1="496" x2="700" y2="496" stroke="#141719" stroke-width="3" />
+  <polygon points="700,489 710,496 700,503" fill="#141719" />
+  <line x1="940" y1="496" x2="965" y2="496" stroke="#141719" stroke-width="3" />
+  <polygon points="965,489 975,496 965,503" fill="#141719" />
+  <text x="630" y="430" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">changes</text>
+  <line x1="630" y1="408" x2="630" y2="447" stroke="#141719" stroke-width="2" stroke-dasharray="6 5" />
+  <text x="830" y="430" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">changes position</text>
+  <line x1="830" y1="408" x2="830" y2="447" stroke="#141719" stroke-width="2" stroke-dasharray="6 5" />
+  <text x="1072" y="430" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">same row value</text>
+  <line x1="1072" y1="408" x2="1072" y2="447" stroke="#141719" stroke-width="2" stroke-dasharray="6 5" />
+  <rect x="85" y="575" width="1030" height="64" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="600" y="614" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">RENUMBERING CHANGES THE INDEX AND COORDINATE; ALIGNED LOOKUP PRESERVES THE SELECTED VECTOR</text>
+  <rect x="85" y="665" width="1030" height="54" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" stroke-dasharray="8 6" />
+  <text x="600" y="699" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">DECLARED UNKNOWN POLICY: ajar + obstructed → ID 0 → (0, 0, 0)  |  distinction discarded</text>
+</svg>

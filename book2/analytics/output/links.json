@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "mode": "chapter",
+  "broken_local_links": 0,
+  "external_link_policy": "inventoried_not_network_checked",
+  "units": [
+    {
+      "order": 1,
+      "title": "Chapter 1 \u2014 Rules, Operations, and Programs",
+      "path": "chapters/chapter_01.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 2,
+      "title": "Chapter 2 \u2014 Representation Becomes Numerical",
+      "path": "chapters/chapter_02.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 3,
+      "title": "Chapter 3 \u2014 Reasoning Under Uncertainty",
+      "path": "chapters/chapter_03.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 4,
+      "title": "Chapter 4 \u2014 Transformations and Change",
+      "path": "chapters/chapter_04.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 5,
+      "title": "Chapter 5 \u2014 Memory, Types, and Translation",
+      "path": "chapters/chapter_05.md",
+      "links": 5,
+      "local_links": 5,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 6,
+      "title": "Chapter 6 \u2014 Learning by Adjustment",
+      "path": "chapters/chapter_06.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 7,
+      "title": "Chapter 7 \u2014 Tensors and Parallel Machines",
+      "path": "chapters/chapter_07.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 8,
+      "title": "Chapter 8 \u2014 Learned Spaces",
+      "path": "chapters/chapter_08.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 9,
+      "title": "Chapter 9 \u2014 Sequence, Memory, and Runtime",
+      "path": "chapters/chapter_09.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 10,
+      "title": "Chapter 10 \u2014 Attention Changes the Path",
+      "path": "chapters/chapter_10.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 11,
+      "title": "Chapter 11 \u2014 The Transformer",
+      "path": "chapters/chapter_11.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 12,
+      "title": "Chapter 12 \u2014 From Paper to Tool",
+      "path": "chapters/chapter_12.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 13,
+      "title": "Chapter 13 \u2014 Where the Journeys Meet",
+      "path": "chapters/chapter_13.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 14,
+      "title": "Chapter 14 \u2014 Architecture in Full",
+      "path": "chapters/chapter_14.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 15,
+      "title": "Chapter 15 \u2014 A Token Through the Machine",
+      "path": "chapters/chapter_15.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    },
+    {
+      "order": 16,
+      "title": "Chapter 16 \u2014 Measured Limits",
+      "path": "chapters/chapter_16.md",
+      "links": 4,
+      "local_links": 4,
+      "external_links": 0,
+      "anchor_links": 0,
+      "broken_links": 0,
+      "broken_targets": []
+    }
+  ]
+}

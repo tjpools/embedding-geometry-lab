@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">From Specification to Callable Tool</title>
+  <desc id="description">A deterministic contract chain connects an architecture specification, framework operation registry, serialized model package, validating loader, selected runtime capabilities, and callable request and response. A corrupted declared dimension follows a dashed path to rejection before construction or invocation.</desc>
+  <metadata>Original visual by Terrence J McLaughlin; generated from the verified Chapter 12 probe; August 14, 2026.</metadata>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#141719" />
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="#f7f7f3" />
+  <text x="600.0" y="54" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" text-anchor="middle" letter-spacing="0">From Specification to Callable Tool</text>
+  <text x="600.0" y="88" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle" letter-spacing="0">callability appears only when each boundary preserves its declared contract</text>
+  <path d="M 209 231 L 218 231" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 399 231 L 408 231" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 589 231 L 598 231" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 779 231 L 788 231" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <path d="M 969 231 L 978 231" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="35" y="160" width="170" height="142" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="120" y="193" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">SPECIFICATION</text>
+  <text x="120" y="226" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">book2.affine-row</text>
+  <text x="120" y="249" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">version 1.0</text>
+  <text x="120" y="272" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">dimensions 3 -&gt; 2</text>
+  <rect x="225" y="160" width="170" height="142" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="310" y="193" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">FRAMEWORK</text>
+  <text x="310" y="226" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">operation registry</text>
+  <text x="310" y="249" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">affine_row</text>
+  <text x="310" y="272" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">resolve by name</text>
+  <rect x="415" y="160" width="170" height="142" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="500" y="193" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">MODEL PACKAGE</text>
+  <text x="500" y="226" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">structured JSON</text>
+  <text x="500" y="249" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">381 bytes</text>
+  <text x="500" y="272" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">sha256 886c2466...</text>
+  <rect x="605" y="160" width="170" height="142" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="690" y="193" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">LOADER</text>
+  <text x="690" y="226" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">parse then validate</text>
+  <text x="690" y="249" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">shape + operation</text>
+  <text x="690" y="272" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">construct on pass</text>
+  <rect x="795" y="160" width="170" height="142" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="880" y="193" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">RUNTIME</text>
+  <text x="880" y="226" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">selected capabilities</text>
+  <text x="880" y="249" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">float64 arithmetic</text>
+  <text x="880" y="272" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">structured JSON</text>
+  <rect x="985" y="160" width="170" height="142" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="1070" y="193" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">CALLABLE</text>
+  <text x="1070" y="226" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">request vector.v1</text>
+  <text x="1070" y="249" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">internal affine row</text>
+  <text x="1070" y="272" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">response vector.v1</text>
+  <rect x="76" y="355" width="490" height="165" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <text x="100" y="388" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="start" letter-spacing="0">VALID PACKAGE PATH</text>
+  <text x="205" y="428" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">validation result</text>
+  <rect x="305" y="402" width="220" height="48" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="415" y="433" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">PACKAGE_VALID</text>
+  <text x="205" y="480" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">construction count = 2</text>
+  <text x="415" y="480" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">reload + reinvoke identical</text>
+  <rect x="634" y="355" width="490" height="165" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="658" y="388" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="start" letter-spacing="0">CALLABLE EXCHANGE</text>
+  <rect x="658" y="410" width="180" height="66" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="748" y="435" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">REQUEST</text>
+  <text x="748" y="460" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">[2, -1, 0.5]</text>
+  <path d="M 845 443 L 907 443" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="916" y="410" width="180" height="66" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="1006" y="435" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">RESPONSE</text>
+  <text x="1006" y="460" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">[3.25, -1.5]</text>
+  <text x="879" y="502" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">interface validation remains separate from package loading</text>
+  <path d="M 500 306 L 500 330 L 50 330 L 50 610 L 67 610" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" stroke-dasharray="9 7" />
+  <rect x="75" y="552" width="275" height="116" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" stroke-dasharray="9 7" />
+  <text x="212" y="583" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">CORRUPT PACKAGE</text>
+  <text x="212" y="612" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">input dimension: 3 -&gt; 4</text>
+  <text x="212" y="640" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">parameter payload unchanged</text>
+  <path d="M 357 610 L 467 610" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" stroke-dasharray="9 7" />
+  <rect x="476" y="552" width="648" height="116" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="800" y="583" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">REJECTED BEFORE INVOCATION</text>
+  <text x="800" y="616" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">PARAMETER_SHAPE_MISMATCH</text>
+  <text x="800" y="646" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">constructed: false   |   invoked: false</text>
+  <text x="600.0" y="718" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">deterministic, dependency-free fixture; not production compatibility, performance, quality, or full inference</text>
+</svg>

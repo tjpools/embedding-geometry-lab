@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">The Three-Lineage Interface</title>
+  <desc id="description">Three separate lanes carry AI architecture, mathematical geometry rules, and programming contracts through typed gates into one alignment record that preserves all three source identities. An outgoing arrow leads only to Chapter 14. Two lower controls reject a missing programming edge and vocabulary-only transform equivalence.</desc>
+  <metadata>Original visual by Terrence J McLaughlin; generated from the verified Chapter 13 probe; August 14, 2026.</metadata>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#141719" />
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="#f7f7f3" />
+  <text x="600.0" y="50" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" text-anchor="middle" letter-spacing="0">The Three-Lineage Interface</text>
+  <text x="600.0" y="82" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle" letter-spacing="0">typed handoffs align distinct capabilities without collapsing their identities</text>
+  <rect x="35" y="120" width="220" height="72" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="145" y="150" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">AI.TRANSFORMER</text>
+  <text x="145" y="174" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="400" text-anchor="middle" letter-spacing="0">AI lineage</text>
+  <path d="M 258 156 L 287 156" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="295" y="120" width="278" height="72" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="434" y="149" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">ORDERED ARCHITECTURE</text>
+  <text x="434" y="173" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="400" text-anchor="middle" letter-spacing="0">alignment.architecture.v1</text>
+  <path d="M 576 156 L 607 156" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="615" y="125" width="145" height="62" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <rect x="621" y="131" width="133" height="50" rx="3" fill="none" stroke="#141719" stroke-width="2" />
+  <text x="687" y="152" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="0">TYPED GATE 1</text>
+  <text x="687" y="172" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="0">exact triple</text>
+  <path d="M 763 156 L 792 156" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="35" y="230" width="220" height="72" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="145" y="260" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">MATH.GEOMETRY</text>
+  <text x="145" y="284" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="400" text-anchor="middle" letter-spacing="0">mathematics lineage</text>
+  <path d="M 258 266 L 287 266" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="295" y="230" width="278" height="72" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="434" y="259" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">TRANSFORM + COMPARE</text>
+  <text x="434" y="283" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="400" text-anchor="middle" letter-spacing="0">alignment.geometry.v1</text>
+  <path d="M 576 266 L 607 266" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="615" y="235" width="145" height="62" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <rect x="621" y="241" width="133" height="50" rx="3" fill="none" stroke="#141719" stroke-width="2" />
+  <text x="687" y="262" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="0">TYPED GATE 2</text>
+  <text x="687" y="282" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="0">exact triple</text>
+  <path d="M 763 266 L 792 266" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="35" y="340" width="220" height="72" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="145" y="370" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">PROGRAMMING.TOOLS</text>
+  <text x="145" y="394" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="400" text-anchor="middle" letter-spacing="0">programming lineage</text>
+  <path d="M 258 376 L 287 376" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="295" y="340" width="278" height="72" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="434" y="369" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">CALLABLE CONTRACTS</text>
+  <text x="434" y="393" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="400" text-anchor="middle" letter-spacing="0">alignment.implementation.v1</text>
+  <path d="M 576 376 L 607 376" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="615" y="345" width="145" height="62" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <rect x="621" y="351" width="133" height="50" rx="3" fill="none" stroke="#141719" stroke-width="2" />
+  <text x="687" y="372" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="0">TYPED GATE 3</text>
+  <text x="687" y="392" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="0">exact triple</text>
+  <path d="M 763 376 L 792 376" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="800" y="112" width="255" height="310" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <rect x="806" y="118" width="243" height="298" rx="3" fill="none" stroke="#141719" stroke-width="2" />
+  <text x="927" y="145" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">CONVERGENCE.ALIGNMENT</text>
+  <text x="927" y="170" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">accepted: 3 / required: 3</text>
+  <rect x="820" y="190" width="215" height="54" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <text x="837" y="213" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="start" letter-spacing="0">AI</text>
+  <text x="837" y="232" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">ai.transformer</text>
+  <rect x="820" y="260" width="215" height="54" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <text x="837" y="283" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="start" letter-spacing="0">MATHEMATICS</text>
+  <text x="837" y="302" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">math.geometry</text>
+  <rect x="820" y="330" width="215" height="54" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <text x="837" y="353" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="start" letter-spacing="0">PROGRAMMING</text>
+  <text x="837" y="372" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">programming.tools</text>
+  <text x="927" y="399" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">identities preserved</text>
+  <path d="M 1058 267 L 1082 267" fill="none" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="1090" y="205" width="90" height="124" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="1135" y="235" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="0">CHAPTER 14</text>
+  <text x="1135" y="267" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="0">CONVERGENCE.</text>
+  <text x="1135" y="285" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="0">ARCHITECTURE</text>
+  <text x="1135" y="311" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="0">inspect next</text>
+  <rect x="35" y="490" width="535" height="166" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" stroke-dasharray="9 7" />
+  <text x="60" y="522" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="0">CONTROL A — MISSING PROGRAMMING EDGE</text>
+  <text x="60" y="553" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start" letter-spacing="0">AI gate: accepted    |    mathematics gate: accepted</text>
+  <text x="60" y="582" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start" letter-spacing="0">programming.tools edge removed</text>
+  <rect x="60" y="600" width="485" height="38" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="302" y="625" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">UNSATISFIED: requirement.implementation</text>
+  <rect x="605" y="490" width="560" height="166" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" stroke-dasharray="9 7" />
+  <text x="630" y="522" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="0">CONTROL B — VOCABULARY IS NOT A TYPE</text>
+  <text x="630" y="553" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start" letter-spacing="0">shared term: transform</text>
+  <text x="630" y="582" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="start" letter-spacing="0">math.geometry attempts architecture requirement</text>
+  <rect x="630" y="600" width="510" height="38" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="885" y="625" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="0">REJECTED: source_module, capability_id, interface_id mismatch</text>
+  <text x="600.0" y="714" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">three exact interfaces meet here; scale, inference, limits, and philosophy remain outside this chapter</text>
+</svg>

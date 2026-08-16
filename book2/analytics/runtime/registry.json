@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "architecture": {
+    "modules": "modules.txt",
+    "dependencies": "dependencies.tsv",
+    "chapter_mapping": "chapter_modules.tsv"
+  },
+  "framing_sources": [
+    {"order": 1, "title": "Global Manifest", "path": "GLOBAL_MANIFEST.md"},
+    {"order": 2, "title": "Book Structure", "path": "book_structure.md"},
+    {"order": 3, "title": "Dependency Map", "path": "dependency_map.md"},
+    {"order": 4, "title": "Chapter Manifest", "path": "CHAPTER_MANIFEST.md"},
+    {"order": 5, "title": "Visual Language", "path": "VISUAL_LANGUAGE.md"},
+    {"order": 6, "title": "Visual Manifest", "path": "VISUAL_MANIFEST.md"},
+    {"order": 7, "title": "Manuscript Workflow", "path": "manuscript_workflow.md"},
+    {"order": 8, "title": "Cover Specification", "path": "BOOK_COVER.md"}
+  ],
+  "chapter_globs": [
+    "chapters/chapter_*.md",
+    "chapters/chapter-*.md",
+    "manuscript/chapter_*.md",
+    "manuscript/chapter-*.md"
+  ]
+}

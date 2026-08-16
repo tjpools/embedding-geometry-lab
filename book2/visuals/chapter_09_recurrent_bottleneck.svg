@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">The Recurrent Bottleneck</title>
+  <desc id="description">Five ordered inputs update hidden states h one through h five. Each state requires its predecessor, and final-state sensitivity to the first input crosses all five updates. A zero-recurrence control breaks cross-position sensitivity. Counts describe dependencies, not measured runtime.</desc>
+  <metadata>Original visual by Terrence J McLaughlin; generated from the verified Chapter 9 probe; August 14, 2026.</metadata>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#141719" />
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="#f7f7f3" />
+  <text x="600.0" y="52" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="35" font-weight="700" text-anchor="middle" letter-spacing="0">THE RECURRENT BOTTLENECK</text>
+  <text x="600.0" y="86" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="middle" letter-spacing="0">ordered state availability | sensitivity across the path | structural counts</text>
+  <text x="36" y="128" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="start" letter-spacing="0">FORWARD STATE PATH</text>
+  <rect x="27" y="195" width="116" height="70" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="85" y="225" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">h0</text>
+  <text x="85" y="250" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">0.100</text>
+  <rect x="227" y="195" width="116" height="70" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="285" y="225" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">h1</text>
+  <text x="285" y="250" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">0.245</text>
+  <line x1="147" y1="230" x2="217" y2="230" stroke="#141719" stroke-width="4" marker-end="url(#arrow)" />
+  <rect x="240" y="126" width="90" height="44" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="285" y="154" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">x1 = 0.2</text>
+  <line x1="285" y1="174" x2="285" y2="188" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="427" y="195" width="116" height="70" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="485" y="225" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">h2</text>
+  <text x="485" y="250" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">0.022</text>
+  <line x1="347" y1="230" x2="417" y2="230" stroke="#141719" stroke-width="4" marker-end="url(#arrow)" />
+  <rect x="440" y="126" width="90" height="44" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="485" y="154" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">x2 = -0.1</text>
+  <line x1="485" y1="174" x2="485" y2="188" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="627" y="195" width="116" height="70" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="685" y="225" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">h3</text>
+  <text x="685" y="250" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">0.390</text>
+  <line x1="547" y1="230" x2="617" y2="230" stroke="#141719" stroke-width="4" marker-end="url(#arrow)" />
+  <rect x="640" y="126" width="90" height="44" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="685" y="154" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">x3 = 0.4</text>
+  <line x1="685" y1="174" x2="685" y2="188" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="827" y="195" width="116" height="70" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="885" y="225" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">h4</text>
+  <text x="885" y="250" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">0.192</text>
+  <line x1="747" y1="230" x2="817" y2="230" stroke="#141719" stroke-width="4" marker-end="url(#arrow)" />
+  <rect x="840" y="126" width="90" height="44" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="885" y="154" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">x4 = 0.0</text>
+  <line x1="885" y1="174" x2="885" y2="188" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <rect x="1027" y="195" width="116" height="70" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="1085" y="225" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">h5</text>
+  <text x="1085" y="250" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">-0.103</text>
+  <line x1="947" y1="230" x2="1017" y2="230" stroke="#141719" stroke-width="4" marker-end="url(#arrow)" />
+  <rect x="1040" y="126" width="90" height="44" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="1085" y="154" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">x5 = -0.2</text>
+  <line x1="1085" y1="174" x2="1085" y2="188" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <text x="36" y="330" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="start" letter-spacing="0">FINAL-STATE SENSITIVITY</text>
+  <line x1="85" y1="374" x2="1085" y2="374" stroke="#141719" stroke-width="4" marker-end="url(#arrow)" />
+  <circle cx="285" cy="374" r="10" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="285" y="350" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">dh5/dx1</text>
+  <text x="285" y="409" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">0.047</text>
+  <circle cx="485" cy="374" r="10" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="485" y="350" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">dh5/dx2</text>
+  <text x="485" y="409" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">0.101</text>
+  <circle cx="685" cy="374" r="10" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="685" y="350" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">dh5/dx3</text>
+  <text x="685" y="409" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">0.202</text>
+  <circle cx="885" cy="374" r="10" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="885" y="350" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">dh5/dx4</text>
+  <text x="885" y="409" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">0.476</text>
+  <circle cx="1085" cy="374" r="10" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="1085" y="350" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">dh5/dx5</text>
+  <text x="1085" y="409" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">0.989</text>
+  <text x="600" y="438" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">x1 influence reaches h5 only through every intervening recurrent derivative</text>
+  <rect x="55" y="472" width="1090" height="82" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="80" y="500" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="start" letter-spacing="0">DECLARED STRUCTURAL COUNTS</text>
+  <text x="235" y="530" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">5 updates</text>
+  <text x="440" y="530" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">5 predecessor edges</text>
+  <text x="645" y="530" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">5 state reads</text>
+  <text x="850" y="530" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">5 state writes</text>
+  <text x="1055" y="530" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">depth 5</text>
+  <rect x="55" y="592" width="1090" height="92" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" stroke-dasharray="10 7" />
+  <text x="80" y="620" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="start" letter-spacing="0">ZERO-RECURRENCE CONTROL</text>
+  <text x="315" y="652" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">x1</text>
+  <line x1="345" y1="647" x2="540" y2="647" stroke="#141719" stroke-width="3" stroke-dasharray="9 7" />
+  <text x="442" y="638" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">BROKEN</text>
+  <text x="585" y="652" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">h5</text>
+  <text x="760" y="652" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">dh5/dx1..4 = 0</text>
+  <text x="980" y="652" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">dh5/dx5 = 0.961</text>
+  <text x="600.0" y="724" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">dependency and operation counts only; no timing, kernel, or memory-traffic measurement</text>
+</svg>

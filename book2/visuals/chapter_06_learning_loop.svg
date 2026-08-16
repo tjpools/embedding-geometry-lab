@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">The Learning Loop</title>
+  <desc id="description">A loss plot shows learning rate 0.2 decreasing loss over twelve updates while learning rate 1.2 leaves the plotted region toward final loss 197.53. A parameter plot shows weight and bias moving from zero toward two and one. Predict, loss, gradient, and update boxes form a repeated loop.</desc>
+  <metadata>Original visual by Terrence J McLaughlin; generated from the verified Chapter 6 probe; August 13, 2026.</metadata>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#141719" />
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="#f7f7f3" />
+  <text x="600.0" y="56" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" text-anchor="middle" letter-spacing="0">THE LEARNING LOOP</text>
+  <text x="600.0" y="92" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="400" text-anchor="middle" letter-spacing="0">objective, gradient, update size, repeated measurement</text>
+  <text x="373.5" y="137" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="middle" letter-spacing="0">TRAINING LOSS</text>
+  <line x1="92.0" y1="166.0" x2="92.0" y2="474.0" stroke="#141719" stroke-width="3" />
+  <line x1="92.0" y1="474.0" x2="655.0" y2="474.0" stroke="#141719" stroke-width="3" />
+  <line x1="85.0" y1="474.0" x2="655.0" y2="474.0" stroke="#141719" stroke-width="1" />
+  <text x="78.0" y="479.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="end" letter-spacing="0">0</text>
+  <line x1="85.0" y1="371.33333333333337" x2="655.0" y2="371.33333333333337" stroke="#141719" stroke-width="1" />
+  <text x="78.0" y="376.33333333333337" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="end" letter-spacing="0">1.5</text>
+  <line x1="85.0" y1="268.6666666666667" x2="655.0" y2="268.6666666666667" stroke="#141719" stroke-width="1" />
+  <text x="78.0" y="273.6666666666667" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="end" letter-spacing="0">3</text>
+  <line x1="85.0" y1="166.0" x2="655.0" y2="166.0" stroke="#141719" stroke-width="1" />
+  <text x="78.0" y="171.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="end" letter-spacing="0">4.5</text>
+  <line x1="92.0" y1="474.0" x2="92.0" y2="481.0" stroke="#141719" stroke-width="2" />
+  <text x="92.0" y="499.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">0</text>
+  <line x1="232.75" y1="474.0" x2="232.75" y2="481.0" stroke="#141719" stroke-width="2" />
+  <text x="232.75" y="499.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">3</text>
+  <line x1="373.5" y1="474.0" x2="373.5" y2="481.0" stroke="#141719" stroke-width="2" />
+  <text x="373.5" y="499.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">6</text>
+  <line x1="514.25" y1="474.0" x2="514.25" y2="481.0" stroke="#141719" stroke-width="2" />
+  <text x="514.25" y="499.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">9</text>
+  <line x1="655.0" y1="474.0" x2="655.0" y2="481.0" stroke="#141719" stroke-width="2" />
+  <text x="655.0" y="499.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="middle" letter-spacing="0">12</text>
+  <text x="373.5" y="520" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">UPDATE STEP</text>
+  <circle cx="92.0" cy="166.0" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="138.91666666666666" cy="348.23333333333335" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="185.83333333333331" cy="422.53833333333336" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="232.75" cy="452.8635" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="279.66666666666663" cy="465.26017916666666" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="326.58333333333337" cy="470.3429972916667" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="373.5" cy="472.4382426875" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="420.4166666666667" cy="473.31022240989586" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="467.3333333333333" cy="473.67918735841147" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="514.25" cy="473.8397231831797" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="561.1666666666667" cy="473.91272748473716" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="608.0833333333333" cy="473.9481203445359" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <circle cx="655.0" cy="473.9667383320833" r="5" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <polyline points="92.0,166.0 138.91666666666666,348.23333333333335 185.83333333333331,422.53833333333336 232.75,452.8635 279.66666666666663,465.26017916666666 326.58333333333337,470.3429972916667 373.5,472.4382426875 420.4166666666667,473.31022240989586 467.3333333333333,473.67918735841147 514.25,473.8397231831797 561.1666666666667,473.91272748473716 608.0833333333333,473.9481203445359 655.0,473.9667383320833" fill="none" stroke="#141719" stroke-width="4" />
+  <text x="112" y="188" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="start" letter-spacing="0">η = 0.2: 4.5 → decreasing</text>
+  <line x1="92.0" y1="166.0" x2="140.0" y2="148.0" stroke="#141719" stroke-width="4" stroke-dasharray="10 7" marker-end="url(#arrow)" />
+  <text x="390" y="188" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="start" letter-spacing="0">η = 1.2 leaves plot</text>
+  <text x="390" y="212" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="start" letter-spacing="0">final loss 197.53</text>
+  <text x="935.0" y="137" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="700" text-anchor="middle" letter-spacing="0">PARAMETER PATH</text>
+  <line x1="760.0" y1="166.0" x2="760.0" y2="474.0" stroke="#141719" stroke-width="3" />
+  <line x1="760.0" y1="474.0" x2="1110.0" y2="474.0" stroke="#141719" stroke-width="3" />
+  <text x="742.0" y="171.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="end" letter-spacing="0">bias</text>
+  <text x="1110.0" y="499.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="400" text-anchor="end" letter-spacing="0">weight</text>
+  <circle cx="760.0" cy="474.0" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="871.3636363636364" cy="371.3333333333333" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="942.9545454545455" cy="307.16666666666663" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="989.0909090909091" cy="267.3833333333333" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="1018.9204545454545" cy="243.0" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="1038.2897727272727" cy="228.30583333333334" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="1050.9375" cy="219.67541666666665" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="1059.255965909091" cy="214.81158333333332" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="1064.7774147727273" cy="212.2625625" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="1068.4844318181817" cy="211.11413958333333" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="1071.0081605113637" cy="210.79346666666663" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="1072.7548941761363" cy="210.94408989583337" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <circle cx="1073.9869438920455" cy="211.34639484374998" r="5" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <polyline points="760.0,474.0 871.3636363636364,371.3333333333333 942.9545454545455,307.16666666666663 989.0909090909091,267.3833333333333 1018.9204545454545,243.0 1038.2897727272727,228.30583333333334 1050.9375,219.67541666666665 1059.255965909091,214.81158333333332 1064.7774147727273,212.2625625 1068.4844318181817,211.11413958333333 1071.0081605113637,210.79346666666663 1072.7548941761363,210.94408989583337 1073.9869438920455,211.34639484374998" fill="none" stroke="#141719" stroke-width="4" />
+  <circle cx="1078.1818181818182" cy="217.33333333333331" r="11" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <text x="1070.1818181818182" y="199.33333333333331" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="end" letter-spacing="0">declared relation (2, 1)</text>
+  <rect x="177.0" y="580.0" width="156" height="70" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="255.0" y="622.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">PREDICT</text>
+  <rect x="407.0" y="580.0" width="156" height="70" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="485.0" y="622.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">LOSS</text>
+  <rect x="637.0" y="580.0" width="156" height="70" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="715.0" y="622.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">GRADIENT</text>
+  <rect x="867.0" y="580.0" width="156" height="70" rx="6" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="945.0" y="622.0" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">UPDATE</text>
+  <line x1="341.0" y1="615.0" x2="395.0" y2="615.0" stroke="#141719" stroke-width="4" marker-end="url(#arrow)" />
+  <line x1="571.0" y1="615.0" x2="625.0" y2="615.0" stroke="#141719" stroke-width="4" marker-end="url(#arrow)" />
+  <line x1="801.0" y1="615.0" x2="855.0" y2="615.0" stroke="#141719" stroke-width="4" marker-end="url(#arrow)" />
+  <line x1="945.0" y1="659.0" x2="945.0" y2="704" stroke="#141719" stroke-width="3" />
+  <line x1="945.0" y1="704" x2="255.0" y2="704" stroke="#141719" stroke-width="3" />
+  <line x1="255.0" y1="704" x2="255.0" y2="660.0" stroke="#141719" stroke-width="3" marker-end="url(#arrow)" />
+  <text x="600" y="730" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">repeat with updated parameters</text>
+</svg>

@@ -1,0 +1,17 @@
+kind,order,title,path,words,unique_words,characters,characters_no_spaces,sentences,paragraphs,headings,code_blocks,figures,lexical_diversity,average_sentence_words,long_sentence_percent,cci,reading_ease_estimate,terminology_density,links,local_links,external_links,anchor_links,broken_links
+chapter,1,"Chapter 1 — Rules, Operations, and Programs",chapters/chapter_01.md,1528,562,10189,8571,104,51,9,7,1,36.8,14.7,6.7,2.04,38.9,5.9,4,4,0,0,0
+chapter,2,Chapter 2 — Representation Becomes Numerical,chapters/chapter_02.md,1466,487,9954,8317,125,55,10,5,1,33.2,11.7,1.6,2.27,39.8,7.5,4,4,0,0,0
+chapter,3,Chapter 3 — Reasoning Under Uncertainty,chapters/chapter_03.md,1511,489,9848,8370,139,56,10,0,1,32.4,10.9,2.2,2.48,44.6,1.3,4,4,0,0,0
+chapter,4,Chapter 4 — Transformations and Change,chapters/chapter_04.md,1542,549,10022,8481,128,56,10,0,1,35.6,12.0,0.0,2.29,47.2,5.2,4,4,0,0,0
+chapter,5,"Chapter 5 — Memory, Types, and Translation",chapters/chapter_05.md,1486,549,10029,8485,117,37,11,11,1,36.9,12.7,0.9,3.16,41.4,8.7,5,5,0,0,0
+chapter,6,Chapter 6 — Learning by Adjustment,chapters/chapter_06.md,1720,601,11364,9564,173,56,12,0,1,34.9,9.9,0.6,3.09,51.6,0.6,4,4,0,0,0
+chapter,7,Chapter 7 — Tensors and Parallel Machines,chapters/chapter_07.md,1581,584,10645,9036,119,40,11,2,1,36.9,13.3,0.8,2.98,39.5,8.9,4,4,0,0,0
+chapter,8,Chapter 8 — Learned Spaces,chapters/chapter_08.md,1354,552,9747,8298,112,37,11,0,1,40.8,12.1,0.0,3.03,28.0,14.0,4,4,0,0,0
+chapter,9,"Chapter 9 — Sequence, Memory, and Runtime",chapters/chapter_09.md,1663,634,11251,9495,147,45,11,0,1,38.1,11.3,2.0,3.27,43.8,8.4,4,4,0,0,0
+chapter,10,Chapter 10 — Attention Changes the Path,chapters/chapter_10.md,1627,585,11163,9488,150,50,12,0,1,36.0,10.8,1.3,3.0,45.8,8.0,4,4,0,0,0
+chapter,11,Chapter 11 — The Transformer,chapters/chapter_11.md,1522,584,10873,9391,117,53,14,0,1,38.4,13.0,6.0,2.21,31.8,21.0,4,4,0,0,0
+chapter,12,Chapter 12 — From Paper to Tool,chapters/chapter_12.md,1595,583,11219,9599,125,40,12,0,1,36.6,12.8,2.4,3.12,28.0,20.1,4,4,0,0,0
+chapter,13,Chapter 13 — Where the Journeys Meet,chapters/chapter_13.md,1476,570,10885,9391,125,27,11,4,1,38.6,11.8,1.6,4.63,17.7,28.5,4,4,0,0,0
+chapter,14,Chapter 14 — Architecture in Full,chapters/chapter_14.md,1619,560,10849,9213,145,29,12,5,1,34.6,11.2,1.4,5.0,41.1,24.1,4,4,0,0,0
+chapter,15,Chapter 15 — A Token Through the Machine,chapters/chapter_15.md,1501,592,10294,8743,108,33,10,10,1,39.4,13.9,3.7,3.27,36.3,9.3,4,4,0,0,0
+chapter,16,Chapter 16 — Measured Limits,chapters/chapter_16.md,1611,605,11216,9512,112,34,11,9,1,37.6,14.4,3.6,3.29,31.1,14.9,4,4,0,0,0

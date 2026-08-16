@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">The Constraint Envelope</title>
+  <desc id="description">Six distinct panels surround one fixed width-four Transformer fixture. Context and representation show acceptance gates; compute shows structural counts rather than time; vocabulary shows two absent strings collapsing to unknown ID zero; decoding shows fixed logits selecting different IDs under two policies; architecture shows a nonzero output difference. A claim boundary classifies understands, is person, and cannot ever understand as outside operational evidence, not false.</desc>
+  <metadata>Original visual by Terrence J McLaughlin; generated from the verified Chapter 16 probe; August 14, 2026.</metadata>
+  <rect width="1200" height="760" fill="#f7f7f3" />
+  <text x="600.0" y="44" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" text-anchor="middle" letter-spacing="0">The Constraint Envelope</text>
+  <text x="600.0" y="72" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="400" text-anchor="middle" letter-spacing="0">six typed boundaries around one fixed fixture; panel scales and units are not shared</text>
+  <rect x="30" y="98" width="350" height="150" rx="5" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="48" y="124" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0">CONTEXT</text>
+  <text x="362" y="124" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="9" font-weight="400" text-anchor="end" letter-spacing="0">acceptance boundary</text>
+  <text x="48" y="154" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="start" letter-spacing="0">capacity 3: admit 1 | 2 | 3</text>
+  <text x="48" y="177" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">reject 4 before embedding</text>
+  <text x="48" y="200" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">CONTEXT_CAPACITY_EXCEEDED</text>
+  <rect x="425" y="98" width="350" height="150" rx="5" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="443" y="124" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0">REPRESENTATION</text>
+  <text x="757" y="124" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="9" font-weight="400" text-anchor="end" letter-spacing="0">interface gate</text>
+  <text x="443" y="154" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="start" letter-spacing="0">width 4: accepted</text>
+  <text x="443" y="177" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">width 5: rejected at block gate</text>
+  <text x="443" y="200" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">block math unexecuted</text>
+  <rect x="820" y="98" width="350" height="150" rx="5" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="838" y="124" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0">COMPUTE</text>
+  <text x="1152" y="124" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="9" font-weight="400" text-anchor="end" letter-spacing="0">formula counts</text>
+  <text x="838" y="154" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="start" letter-spacing="0">n=1  72/51/1</text>
+  <text x="838" y="177" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">n=2  160/116/4</text>
+  <text x="838" y="200" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">n=3  264/195/9  mult/add/exp</text>
+  <text x="838" y="223" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">structural counts; not timing</text>
+  <rect x="340" y="275" width="520" height="120" rx="5" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <rect x="346" y="281" width="508" height="108" rx="2" fill="none" stroke="#141719" stroke-width="2" />
+  <text x="600" y="307" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="17" font-weight="700" text-anchor="middle" letter-spacing="0">FIXED CHAPTER 15 FIXTURE</text>
+  <text x="600" y="337" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">request "small models run" | context 3 | width 4 | vocabulary 6</text>
+  <text x="600" y="363" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="400" text-anchor="middle" letter-spacing="0">same declared functions, constants, and baseline trace</text>
+  <text x="600" y="384" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">changed variables are isolated inside their typed panels</text>
+  <rect x="30" y="425" width="350" height="150" rx="5" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="48" y="451" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0">DATA / VOCABULARY</text>
+  <text x="362" y="451" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="9" font-weight="400" text-anchor="end" letter-spacing="0">representation collision</text>
+  <text x="48" y="481" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="start" letter-spacing="0">quartzbird -&gt; &lt;unk&gt; ID 0</text>
+  <text x="48" y="504" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">velvetaxiom -&gt; &lt;unk&gt; ID 0</text>
+  <text x="48" y="527" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">same embedding (0.0, 0.0, 0.0, 0.0)</text>
+  <rect x="425" y="425" width="350" height="150" rx="5" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="443" y="451" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0">DECODING</text>
+  <text x="757" y="451" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="9" font-weight="400" text-anchor="end" letter-spacing="0">policy comparison</text>
+  <text x="443" y="481" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="start" letter-spacing="0">global argmax -&gt; ID 2</text>
+  <text x="443" y="504" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">allowed-ID argmax -&gt; ID 0</text>
+  <text x="443" y="527" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">logit bytes equal before / after</text>
+  <rect x="820" y="425" width="350" height="150" rx="5" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="838" y="451" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0">ARCHITECTURE</text>
+  <text x="1152" y="451" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="9" font-weight="400" text-anchor="end" letter-spacing="0">numerical difference</text>
+  <text x="838" y="481" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="start" letter-spacing="0">attention contribution -&gt; zero</text>
+  <text x="838" y="504" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">max |output difference| 0.138179224</text>
+  <text x="838" y="527" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="start" letter-spacing="0">request + other parameters fixed</text>
+  <rect x="30" y="600" width="1140" height="86" rx="5" fill="#f7f7f3" stroke="#141719" stroke-width="3" stroke-dasharray="9 7" />
+  <text x="52" y="628" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="start" letter-spacing="0">CLAIM-SCOPE BOUNDARY</text>
+  <text x="600" y="628" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="0">understands | is_person | cannot_ever_understand</text>
+  <text x="600" y="654" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">OUTSIDE_OPERATIONAL_EVIDENCE</text>
+  <text x="600" y="676" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="0">scope rejection means outside these records; it does not mean false</text>
+  <text x="600.0" y="720" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">THE ENVELOPE BOUNDS OBSERVED OPERATION, NOT ONTOLOGY</text>
+  <text x="600.0" y="744" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="0">exact incoming edges: architecture + execution -&gt; limits | no outgoing Book Two module edge</text>
+</svg>

@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title description">
+  <title id="title">Three Forms of Constraint</title>
+  <desc id="description">Three aligned panels compare the represented transition locked-closed to unlocked-closed to unlocked-open. The algebraic panel gates partial operations by their domains. The symbolic panel gates actions by represented preconditions. The programmed panel gates typed states by Rust match branches and returns Result values. A failed attempt to open locked-closed is undefined, inapplicable, or Err Locked respectively. This is a comparison of interfaces, not an equivalence.</desc>
+  <metadata>Original visual by Terrence J McLaughlin; generated from the execution-verified chapter_01_door_model.rs; August 12, 2026.</metadata>
+  <rect width="1200" height="800" fill="#f7f7f3" />
+  <text x="600.0" y="50" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="36" font-weight="700" text-anchor="middle" letter-spacing="0">THREE FORMS OF CONSTRAINT</text>
+  <text x="600.0" y="82" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="400" text-anchor="middle" letter-spacing="0">same represented transition; different sources of permission and consequence</text>
+  <rect x="35" y="116" width="360" height="530" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <rect x="35" y="116" width="360" height="72" rx="6" fill="#efdcae" />
+  <line x1="35" y1="188" x2="395" y2="188" stroke="#141719" stroke-width="3" />
+  <text x="215.0" y="148" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="0">ALGEBRAIC</text>
+  <text x="215.0" y="174" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">partial transformations on D</text>
+  <rect x="53" y="238" width="88" height="74" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="97" y="269" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="0">LC</text>
+  <text x="97" y="293" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">locked, closed</text>
+  <rect x="171" y="238" width="88" height="74" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="215" y="269" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="0">UC</text>
+  <text x="215" y="293" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">unlocked, closed</text>
+  <rect x="289" y="238" width="88" height="74" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="333" y="269" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="0">UO</text>
+  <text x="333" y="293" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">unlocked, open</text>
+  <line x1="141" y1="275" x2="160" y2="275" stroke="#141719" stroke-width="3" />
+  <polygon points="160,268 171,275 160,282" fill="#141719" />
+  <line x1="259" y1="275" x2="278" y2="275" stroke="#141719" stroke-width="3" />
+  <polygon points="278,268 289,275 278,282" fill="#141719" />
+  <text x="215" y="332" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">PERMISSION</text>
+  <rect x="117" y="342" width="112" height="48" rx="6" fill="#efefb7" stroke="#141719" stroke-width="2" />
+  <text x="173" y="361" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">UNLOCK</text>
+  <text x="173" y="379" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="400" text-anchor="middle" letter-spacing="0">LC in dom(u)</text>
+  <rect x="237" y="342" width="112" height="48" rx="6" fill="#efefb7" stroke="#141719" stroke-width="2" />
+  <text x="293" y="361" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">OPEN</text>
+  <text x="293" y="379" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="400" text-anchor="middle" letter-spacing="0">UC in dom(o)</text>
+  <rect x="59" y="414" width="312" height="64" rx="6" fill="#efdcae" stroke="#141719" stroke-width="2" />
+  <text x="215" y="436" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">CONSEQUENCE</text>
+  <text x="215" y="462" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">unlock then open: LC -&gt; UO</text>
+  <rect x="59" y="510" width="312" height="88" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="2" stroke-dasharray="7 5" />
+  <text x="215" y="536" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="0">BOUNDARY: OPEN(LC)</text>
+  <text x="215" y="567" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">o(LC) undefined</text>
+  <text x="215" y="588" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="0">no transition to UO</text>
+  <rect x="425" y="116" width="360" height="530" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <rect x="425" y="116" width="360" height="72" rx="6" fill="#efefb7" />
+  <line x1="425" y1="188" x2="785" y2="188" stroke="#141719" stroke-width="3" />
+  <text x="605.0" y="148" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="0">SYMBOLIC</text>
+  <text x="605.0" y="174" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">represented facts and actions</text>
+  <rect x="443" y="238" width="88" height="74" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="487" y="269" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="0">LC</text>
+  <text x="487" y="293" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">locked, closed</text>
+  <rect x="561" y="238" width="88" height="74" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="605" y="269" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="0">UC</text>
+  <text x="605" y="293" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">unlocked, closed</text>
+  <rect x="679" y="238" width="88" height="74" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="723" y="269" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="0">UO</text>
+  <text x="723" y="293" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">unlocked, open</text>
+  <line x1="531" y1="275" x2="550" y2="275" stroke="#141719" stroke-width="3" />
+  <polygon points="550,268 561,275 550,282" fill="#141719" />
+  <line x1="649" y1="275" x2="668" y2="275" stroke="#141719" stroke-width="3" />
+  <polygon points="668,268 679,275 668,282" fill="#141719" />
+  <text x="605" y="332" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">PERMISSION</text>
+  <rect x="507" y="342" width="112" height="48" rx="6" fill="#efefb7" stroke="#141719" stroke-width="2" />
+  <text x="563" y="361" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">UNLOCK</text>
+  <text x="563" y="379" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="400" text-anchor="middle" letter-spacing="0">pre: locked + closed</text>
+  <rect x="627" y="342" width="112" height="48" rx="6" fill="#efefb7" stroke="#141719" stroke-width="2" />
+  <text x="683" y="361" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">OPEN</text>
+  <text x="683" y="379" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="400" text-anchor="middle" letter-spacing="0">pre: unlocked + closed</text>
+  <rect x="449" y="414" width="312" height="64" rx="6" fill="#efefb7" stroke="#141719" stroke-width="2" />
+  <text x="605" y="436" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">CONSEQUENCE</text>
+  <text x="605" y="462" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">effects of UNLOCK enable OPEN</text>
+  <rect x="449" y="510" width="312" height="88" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="2" stroke-dasharray="7 5" />
+  <text x="605" y="536" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="0">BOUNDARY: OPEN(LC)</text>
+  <text x="605" y="567" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">OPEN preconditions fail</text>
+  <text x="605" y="588" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="0">no transition to UO</text>
+  <rect x="815" y="116" width="360" height="530" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <rect x="815" y="116" width="360" height="72" rx="6" fill="#b9ddea" />
+  <line x1="815" y1="188" x2="1175" y2="188" stroke="#141719" stroke-width="3" />
+  <text x="995.0" y="148" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="700" text-anchor="middle" letter-spacing="0">PROGRAMMED</text>
+  <text x="995.0" y="174" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">typed state, match, and Result</text>
+  <rect x="833" y="238" width="88" height="74" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="877" y="269" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="0">LC</text>
+  <text x="877" y="293" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">locked, closed</text>
+  <rect x="951" y="238" width="88" height="74" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="995" y="269" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="0">UC</text>
+  <text x="995" y="293" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">unlocked, closed</text>
+  <rect x="1069" y="238" width="88" height="74" rx="6" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="1113" y="269" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="23" font-weight="700" text-anchor="middle" letter-spacing="0">UO</text>
+  <text x="1113" y="293" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">unlocked, open</text>
+  <line x1="921" y1="275" x2="940" y2="275" stroke="#141719" stroke-width="3" />
+  <polygon points="940,268 951,275 940,282" fill="#141719" />
+  <line x1="1039" y1="275" x2="1058" y2="275" stroke="#141719" stroke-width="3" />
+  <polygon points="1058,268 1069,275 1058,282" fill="#141719" />
+  <text x="995" y="332" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">PERMISSION</text>
+  <rect x="897" y="342" width="112" height="48" rx="6" fill="#efefb7" stroke="#141719" stroke-width="2" />
+  <text x="953" y="361" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">UNLOCK</text>
+  <text x="953" y="379" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="400" text-anchor="middle" letter-spacing="0">match LockedClosed</text>
+  <rect x="1017" y="342" width="112" height="48" rx="6" fill="#efefb7" stroke="#141719" stroke-width="2" />
+  <text x="1073" y="361" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="700" text-anchor="middle" letter-spacing="0">OPEN</text>
+  <text x="1073" y="379" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="10" font-weight="400" text-anchor="middle" letter-spacing="0">match UnlockedClosed</text>
+  <rect x="839" y="414" width="312" height="64" rx="6" fill="#b9ddea" stroke="#141719" stroke-width="2" />
+  <text x="995" y="436" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="0">CONSEQUENCE</text>
+  <text x="995" y="462" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">Ok(UnlockedOpen)</text>
+  <rect x="839" y="510" width="312" height="88" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="2" stroke-dasharray="7 5" />
+  <text x="995" y="536" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="12" font-weight="700" text-anchor="middle" letter-spacing="0">BOUNDARY: OPEN(LC)</text>
+  <text x="995" y="567" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">Err(Locked)</text>
+  <text x="995" y="588" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="11" font-weight="400" text-anchor="middle" letter-spacing="0">no transition to UO</text>
+  <rect x="35" y="680" width="1130" height="72" rx="6" fill="#141719" />
+  <text x="600.0" y="710" fill="#f7f7f3" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">COMPARISON OF INTERFACES, NOT EQUIVALENCE</text>
+  <text x="600.0" y="737" fill="#f7f7f3" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="400" text-anchor="middle" letter-spacing="0">internal success does not establish physical correspondence or operational adequacy</text>
+</svg>

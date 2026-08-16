@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Neighborhoods in a Learned Space</title>
+  <desc id="description">Three plots show illustrative coordinates. Euclidean distance selects north while cosine selects east in the base plot. Rotation preserves the Euclidean neighbor. Invertible anisotropic scaling changes that neighbor to east.</desc>
+  <metadata>Original visual by Terrence J McLaughlin; generated from the verified Chapter 8 probe; August 13, 2026.</metadata>
+  <rect width="1200" height="760" fill="#f7f7f3" />
+  <text x="600.0" y="54" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="34" font-weight="700" text-anchor="middle" letter-spacing="0">NEIGHBORHOODS IN A LEARNED SPACE</text>
+  <text x="600.0" y="88" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="400" text-anchor="middle" letter-spacing="0">comparison rule and transformation determine what remains near</text>
+  <rect x="45" y="172.0" width="330.0" height="350.0" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <text x="210.0" y="142" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">BASE COORDINATES</text>
+  <text x="210.0" y="165" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">solid: Euclidean   dashed: cosine</text>
+  <line x1="176.25" y1="187.0" x2="176.25" y2="507.0" stroke="#141719" stroke-width="1" />
+  <line x1="60" y1="422.95238095238096" x2="360.0" y2="422.95238095238096" stroke="#141719" stroke-width="1" />
+  <line x1="243.75" y1="422.95238095238096" x2="247.125" y2="284.8571428571429" stroke="#141719" stroke-width="5" />
+  <line x1="243.75" y1="422.95238095238096" x2="311.25" y2="395.33333333333337" stroke="#141719" stroke-width="4" stroke-dasharray="9 7" />
+  <circle cx="243.75" cy="422.95238095238096" r="9" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="243.75" y="448.95238095238096" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">anchor</text>
+  <circle cx="311.25" cy="395.33333333333337" r="9" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="311.25" y="380.33333333333337" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">east</text>
+  <circle cx="247.125" cy="284.8571428571429" r="9" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="247.125" y="269.8571428571429" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">north</text>
+  <circle cx="108.75" cy="284.8571428571429" r="9" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="108.75" y="269.8571428571429" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">west</text>
+  <rect x="435" y="172.0" width="330.0" height="350.0" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <text x="600.0" y="142" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">ROTATED 37 DEGREES</text>
+  <text x="600.0" y="165" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">Euclidean distances preserved</text>
+  <line x1="592.8947368421053" y1="187.0" x2="592.8947368421053" y2="507.0" stroke="#141719" stroke-width="1" />
+  <line x1="450" y1="431.5833333333333" x2="750.0" y2="431.5833333333333" stroke="#141719" stroke-width="1" />
+  <line x1="649.6398915033603" y1="358.8640180357942" x2="609.716608117725" y2="258.72626147353594" stroke="#141719" stroke-width="5" />
+  <circle cx="649.6398915033603" cy="358.8640180357942" r="9" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="649.6398915033603" y="384.8640180357942" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">anchor</text>
+  <circle cx="697.8329379408757" cy="266.84434457877876" r="9" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="697.8329379408757" y="251.84434457877876" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">east</text>
+  <circle cx="609.716608117725" cy="258.72626147353594" r="9" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="609.716608117725" y="243.72626147353594" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">north</text>
+  <circle cx="493.3890410621521" cy="407.80085783349125" r="9" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="493.3890410621521" y="392.80085783349125" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">west</text>
+  <rect x="825" y="172.0" width="330.0" height="350.0" rx="6" fill="#f7f7f3" stroke="#141719" stroke-width="3" />
+  <text x="990.0" y="142" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="0">SCALED (0.2, 3.0)</text>
+  <text x="990.0" y="165" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="13" font-weight="400" text-anchor="middle" letter-spacing="0">invertible; Euclidean neighbor changes</text>
+  <line x1="967.5" y1="187.0" x2="967.5" y2="507.0" stroke="#141719" stroke-width="1" />
+  <line x1="840" y1="462.2564102564103" x2="1140.0" y2="462.2564102564103" stroke="#141719" stroke-width="1" />
+  <line x1="1012.5" y1="462.2564102564103" x2="1057.5" y2="417.64102564102564" stroke="#141719" stroke-width="5" />
+  <circle cx="1012.5" cy="462.2564102564103" r="9" fill="#efd5d5" stroke="#141719" stroke-width="3" />
+  <text x="1012.5" y="488.2564102564103" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">anchor</text>
+  <circle cx="1057.5" cy="417.64102564102564" r="9" fill="#efdcae" stroke="#141719" stroke-width="3" />
+  <text x="1057.5" y="402.64102564102564" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">east</text>
+  <circle cx="1014.75" cy="239.17948717948718" r="9" fill="#b9ddea" stroke="#141719" stroke-width="3" />
+  <text x="1014.75" y="224.17948717948718" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">north</text>
+  <circle cx="922.5" cy="239.17948717948718" r="9" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="922.5" y="224.17948717948718" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="14" font-weight="700" text-anchor="middle" letter-spacing="0">west</text>
+  <rect x="100" y="570" width="1000" height="105" rx="6" fill="#efefb7" stroke="#141719" stroke-width="3" />
+  <text x="215" y="605" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">EUCLIDEAN</text>
+  <text x="215" y="635" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">north</text>
+  <text x="450" y="605" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">COSINE</text>
+  <text x="450" y="635" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">east</text>
+  <text x="700" y="605" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">ROTATION ERROR</text>
+  <text x="700" y="635" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">4.44e-16</text>
+  <text x="965" y="605" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="15" font-weight="700" text-anchor="middle" letter-spacing="0">AFTER SCALING</text>
+  <text x="965" y="635" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="0">east</text>
+  <text x="600.0" y="720" fill="#141719" font-family="DejaVu Sans, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="0">illustrative coordinates; not learned by this probe; no semantic conclusion</text>
+</svg>

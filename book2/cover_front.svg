@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2560" viewBox="0 0 1600 2560">
+  <rect width="1600" height="2560" fill="#f7f7f3"/>
+
+  <g font-family="DejaVu Sans, sans-serif" fill="#141719">
+    <text x="800" y="235" text-anchor="middle" font-size="142" font-weight="700" letter-spacing="0">TRANSFORMERS</text>
+    <text x="800" y="338" text-anchor="middle" font-size="48" font-weight="400" letter-spacing="0">An Architecture for Geometric Computation</text>
+    <line x1="250" y1="408" x2="1350" y2="408" stroke="#141719" stroke-width="5"/>
+  </g>
+
+  <g stroke="#141719" stroke-width="8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M470 2020 V1900"/>
+    <path d="M470 1820 V1710"/>
+    <path d="M470 1590 V1485"/>
+    <path d="M470 1365 V1260"/>
+    <path d="M470 1140 V1035"/>
+    <path d="M470 915 V790"/>
+
+    <path d="M1130 2020 V1900"/>
+    <path d="M1130 1820 V1710"/>
+    <path d="M1130 1590 V1485"/>
+    <path d="M1130 1365 V1260"/>
+    <path d="M1130 1140 V1035"/>
+    <path d="M1130 915 V790"/>
+    <path d="M1130 670 V540"/>
+
+    <path d="M680 1100 H810 Q850 1100 850 1060 V990 Q850 950 890 950 H920"/>
+    <path d="M680 1325 H770 Q810 1325 810 1285 V875 Q810 835 770 835 H680" opacity="0.45"/>
+    <path d="M920 1550 H855 Q820 1550 820 1515 V1440 Q820 1405 855 1405 H920" opacity="0.45"/>
+
+    <path d="M455 1710 l15 -18 15 18" fill="#141719"/>
+    <path d="M455 1485 l15 -18 15 18" fill="#141719"/>
+    <path d="M455 1260 l15 -18 15 18" fill="#141719"/>
+    <path d="M455 1035 l15 -18 15 18" fill="#141719"/>
+    <path d="M455 790 l15 -18 15 18" fill="#141719"/>
+    <path d="M1115 1710 l15 -18 15 18" fill="#141719"/>
+    <path d="M1115 1485 l15 -18 15 18" fill="#141719"/>
+    <path d="M1115 1260 l15 -18 15 18" fill="#141719"/>
+    <path d="M1115 1035 l15 -18 15 18" fill="#141719"/>
+    <path d="M1115 790 l15 -18 15 18" fill="#141719"/>
+    <path d="M1115 540 l15 -18 15 18" fill="#141719"/>
+  </g>
+
+  <g stroke="#141719" stroke-width="8" font-family="DejaVu Sans, sans-serif" fill="#141719">
+    <rect x="245" y="2020" width="450" height="120" rx="18" fill="#efd5d5"/>
+    <text x="470" y="2097" text-anchor="middle" font-size="39" stroke="none">INPUT</text>
+
+    <circle cx="470" cy="1860" r="40" fill="#f7f7f3"/>
+    <path d="M445 1860 H495 M470 1835 V1885" fill="none"/>
+
+    <rect x="245" y="1590" width="450" height="120" rx="18" fill="#efdcae"/>
+    <text x="470" y="1667" text-anchor="middle" font-size="39" stroke="none">ATTENTION</text>
+
+    <rect x="245" y="1365" width="450" height="120" rx="18" fill="#efefb7"/>
+    <text x="470" y="1442" text-anchor="middle" font-size="36" stroke="none">ADD + NORM</text>
+
+    <rect x="245" y="1140" width="450" height="120" rx="18" fill="#b9ddea"/>
+    <text x="470" y="1217" text-anchor="middle" font-size="39" stroke="none">FEED FORWARD</text>
+
+    <rect x="245" y="915" width="450" height="120" rx="18" fill="#efefb7"/>
+    <text x="470" y="992" text-anchor="middle" font-size="36" stroke="none">ADD + NORM</text>
+
+    <rect x="205" y="750" width="530" height="1030" rx="54" fill="none" stroke-width="10"/>
+    <rect x="270" y="690" width="400" height="92" rx="46" fill="#141719"/>
+    <text x="470" y="750" text-anchor="middle" font-size="38" font-weight="700" fill="#f7f7f3" stroke="none">ENCODER × N</text>
+
+    <text x="312" y="1876" text-anchor="end" font-size="29" stroke="none">POSITION</text>
+
+    <rect x="905" y="2020" width="450" height="120" rx="18" fill="#efd5d5"/>
+    <text x="1130" y="2097" text-anchor="middle" font-size="39" stroke="none">OUTPUT</text>
+
+    <circle cx="1130" cy="1860" r="40" fill="#f7f7f3"/>
+    <path d="M1105 1860 H1155 M1130 1835 V1885" fill="none"/>
+
+    <rect x="905" y="1590" width="450" height="120" rx="18" fill="#efdcae"/>
+    <text x="1130" y="1645" text-anchor="middle" font-size="34" stroke="none">MASKED</text>
+    <text x="1130" y="1684" text-anchor="middle" font-size="34" stroke="none">ATTENTION</text>
+
+    <rect x="905" y="1365" width="450" height="120" rx="18" fill="#efefb7"/>
+    <text x="1130" y="1442" text-anchor="middle" font-size="36" stroke="none">ADD + NORM</text>
+
+    <rect x="905" y="1140" width="450" height="120" rx="18" fill="#efdcae"/>
+    <text x="1130" y="1217" text-anchor="middle" font-size="39" stroke="none">ATTENTION</text>
+
+    <rect x="905" y="915" width="450" height="120" rx="18" fill="#efefb7"/>
+    <text x="1130" y="992" text-anchor="middle" font-size="36" stroke="none">ADD + NORM</text>
+
+    <rect x="905" y="670" width="450" height="120" rx="18" fill="#b9ddea"/>
+    <text x="1130" y="747" text-anchor="middle" font-size="39" stroke="none">FEED FORWARD</text>
+
+    <rect x="905" y="540" width="450" height="100" rx="18" fill="#c7dfc5"/>
+    <text x="1130" y="605" text-anchor="middle" font-size="39" stroke="none">PROBABILITIES</text>
+
+    <rect x="865" y="500" width="530" height="1280" rx="54" fill="none" stroke-width="10"/>
+    <rect x="930" y="440" width="400" height="92" rx="46" fill="#141719"/>
+    <text x="1130" y="500" text-anchor="middle" font-size="38" font-weight="700" fill="#f7f7f3" stroke="none">DECODER × N</text>
+
+    <text x="972" y="1876" text-anchor="end" font-size="29" stroke="none">POSITION</text>
+  </g>
+
+  <g font-family="DejaVu Sans, sans-serif" fill="#141719">
+    <text x="800" y="2265" text-anchor="middle" font-size="45" font-weight="400">How AI, Mathematics, and Programming</text>
+    <text x="800" y="2325" text-anchor="middle" font-size="45" font-weight="400">Converge into a Single Tool</text>
+    <text x="800" y="2460" text-anchor="middle" font-size="46" font-weight="700">Terrence J McLaughlin</text>
+  </g>
+</svg>
