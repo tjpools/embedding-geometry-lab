@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "present": true,
+  "page_count": 20,
+  "indexed_count": 20,
+  "clean_pages": 20,
+  "orphan_pages": [],
+  "missing_pages": [],
+  "pages": [
+    {
+      "name": "alignment",
+      "missing_sections": [],
+      "see_also_refs": [
+        "architecture-scales",
+        "callable-package",
+        "transformer-block"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        13
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "architecture-scales",
+      "missing_sections": [],
+      "see_also_refs": [
+        "alignment",
+        "execution-trace",
+        "transformer-block"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        14
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "attention",
+      "missing_sections": [],
+      "see_also_refs": [
+        "bayesian-update",
+        "softmax",
+        "transformer-block"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        10
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "bayesian-update",
+      "missing_sections": [],
+      "see_also_refs": [
+        "attention",
+        "gradient-descent",
+        "softmax"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        3
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "callable-package",
+      "missing_sections": [],
+      "see_also_refs": [
+        "alignment",
+        "transformer-block"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        12
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "embedding-space",
+      "missing_sections": [],
+      "see_also_refs": [
+        "jacobian",
+        "representation",
+        "tensor"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        8
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "execution-trace",
+      "missing_sections": [],
+      "see_also_refs": [
+        "architecture-scales",
+        "limits",
+        "transformer-block"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        15
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "feed-forward",
+      "missing_sections": [],
+      "see_also_refs": [
+        "attention",
+        "transformer-block"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        11
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "gradient-descent",
+      "missing_sections": [],
+      "see_also_refs": [
+        "jacobian",
+        "tensor",
+        "transformer-block"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        6
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "jacobian",
+      "missing_sections": [],
+      "see_also_refs": [
+        "attention",
+        "gradient-descent",
+        "tensor"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        4
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "layer-norm",
+      "missing_sections": [],
+      "see_also_refs": [
+        "residual",
+        "transformer-block"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        11
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "limits",
+      "missing_sections": [],
+      "see_also_refs": [
+        "attention",
+        "execution-trace",
+        "tensor"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        16
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "man",
+      "missing_sections": [],
+      "see_also_refs": [
+        "attention",
+        "execution-trace",
+        "transformer-block"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [],
+      "broken_source": []
+    },
+    {
+      "name": "memory-layout",
+      "missing_sections": [],
+      "see_also_refs": [
+        "execution-trace",
+        "tensor"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        5
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "recurrence",
+      "missing_sections": [],
+      "see_also_refs": [
+        "attention",
+        "tensor"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        9
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "representation",
+      "missing_sections": [],
+      "see_also_refs": [
+        "embedding-space",
+        "tensor"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        2
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "residual",
+      "missing_sections": [],
+      "see_also_refs": [
+        "layer-norm",
+        "transformer-block"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        11
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "softmax",
+      "missing_sections": [],
+      "see_also_refs": [
+        "attention",
+        "bayesian-update"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        10
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "tensor",
+      "missing_sections": [],
+      "see_also_refs": [
+        "attention",
+        "gradient-descent",
+        "recurrence"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        7
+      ],
+      "broken_source": []
+    },
+    {
+      "name": "transformer-block",
+      "missing_sections": [],
+      "see_also_refs": [
+        "architecture-scales",
+        "attention",
+        "execution-trace",
+        "feed-forward",
+        "layer-norm",
+        "residual"
+      ],
+      "broken_see_also": [],
+      "source_chapters": [
+        11
+      ],
+      "broken_source": []
+    }
+  ]
+}

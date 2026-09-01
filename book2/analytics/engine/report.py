@@ -4,7 +4,7 @@ from collections import Counter
 from pathlib import Path
 from typing import Dict, List, Sequence
 
-from engine import chapter_balance, heatmap, linkcheck, markdown_strip, readability, terminology_scan, wordcount
+from engine import chapter_balance, heatmap, linkcheck, manpages, markdown_strip, readability, terminology_scan, wordcount
 from runtime.mode import CorpusMode, SourceUnit, load_architecture, select_corpus
 
 
@@ -126,7 +126,40 @@ def output_payloads(mode: CorpusMode, metrics: Sequence[dict], architecture: dic
     }
 
 
-def write_markdown(path: Path, mode: CorpusMode, metrics: Sequence[dict], architecture: dict) -> None:
+def write_manpages_section(lines: List[str], man_report: dict) -> None:
+    lines.extend([
+        "",
+        "## Component Lookup Layer (man/)",
+        "",
+    ])
+    if not man_report["present"]:
+        lines.append("No `man/` directory found.")
+        return
+    lines.extend([
+        f"- Pages: {man_report['page_count']} (indexed: {man_report['indexed_count']}, clean: {man_report['clean_pages']})",
+        f"- Orphan pages (file exists, not indexed): {man_report['orphan_pages'] or 'none'}",
+        f"- Missing pages (indexed, no file): {man_report['missing_pages'] or 'none'}",
+    ])
+    broken = [
+        p for p in man_report["pages"]
+        if p["missing_sections"] or p["broken_see_also"] or p["broken_source"]
+    ]
+    if broken:
+        lines.append("- Pages with issues:")
+        for page in broken:
+            issues = []
+            if page["missing_sections"]:
+                issues.append(f"missing sections: {', '.join(page['missing_sections'])}")
+            if page["broken_see_also"]:
+                issues.append(f"broken SEE ALSO: {', '.join(page['broken_see_also'])}")
+            if page["broken_source"]:
+                issues.append(f"broken SOURCE chapter: {page['broken_source']}")
+            lines.append(f"  - {page['name']}: {'; '.join(issues)}")
+    else:
+        lines.append("- All pages pass structural, cross-reference, and source checks.")
+
+
+def write_markdown(path: Path, mode: CorpusMode, metrics: Sequence[dict], architecture: dict, man_report: dict) -> None:
     total_words = sum(metric["words"] for metric in metrics)
     term_totals = Counter()
     for metric in metrics:
@@ -180,6 +213,7 @@ def write_markdown(path: Path, mode: CorpusMode, metrics: Sequence[dict], archit
         "",
         "Each column is normalized independently. Color shows relative intensity, not quality.",
     ])
+    write_manpages_section(lines, man_report)
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
@@ -187,16 +221,26 @@ def run(book_dir: Path, registry_path: Path, output_dir: Path) -> dict:
     mode, units, registry = select_corpus(book_dir, registry_path)
     architecture = load_architecture(book_dir, registry)
     metrics = [analyze_unit(unit, book_dir) for unit in units]
+    man_report = manpages.scan(book_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     for filename, payload in output_payloads(mode, metrics, architecture).items():
         write_json(output_dir / filename, payload)
+    write_json(output_dir / "manpages.json", {"schema_version": 1, **man_report})
     write_csv(output_dir / "metrics.csv", metrics)
-    write_markdown(output_dir / "report.md", mode, metrics, architecture)
+    write_markdown(output_dir / "report.md", mode, metrics, architecture, man_report)
     heatmap.write(output_dir / "heatmap.svg", mode, metrics, architecture)
+    man_issues = 0
+    if man_report["present"]:
+        man_issues = (
+            len(man_report["orphan_pages"]) + len(man_report["missing_pages"])
+            + (man_report["page_count"] - man_report["clean_pages"])
+        )
     return {
         "mode": mode.value,
         "sources": len(metrics),
         "words": sum(metric["words"] for metric in metrics),
         "broken_links": sum(metric["broken_links"] for metric in metrics),
+        "man_pages": man_report["page_count"] if man_report["present"] else 0,
+        "man_issues": man_issues,
         "output": str(output_dir),
     }

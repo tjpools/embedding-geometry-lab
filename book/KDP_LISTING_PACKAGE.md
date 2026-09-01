@@ -9,6 +9,8 @@ It is intentionally narrower than the manuscript and cover notes. Its job is to 
 - Title: `Embedding Geometry`
 - Subtitle: `A Walkable Introduction to AI Through Building, Testing, and Collaboration`
 - Author: `Terrence J McLaughlin`
+- Series title: `The Geometry of Meaning`
+- Series number: `1` (see [../book3/TRILOGY_ARC.md](../book3/TRILOGY_ARC.md) for the canonical trilogy name; Book Two and Book Three metadata reference this same series)
 - Format focus: Kindle ebook first, paperback second
 
 ## One-Line Hook

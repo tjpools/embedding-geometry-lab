@@ -1,0 +1,54 @@
+version: 1
+chapters:
+  # Front matter
+  - book2/copyright.md
+  - book2/dedication.md
+  - book2/epigraph.md
+  - book2/promise_to_the_reader.md
+  - book2/HOW_TO_READ_THIS_BOOK.md
+  - book2/preface.md
+
+  # Main chapters
+  - book2/chapters/chapter_01.md
+  - book2/chapters/chapter_02.md
+  - book2/chapters/chapter_03.md
+  - book2/chapters/chapter_04.md
+  - book2/chapters/chapter_05.md
+  - book2/chapters/chapter_06.md
+  - book2/chapters/chapter_07.md
+  - book2/chapters/chapter_08.md
+  - book2/chapters/chapter_09.md
+  - book2/chapters/chapter_10.md
+  - book2/chapters/chapter_11.md
+  - book2/chapters/chapter_12.md
+  - book2/chapters/chapter_13.md
+  - book2/chapters/chapter_14.md
+  - book2/chapters/chapter_15.md
+  - book2/chapters/chapter_16.md
+
+  # Reference layer (component lookup, Unix man-page tradition)
+  - book2/man/README.md
+  - book2/man/man.md
+  - book2/man/representation.md
+  - book2/man/bayesian-update.md
+  - book2/man/jacobian.md
+  - book2/man/memory-layout.md
+  - book2/man/gradient-descent.md
+  - book2/man/tensor.md
+  - book2/man/embedding-space.md
+  - book2/man/recurrence.md
+  - book2/man/attention.md
+  - book2/man/softmax.md
+  - book2/man/transformer-block.md
+  - book2/man/residual.md
+  - book2/man/layer-norm.md
+  - book2/man/feed-forward.md
+  - book2/man/callable-package.md
+  - book2/man/alignment.md
+  - book2/man/architecture-scales.md
+  - book2/man/execution-trace.md
+  - book2/man/limits.md
+
+  # Back matter
+  # pending: glossary, consolidated references, acknowledgments -
+  # see evidence/release_readiness.md for open gates before these are added here

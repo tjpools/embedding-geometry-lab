@@ -203,6 +203,8 @@ Part I has assembled four kinds of structure. Operations act within declared dom
 
 These structures now have outgoing work. Matrices will contribute to neural computation, tensors, geometry, and attention. Derivatives will contribute to optimization and geometric analysis. None of those later uses changes what has been established here: global linear maps and local linear approximations are related machinery with different scopes.
 
+The matrix-vector product demonstrated here recurs, at far greater width, wherever a Transformer projects representations or scores compatibility between them. On hardware that repeated product decomposes into fused multiply-add operations, and their volume is what makes accelerators rather than general-purpose scalar execution the fitting substrate. Chapter 7 returns to this same operation at tensor scale and asks what parallel hardware does with it; the linearity and locality distinctions established here do not change with scale.
+
 Chapter 5 follows numerical intent into programming systems. Values must occupy memory, types must constrain operations, and compilers must translate source expressions before hardware can execute them. Only after that implementation path is visible will Chapter 6 combine derivatives with objectives and repeated parameter adjustment.
 
 ## Sources and Evidence

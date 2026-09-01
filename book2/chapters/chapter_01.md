@@ -38,7 +38,7 @@ Now consider two transformations:
 The resulting trace is simple:
 
 $$
-LC\xrightarrow{unlock}UC\xrightarrow{open}UO.
+LC\overset{unlock}{\longrightarrow}UC\overset{open}{\longrightarrow}UO.
 $$
 
 We will hold that trace constant while changing the mechanism that permits each arrow.
@@ -197,14 +197,14 @@ This is a comparison of interfaces, not an equivalence. The algebraic view speci
 All three views operate on representations. To claim that the model corresponds to a physical door, we would need evidence connecting the world to the represented state. Let $W_t$ denote a physical condition, $S_t$ a sensor reading, and $D_t$ the encoded door state. Correspondence requires a tested chain such as
 
 $$
-W_t\longrightarrow S_t\xrightarrow{encode}D_t.
+W_t\longrightarrow S_t\overset{encode}{\longrightarrow}D_t.
 $$
 
 Operational adequacy requires more. A command must pass through a controller and actuator, produce a new observable condition, and satisfy a task criterion:
 
 $$
 D_t\longrightarrow command\longrightarrow controller\longrightarrow actuator
-\longrightarrow S_{t+1}\xrightarrow{encode}D_{t+1}.
+\longrightarrow S_{t+1}\overset{encode}{\longrightarrow}D_{t+1}.
 $$
 
 No equation, symbolic rule, or successful function call establishes that chain by itself. `Ok(UnlockedOpen)` means that the program returned the success variant containing that represented state. It does not mean that a sensor was calibrated, an actuator moved, an obstruction was absent, or the action served a user’s goal.

@@ -199,7 +199,7 @@ The views align on three represented states and two ordered transitions. They do
 Let $W$ denote physical door states, $S$ sensor readings, and $D$ represented states. Empirical correspondence requires a tested chain such as
 
 $$
-W_t\longrightarrow S_t\xrightarrow{\operatorname{encode}}D_t.
+W_t\longrightarrow S_t\overset{\operatorname{encode}}{\longrightarrow}D_t.
 $$
 
 Operational adequacy requires a further tested chain:
@@ -210,7 +210,7 @@ D_t
 \longrightarrow \text{controller}
 \longrightarrow \text{actuator}
 \longrightarrow S_{t+1}
-\xrightarrow{\operatorname{encode}}D_{t+1}
+\overset{\operatorname{encode}}{\longrightarrow}D_{t+1}
 \longrightarrow \text{task criterion}.
 $$
 

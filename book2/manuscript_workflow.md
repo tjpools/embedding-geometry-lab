@@ -14,6 +14,7 @@ Book Two is developed top-down: public promise, crate boundaries, dependencies, 
 | chapter order and ownership | [CHAPTER_MANIFEST.md](CHAPTER_MANIFEST.md) |
 | visual grammar | [VISUAL_LANGUAGE.md](VISUAL_LANGUAGE.md) |
 | chapter visual assignments | [VISUAL_MANIFEST.md](VISUAL_MANIFEST.md) |
+| component lookup layer | [man/README.md](man/README.md) |
 | manuscript analytics | [analytics/README.md](analytics/README.md) |
 
 When prose exposes a structural defect, update the controlling artifact explicitly before changing downstream work.
@@ -127,6 +128,6 @@ A local prose edit that does not alter architecture needs no manifest change. A 
 
 The frame is complete through chapter and visual assignment. Chapters 1 through 16 are verified manuscript chapters with reproducible evidence, bounded source ledgers, and original visual anchors. Chapters 1 through 5 pass the [Part I integration audit](evidence/part_01_integration.md), Chapters 6 through 9 pass the [Part II integration audit](evidence/part_02_integration.md), Chapters 10 through 12 pass the [Part III integration audit](evidence/part_03_integration.md), and Chapters 13 through 16 pass the [Part IV integration audit](evidence/part_04_integration.md).
 
-The 16-chapter manuscript is integrated at 24,802 words with zero broken local links and passes the [complete manuscript integration audit](evidence/full_book_integration.md). All chapter probes and visual checksums reproduce, the final cross-part and trilogy-boundary review passes, and workspace diagnostics are clean.
+The 16-chapter manuscript is integrated at 25,168 words with zero broken local links and passes the [complete manuscript integration audit](evidence/full_book_integration.md). All chapter probes and visual checksums reproduce, the final cross-part and trilogy-boundary review passes, and workspace diagnostics are clean. An August 31, 2026 bridge pass added explicit math-to-hardware-to-transformer-role paragraphs to Chapters 2–6, audited against Chapters 10–14 for vocabulary and boundary consistency.
 
 The [publication release-readiness audit](evidence/release_readiness.md) remains open. Front and back matter, acknowledgments, consolidated citation and permissions resolution, confirmed metadata, and canonical ebook/print production tooling are required before release-candidate status.

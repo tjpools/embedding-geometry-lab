@@ -11,57 +11,57 @@
       "average_sentence_words": 14.7,
       "long_sentence_percent": 6.7,
       "cci": 2.04,
-      "reading_ease_estimate": 38.9
+      "reading_ease_estimate": 38.4
     },
     {
       "order": 2,
       "title": "Chapter 2 \u2014 Representation Becomes Numerical",
-      "sentences": 125,
-      "paragraphs": 55,
-      "average_sentence_words": 11.7,
+      "sentences": 128,
+      "paragraphs": 56,
+      "average_sentence_words": 12.0,
       "long_sentence_percent": 1.6,
-      "cci": 2.27,
-      "reading_ease_estimate": 39.8
+      "cci": 2.29,
+      "reading_ease_estimate": 39.5
     },
     {
       "order": 3,
       "title": "Chapter 3 \u2014 Reasoning Under Uncertainty",
-      "sentences": 139,
-      "paragraphs": 56,
-      "average_sentence_words": 10.9,
-      "long_sentence_percent": 2.2,
-      "cci": 2.48,
-      "reading_ease_estimate": 44.6
+      "sentences": 143,
+      "paragraphs": 57,
+      "average_sentence_words": 11.1,
+      "long_sentence_percent": 2.8,
+      "cci": 2.51,
+      "reading_ease_estimate": 43.8
     },
     {
       "order": 4,
       "title": "Chapter 4 \u2014 Transformations and Change",
-      "sentences": 128,
-      "paragraphs": 56,
-      "average_sentence_words": 12.0,
+      "sentences": 131,
+      "paragraphs": 57,
+      "average_sentence_words": 12.3,
       "long_sentence_percent": 0.0,
-      "cci": 2.29,
-      "reading_ease_estimate": 47.2
+      "cci": 2.3,
+      "reading_ease_estimate": 45.8
     },
     {
       "order": 5,
       "title": "Chapter 5 \u2014 Memory, Types, and Translation",
-      "sentences": 117,
-      "paragraphs": 37,
-      "average_sentence_words": 12.7,
-      "long_sentence_percent": 0.9,
-      "cci": 3.16,
-      "reading_ease_estimate": 41.4
+      "sentences": 119,
+      "paragraphs": 38,
+      "average_sentence_words": 13.0,
+      "long_sentence_percent": 1.7,
+      "cci": 3.13,
+      "reading_ease_estimate": 41.2
     },
     {
       "order": 6,
       "title": "Chapter 6 \u2014 Learning by Adjustment",
-      "sentences": 173,
-      "paragraphs": 56,
-      "average_sentence_words": 9.9,
-      "long_sentence_percent": 0.6,
+      "sentences": 176,
+      "paragraphs": 57,
+      "average_sentence_words": 10.2,
+      "long_sentence_percent": 1.1,
       "cci": 3.09,
-      "reading_ease_estimate": 51.6
+      "reading_ease_estimate": 51.0
     },
     {
       "order": 7,

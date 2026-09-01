@@ -31,10 +31,10 @@ This positioning makes no unverified credential claim and preserves human author
 
 Do not submit either title until these fields are resolved:
 
-- exact series numbering and Book One linkage
-- release dates and internal delivery dates
-- list price, royalty option, territories, and KDP Select decision
-- current category paths in the primary marketplace
+- exact series numbering and Book One linkage - **resolved August 31, 2026:** all three books now declare `The Geometry of Meaning` with matching series numbers (see [../book/metadata.md](../book/metadata.md), [BOOK2_METADATA.md](BOOK2_METADATA.md), [BOOK3_METADATA.md](BOOK3_METADATA.md))
+- release dates and internal delivery dates - **Book Two resolved:** September 30, 2026 (see [BOOK2_METADATA.md](BOOK2_METADATA.md)); Book Three still open
+- list price, royalty option, territories, and KDP Select decision - **Book Two price resolved:** $4.99 USD, 70% royalty bracket; territories, KDP Select, and Book Three pricing still open
+- current category paths in the primary marketplace - **Book Two category intent set** (AI / Applied Math / Technology & Engineering); confirm exact live-selector paths before submission
 - final cover files and thumbnail checks
 - final manuscript files and Kindle Previewer checks
 - required KDP disclosure based on the final content-production process

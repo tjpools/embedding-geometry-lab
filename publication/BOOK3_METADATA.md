@@ -9,7 +9,7 @@
 | Author | `Terrence J McLaughlin` |
 | Language | English |
 | Series title | `The Geometry of Meaning` |
-| Series number | `3` after the series title and earlier-volume linkage are confirmed |
+| Series number | `3` - Book One and Book Two linkage confirmed August 31, 2026 (see [../book/metadata.md](../book/metadata.md) and [BOOK2_METADATA.md](BOOK2_METADATA.md)) |
 | Edition | `[CONFIRM]` |
 | Publisher | `[DECIDE]` or leave blank |
 | Primary marketplace | `[CONFIRM]` |

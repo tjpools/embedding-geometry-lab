@@ -165,6 +165,8 @@ This chapter does not measure allocation, cache behavior, scheduling, kernel dis
 
 Chapter 9 resumes this programming path. It will combine translated artifacts with ordered computation, runtime work, and memory movement. The current chapter hands forward two bounded objects: values with an inspectable layout and source operations that have passed compiler translation.
 
+The layout contract demonstrated here — declared size, alignment, and field offset — is the same kind of contract a tensor library enforces for every weight matrix and activation buffer inside a running Transformer, across memory hierarchies this chapter does not model. A multi-gigabyte tensor does not escape type checking or layout discipline; it is this same contract applied at far greater scale.
+
 ## What the Probe Establishes
 
 The Rust artifact and Python wrapper jointly verify four claims in the declared environment. Field types reject the tested inadmissible value. The `repr(C)` record has size 12, alignment 4, and offsets 0, 4, and 8. Emitted MIR contains the typed function and record construction. The accepted executable produces the recorded output.

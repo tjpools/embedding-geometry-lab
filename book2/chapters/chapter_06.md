@@ -202,6 +202,8 @@ Part II begins with a loop rather than a larger model. Probability supplies weig
 
 Chapter 7 will widen the computational substrate. Matrix operations will become higher-dimensional tensor operations, and parallel hardware will make larger workloads practical. Chapter 9 will later add ordered state and recurrence. Those systems depend on parameterized neural computation, but scale does not remove the distinctions established here: prediction is not loss, gradient is not update, and reduced training loss is not a guarantee of generalization.
 
+The four-step loop demonstrated here — predict, compute loss, compute gradient, update — does not change shape when the parameters are a transformer's attention projections, feed-forward weights, and embeddings instead of one weight and one bias. What changes is size and hardware cost: batched matrix multiplications, tensor contractions, and gradient-accumulation buffers replace two scalar partial derivatives. A larger model trained this way is not thereby a model that understands; it is the same bounded update rule executed at greater width and depth.
+
 ## Sources and Evidence
 
 The chapter's bounded claims about training objectives, gradient descent, learning rate, and backpropagation lineage are documented in the [Chapter 6 source ledger](../evidence/chapter_06_sources.md). Exact data, formulas, assertions, and outputs are recorded in the [learning-loop probe](../evidence/chapter_06_learning_loop_probe.md), with its [Python implementation](../evidence/chapter_06_learning_loop_probe.py). Visual provenance and accessibility details are recorded with [The Learning Loop](../visuals/chapter_06_learning_loop.md).

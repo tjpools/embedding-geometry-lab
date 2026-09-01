@@ -1,10 +1,10 @@
 kind,order,title,path,words,unique_words,characters,characters_no_spaces,sentences,paragraphs,headings,code_blocks,figures,lexical_diversity,average_sentence_words,long_sentence_percent,cci,reading_ease_estimate,terminology_density,links,local_links,external_links,anchor_links,broken_links
-chapter,1,"Chapter 1 — Rules, Operations, and Programs",chapters/chapter_01.md,1528,562,10189,8571,104,51,9,7,1,36.8,14.7,6.7,2.04,38.9,5.9,4,4,0,0,0
-chapter,2,Chapter 2 — Representation Becomes Numerical,chapters/chapter_02.md,1466,487,9954,8317,125,55,10,5,1,33.2,11.7,1.6,2.27,39.8,7.5,4,4,0,0,0
-chapter,3,Chapter 3 — Reasoning Under Uncertainty,chapters/chapter_03.md,1511,489,9848,8370,139,56,10,0,1,32.4,10.9,2.2,2.48,44.6,1.3,4,4,0,0,0
-chapter,4,Chapter 4 — Transformations and Change,chapters/chapter_04.md,1542,549,10022,8481,128,56,10,0,1,35.6,12.0,0.0,2.29,47.2,5.2,4,4,0,0,0
-chapter,5,"Chapter 5 — Memory, Types, and Translation",chapters/chapter_05.md,1486,549,10029,8485,117,37,11,11,1,36.9,12.7,0.9,3.16,41.4,8.7,5,5,0,0,0
-chapter,6,Chapter 6 — Learning by Adjustment,chapters/chapter_06.md,1720,601,11364,9564,173,56,12,0,1,34.9,9.9,0.6,3.09,51.6,0.6,4,4,0,0,0
+chapter,1,"Chapter 1 — Rules, Operations, and Programs",chapters/chapter_01.md,1532,562,10241,8623,104,51,9,7,1,36.7,14.7,6.7,2.04,38.4,5.9,4,4,0,0,0
+chapter,2,Chapter 2 — Representation Becomes Numerical,chapters/chapter_02.md,1534,505,10418,8710,128,56,10,5,1,32.9,12.0,1.6,2.29,39.5,7.8,4,4,0,0,0
+chapter,3,Chapter 3 — Reasoning Under Uncertainty,chapters/chapter_03.md,1593,511,10391,8828,143,57,10,0,1,32.1,11.1,2.8,2.51,43.8,1.3,4,4,0,0,0
+chapter,4,Chapter 4 — Transformations and Change,chapters/chapter_04.md,1617,577,10562,8945,131,57,10,0,1,35.7,12.3,0.0,2.3,45.8,6.2,4,4,0,0,0
+chapter,5,"Chapter 5 — Memory, Types, and Translation",chapters/chapter_05.md,1547,563,10432,8824,119,38,11,11,1,36.4,13.0,1.7,3.13,41.2,9.0,5,5,0,0,0
+chapter,6,Chapter 6 — Learning by Adjustment,chapters/chapter_06.md,1800,623,11924,10041,176,57,12,0,1,34.6,10.2,1.1,3.09,51.0,0.6,4,4,0,0,0
 chapter,7,Chapter 7 — Tensors and Parallel Machines,chapters/chapter_07.md,1581,584,10645,9036,119,40,11,2,1,36.9,13.3,0.8,2.98,39.5,8.9,4,4,0,0,0
 chapter,8,Chapter 8 — Learned Spaces,chapters/chapter_08.md,1354,552,9747,8298,112,37,11,0,1,40.8,12.1,0.0,3.03,28.0,14.0,4,4,0,0,0
 chapter,9,"Chapter 9 — Sequence, Memory, and Runtime",chapters/chapter_09.md,1663,634,11251,9495,147,45,11,0,1,38.1,11.3,2.0,3.27,43.8,8.4,4,4,0,0,0

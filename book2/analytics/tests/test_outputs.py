@@ -35,6 +35,7 @@ class OutputContractTests(unittest.TestCase):
             expected = {
                 "wordcounts.json", "balance.json", "terminology.json", "readability.json",
                 "links.json", "heatmap.svg", "report.md", "metrics.csv", "report.json",
+                "manpages.json",
             }
             files = {path.name for path in output.iterdir()}
             heatmap_title = ET.parse(output / "heatmap.svg").getroot().find("{http://www.w3.org/2000/svg}title")

@@ -223,6 +223,8 @@ Chapter 1 showed that operations act on admitted objects under declared constrai
 
 That chain gives computation something precise to manipulate. It also determines which distinctions remain available. Renumbering can preserve a lookup result when all dependent structures move together. Unknown-token mapping can merge inputs that were distinct in the source.
 
+The lookup demonstrated here — an identifier selects one table row — is the same mechanism a trained embedding layer performs inside a Transformer, at far greater width. There the table holds learned rather than fixed rows, and hardware executes the selection as a memory-bound gather from contiguous storage rather than an arithmetic-heavy computation. Training changes which vectors occupy the rows; it does not change the indexing operation demonstrated here.
+
 The next mathematical step is transformation: vectors become inputs to linear maps, and derivatives describe how outputs change with inputs and parameters. Before that, Chapter 3 takes a parallel route through numerical representation. Instead of assigning one state, it represents uncertainty across several hypotheses and asks how evidence changes their relative weight.
 
 ## Sources and Evidence

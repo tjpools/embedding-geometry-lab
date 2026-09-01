@@ -1,61 +1,61 @@
 {
   "schema_version": 1,
   "mode": "chapter",
-  "total_words": 24802,
+  "total_words": 25172,
   "units": [
     {
       "order": 1,
       "title": "Chapter 1 \u2014 Rules, Operations, and Programs",
       "path": "chapters/chapter_01.md",
-      "words": 1528,
+      "words": 1532,
       "unique_words": 562,
-      "characters": 10189,
-      "characters_no_spaces": 8571
+      "characters": 10241,
+      "characters_no_spaces": 8623
     },
     {
       "order": 2,
       "title": "Chapter 2 \u2014 Representation Becomes Numerical",
       "path": "chapters/chapter_02.md",
-      "words": 1466,
-      "unique_words": 487,
-      "characters": 9954,
-      "characters_no_spaces": 8317
+      "words": 1534,
+      "unique_words": 505,
+      "characters": 10418,
+      "characters_no_spaces": 8710
     },
     {
       "order": 3,
       "title": "Chapter 3 \u2014 Reasoning Under Uncertainty",
       "path": "chapters/chapter_03.md",
-      "words": 1511,
-      "unique_words": 489,
-      "characters": 9848,
-      "characters_no_spaces": 8370
+      "words": 1593,
+      "unique_words": 511,
+      "characters": 10391,
+      "characters_no_spaces": 8828
     },
     {
       "order": 4,
       "title": "Chapter 4 \u2014 Transformations and Change",
       "path": "chapters/chapter_04.md",
-      "words": 1542,
-      "unique_words": 549,
-      "characters": 10022,
-      "characters_no_spaces": 8481
+      "words": 1617,
+      "unique_words": 577,
+      "characters": 10562,
+      "characters_no_spaces": 8945
     },
     {
       "order": 5,
       "title": "Chapter 5 \u2014 Memory, Types, and Translation",
       "path": "chapters/chapter_05.md",
-      "words": 1486,
-      "unique_words": 549,
-      "characters": 10029,
-      "characters_no_spaces": 8485
+      "words": 1547,
+      "unique_words": 563,
+      "characters": 10432,
+      "characters_no_spaces": 8824
     },
     {
       "order": 6,
       "title": "Chapter 6 \u2014 Learning by Adjustment",
       "path": "chapters/chapter_06.md",
-      "words": 1720,
-      "unique_words": 601,
-      "characters": 11364,
-      "characters_no_spaces": 9564
+      "words": 1800,
+      "unique_words": 623,
+      "characters": 11924,
+      "characters_no_spaces": 10041
     },
     {
       "order": 7,

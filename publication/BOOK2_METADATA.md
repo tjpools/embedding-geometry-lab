@@ -9,14 +9,15 @@
 | Author | `Terrence J McLaughlin` |
 | Language | English |
 | Series title | `The Geometry of Meaning` |
-| Series number | `2` after the series title and Book One linkage are confirmed |
-| Edition | `[CONFIRM]` |
-| Publisher | `[DECIDE]` or leave blank |
+| Series number | `2` - Book One linkage confirmed August 31, 2026 (see [../book/metadata.md](../book/metadata.md) and [../book/KDP_LISTING_PACKAGE.md](../book/KDP_LISTING_PACKAGE.md)) |
+| Edition | `First Edition` |
+| ISBN (ebook) | KDP free ISBN |
+| Publisher | `McLaughlin Tools Press` |
 | Primary marketplace | `[CONFIRM]` |
 | Publication rights | `[CONFIRM IN KDP]` |
-| Release date | `[DECIDE AFTER MANUSCRIPT SCHEDULE]` |
-| Internal manuscript freeze | At least 14 days before KDP's displayed submission deadline |
-| Price and royalty | `[DECIDE]` |
+| Release date | `September 30, 2026` |
+| Internal manuscript freeze | Conservatively by September 10, 2026: leaves 20 days before the September 30 release for KDP's actual submission deadline (72-hour minimum, set once the title is created in KDP), review, and Previewer checks. Recompute once the real KDP deadline is known. |
+| Price and royalty | `$4.99 USD` (70% royalty bracket) |
 | KDP Select | `[DECIDE]` |
 
 The title and subtitle must match the cover, title page, copyright page, and KDP fields exactly.
@@ -43,23 +44,23 @@ This is a book about how mathematical intent becomes computation, how design sha
 
 Select the closest accurate paths available in the current Kindle category selector for the primary marketplace:
 
-1. Computers / Artificial Intelligence
-2. Computers / Computer Science or Machine Learning
-3. Mathematics / Applied, or Computers / Programming, based on the final manuscript's actual emphasis
+1. `COMPUTERS / Artificial Intelligence / General`
+2. `MATHEMATICS / Applied`
+3. `TECHNOLOGY & ENGINEERING / General`
 
-These are category intents, not guaranteed KDP path names. Confirm all three in the live selector and prefer relevance over apparent ranking opportunity.
+These are category intents, not guaranteed KDP path names. Confirm all three in the live selector before submission.
 
 ## Keyword Candidates
 
-Use up to seven non-redundant phrases after testing Amazon search suggestions:
+Up to seven non-redundant phrases (KDP's maximum), confirmed against Amazon search suggestions before submission:
 
-1. `attention mechanism explained`
-2. `how large language models work`
-3. `neural network systems design`
-4. `machine learning from math to code`
-5. `vectors matrices probability optimization`
-6. `executable models and computer architecture`
-7. `AI systems without hype`
+1. `transformer model`
+2. `geometric computation`
+3. `machine learning architecture`
+4. `embeddings`
+5. `attention mechanism`
+6. `mathematics and programming`
+7. `deep learning systems`
 
 Do not repeat the title, subtitle, author, categories, competitor names, or promotional claims merely to fill fields.
 

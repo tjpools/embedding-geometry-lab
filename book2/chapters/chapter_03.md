@@ -187,6 +187,8 @@ Chapter 1 established domains, operations, and constraints. Chapter 2 followed s
 
 Later chapters will use probability in two distinct directions. Chapter 6 will combine expected quantities with objectives and gradients when it introduces learning by adjustment. Chapter 10 will examine normalized weighting in attention while keeping attention weights distinct from Bayesian posterior probabilities.
 
+The weighting arithmetic performed here by hand — multiply, sum, normalize — recurs later as the softmax kernel a GPU executes inside attention: exponentiate a vector of scores, reduce it to a sum, divide each entry by that sum. Shared arithmetic is not shared interpretation. A posterior is conditioned on a declared hypothesis space and likelihood model; an attention weight is conditioned on learned projections with no declared hypothesis space at all. Chapter 10 keeps that distinction explicit even where the executed operations rhyme.
+
 Before either step, Chapter 4 turns to transformations more generally. Vectors and distributions can change; matrices, maps, and derivatives provide language for describing how outputs depend on inputs and parameters. The posterior showed one carefully bounded change. The next chapter develops machinery for change itself.
 
 ## Sources and Evidence

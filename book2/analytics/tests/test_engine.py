@@ -2,7 +2,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from engine import chapter_balance, linkcheck, markdown_strip, readability, terminology_scan, wordcount
+from engine import chapter_balance, linkcheck, manpages, markdown_strip, readability, terminology_scan, wordcount
 
 
 class AnalyticOperatorTests(unittest.TestCase):
@@ -58,6 +58,51 @@ hidden implementation words
         ])
         self.assertEqual(result["median_words"], 200.0)
         self.assertEqual(result["distribution"][0]["ratio_to_median"], 0.5)
+
+    def test_manpages_reports_absent_when_no_man_directory(self):
+        with tempfile.TemporaryDirectory() as directory:
+            result = manpages.scan(Path(directory))
+        self.assertEqual(result, {"present": False})
+
+    def _write_page(self, man_dir: Path, name: str, see_also: str, source: str) -> None:
+        (man_dir / f"{name}.md").write_text(
+            "NAME\n"
+            f"    {name} - test page\n\n"
+            "SYNOPSIS\n    x\n\n"
+            "DESCRIPTION\n    y\n\n"
+            "NOTES\n    z\n\n"
+            "SEE ALSO\n"
+            f"    {see_also}\n\n"
+            "SOURCE\n"
+            f"    {source}\n",
+            encoding="utf-8",
+        )
+
+    def test_manpages_detects_broken_see_also_and_source(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            man_dir = root / "man"
+            man_dir.mkdir()
+            (root / "chapters").mkdir()
+            (root / "chapters" / "chapter_01.md").write_text("# Chapter 1\n", encoding="utf-8")
+
+            self._write_page(man_dir, "good", "good(3)", "Chapter 1, probe.")
+            self._write_page(man_dir, "bad", "nonexistent(3)", "Chapter 99, probe.")
+            (man_dir / "README.md").write_text(
+                "| [good](good.md) | 3 | ok | Ch1 |\n", encoding="utf-8"
+            )
+
+            result = manpages.scan(root)
+
+        self.assertTrue(result["present"])
+        self.assertEqual(result["page_count"], 2)
+        self.assertEqual(result["orphan_pages"], ["bad"])
+        self.assertEqual(result["missing_pages"], [])
+        pages_by_name = {p["name"]: p for p in result["pages"]}
+        self.assertEqual(pages_by_name["bad"]["broken_see_also"], ["nonexistent"])
+        self.assertEqual(pages_by_name["bad"]["broken_source"], [99])
+        self.assertEqual(pages_by_name["good"]["broken_see_also"], [])
+        self.assertEqual(pages_by_name["good"]["broken_source"], [])
 
 
 if __name__ == "__main__":

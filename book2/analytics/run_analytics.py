@@ -24,6 +24,7 @@ def main() -> None:
     print(f"Mode: {result['mode']}")
     print(f"Analyzed {result['sources']} units and {result['words']:,} words.")
     print(f"Broken local links: {result['broken_links']}")
+    print(f"Man pages: {result['man_pages']} ({result['man_issues']} with issues)")
     print(f"Artifacts: {result['output']}")
 
 
