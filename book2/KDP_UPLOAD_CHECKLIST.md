@@ -49,7 +49,8 @@ Ebook first. Print is deliberately deferred: no trim size, spine width, or bleed
 |---|---|
 | Title consistent as `Transformers: An Architecture for Geometric Computation` across manifest, cover, README, KDP metadata | PASS |
 | Author consistent as `Terrence J McLaughlin` | PASS |
-| `transformers-kdp.epub` builds cleanly from `build_book.sh` | PASS |
+| `transformers-kdp.epub` is copied directly from the canonical EPUB with no Calibre conversion | PASS — byte-identical artifacts with matching SHA-256 values on September 1, 2026 |
+| Both EPUB artifacts pass EPUBCheck 5.3.0 and `analytics/epub_audit.py` | PASS — 0 errors, 0 warnings, 0 missing resources, 0 missing spine entries, 0 missing hrefs/fragments, 0 navigation inversions |
 | All 16 chapter SVGs embed in the EPUB (verified: `unzip -l` shows 16 `.svg` entries) | PASS |
 | Zero math-rendering warnings (Chapter 1 `\xrightarrow` notation fixed) | PASS |
 | Front matter appears in nav in the correct order: Copyright, Promise to the Reader, How to Read This Book, Preface (verified against `nav.xhtml`) | PASS |

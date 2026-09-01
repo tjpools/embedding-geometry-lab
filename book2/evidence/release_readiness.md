@@ -18,7 +18,8 @@
 - the final Book Two/Book Three boundary review passes after the Chapter 11 scope repair
 - the component lookup layer (`man/`) is established, cross-reference-checked, and integrated into analytics
 
-- canonical builds: [manifest.yml](../manifest.yml), [metadata.md](../metadata.md), and [build_book.sh](../build_book.sh) produce a working EPUB and KDP DOCX from one canonical source order, with all 16 chapter SVGs embedded and zero math-rendering warnings after the Chapter 1 arrow-notation fix
+- canonical builds: [manifest.yml](../manifest.yml), [metadata.md](../metadata.md), and [build_book.sh](../build_book.sh) produce EPUB and KDP DOCX artifacts from one canonical source order, with all 16 chapter SVGs embedded and zero math-rendering warnings after the Chapter 1 arrow-notation fix
+- EPUB structural integrity: the canonical EPUB and direct-copy KDP EPUB are byte-identical, contain no Calibre conversion layer, and independently pass EPUBCheck 5.3.0 and `analytics/epub_audit.py` with zero errors, warnings, missing resources, missing spine entries, missing hrefs/fragments, or navigation inversions
 
 ## Open Gates
 
@@ -30,7 +31,7 @@
 | citation resolution | 16 source ledgers exist | consolidate references, recheck external URLs, normalize citation style, and resolve permissions/attributions |
 | metadata | [../publication/BOOK2_METADATA.md](../../publication/BOOK2_METADATA.md): publisher (`McLaughlin Tools Press`), release date (September 30, 2026), price (`$4.99 USD`), ISBN (KDP free ISBN), category intent, and keyword list resolved; edition, primary marketplace, publication rights, and KDP Select remain `[CONFIRM]`/`[DECIDE]` | confirm remaining fields in the live KDP selector; recompute the internal manuscript freeze date against the actual submission deadline |
 | print cover | ebook-sized cover assets exist (1600×2560); no print cover with spine and bleed | confirm print trim size and produce a print-ready export |
-| canonical builds | working EPUB and KDP DOCX build from [manifest.yml](../manifest.yml) with all chapter visuals embedded and no math-rendering warnings | PDF/print build remains deliberately deferred pending trim/spine/bleed decisions |
+| canonical builds | validated canonical and KDP EPUBs plus KDP DOCX build from [manifest.yml](../manifest.yml), with all chapter visuals embedded and no math-rendering warnings | PDF/print build remains deliberately deferred pending trim/spine/bleed decisions |
 | production QA | chapter visuals pass local production checks | validate typography, navigation, contents, image scaling, accessibility, Kindle/device behavior, and print proofs in final builds |
 
 ## Publication Boundary

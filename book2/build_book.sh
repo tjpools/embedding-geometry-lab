@@ -33,6 +33,7 @@ done
 echo "Building EPUB..."
 pandoc "${book_files[@]}" \
   --file-scope \
+  --lua-filter=epub_links.lua \
   --resource-path=.:chapters:visuals:man \
   --metadata-file=metadata.md \
   --toc \
@@ -41,17 +42,14 @@ pandoc "${book_files[@]}" \
 
 echo "EPUB build complete: $EPUB_OUT"
 
-if command -v ebook-convert >/dev/null 2>&1; then
-  echo "Building KDP-friendly EPUB..."
-  ebook-convert "$EPUB_OUT" "$KDP_EPUB_OUT"
-  echo "KDP-friendly EPUB build complete: $KDP_EPUB_OUT"
-else
-  echo "Warning: ebook-convert is not installed; skipping KDP-friendly EPUB build." >&2
-fi
+echo "Preparing KDP EPUB from validated canonical artifact..."
+cp "$EPUB_OUT" "$KDP_EPUB_OUT"
+echo "KDP EPUB complete: $KDP_EPUB_OUT"
 
 echo "Building KDP DOCX..."
 pandoc "${book_files[@]}" \
   --file-scope \
+  --lua-filter=epub_links.lua \
   --resource-path=.:chapters:visuals:man \
   --metadata-file=metadata.md \
   --toc \
