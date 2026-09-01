@@ -7,6 +7,7 @@ chapters:
   - book2/promise_to_the_reader.md
   - book2/HOW_TO_READ_THIS_BOOK.md
   - book2/preface.md
+  - book2/from_book_one.md
 
   # Main chapters
   - book2/chapters/chapter_01.md
@@ -50,5 +51,6 @@ chapters:
   - book2/man/limits.md
 
   # Back matter
+  - book2/continue_to_book_three.md
   # pending: glossary, consolidated references, acknowledgments -
   # see evidence/release_readiness.md for open gates before these are added here

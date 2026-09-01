@@ -7,6 +7,7 @@
 - Promise to the Reader — promise_to_the_reader.md
 - How to Read This Book — HOW_TO_READ_THIS_BOOK.md
 - Preface — preface.md
+- From Book One — from_book_one.md
 
 ## Main Matter
 
@@ -38,4 +39,5 @@
 - Component Lookup Pages (man page tradition) — man/README.md
 
 ## Back Matter
+- Continue to Book Three — continue_to_book_three.md
 - *pending: see [evidence/release_readiness.md](evidence/release_readiness.md) for open back-matter gates*

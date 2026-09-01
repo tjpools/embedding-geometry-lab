@@ -7,12 +7,14 @@
 | Title | `Transformers: An Architecture for Geometric Computation` |
 | Subtitle | `How AI, Mathematics, and Programming Converge into a Single Tool` |
 | Author | `Terrence J McLaughlin` |
-| Language | English |
+| Language | `en-US` |
 | Series title | `The Geometry of Meaning` |
 | Series number | `2` - Book One linkage confirmed August 31, 2026 (see [../book/metadata.md](../book/metadata.md) and [../book/KDP_LISTING_PACKAGE.md](../book/KDP_LISTING_PACKAGE.md)) |
 | Edition | `First Edition` |
-| ISBN (ebook) | KDP free ISBN |
+| EPUB identifier | `urn:uuid:ab0e3a95-77eb-4231-9fce-479936fd588d` |
+| ISBN (ebook) | Not assigned; Kindle ebooks do not require an ISBN and KDP's free ISBN applies to print formats |
 | Publisher | `McLaughlin Tools Press` |
+| Audience | General adult; no specialist background required |
 | Primary marketplace | `[CONFIRM]` |
 | Publication rights | `[CONFIRM IN KDP]` |
 | Release date | `September 30, 2026` |
@@ -21,6 +23,20 @@
 | KDP Select | `[DECIDE]` |
 
 The title and subtitle must match the cover, title page, copyright page, and KDP fields exactly.
+
+## Embedded EPUB Metadata
+
+The canonical and KDP-named EPUBs carry the same validated OPF identity:
+
+- main title, subtitle, and `First Edition` title refinements
+- author `Terrence J McLaughlin`, filed as `McLaughlin, Terrence J`
+- stable UUID package identifier
+- language `en-US` and publisher `McLaughlin Tools Press`
+- `The Geometry of Meaning`, collection type `series`, group position `2`
+- general-adult audience, final BISAC subjects, and seven keyword subjects
+- publication-date `dc:date` and build-generated UTC `dcterms:modified`
+
+The EPUB fields preserve package identity. Amazon series association, categories, keywords, marketplace, and rights must still be confirmed in the live KDP title setup; OPF metadata does not replace those catalog fields.
 
 ## Reader Promise
 
@@ -40,19 +56,19 @@ No specialist background is required. The point of entry is familiar: every comp
 
 This is a book about how mathematical intent becomes computation, how design shapes capability, and why testing, not fluency, establishes trust.
 
-## Category Intent
+## Final BISAC Subject Set
 
-Select the closest accurate paths available in the current Kindle category selector for the primary marketplace:
+The EPUB carries these subject codes and labels:
 
-1. `COMPUTERS / Artificial Intelligence / General`
-2. `MATHEMATICS / Applied`
-3. `TECHNOLOGY & ENGINEERING / General`
+1. `COM004000 — COMPUTERS / Artificial Intelligence / General`
+2. `MAT003000 — MATHEMATICS / Applied`
+3. `TEC000000 — TECHNOLOGY & ENGINEERING / General`
 
-These are category intents, not guaranteed KDP path names. Confirm all three in the live selector before submission.
+Select the closest accurate categories available in the current Kindle selector for the primary marketplace. BISAC subjects embedded in an EPUB do not automatically select Amazon browse categories.
 
-## Keyword Candidates
+## Final Keyword Set
 
-Up to seven non-redundant phrases (KDP's maximum), confirmed against Amazon search suggestions before submission:
+Use these seven non-redundant phrases in KDP after a final live search-suggestion check:
 
 1. `transformer model`
 2. `geometric computation`

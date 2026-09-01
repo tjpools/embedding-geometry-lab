@@ -1,7 +1,11 @@
 # Book Two — Publication Release Readiness
 
-**Audit date:** August 14, 2026; updated August 31, 2026  
-**Decision:** Not yet a publication release candidate
+**Audit date:** September 1, 2026
+**Decision:** Canonical ebook release candidate; not yet cleared for KDP submission
+
+The committed EPUB is the canonical candidate for Kindle Previewer and KDP upload testing. This decision closes repository engineering Gates 1–4. It does not authorize **Submit for pre-order** or publication while the editorial decisions, production preview, content-origin disclosure, and live KDP fields below remain open.
+
+The artifact hashes, closed-gate evidence, verification commands, and submission boundary are recorded in the [canonical release-candidate provenance](release_candidate_provenance.md).
 
 ## Passing Gates
 
@@ -20,22 +24,24 @@
 
 - canonical builds: [manifest.yml](../manifest.yml), [metadata.md](../metadata.md), and [build_book.sh](../build_book.sh) produce EPUB and KDP DOCX artifacts from one canonical source order, with all 16 chapter SVGs embedded and zero math-rendering warnings after the Chapter 1 arrow-notation fix
 - EPUB structural integrity: the canonical EPUB and direct-copy KDP EPUB are byte-identical, contain no Calibre conversion layer, and independently pass EPUBCheck 5.3.0 and `analytics/epub_audit.py` with zero errors, warnings, missing resources, missing spine entries, missing hrefs/fragments, or navigation inversions
+- EPUB metadata identity: both EPUB names carry the canonical title, subtitle, author, stable UUID, `en-US`, imprint, edition, BISAC subjects, keyword subjects, general-adult audience, and `The Geometry of Meaning` series position 2; the metadata audit reports zero issues and zero Calibre markers (see [metadata provenance](metadata_provenance.md))
+- trilogy handoffs: `From Book One` precedes Chapter 1 and `Continue to Book Three` follows the component reference layer in both byte-identical EPUBs; Book One's canonical postscript points to Book Two, and Book Three's interface preface receives Book Two's measured boundary (see [handoff provenance](handoff_provenance.md))
 
-## Open Gates
+## Submission Gates Still Open
 
 | Gate | Current evidence | Required completion |
 |---|---|---|
-| front matter | copyright, dedication, epigraph, KDP title page, table of contents, promise to the reader, how-to-read, and preface exist and build cleanly into the EPUB in correct nav order ([copyright.md](../copyright.md), [dedication.md](../dedication.md), [epigraph.md](../epigraph.md), [kdp_title_page.md](../kdp_title_page.md), [TOC.md](../TOC.md), [promise_to_the_reader.md](../promise_to_the_reader.md), [HOW_TO_READ_THIS_BOOK.md](../HOW_TO_READ_THIS_BOOK.md), [preface.md](../preface.md)) | author review of drafted front matter |
-| back matter | no canonical glossary, consolidated references, index/notes, or author/back matter package | decide required back matter and create canonical sources |
-| acknowledgments | no Book Two acknowledgments artifact | author review and approval |
+| front matter | copyright, dedication, epigraph, KDP title page, table of contents, promise to the reader, how-to-read, preface, and `From Book One` exist and build cleanly into the EPUB in correct nav order ([copyright.md](../copyright.md), [dedication.md](../dedication.md), [epigraph.md](../epigraph.md), [kdp_title_page.md](../kdp_title_page.md), [TOC.md](../TOC.md), [promise_to_the_reader.md](../promise_to_the_reader.md), [HOW_TO_READ_THIS_BOOK.md](../HOW_TO_READ_THIS_BOOK.md), [preface.md](../preface.md), [from_book_one.md](../from_book_one.md)) | author review of drafted front matter and trilogy handoff |
+| back matter | the candidate intentionally contains the trilogy continuation after the reference layer; no glossary, consolidated references, or index/notes package is included | author decides whether the candidate is complete without additional back matter before submission |
+| acknowledgments | no Book Two acknowledgments artifact is included | author decides whether omission is final before submission |
 | citation resolution | 16 source ledgers exist | consolidate references, recheck external URLs, normalize citation style, and resolve permissions/attributions |
-| metadata | [../publication/BOOK2_METADATA.md](../../publication/BOOK2_METADATA.md): publisher (`McLaughlin Tools Press`), release date (September 30, 2026), price (`$4.99 USD`), ISBN (KDP free ISBN), category intent, and keyword list resolved; edition, primary marketplace, publication rights, and KDP Select remain `[CONFIRM]`/`[DECIDE]` | confirm remaining fields in the live KDP selector; recompute the internal manuscript freeze date against the actual submission deadline |
+| metadata | embedded EPUB identity, edition, audience, BISAC subjects, keywords, series title/position, publisher, release date, and price are resolved; ebooks use a stable UUID rather than a KDP free ISBN; primary marketplace, publication rights, live categories, and KDP Select remain `[CONFIRM]`/`[DECIDE]` | confirm remaining catalog fields in the live KDP selector; recompute the internal manuscript freeze date against the actual submission deadline |
 | print cover | ebook-sized cover assets exist (1600×2560); no print cover with spine and bleed | confirm print trim size and produce a print-ready export |
-| canonical builds | validated canonical and KDP EPUBs plus KDP DOCX build from [manifest.yml](../manifest.yml), with all chapter visuals embedded and no math-rendering warnings | PDF/print build remains deliberately deferred pending trim/spine/bleed decisions |
+| canonical builds | validated canonical and KDP EPUBs plus KDP DOCX build from [manifest.yml](../manifest.yml), with all chapter visuals embedded and no math-rendering warnings | ebook gate passes; PDF/print remains deliberately deferred pending trim/spine/bleed decisions |
 | production QA | chapter visuals pass local production checks | validate typography, navigation, contents, image scaling, accessibility, Kindle/device behavior, and print proofs in final builds |
 
 ## Publication Boundary
 
-The manuscript may be described as technically complete and integrated. It should not be described as customer-delivery ready, uploaded, submitted, available for preorder, or publication-final until every open gate passes.
+The manuscript and ebook package may be described as a canonical release candidate ready for Previewer and upload testing. They should not be described as submitted, available for preorder, or publication-final until every submission gate passes.
 
 The KDP metadata and submission decisions require author or publisher input and should not be inferred from manuscript evidence.

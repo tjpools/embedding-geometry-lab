@@ -39,6 +39,7 @@ pandoc "${book_files[@]}" \
   --toc \
   --epub-cover-image="$COVER_IMAGE" \
   -o "$EPUB_OUT"
+python3 analytics/finalize_epub.py "$EPUB_OUT"
 
 echo "EPUB build complete: $EPUB_OUT"
 

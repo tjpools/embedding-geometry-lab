@@ -38,3 +38,11 @@ AI is a glyph for smartness.
 The work of understanding begins when the glyph is reopened into structure.
 
 QED.
+
+## Continue to Book Two
+
+This book opened AI as a humanly built reasoning instrument through conversation, building, testing, and reverse engineering. The next volume in *The Geometry of Meaning* makes the machinery itself the object of inspection.
+
+*Transformers: An Architecture for Geometric Computation* follows the artificial-intelligence, mathematical, and programming lineages that converge in the transformer. It asks how representations, operations, memory, attention, runtimes, and physical execution become one bounded architecture whose capabilities and limits can be tested.
+
+Book One established contact with the tool. Book Two performs the technical excursion into its construction.

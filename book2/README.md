@@ -33,10 +33,10 @@ The current generated report and heatmap are [analytics/output/report.md](analyt
 
 ## Publication
 
-The coordinated Book Two and Book Three rollout is [../publication/README.md](../publication/README.md). Book Two's KDP metadata draft is [../publication/BOOK2_METADATA.md](../publication/BOOK2_METADATA.md), subject to the manuscript-ready submission gate in [../publication/KDP_RULES.md](../publication/KDP_RULES.md).
+The coordinated Book Two and Book Three rollout is [../publication/README.md](../publication/README.md). Book Two's canonical KDP metadata package is [../publication/BOOK2_METADATA.md](../publication/BOOK2_METADATA.md), subject to the submission gate in [../publication/KDP_RULES.md](../publication/KDP_RULES.md).
 
 ## Status
 
-The 16-chapter technical manuscript is verified and integrated across all four parts at 24,802 analytics words with zero broken local links. Every chapter has a brief, bounded source ledger, reproducible evidence record, and one original visual anchor with color, grayscale, and thumbnail exports. All chapter probes, documented visual checksums, analytics tests, and workspace diagnostics pass. The complete result is recorded in the [full-book integration audit](evidence/full_book_integration.md).
+The 16-chapter technical manuscript is verified and integrated across all four parts at 25,172 analytics words with zero broken local links. Every chapter has a brief, bounded source ledger, reproducible evidence record, and one original visual anchor with color, grayscale, and thumbnail exports. All chapter probes, documented visual checksums, analytics tests, and workspace diagnostics pass. The complete result is recorded in the [full-book integration audit](evidence/full_book_integration.md).
 
-Publication release-candidate status remains open under the [release-readiness audit](evidence/release_readiness.md). Book Two still needs canonical front matter, back matter, acknowledgments, final bibliography and permissions resolution, confirmed publication metadata, and ebook/print build tooling with device and typography checks. Cover publication assets are available as working proofs.
+Book Two now has a canonical ebook release candidate: byte-identical canonical/KDP EPUBs with validated structure, metadata, series position, and reader handoffs. Kindle Previewer, final editorial decisions, citation/permissions review, content-origin disclosure, and live KDP fields remain submission gates under the [release-readiness audit](evidence/release_readiness.md). Print production remains deferred.
